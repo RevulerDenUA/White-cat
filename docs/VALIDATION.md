@@ -28,6 +28,8 @@
 - Data overflow/empty downlink і battery curtailment/unserved load.
 - **Справжнє декодування геометрії обох GLB** через NodeIO: finite positions, triangle counts, embedded resources, відсутність Draco requirement.
 
+Перший GitHub CI запуск на Node22 виявив1-ULP відмінності Math.pow/cbrt проти Node26 у збереженому прикладі. Fixture regression порівнює фізичні floats із relative tolerance1e-12; структура, ID, integer seed/RNG та повторний запуск у тому самому engine перевіряються точно. Це узгоджує тест із задокументованим числовим контрактом, без послаблення фізичних інваріантів.
+
 ## Браузер і візуальна перевірка
 
 `examples/integration.html` відкрито в Codex In-app Browser через локальний static HTTP, порт8766 (8765 був зайнятий). Сторінка показала PASS: JSON fetch, binary terrain,211 PLACES waypoints,3 планети seed2026,5 WebP image decodes та2 GLB headers. На старті кешу one-way geometric delay≈660.9002s. Це не hardware measurement і не validated retarded light-time.

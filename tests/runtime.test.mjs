@@ -17,9 +17,15 @@ const meta=j('assets/terrain/metadata.json');
 const terrain=createTerrain(meta,decodeUint16LE(buffer('assets/terrain/heightmap.u16')),decodeUint16LE(buffer('assets/terrain/slope.u16')),new Uint8Array(buffer('assets/terrain/traversability.u8')));
 const specs=j('data/rover/rover_specs.json'),profile=specs.profiles.find(x=>x.id==='science');
 const close=(a,b,tol=1e-9)=>assert.ok(Math.abs(a-b)<=tol*Math.max(1,Math.abs(b)),`${a} != ${b}`);
+// Math.pow/cbrt may differ by one ULP across V8 releases; compare physical values, keep structure exact.
+function equivalent(a,b){
+ if(typeof a==='number'&&typeof b==='number'){if(Number.isInteger(a)&&Number.isInteger(b)&&Math.abs(a)<=0xffffffff&&Math.abs(b)<=0xffffffff)assert.equal(a,b);else close(a,b,1e-12);return;}
+ if(a&&b&&typeof a==='object'&&typeof b==='object'){assert.equal(Array.isArray(a),Array.isArray(b));assert.deepEqual(Object.keys(a),Object.keys(b));for(const k of Object.keys(a))equivalent(a[k],b[k]);return;}
+ assert.equal(a,b);
+}
 
 test('xorshift32 golden sequence, zero mapping and invalid seeds',()=>{const r=xorshift32(1);assert.deepEqual([r.uint32(),r.uint32(),r.uint32()],[270369,67634689,2647435461]);assert.equal(xorshift32(0).uint32(),xorshift32(1831565813).uint32());for(const s of [-1,1.2,2**32,NaN])assert.throws(()=>xorshift32(s));});
-test('seed2026 fixture and repeatability',()=>{const a=generateSystem(2026,params,constants,anchors);assert.deepEqual(a,generateSystem(2026,params,constants,anchors));assert.deepEqual(a,j('data/planets/generated_example.json'));assert.notDeepEqual(a,generateSystem(2027,params,constants,anchors));});
+test('seed2026 fixture and repeatability',()=>{const a=generateSystem(2026,params,constants,anchors);assert.deepEqual(a,generateSystem(2026,params,constants,anchors));equivalent(a,j('data/planets/generated_example.json'));assert.notDeepEqual(a,generateSystem(2027,params,constants,anchors));});
 test('1000 seeds satisfy coupled physical and spacing constraints',()=>{
  for(let seed=0;seed<1000;seed++){
   const s=generateSystem(seed,params,constants,anchors);assert.ok(s.planets.length>=3&&s.planets.length<=8);

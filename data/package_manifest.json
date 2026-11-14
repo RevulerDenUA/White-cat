@@ -4,8 +4,8 @@
   "date_utc": "2026-11-14",
   "manifest_excludes_itself": true,
   "raw_original_bytes": 660259210,
-  "release_bytes_excluding_manifest": 10205524,
-  "release_to_raw_ratio": 0.015456844592898597,
+  "release_bytes_excluding_manifest": 10206652,
+  "release_to_raw_ratio": 0.0154585530128387,
   "files": [
     {
       "path": ".gitattributes",
@@ -244,8 +244,8 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 5727,
-      "sha256": "1e500206ca0f4adaf283fc10c9261a9267fff4be51b1e6349c93d1309f866bca"
+      "bytes": 6309,
+      "sha256": "c904656fff32a91c22fd87860d5578f4215f8570eec2b27adc8c0e126e11f047"
     },
     {
       "path": "docs/audit/geospatial.json",
@@ -329,8 +329,8 @@
     },
     {
       "path": "tests/runtime.test.mjs",
-      "bytes": 8684,
-      "sha256": "d6ee56eede2b55885d849494ccde0b9c20650485d4ea1479f3350974d3844382"
+      "bytes": 9230,
+      "sha256": "b1e92f0c0a0662adaa83309a5a069421e02573638c27382ca4cac0238d2e55ae"
     },
     {
       "path": "tools/authoring_specs.json",
