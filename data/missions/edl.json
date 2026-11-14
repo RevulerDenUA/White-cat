@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "retrieved_utc": "2026-11-14",
+  "reference_mission": "Mars 2020 Perseverance",
+  "system_mass_kg": null,
+  "mass_note": "A consolidated EDL subsystem mass was not present in the NASA/JPL pages consulted; null intentionally.",
+  "source": "https://www.jpl.nasa.gov/news/press_kits/mars_2020/landing/mission/",
+  "phases": [
+    {
+      "phase": "atmospheric_entry",
+      "time_from_entry_s": 0,
+      "velocity_km_s": 5.42,
+      "velocity_basis": "about 12,100 mph from NASA/JPL, converted to km/s",
+      "source_status": "published rounded value"
+    },
+    {
+      "phase": "peak_heating",
+      "time_from_entry_s": 75,
+      "velocity_km_s": null,
+      "altitude_km": null,
+      "source_status": "NASA launch press kit p.27, approximate peak heating time"
+    },
+    {
+      "phase": "supersonic_parachute_deploy",
+      "time_from_entry_s": 240,
+      "altitude_km": 11,
+      "velocity_m_s": 420,
+      "parachute_diameter_m": 21.5,
+      "source_status": "NASA/JPL approximate values"
+    },
+    {
+      "phase": "terrain_relative_navigation",
+      "altitude_range_km": [
+        2.2,
+        4.2
+      ],
+      "target_change_max_m": 600,
+      "position_solution_accuracy_m": 40,
+      "source_status": "NASA/JPL capability values"
+    },
+    {
+      "phase": "powered_descent",
+      "altitude_km": 2.1,
+      "velocity_m_s": 85.0,
+      "engine_count": 8,
+      "source_status": "NASA/JPL approximate values",
+      "velocity_basis": "306 km/h / 3.6 = 85 m/s; corrected raw catalog unit error (306 was km/h, not m/s)"
+    },
+    {
+      "phase": "sky_crane_touchdown",
+      "altitude_at_start_m": 20,
+      "touchdown_vertical_velocity_m_s": 0.75,
+      "architecture": "descent stage lowers rover on tethers then flies away",
+      "source_status": "NASA landing visualization approximate value"
+    }
+  ],
+  "landing_ellipse_km": [
+    7.7,
+    6.6
+  ],
+  "total_edl_duration_min": 7,
+  "constraints": [
+    "Autonomous sequence due to Earth-Mars communication delay.",
+    "Terrain-relative navigation selects safe reachable sites within the landing region.",
+    "Landing performance depends on atmospheric state and terrain hazards; do not extrapolate this one mission profile to other payload masses without a dedicated model."
+  ],
+  "source_additional": "https://science.nasa.gov/photojournal/zeroing-in-on-the-target/",
+  "package_note": "Snapshot reference with per-field units in names; null means unavailable, never zero. See docs/PHYSICS.md and source URLs."
+}

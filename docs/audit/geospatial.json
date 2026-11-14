@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "dem": {
+    "shape": [
+      5067,
+      4456
+    ],
+    "resolution_m": [
+      20.0,
+      20.0
+    ],
+    "nodata": -3.4028234663852886e+38,
+    "crs_wkt": "PROJCS[\"Jezero_Crater_Projection\",GEOGCS[\"GCS_Mars_2000_Sphere\",DATUM[\"Mars_2000_(Sphere)\",SPHEROID[\"Mars_2000_Sphere\",3396190,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",18.4663],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "transform": [
+      20.0,
+      0.0,
+      4328999.999999998,
+      0.0,
+      -20.0,
+      1143420.0000000028
+    ]
+  },
+  "ortho": {
+    "shape": [
+      20234,
+      17766
+    ],
+    "resolution_m": [
+      5.002064681102627,
+      5.002262971613293
+    ],
+    "crs_wkt": "PROJCS[\"Equirectangular\",GEOGCS[\"GCS_Geographic_Coordinate_System\",DATUM[\"D_MARS\",SPHEROID[\"MARS\",3396190,0]],PRIMEM[\"Reference Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",18.4663],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "transform": [
+      5.002064681102627,
+      0.0,
+      4329192.10812596,
+      0.0,
+      -5.002262971613293,
+      1143347.424174998
+    ]
+  },
+  "crs_projection_parameters_equal": true,
+  "crs_wkt_names_equal": false,
+  "raster_origins_equal": false,
+  "alignment_action": "warp ortho onto the exact DEM crop bounds; never align by source pixel indices",
+  "places_tactical_rows": 666,
+  "places_interp_rows": 33458,
+  "places_interp_rover_rows": 33370,
+  "places_interp_unknown_elevation_rows": 0,
+  "retained_waypoints": 211,
+  "places_minus_dem_height_m": {
+    "n": 211,
+    "p05": -4.038401367187589,
+    "p50": -0.22853124999983265,
+    "p95": 3.8417167968748345
+  },
+  "landing_reprojected_minus_PLACES_easting_northing_m": [
+    -7.815100252628326e-05,
+    -0.00042326911352574825
+  ],
+  "note": "At Site 1 reprojected longitude/planetocentric latitude match printed PLACES easting/northing within 1 mm; rounding is preserved. Never transfer PLACES image-pixel indices to this crop."
+}

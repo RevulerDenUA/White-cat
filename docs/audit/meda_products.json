@@ -1,0 +1,623 @@
+{
+  "schema_version": "1.0",
+  "products": [
+    {
+      "id": "WE__0001___________CAL_ATS_________________P01.CSV",
+      "sol": 1,
+      "code": "ATS",
+      "rows": 1795,
+      "fields": 8,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0001___________CAL_PS__________________P02.CSV",
+      "sol": 1,
+      "code": "PS",
+      "rows": 2330,
+      "fields": 15,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0001___________CAL_RDS_________________P01.CSV",
+      "sol": 1,
+      "code": "RDS",
+      "rows": 1679,
+      "fields": 37,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0001___________CAL_RHS_________________P02.CSV",
+      "sol": 1,
+      "code": "RHS",
+      "rows": 1698,
+      "fields": 13,
+      "label_aliases": [
+        {
+          "field_number": 13,
+          "csv_name": "THERMOCAP2_TEMP_UNCERTAINTY",
+          "xml_name": "THERMOCAP1_TEMP_UNCERTAINTY",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0001___________CAL_TIRS________________P04.CSV",
+      "sol": 1,
+      "code": "TIRS",
+      "rows": 90,
+      "fields": 21,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0040___________CAL_ATS_________________P01.CSV",
+      "sol": 40,
+      "code": "ATS",
+      "rows": 51684,
+      "fields": 8,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0040___________CAL_PS__________________P02.CSV",
+      "sol": 40,
+      "code": "PS",
+      "rows": 25706,
+      "fields": 15,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0040___________CAL_RDS_________________P01.CSV",
+      "sol": 40,
+      "code": "RDS",
+      "rows": 25728,
+      "fields": 37,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0040___________CAL_RHS_________________P02.CSV",
+      "sol": 40,
+      "code": "RHS",
+      "rows": 25708,
+      "fields": 13,
+      "label_aliases": [
+        {
+          "field_number": 13,
+          "csv_name": "THERMOCAP2_TEMP_UNCERTAINTY",
+          "xml_name": "THERMOCAP1_TEMP_UNCERTAINTY",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0040___________CAL_TIRS________________P04.CSV",
+      "sol": 40,
+      "code": "TIRS",
+      "rows": 25856,
+      "fields": 21,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0040___________CAL_WS__________________P03.CSV",
+      "sol": 40,
+      "code": "WS",
+      "rows": 18687,
+      "fields": 18,
+      "label_aliases": [
+        {
+          "field_number": 16,
+          "csv_name": "BOOM1_ALG_STATE_STABLE",
+          "xml_name": "BOOM1_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        },
+        {
+          "field_number": 17,
+          "csv_name": "BOOM2_ALG_STATE_STABLE",
+          "xml_name": "BOOM2_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0080___________CAL_ATS_________________P01.CSV",
+      "sol": 80,
+      "code": "ATS",
+      "rows": 96210,
+      "fields": 8,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0080___________CAL_PS__________________P02.CSV",
+      "sol": 80,
+      "code": "PS",
+      "rows": 47858,
+      "fields": 15,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0080___________CAL_RDS_________________P01.CSV",
+      "sol": 80,
+      "code": "RDS",
+      "rows": 47904,
+      "fields": 37,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0080___________CAL_RHS_________________P02.CSV",
+      "sol": 80,
+      "code": "RHS",
+      "rows": 43908,
+      "fields": 13,
+      "label_aliases": [
+        {
+          "field_number": 13,
+          "csv_name": "THERMOCAP2_TEMP_UNCERTAINTY",
+          "xml_name": "THERMOCAP1_TEMP_UNCERTAINTY",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0080___________CAL_TIRS________________P04.CSV",
+      "sol": 80,
+      "code": "TIRS",
+      "rows": 48127,
+      "fields": 21,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0080___________CAL_WS__________________P03.CSV",
+      "sol": 80,
+      "code": "WS",
+      "rows": 46458,
+      "fields": 18,
+      "label_aliases": [
+        {
+          "field_number": 16,
+          "csv_name": "BOOM1_ALG_STATE_STABLE",
+          "xml_name": "BOOM1_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        },
+        {
+          "field_number": 17,
+          "csv_name": "BOOM2_ALG_STATE_STABLE",
+          "xml_name": "BOOM2_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0120___________CAL_ATS_________________P02.CSV",
+      "sol": 120,
+      "code": "ATS",
+      "rows": 97085,
+      "fields": 8,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0120___________CAL_PS__________________P01.CSV",
+      "sol": 120,
+      "code": "PS",
+      "rows": 48189,
+      "fields": 15,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0120___________CAL_RDS_________________P01.CSV",
+      "sol": 120,
+      "code": "RDS",
+      "rows": 48324,
+      "fields": 37,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0120___________CAL_RHS_________________P02.CSV",
+      "sol": 120,
+      "code": "RHS",
+      "rows": 44158,
+      "fields": 13,
+      "label_aliases": [
+        {
+          "field_number": 13,
+          "csv_name": "THERMOCAP2_TEMP_UNCERTAINTY",
+          "xml_name": "THERMOCAP1_TEMP_UNCERTAINTY",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0120___________CAL_TIRS________________P03.CSV",
+      "sol": 120,
+      "code": "TIRS",
+      "rows": 48542,
+      "fields": 21,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0120___________CAL_WS__________________P03.CSV",
+      "sol": 120,
+      "code": "WS",
+      "rows": 70768,
+      "fields": 18,
+      "label_aliases": [
+        {
+          "field_number": 16,
+          "csv_name": "BOOM1_ALG_STATE_STABLE",
+          "xml_name": "BOOM1_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        },
+        {
+          "field_number": 17,
+          "csv_name": "BOOM2_ALG_STATE_STABLE",
+          "xml_name": "BOOM2_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0160___________CAL_ATS_________________P02.CSV",
+      "sol": 160,
+      "code": "ATS",
+      "rows": 48030,
+      "fields": 8,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0160___________CAL_PS__________________P01.CSV",
+      "sol": 160,
+      "code": "PS",
+      "rows": 47659,
+      "fields": 15,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0160___________CAL_RDS_________________P01.CSV",
+      "sol": 160,
+      "code": "RDS",
+      "rows": 47811,
+      "fields": 37,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0160___________CAL_RHS_________________P02.CSV",
+      "sol": 160,
+      "code": "RHS",
+      "rows": 43692,
+      "fields": 13,
+      "label_aliases": [
+        {
+          "field_number": 13,
+          "csv_name": "THERMOCAP2_TEMP_UNCERTAINTY",
+          "xml_name": "THERMOCAP1_TEMP_UNCERTAINTY",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0160___________CAL_TIRS________________P03.CSV",
+      "sol": 160,
+      "code": "TIRS",
+      "rows": 48029,
+      "fields": 21,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0160___________CAL_WS__________________P03.CSV",
+      "sol": 160,
+      "code": "WS",
+      "rows": 38686,
+      "fields": 18,
+      "label_aliases": [
+        {
+          "field_number": 16,
+          "csv_name": "BOOM1_ALG_STATE_STABLE",
+          "xml_name": "BOOM1_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        },
+        {
+          "field_number": 17,
+          "csv_name": "BOOM2_ALG_STATE_STABLE",
+          "xml_name": "BOOM2_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0200___________CAL_ATS_________________P02.CSV",
+      "sol": 200,
+      "code": "ATS",
+      "rows": 48765,
+      "fields": 8,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0200___________CAL_PS__________________P02.CSV",
+      "sol": 200,
+      "code": "PS",
+      "rows": 48360,
+      "fields": 15,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0200___________CAL_RDS_________________P03.CSV",
+      "sol": 200,
+      "code": "RDS",
+      "rows": 48527,
+      "fields": 37,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0200___________CAL_RHS_________________P02.CSV",
+      "sol": 200,
+      "code": "RHS",
+      "rows": 36643,
+      "fields": 13,
+      "label_aliases": [
+        {
+          "field_number": 13,
+          "csv_name": "THERMOCAP2_TEMP_UNCERTAINTY",
+          "xml_name": "THERMOCAP1_TEMP_UNCERTAINTY",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0200___________CAL_TIRS________________P03.CSV",
+      "sol": 200,
+      "code": "TIRS",
+      "rows": 48764,
+      "fields": 21,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0200___________CAL_WS__________________P03.CSV",
+      "sol": 200,
+      "code": "WS",
+      "rows": 39394,
+      "fields": 18,
+      "label_aliases": [
+        {
+          "field_number": 16,
+          "csv_name": "BOOM1_ALG_STATE_STABLE",
+          "xml_name": "BOOM1_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        },
+        {
+          "field_number": 17,
+          "csv_name": "BOOM2_ALG_STATE_STABLE",
+          "xml_name": "BOOM2_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0240___________CAL_ATS_________________P01.CSV",
+      "sol": 240,
+      "code": "ATS",
+      "rows": 47749,
+      "fields": 8,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0240___________CAL_PS__________________P02.CSV",
+      "sol": 240,
+      "code": "PS",
+      "rows": 47395,
+      "fields": 15,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0240___________CAL_RDS_________________P01.CSV",
+      "sol": 240,
+      "code": "RDS",
+      "rows": 47511,
+      "fields": 37,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0240___________CAL_RHS_________________P02.CSV",
+      "sol": 240,
+      "code": "RHS",
+      "rows": 47325,
+      "fields": 13,
+      "label_aliases": [
+        {
+          "field_number": 13,
+          "csv_name": "THERMOCAP2_TEMP_UNCERTAINTY",
+          "xml_name": "THERMOCAP1_TEMP_UNCERTAINTY",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0240___________CAL_TIRS________________P03.CSV",
+      "sol": 240,
+      "code": "TIRS",
+      "rows": 47748,
+      "fields": 21,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0240___________CAL_WS__________________P02.CSV",
+      "sol": 240,
+      "code": "WS",
+      "rows": 26837,
+      "fields": 18,
+      "label_aliases": [
+        {
+          "field_number": 16,
+          "csv_name": "BOOM1_ALG_STATE_STABLE",
+          "xml_name": "BOOM1_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        },
+        {
+          "field_number": 17,
+          "csv_name": "BOOM2_ALG_STATE_STABLE",
+          "xml_name": "BOOM2_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0280___________CAL_ATS_________________P02.CSV",
+      "sol": 280,
+      "code": "ATS",
+      "rows": 48530,
+      "fields": 8,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0280___________CAL_PS__________________P02.CSV",
+      "sol": 280,
+      "code": "PS",
+      "rows": 48159,
+      "fields": 15,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0280___________CAL_RDS_________________P03.CSV",
+      "sol": 280,
+      "code": "RDS",
+      "rows": 48311,
+      "fields": 37,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0280___________CAL_RHS_________________P02.CSV",
+      "sol": 280,
+      "code": "RHS",
+      "rows": 48095,
+      "fields": 13,
+      "label_aliases": [
+        {
+          "field_number": 13,
+          "csv_name": "THERMOCAP2_TEMP_UNCERTAINTY",
+          "xml_name": "THERMOCAP1_TEMP_UNCERTAINTY",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0280___________CAL_TIRS________________P03.CSV",
+      "sol": 280,
+      "code": "TIRS",
+      "rows": 48529,
+      "fields": 21,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0280___________CAL_WS__________________P03.CSV",
+      "sol": 280,
+      "code": "WS",
+      "rows": 37153,
+      "fields": 18,
+      "label_aliases": [
+        {
+          "field_number": 16,
+          "csv_name": "BOOM1_ALG_STATE_STABLE",
+          "xml_name": "BOOM1_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        },
+        {
+          "field_number": 17,
+          "csv_name": "BOOM2_ALG_STATE_STABLE",
+          "xml_name": "BOOM2_ALG_IN_STABLE_STATE",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0320___________CAL_ATS_________________P01.CSV",
+      "sol": 320,
+      "code": "ATS",
+      "rows": 76861,
+      "fields": 8,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0320___________CAL_PS__________________P02.CSV",
+      "sol": 320,
+      "code": "PS",
+      "rows": 76759,
+      "fields": 15,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0320___________CAL_RDS_________________P01.CSV",
+      "sol": 320,
+      "code": "RDS",
+      "rows": 76751,
+      "fields": 37,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0320___________CAL_RHS_________________P01.CSV",
+      "sol": 320,
+      "code": "RHS",
+      "rows": 76729,
+      "fields": 13,
+      "label_aliases": [
+        {
+          "field_number": 13,
+          "csv_name": "THERMOCAP2_TEMP_UNCERTAINTY",
+          "xml_name": "THERMOCAP1_TEMP_UNCERTAINTY",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0320___________CAL_TIRS________________P02.CSV",
+      "sol": 320,
+      "code": "TIRS",
+      "rows": 76859,
+      "fields": 21,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0334___________CAL_ATS_________________P01.CSV",
+      "sol": 334,
+      "code": "ATS",
+      "rows": 78635,
+      "fields": 8,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0334___________CAL_PS__________________P02.CSV",
+      "sol": 334,
+      "code": "PS",
+      "rows": 78584,
+      "fields": 15,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0334___________CAL_RDS_________________P01.CSV",
+      "sol": 334,
+      "code": "RDS",
+      "rows": 78563,
+      "fields": 37,
+      "label_aliases": []
+    },
+    {
+      "id": "WE__0334___________CAL_RHS_________________P01.CSV",
+      "sol": 334,
+      "code": "RHS",
+      "rows": 78566,
+      "fields": 13,
+      "label_aliases": [
+        {
+          "field_number": 13,
+          "csv_name": "THERMOCAP2_TEMP_UNCERTAINTY",
+          "xml_name": "THERMOCAP1_TEMP_UNCERTAINTY",
+          "action": "Use positional XML metadata and CSV name. Known RHS duplicate-name typo or WS naming alias."
+        }
+      ]
+    },
+    {
+      "id": "WE__0334___________CAL_TIRS________________P02.CSV",
+      "sol": 334,
+      "code": "TIRS",
+      "rows": 75196,
+      "fields": 21,
+      "label_aliases": []
+    }
+  ],
+  "raw_summary_not_used": "Original mars_weather.json includes unfiltered per-column summaries and instrument diagnostics. Recomputed selected physical channels from CSV+XML."
+}

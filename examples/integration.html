@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="uk"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>White Cat — перевірка ресурсів</title>
+<style>body{font:16px system-ui;max-width:1000px;margin:32px auto;background:#111827;color:#e5e7eb;padding:16px}img{max-width:100%;height:auto}pre{white-space:pre-wrap;padding:16px;background:#1f2937}small{color:#b7c7db}canvas{max-width:100%;border:1px solid #666}</style>
+<h1>White Cat · перевірка інтеграції даних</h1>
+<p>Тест офлайн-пакета. Точки PLACES — спостереження; з’єднання точок не є безпечними маршрутами.</p>
+<pre id="status">Читання JSON, binary terrain, моделі й WebP…</pre>
+<canvas id="map" width="512" height="512" aria-label="CTX карта ділянки й точки PLACES"></canvas>
+<p><small>USGS CTX · NASA PDS PLACES. Сіра ортофотокарта, північ угорі. Синтетичні планети — окрема модель.</small></p>
+<script type="module">
+import {loadJSON,loadBuffer} from '../lib/load.mjs';
+import {generateSystem} from '../lib/generator.mjs';
+import {gravity,geometricDelay} from '../lib/science.mjs';
+import {createTerrain,decodeUint16LE} from '../lib/terrain.mjs';
+const base=new URL('../',import.meta.url),status=document.querySelector('#status');
+try{
+ const [meta,p,c,a,routes,ephemeris,models,images]=await Promise.all([
+  'assets/terrain/metadata.json','data/planets/generation_parameters.json','data/physics/physical_constants.json',
+  'data/planets/mass_radius_anchors.json','data/rover/routes.json','data/missions/earth_mars_ephemeris.json','assets/models/manifest.json','assets/images/manifest.json'
+ ].map(p=>loadJSON(base,p)));
+ const [h,s,t]=await Promise.all(['heightmap.u16','slope.u16','traversability.u8'].map(n=>loadBuffer(base,'assets/terrain/'+n)));
+ const terrain=createTerrain(meta,decodeUint16LE(h),decodeUint16LE(s),new Uint8Array(t));
+ const image=new Image();image.src=new URL(meta.texture.path,base);await image.decode();
+ const canvas=document.querySelector('#map'),ctx=canvas.getContext('2d');ctx.drawImage(image,0,0,512,512);
+ ctx.fillStyle='#80e7ff';for(const w of routes.waypoints){const [x,y]=w.cell_col_row;ctx.fillRect(x-1,y-1,3,3);}
+ // GLB structural fetch here; full mesh decoding is separately tested with NodeIO.
+ const modelChecks=[];for(const model of models.models){const b=await loadBuffer(base,model.path),d=new DataView(b);if(d.getUint32(0,true)!==0x46546c67||d.getUint32(4,true)!==2||d.getUint32(8,true)!==b.byteLength)throw new Error('GLB header '+model.id);modelChecks.push(model.id);}
+ for(const item of images.images){const img=new Image();img.src=new URL(item.path,base);await img.decode();}
+ const system=generateSystem(2026,p,c,a),delay=geometricDelay(ephemeris.samples,ephemeris.first_jd_tdb,c.constants.c.value);
+ status.textContent='PASS — ресурси читаються браузером через локальний HTTP\n'+JSON.stringify({terrain:terrain.sample(0,0),waypoints:routes.waypoints.length,planets_seed_2026:system.planets.length,one_way_delay_s_at_cache_start:delay.one_way_geometric_delay_s,GLB_headers:modelChecks,WebP_images:images.images.length},null,2);
+ document.body.dataset.result='pass';
+}catch(e){status.textContent='FAIL: '+e.stack;document.body.dataset.result='fail';throw e;}
+</script>
+</html>

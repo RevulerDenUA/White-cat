@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "terrain": {
+    "id": "jezero_landing_10km",
+    "width_cells": 512,
+    "height_cells": 512,
+    "spacing_m": 20,
+    "texture_size_px": 2048,
+    "height_quantization_m": 0.02,
+    "passable_max_slope_deg": 15,
+    "caution_max_slope_deg": 25,
+    "slope_source_halo_cells": 1
+  },
+  "images": {
+    "max_edge_px": 1280,
+    "webp_quality": 82,
+    "count": 5
+  },
+  "models": {
+    "max_triangles": 200000,
+    "texture_max_edge_px": 1024,
+    "rover_simplify_ratio": 0.5,
+    "rover_simplify_error": 0.0005,
+    "lock_border": true
+  },
+  "generation": {
+    "seed": 2026,
+    "planet_count_range": [
+      3,
+      8
+    ],
+    "radius_earth_range": [
+      0.3,
+      14
+    ],
+    "mass_earth_range": [
+      0.01,
+      3000
+    ],
+    "density_kg_m3_range": [
+      100,
+      15000
+    ],
+    "stellar_mass_sun_range": [
+      0.5,
+      1.2
+    ],
+    "inner_orbit_au_range": [
+      0.15,
+      0.4
+    ],
+    "outer_orbit_au_max": 40,
+    "orbit_ratio_range": [
+      1.8,
+      2.6
+    ],
+    "eccentricity_max": 0.08,
+    "mutual_hill_clearance_min": 10,
+    "rotation_period_s_range": [
+      36000,
+      345600
+    ],
+    "rotation_breakup_safety_factor": 2,
+    "tide_lock_distance_au": 0.1,
+    "bond_albedo_range": [
+      0.1,
+      0.6
+    ],
+    "emissivity": 1,
+    "visual_orbit_scale": 20,
+    "visual_orbit_reference_au": 0.1,
+    "visual_radius_scale": 0.5,
+    "rocky_atmosphere_probability": 0.5,
+    "atmosphere_retention_escape_to_rms_min": 5,
+    "thin_co2_molar_mass_kg_mol": 0.04334
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.0",
+  "status": "synthetic_ExoVista_derived",
+  "source_ids": [
+    "nasa_emac_exovista_dec21"
+  ],
+  "anchors": {
+    "rocky_candidate": [
+      {
+        "mass_earth": 0.080008,
+        "radius_earth": 0.498236,
+        "density_kg_m3": 3566.558093168095,
+        "source_star_id": 6603,
+        "source_planet_index": 11
+      },
+      {
+        "mass_earth": 0.101298,
+        "radius_earth": 0.532137,
+        "density_kg_m3": 3706.394997104259,
+        "source_star_id": 1455,
+        "source_planet_index": 9
+      },
+      {
+        "mass_earth": 0.127595,
+        "radius_earth": 0.567529,
+        "density_kg_m3": 3848.492832711714,
+        "source_star_id": 4182,
+        "source_planet_index": 5
+      },
+      {
+        "mass_earth": 0.162653,
+        "radius_earth": 0.607299,
+        "density_kg_m3": 4003.8295515726995,
+        "source_star_id": 7243,
+        "source_planet_index": 7
+      },
+      {
+        "mass_earth": 0.207357,
+        "radius_earth": 0.649868,
+        "density_kg_m3": 4165.474155480851,
+        "source_star_id": 777,
+        "source_planet_index": 8
+      },
+      {
+        "mass_earth": 0.266542,
+        "radius_earth": 0.697026,
+        "density_kg_m3": 4339.502255539646,
+        "source_star_id": 7521,
+        "source_planet_index": 8
+      },
+      {
+        "mass_earth": 0.345219,
+        "radius_earth": 0.749185,
+        "density_kg_m3": 4526.355606199166,
+        "source_star_id": 721,
+        "source_planet_index": 8
+      },
+      {
+        "mass_earth": 0.450692,
+        "radius_earth": 0.807036,
+        "density_kg_m3": 4727.399728694924,
+        "source_star_id": 4026,
+        "source_planet_index": 12
+      },
+      {
+        "mass_earth": 0.596379,
+        "radius_earth": 0.872632,
+        "density_kg_m3": 4948.232971840145,
+        "source_star_id": 3121,
+        "source_planet_index": 6
+      },
+      {
+        "mass_earth": 0.791328,
+        "radius_earth": 0.944283,
+        "density_kg_m3": 5181.687530439029,
+        "source_star_id": 7041,
+        "source_planet_index": 11
+      },
+      {
+        "mass_earth": 1.05046,
+        "radius_earth": 1.02194,
+        "density_kg_m3": 5426.558955064838,
+        "source_star_id": 5007,
+        "source_planet_index": 0
+      },
+      {
+        "mass_earth": 1.40857,
+        "radius_earth": 1.1091,
+        "density_kg_m3": 5692.296577083204,
+        "source_star_id": 8752,
+        "source_planet_index": 5
+      },
+      {
+        "mass_earth": 1.919,
+        "radius_earth": 1.20903,
+        "density_kg_m3": 5986.66482127565,
+        "source_star_id": 2129,
+        "source_planet_index": 3
+      },
+      {
+        "mass_earth": 2.29754,
+        "radius_earth": 1.31904,
+        "density_kg_m3": 5519.635315516054,
+        "source_star_id": 105,
+        "source_planet_index": 9
+      },
+      {
+        "mass_earth": 2.69637,
+        "radius_earth": 1.44946,
+        "density_kg_m3": 4881.822477998613,
+        "source_star_id": 147,
+        "source_planet_index": 3
+      },
+      {
+        "mass_earth": 3.18875,
+        "radius_earth": 1.59995,
+        "density_kg_m3": 4292.61995560555,
+        "source_star_id": 3698,
+        "source_planet_index": 2
+      }
+    ],
+    "sub_neptune": [
+      {
+        "mass_earth": 3.18894,
+        "radius_earth": 1.60001,
+        "density_kg_m3": 4292.392801728174,
+        "source_star_id": 4655,
+        "source_planet_index": 0
+      },
+      {
+        "mass_earth": 3.49306,
+        "radius_earth": 1.6882,
+        "density_kg_m3": 4002.7232011907536,
+        "source_star_id": 95,
+        "source_planet_index": 2
+      },
+      {
+        "mass_earth": 3.85543,
+        "radius_earth": 1.78925,
+        "density_kg_m3": 3710.9144767175644,
+        "source_star_id": 4120,
+        "source_planet_index": 2
+      },
+      {
+        "mass_earth": 4.25881,
+        "radius_earth": 1.89726,
+        "density_kg_m3": 3438.18241116786,
+        "source_star_id": 488,
+        "source_planet_index": 10
+      },
+      {
+        "mass_earth": 4.68623,
+        "radius_earth": 2.0072,
+        "density_kg_m3": 3195.0146644647893,
+        "source_star_id": 353,
+        "source_planet_index": 11
+      },
+      {
+        "mass_earth": 5.16569,
+        "radius_earth": 2.12573,
+        "density_kg_m3": 2965.00367329958,
+        "source_star_id": 4676,
+        "source_planet_index": 12
+      },
+      {
+        "mass_earth": 5.71495,
+        "radius_earth": 2.25609,
+        "density_kg_m3": 2743.875325512858,
+        "source_star_id": 5026,
+        "source_planet_index": 2
+      },
+      {
+        "mass_earth": 6.32003,
+        "radius_earth": 2.39386,
+        "density_kg_m3": 2540.060708918849,
+        "source_star_id": 6665,
+        "source_planet_index": 8
+      },
+      {
+        "mass_earth": 7.00195,
+        "radius_earth": 2.54278,
+        "density_kg_m3": 2348.0851686806154,
+        "source_star_id": 3467,
+        "source_planet_index": 5
+      },
+      {
+        "mass_earth": 7.87285,
+        "radius_earth": 2.72456,
+        "density_kg_m3": 2146.1696488263415,
+        "source_star_id": 3007,
+        "source_planet_index": 6
+      },
+      {
+        "mass_earth": 8.80079,
+        "radius_earth": 2.90937,
+        "density_kg_m3": 1970.36184997883,
+        "source_star_id": 1949,
+        "source_planet_index": 2
+      },
+      {
+        "mass_earth": 9.91911,
+        "radius_earth": 3.12175,
+        "density_kg_m3": 1797.6268495020056,
+        "source_star_id": 1046,
+        "source_planet_index": 0
+      },
+      {
+        "mass_earth": 11.2352,
+        "radius_earth": 3.35945,
+        "density_kg_m3": 1633.7946270250757,
+        "source_star_id": 5070,
+        "source_planet_index": 5
+      },
+      {
+        "mass_earth": 12.3941,
+        "radius_earth": 3.55942,
+        "density_kg_m3": 1515.2995266688242,
+        "source_star_id": 5926,
+        "source_planet_index": 2
+      },
+      {
+        "mass_earth": 13.6821,
+        "radius_earth": 3.77285,
+        "density_kg_m3": 1404.6410106278743,
+        "source_star_id": 1718,
+        "source_planet_index": 7
+      },
+      {
+        "mass_earth": 15.1095,
+        "radius_earth": 3.99994,
+        "density_kg_m3": 1301.6998752296654,
+        "source_star_id": 688,
+        "source_planet_index": 7
+      }
+    ],
+    "ice_giant_candidate": [
+      {
+        "mass_earth": 15.1106,
+        "radius_earth": 4.00011,
+        "density_kg_m3": 1301.6286742283942,
+        "source_star_id": 8952,
+        "source_planet_index": 7
+      },
+      {
+        "mass_earth": 15.9704,
+        "radius_earth": 4.13265,
+        "density_kg_m3": 1247.530341739394,
+        "source_star_id": 4406,
+        "source_planet_index": 9
+      },
+      {
+        "mass_earth": 16.906,
+        "radius_earth": 4.27357,
+        "density_kg_m3": 1194.2344620632953,
+        "source_star_id": 6048,
+        "source_planet_index": 10
+      },
+      {
+        "mass_earth": 17.9809,
+        "radius_earth": 4.43159,
+        "density_kg_m3": 1139.0791576847507,
+        "source_star_id": 5496,
+        "source_planet_index": 8
+      },
+      {
+        "mass_earth": 19.2764,
+        "radius_earth": 4.61695,
+        "density_kg_m3": 1079.8952142411445,
+        "source_star_id": 1840,
+        "source_planet_index": 9
+      },
+      {
+        "mass_earth": 20.964,
+        "radius_earth": 4.85091,
+        "density_kg_m3": 1012.5715021231208,
+        "source_star_id": 6393,
+        "source_planet_index": 2
+      },
+      {
+        "mass_earth": 22.6114,
+        "radius_earth": 5.07194,
+        "density_kg_m3": 955.490408295241,
+        "source_star_id": 8433,
+        "source_planet_index": 6
+      },
+      {
+        "mass_earth": 24.3172,
+        "radius_earth": 5.29393,
+        "density_kg_m3": 903.6498568428299,
+        "source_star_id": 858,
+        "source_planet_index": 0
+      },
+      {
+        "mass_earth": 26.4201,
+        "radius_earth": 5.55898,
+        "density_kg_m3": 847.9501537304346,
+        "source_star_id": 2689,
+        "source_planet_index": 2
+      },
+      {
+        "mass_earth": 28.5666,
+        "radius_earth": 5.8207,
+        "density_kg_m3": 798.6456044611007,
+        "source_star_id": 3379,
+        "source_planet_index": 1
+      },
+      {
+        "mass_earth": 30.9069,
+        "radius_earth": 6.09702,
+        "density_kg_m3": 751.8371629370314,
+        "source_star_id": 2257,
+        "source_planet_index": 11
+      },
+      {
+        "mass_earth": 33.7096,
+        "radius_earth": 6.41686,
+        "density_kg_m3": 703.4076828221088,
+        "source_star_id": 2257,
+        "source_planet_index": 14
+      },
+      {
+        "mass_earth": 36.9723,
+        "radius_earth": 6.7757,
+        "density_kg_m3": 655.2924468995327,
+        "source_star_id": 7231,
+        "source_planet_index": 0
+      },
+      {
+        "mass_earth": 40.5526,
+        "radius_earth": 7.15482,
+        "density_kg_m3": 610.4411021210421,
+        "source_star_id": 4886,
+        "source_planet_index": 10
+      },
+      {
+        "mass_earth": 44.101,
+        "radius_earth": 7.51719,
+        "density_kg_m3": 572.4045220201016,
+        "source_star_id": 7307,
+        "source_planet_index": 11
+      },
+      {
+        "mass_earth": 49.0166,
+        "radius_earth": 7.99995,
+        "density_kg_m3": 527.8403258685713,
+        "source_star_id": 6657,
+        "source_planet_index": 11
+      }
+    ],
+    "gas_giant": [
+      {
+        "mass_earth": 49.06,
+        "radius_earth": 8.00412,
+        "density_kg_m3": 527.4823974686865,
+        "source_star_id": 6002,
+        "source_planet_index": 10
+      },
+      {
+        "mass_earth": 51.0931,
+        "radius_earth": 8.19787,
+        "density_kg_m3": 511.3053926766531,
+        "source_star_id": 1277,
+        "source_planet_index": 6
+      },
+      {
+        "mass_earth": 52.5919,
+        "radius_earth": 8.33866,
+        "density_kg_m3": 500.09356107541925,
+        "source_star_id": 4867,
+        "source_planet_index": 11
+      },
+      {
+        "mass_earth": 54.8442,
+        "radius_earth": 8.54718,
+        "density_kg_m3": 484.2653061893456,
+        "source_star_id": 4625,
+        "source_planet_index": 9
+      },
+      {
+        "mass_earth": 57.0084,
+        "radius_earth": 8.74426,
+        "density_kg_m3": 470.1006654833216,
+        "source_star_id": 2485,
+        "source_planet_index": 9
+      },
+      {
+        "mass_earth": 59.1326,
+        "radius_earth": 8.93473,
+        "density_kg_m3": 457.09226971728356,
+        "source_star_id": 763,
+        "source_planet_index": 9
+      },
+      {
+        "mass_earth": 61.9837,
+        "radius_earth": 9.18601,
+        "density_kg_m3": 440.87752124949554,
+        "source_star_id": 5885,
+        "source_planet_index": 5
+      },
+      {
+        "mass_earth": 64.4193,
+        "radius_earth": 9.39692,
+        "density_kg_m3": 428.0363120405988,
+        "source_star_id": 8376,
+        "source_planet_index": 9
+      },
+      {
+        "mass_earth": 67.3514,
+        "radius_earth": 9.64654,
+        "density_kg_m3": 413.6691367231804,
+        "source_star_id": 4919,
+        "source_planet_index": 9
+      },
+      {
+        "mass_earth": 70.72,
+        "radius_earth": 9.92786,
+        "density_kg_m3": 398.4708168643768,
+        "source_star_id": 3123,
+        "source_planet_index": 6
+      },
+      {
+        "mass_earth": 78.7949,
+        "radius_earth": 10.5807,
+        "density_kg_m3": 366.755053875833,
+        "source_star_id": 4758,
+        "source_planet_index": 2
+      },
+      {
+        "mass_earth": 103.862,
+        "radius_earth": 12.45,
+        "density_kg_m3": 296.7357196280945,
+        "source_star_id": 3657,
+        "source_planet_index": 2
+      },
+      {
+        "mass_earth": 1015.87,
+        "radius_earth": 13.0817,
+        "density_kg_m3": 2501.8817551089132,
+        "source_star_id": 2783,
+        "source_planet_index": 2
+      },
+      {
+        "mass_earth": 118.561,
+        "radius_earth": 13.4594,
+        "density_kg_m3": 268.09329605357675,
+        "source_star_id": 4320,
+        "source_planet_index": 1
+      },
+      {
+        "mass_earth": 123.58,
+        "radius_earth": 13.7921,
+        "density_kg_m3": 259.70373739890493,
+        "source_star_id": 6816,
+        "source_planet_index": 5
+      },
+      {
+        "mass_earth": 219.051,
+        "radius_earth": 13.9952,
+        "density_kg_m3": 440.5843975607881,
+        "source_star_id": 8119,
+        "source_planet_index": 5
+      }
+    ]
+  }
+}

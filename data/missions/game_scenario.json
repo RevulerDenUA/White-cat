@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "id": "jezero-training-v1",
+  "status": "game_assumption",
+  "reference_epoch": "2026-11-14",
+  "mission_duration_sols": 30,
+  "starting_energy_fraction": 0.8,
+  "minimum_reserve_fraction": 0.1,
+  "relay": {
+    "orbiter_id": "mro",
+    "contacts_per_sol": 2,
+    "duration_s": 480,
+    "net_rate_bit_s": 350000,
+    "timing": "scheduled game events, not predicted overflights",
+    "data_per_contact_bit": 168000000
+  },
+  "mass_budget": {
+    "margin_fraction": 0.2,
+    "rule": "apply to non-overlapping dry mass estimate only; require separate propulsion/EDL estimates"
+  },
+  "launcher_compatibility": {
+    "mode": "reference_only",
+    "unknown_curve_action": "indeterminate",
+    "historical_atlas_reference_mass_kg": null,
+    "historical_c3_m2_s2": 14490000,
+    "rule": "Do not interpolate from a single historic flight; Falcon Heavy Mars payload lacks specified C3."
+  },
+  "edl": {
+    "mode": "scripted_reference_sequence",
+    "unsupported_payload_action": "indeterminate; no safe-landing result"
+  },
+  "power": {
+    "solar_array_area_m2": 2,
+    "solar_efficiency": 0.25,
+    "dust_transmission": 0.7,
+    "note": "optional hypothetical solar design, not Perseverance hardware"
+  }
+}

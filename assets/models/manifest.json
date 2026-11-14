@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "models": [
+    {
+      "id": "perseverance",
+      "path": "assets/models/Mars_2020_Perseverance_Rover.glb",
+      "source_ids": [
+        "nasa_perseverance_3d"
+      ],
+      "status": "NASA_visual_model_derived",
+      "original_triangles": 199521,
+      "triangles": 155101,
+      "vertices": 115089,
+      "bytes": 4978600,
+      "original_bounds_native": {
+        "min": [
+          -1.352290391921997,
+          0.0007781386375427246,
+          -1.7363221049308777
+        ],
+        "max": [
+          1.3522799015045166,
+          1.8463227974302754,
+          1.3719512943410044
+        ]
+      },
+      "bounds_native": {
+        "min": [
+          -1.352290391921997,
+          0.0007781386375427246,
+          -1.7363221049308777
+        ],
+        "max": [
+          1.3522799015045166,
+          1.8463227974302754,
+          1.3719512943410044
+        ]
+      },
+      "extents_native": [
+        2.7045702934265137,
+        1.8455446587927327,
+        3.108273399271882
+      ],
+      "extensions_required": [],
+      "scale_for_rover_width_2_7_m": 0.9983101591267117,
+      "placement": {
+        "uniform_scale": 0.9983101591267117,
+        "translation_y": -0.0007768237070679201,
+        "orientation": "glTF +Y up; front direction is asset-authored, inspect before wheel animation"
+      },
+      "notes": [
+        "Draco decoded before geometry analysis; exported without Draco requirement.",
+        "Textures and materials embedded. Browser must support WebP; material extensions may be rendered with core fallback.",
+        "Measured mesh pose is not identical to published envelope dimensions. Do not stretch axes independently."
+      ]
+    },
+    {
+      "id": "mro",
+      "path": "assets/models/Mars_Reconnaissance_Orbiter.glb",
+      "source_ids": [
+        "nasa_mro_3d"
+      ],
+      "status": "NASA_visual_model_derived",
+      "original_triangles": 14753,
+      "triangles": 14753,
+      "vertices": 11047,
+      "bytes": 1584776,
+      "original_bounds_native": {
+        "min": [
+          -6.5901994705200195,
+          -2.4332199692726135,
+          -3.3561577796936035
+        ],
+        "max": [
+          6.5901994705200195,
+          2.4421825408935547,
+          3.350313663482666
+        ]
+      },
+      "bounds_native": {
+        "min": [
+          -6.5901994705200195,
+          -2.4332199692726135,
+          -3.3561577796936035
+        ],
+        "max": [
+          6.5901994705200195,
+          2.4421825408935547,
+          3.350313663482666
+        ]
+      },
+      "extents_native": [
+        13.180398941040039,
+        4.875402510166168,
+        6.7064714431762695
+      ],
+      "extensions_required": [],
+      "scale_for_rover_width_2_7_m": null,
+      "placement": {
+        "uniform_scale": 1,
+        "translation_y": 2.4332199692726135,
+        "orientation": "glTF +Y up; front direction is asset-authored, inspect before wheel animation"
+      },
+      "notes": [
+        "Draco decoded before geometry analysis; exported without Draco requirement.",
+        "Textures and materials embedded. Browser must support WebP; material extensions may be rendered with core fallback.",
+        "Measured mesh pose is not identical to published envelope dimensions. Do not stretch axes independently."
+      ]
+    }
+  ]
+}

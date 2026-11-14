@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "constants": {
+    "G": {
+      "value": 6.6743e-11,
+      "unit": "m^3 kg^-1 s^-2",
+      "status": "published",
+      "source": "https://ssd.jpl.nasa.gov/astro_par.html",
+      "note": "CODATA 2018; finite uncertainty, not exact"
+    },
+    "c": {
+      "value": 299792458.0,
+      "unit": "m s^-1",
+      "status": "exact",
+      "source": "https://ssd.jpl.nasa.gov/astro_par.html",
+      "note": ""
+    },
+    "au": {
+      "value": 149597870700.0,
+      "unit": "m",
+      "status": "exact",
+      "source": "https://ssd.jpl.nasa.gov/astro_par.html",
+      "note": ""
+    },
+    "day": {
+      "value": 86400,
+      "unit": "s",
+      "status": "exact",
+      "source": "https://ssd.jpl.nasa.gov/astro_par.html",
+      "note": ""
+    },
+    "sigma": {
+      "value": 5.670374419e-08,
+      "unit": "W m^-2 K^-4",
+      "status": "derived_from_exact_SI",
+      "source": "https://physics.nist.gov/cgi-bin/cuu/Value?sigma",
+      "note": ""
+    },
+    "R_gas": {
+      "value": 8.31446261815324,
+      "unit": "J mol^-1 K^-1",
+      "status": "derived_from_exact_SI",
+      "source": "https://physics.nist.gov/cgi-bin/cuu/Value?r",
+      "note": ""
+    },
+    "g0": {
+      "value": 9.80665,
+      "unit": "m s^-2",
+      "status": "conventional",
+      "source": "https://physics.nist.gov/cgi-bin/cuu/Value?gn",
+      "note": "Isp convention, not local Mars gravity"
+    },
+    "mu_sun": {
+      "value": 1.3271244004127942e+20,
+      "unit": "m^3 s^-2",
+      "status": "published",
+      "source": "https://ssd.jpl.nasa.gov/astro_par.html",
+      "note": "DE440 solar GM"
+    },
+    "earth_mass": {
+      "value": 5.9722e+24,
+      "unit": "kg",
+      "status": "published_rounded",
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "note": ""
+    },
+    "earth_mean_radius": {
+      "value": 6371008.4,
+      "unit": "m",
+      "status": "published",
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "note": ""
+    },
+    "sun_mass": {
+      "value": 1.988409871316534e+30,
+      "unit": "kg",
+      "status": "derived",
+      "source": "https://ssd.jpl.nasa.gov/astro_par.html",
+      "note": "GM_sun / G; not an independent exact mass"
+    },
+    "sun_radius": {
+      "value": 695700000,
+      "unit": "m",
+      "status": "nominal",
+      "source": "https://www.iau.org/static/resolutions/IAU2015_English.pdf",
+      "note": ""
+    },
+    "sun_luminosity": {
+      "value": 3.828e+26,
+      "unit": "W",
+      "status": "nominal",
+      "source": "https://www.iau.org/static/resolutions/IAU2015_English.pdf",
+      "note": ""
+    },
+    "mars_mu": {
+      "value": 42828375662000.0,
+      "unit": "m^3 s^-2",
+      "status": "published",
+      "source": "https://ssd.jpl.nasa.gov/horizons/",
+      "note": "Mars body GM from cached physical header; do not use Mars system GM"
+    },
+    "mars_mean_radius": {
+      "value": 3389920.0,
+      "unit": "m",
+      "status": "published",
+      "source": "https://ssd.jpl.nasa.gov/horizons/",
+      "note": "3389.92 km from cached header; uncertainty 0.04 km"
+    },
+    "mars_projection_radius": {
+      "value": 3396190,
+      "unit": "m",
+      "status": "cartographic_convention",
+      "source": "https://astrogeology.usgs.gov/search/map/mars_2020_science_investigation_ctx_dem_mosaic",
+      "note": "Sphere used in supplied CTX rasters, separate from physical mean radius"
+    },
+    "mars_solar_day": {
+      "value": 88775.24415,
+      "unit": "s",
+      "status": "published",
+      "source": "https://ssd.jpl.nasa.gov/horizons/",
+      "note": ""
+    },
+    "mars_sidereal_day": {
+      "value": 88642.66320000001,
+      "unit": "s",
+      "status": "published",
+      "source": "https://ssd.jpl.nasa.gov/horizons/",
+      "note": ""
+    },
+    "mars_game_gravity": {
+      "value": 3.71,
+      "unit": "m s^-2",
+      "status": "rounded_model",
+      "source": "https://ssd.jpl.nasa.gov/horizons/",
+      "note": "Fixed surface mobility approximation, not computed at mean-radius level"
+    }
+  }
+}

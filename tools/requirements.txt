@@ -1,0 +1,8 @@
+numpy>=2.2,<3
+pandas>=2.2,<4
+rasterio>=1.4,<2
+pyproj>=3.7,<4
+Pillow>=11,<13
+jsonschema>=4.23,<5
+trimesh>=4.6,<5
+pypdf>=5,<7

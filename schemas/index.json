@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "schema_file": "schemas/package.schema.json",
+  "resources": {
+    "data/sources.json": "#/$defs/data_sources_json",
+    "data/physics/formulas.json": "#/$defs/data_physics_formulas_json",
+    "data/physics/physical_constants.json": "#/$defs/data_physics_physical_constants_json",
+    "data/planets/atmospheres.json": "#/$defs/data_planets_atmospheres_json",
+    "data/planets/example_systems.json": "#/$defs/data_planets_example_systems_json",
+    "data/planets/generated_example.json": "#/$defs/data_planets_generated_example_json",
+    "data/planets/generation_parameters.json": "#/$defs/data_planets_generation_parameters_json",
+    "data/planets/mass_radius_anchors.json": "#/$defs/data_planets_mass_radius_anchors_json",
+    "data/planets/planet_types.json": "#/$defs/data_planets_planet_types_json",
+    "data/planets/stars.json": "#/$defs/data_planets_stars_json",
+    "data/missions/components.json": "#/$defs/data_missions_components_json",
+    "data/missions/earth_mars_ephemeris.json": "#/$defs/data_missions_earth_mars_ephemeris_json",
+    "data/missions/edl.json": "#/$defs/data_missions_edl_json",
+    "data/missions/game_scenario.json": "#/$defs/data_missions_game_scenario_json",
+    "data/missions/launchers.json": "#/$defs/data_missions_launchers_json",
+    "data/missions/orbits.json": "#/$defs/data_missions_orbits_json",
+    "data/missions/relay_plans.json": "#/$defs/data_missions_relay_plans_json",
+    "data/rover/routes.json": "#/$defs/data_rover_routes_json",
+    "data/rover/rover_specs.json": "#/$defs/data_rover_rover_specs_json",
+    "data/rover/weather_samples.json": "#/$defs/data_rover_weather_samples_json",
+    "assets/images/manifest.json": "#/$defs/assets_images_manifest_json",
+    "assets/models/authoring_specs.json": "#/$defs/assets_models_authoring_specs_json",
+    "assets/models/manifest.json": "#/$defs/assets_models_manifest_json",
+    "assets/terrain/metadata.json": "#/$defs/assets_terrain_metadata_json"
+  }
+}

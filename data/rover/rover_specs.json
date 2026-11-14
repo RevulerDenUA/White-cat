@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "source_ids": [
+    "nasa_perseverance_rover_components"
+  ],
+  "reference": {
+    "id": "perseverance",
+    "status": "published_reference",
+    "total_mass_kg": 1025,
+    "dimensions_length_width_height_m": [
+      3,
+      2.7,
+      2.2
+    ],
+    "wheel_count": 6,
+    "wheel_diameter_m": 0.525,
+    "max_flat_hard_ground_speed_m_s": 0.042222222222222223,
+    "avoid_tilt_above_deg": 30,
+    "static_tip_resistance_deg": 45,
+    "mmrtg_initial_electric_w": 110,
+    "mmrtg_mass_kg": 45,
+    "battery_count": 2,
+    "battery_capacity_wh": null,
+    "battery_capacity_status": "usable Wh not verified; earlier audit 2408 Wh requires a voltage assumption",
+    "battery_mass_kg": 26.5,
+    "battery_capacity_ah_each": 43,
+    "peak_power_w_approx": 900,
+    "battery_source": "https://www.jpl.nasa.gov/news/press_kits/mars_2020/download/mars_2020_launch_press_kit.pdf#page=38",
+    "source": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/"
+  },
+  "motion_model": "quasi-static force and positive traction work + auxiliary load; no regeneration; terrain sampled every <=10 m",
+  "route_contract": {
+    "id": "caller-defined string",
+    "terrain_id": "jezero_landing_10km",
+    "waypoints": "array of [x,y,z] in meters, x east/y up/z south",
+    "step_m_max": 10,
+    "out_of_bounds_action": "block",
+    "nodata_action": "block",
+    "on_caution": "require manual reroute or override; cannot certify safety"
+  },
+  "profiles": [
+    {
+      "id": "scout",
+      "status": "game_assumption_pending_SASHA_MISHA_balance",
+      "total_mass_kg": 900,
+      "max_speed_m_s": 0.04,
+      "battery_capacity_wh": 1600,
+      "buffer_mbit": 2048,
+      "operational_slope_limit_deg": 15,
+      "generation_w": 110,
+      "drive_efficiency": 0.5,
+      "rolling_resistance": 0.04,
+      "idle_power_w": 80,
+      "drive_aux_power_w": 120,
+      "battery_charge_efficiency": 0.95,
+      "battery_discharge_efficiency": 0.95,
+      "max_traction_coefficient": 0.6,
+      "body_dimensions_m": [
+        3,
+        2.7,
+        2.2
+      ],
+      "wheel_diameter_m": 0.525,
+      "instrument_ids": [
+        "mastcam_z",
+        "meda"
+      ],
+      "note": "Whole vehicle mass includes listed instruments; no NASA variant claim. No new wheel geometry implied."
+    },
+    {
+      "id": "science",
+      "status": "game_assumption_pending_SASHA_MISHA_balance",
+      "total_mass_kg": 1025,
+      "max_speed_m_s": 0.03,
+      "battery_capacity_wh": 2400,
+      "buffer_mbit": 4096,
+      "operational_slope_limit_deg": 15,
+      "generation_w": 110,
+      "drive_efficiency": 0.5,
+      "rolling_resistance": 0.04,
+      "idle_power_w": 80,
+      "drive_aux_power_w": 120,
+      "battery_charge_efficiency": 0.95,
+      "battery_discharge_efficiency": 0.95,
+      "max_traction_coefficient": 0.6,
+      "body_dimensions_m": [
+        3,
+        2.7,
+        2.2
+      ],
+      "wheel_diameter_m": 0.525,
+      "instrument_ids": [
+        "mastcam_z",
+        "meda",
+        "supercam",
+        "pixl",
+        "sherloc_watson",
+        "rimfax"
+      ],
+      "note": "Whole vehicle mass includes listed instruments; no NASA variant claim. No new wheel geometry implied."
+    },
+    {
+      "id": "cargo",
+      "status": "game_assumption_pending_SASHA_MISHA_balance",
+      "total_mass_kg": 1200,
+      "max_speed_m_s": 0.02,
+      "battery_capacity_wh": 3200,
+      "buffer_mbit": 8192,
+      "operational_slope_limit_deg": 12,
+      "generation_w": 110,
+      "drive_efficiency": 0.5,
+      "rolling_resistance": 0.04,
+      "idle_power_w": 80,
+      "drive_aux_power_w": 120,
+      "battery_charge_efficiency": 0.95,
+      "battery_discharge_efficiency": 0.95,
+      "max_traction_coefficient": 0.6,
+      "body_dimensions_m": [
+        3,
+        2.7,
+        2.2
+      ],
+      "wheel_diameter_m": 0.525,
+      "instrument_ids": [
+        "mastcam_z",
+        "meda",
+        "rimfax"
+      ],
+      "note": "Whole vehicle mass includes listed instruments; no NASA variant claim. No new wheel geometry implied."
+    }
+  ]
+}

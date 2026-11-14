@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "retrieved_utc": "2026-11-14",
+  "source": "https://science.nasa.gov/mars/mars-relay-network/",
+  "data_note": "NASA page last updated 2026-06-05; transmitted data volumes are reported mission averages, not guaranteed daily service or per-pass capacity.",
+  "communication_architecture": "surface rover UHF → Mars orbiter relay → Earth receiving network (including NASA DSN)",
+  "current_network": [
+    "ody",
+    "mro",
+    "tgo",
+    "mex"
+  ],
+  "orbiters": [
+    {
+      "id": "ody",
+      "name": "Mars Odyssey",
+      "agency": "NASA",
+      "altitude_km_range": [
+        385,
+        450
+      ],
+      "passes_per_day_range": [
+        2,
+        4
+      ],
+      "passes_used_per_day_range": [
+        0,
+        1
+      ],
+      "average_data_through_2025_mbit_per_day": 170.4,
+      "average_data_feb_may_2026_mbit_per_day": 107.3,
+      "role": "active relay"
+    },
+    {
+      "id": "mro",
+      "name": "Mars Reconnaissance Orbiter",
+      "agency": "NASA",
+      "altitude_km_range": [
+        255,
+        320
+      ],
+      "passes_per_day_range": [
+        2,
+        4
+      ],
+      "passes_used_per_day_range": [
+        1,
+        3
+      ],
+      "average_data_through_2025_mbit_per_day": 447.5,
+      "average_data_feb_may_2026_mbit_per_day": 850.6,
+      "role": "active relay"
+    },
+    {
+      "id": "tgo",
+      "name": "ExoMars Trace Gas Orbiter",
+      "agency": "ESA",
+      "altitude_km_range": [
+        400,
+        400
+      ],
+      "passes_per_day_range": [
+        2,
+        4
+      ],
+      "passes_used_per_day_range": [
+        2,
+        4
+      ],
+      "average_data_through_2025_mbit_per_day": 1562.7,
+      "average_data_feb_may_2026_mbit_per_day": 2228.1,
+      "role": "active relay"
+    },
+    {
+      "id": "mex",
+      "name": "Mars Express",
+      "agency": "ESA",
+      "altitude_km_range": [
+        298,
+        10107
+      ],
+      "passes_per_day_range": [
+        1,
+        3
+      ],
+      "passes_used_per_day_range": [
+        0,
+        0
+      ],
+      "average_data_through_2025_mbit_per_day": null,
+      "average_data_feb_may_2026_mbit_per_day": null,
+      "role": "backup relay"
+    },
+    {
+      "id": "maven",
+      "name": "MAVEN",
+      "agency": "NASA",
+      "altitude_km_range": [
+        200,
+        4500
+      ],
+      "passes_per_day_range": [
+        2,
+        4
+      ],
+      "passes_used_per_day_range": null,
+      "average_data_through_2025_mbit_per_day": 897.5,
+      "average_data_feb_may_2026_mbit_per_day": 0,
+      "role": "inactive",
+      "status_note": "NASA declared mission ended 2026-06-03; do not offer as currently available"
+    }
+  ],
+  "game_rules_note": "No relay prices, per-pass guaranteed capacity or contact schedule are given in the NASA summary; leave those game values separate and label them as assumptions.",
+  "package_note": "Snapshot reference with per-field units in names; null means unavailable, never zero. See docs/PHYSICS.md and source URLs."
+}

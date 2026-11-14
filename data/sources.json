@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.0",
+  "generated_utc": "2026-11-14",
+  "source_policy": "Observed, synthetic, derived and game assumptions are distinguished in each product. Snapshot values are not live service guarantees.",
+  "sources": [
+    {
+      "id": "usgs_jezero_ctx",
+      "organization": "USGS Astrogeology Science Center",
+      "url": "https://astrogeology.usgs.gov/search/map/mars_2020_science_investigation_ctx_dem_mosaic",
+      "notes": "USGS-hosted planetary map products; retain accompanying product metadata.",
+      "local_archive_products": [
+        "mars/jezero/M20_JezeroCrater_CTXDEM_20m.tif",
+        "mars/jezero/M20_JezeroCrater_CTXortho_mosaic_5m.tif",
+        "mars/jezero/*.xml",
+        "mars/jezero/browse_M20_JezeroCrater_CTXDEM_mosaic_5m.jpg"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_pds_places",
+      "organization": "NASA Planetary Data System Geosciences Node",
+      "url": "https://pds-geosciences.wustl.edu/missions/mars2020/places.htm",
+      "notes": "Perseverance localization products, Release 16.",
+      "local_archive_products": [
+        "mars/places/best_interp.csv",
+        "mars/places/best_interp.csv.xml",
+        "mars/places/best_tactical.csv",
+        "mars/places/best_tactical.csv.xml",
+        "mars/places/Mars2020_Rover_PLACES_PDS_SIS.pdf",
+        "mars/places/release_notes.txt"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_pds_meda",
+      "organization": "NASA PDS Atmospheres Node",
+      "url": "https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/PERSEVERANCE/meda.html",
+      "archive_url": "https://atmos.nmsu.edu/PDS/data/PDS4/Mars2020/mars2020_meda/",
+      "notes": "Selected sols only. CSV data are losslessly gzipped; PDS4 labels are paired by product.",
+      "local_archive_products": [
+        "weather/mars_weather.json",
+        "weather/raw/**/*.CSV.gz",
+        "weather/raw/**/*.xml",
+        "weather/MEDA_RDR_SIS.pdf",
+        "weather/MEDA_EDR_SIS.pdf",
+        "weather/MEDA_readme.txt"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "jpl_horizons",
+      "organization": "NASA Jet Propulsion Laboratory Solar System Dynamics",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api",
+      "notes": "Static ephemeris response snapshot; no live connection is required at runtime.",
+      "local_archive_products": [
+        "ephemeris/mars_heliocentric_vectors_2026-11-14_to_2028-11-15.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_images_library",
+      "organization": "NASA Image and Video Library",
+      "url": "https://images.nasa.gov/",
+      "api_docs": "https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf",
+      "notes": "Keep the item-level credit/description fields supplied by NASA.",
+      "local_archive_products": [
+        "images/nasa-library/perseverance_jezero_search.json",
+        "images/nasa-library/previews/"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_mars_raw_images",
+      "organization": "NASA/JPL Mars 2020",
+      "url": "https://mars.nasa.gov/mars2020/multimedia/raw-images/",
+      "api_url": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=mars2020,ingenuity&feedtype=json&ver=1.2",
+      "notes": "25 selected full-resolution rover images; manifest includes original item metadata and credit.",
+      "local_archive_products": [
+        "rover_images/*.png",
+        "rover_images/images_manifest.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_exoplanet_archive",
+      "organization": "NASA Exoplanet Archive, IPAC/Caltech",
+      "url": "https://exoplanetarchive.ipac.caltech.edu/",
+      "tap_query_url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Csy_snum%2Csy_pnum%2Cpl_orbper%2Cpl_orbsmax%2Cpl_rade%2Cpl_bmasse%2Cpl_orbeccen%2Cpl_orbincl%2Cpl_eqt%2Cst_mass%2Cst_rad%2Cst_teff%2Cst_lum%2Cst_met%2Cst_age%2Csy_dist%2Cdisc_year%2Cdiscoverymethod+from+pscomppars&format=csv",
+      "column_definitions": "https://exoplanetarchive.ipac.caltech.edu/docs/API_TD_columns.html",
+      "notes": "PSCompPars is a composite observed-planet table; parameters can be more complete but not necessarily mutually self-consistent.",
+      "local_archive_products": [
+        "solar_systems/nasa_exoplanet_archive_pscomppars.csv",
+        "solar_systems/nasa_exoplanet_archive_pscomppars.json",
+        "solar_systems/nasa_exoplanet_archive_metadata.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "soda_orion_alma_cds",
+      "organization": "CDS/VizieR; van Terwisga et al. 2022; ALMA",
+      "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A%2BA/661/A53",
+      "download_url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J/A+A/661/A53/table1",
+      "publication_doi": "10.1051/0004-6361/202141913",
+      "catalog_doi": "10.26093/cds/vizier.36610053",
+      "notes": "873 protoplanetary disk observations; inferred dust masses with upper limits and assumptions. Review VizieR rights terms before redistributing.",
+      "local_archive_products": [
+        "solar_systems/soda_orion_disks_vizier.tsv",
+        "solar_systems/soda_orion_disks.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_emac_exovista_dec21",
+      "organization": "NASA Goddard Exoplanet Modeling and Analysis Center (EMAC)",
+      "url": "https://tools.emac.gsfc.nasa.gov/exovista/",
+      "paper": "https://doi.org/10.3847/1538-3881/ac3b54",
+      "direct_download": "https://ckan-files.emac.gsfc.nasa.gov/exovista/DEC21/1/target_database.csv",
+      "notes": "Public NASA-hosted ExoVista synthetic-system realization; 2,258 target-star rows with star, disk and planet parameters. Downloaded without an API key. FITS products and referenced albedo grids are not included.",
+      "local_archive_products": [
+        "solar_systems/exovista_DEC21_universe1/target_database.csv",
+        "solar_systems/exovista_DEC21_universe1/metadata.json",
+        "solar_systems/exovista_DEC21_universe1/systems.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "dace_ngpps",
+      "organization": "Data & Analysis Center for Exoplanets, University of Geneva",
+      "url": "https://dace.unige.ch/populationAnalysis/?populationId=NG76",
+      "api_docs": "https://dace-query.readthedocs.io/en/v3.0.0/dace_query.population.html",
+      "notes": "Optional additional source for explicit formation/evolution tracks; DACE API access requires a user-generated key. This is not the only available model source: public NASA EMAC ExoVista data are already downloaded.",
+      "local_archive_products": [],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_perseverance_instruments",
+      "organization": "NASA Science",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+      "notes": "Instrument masses, powers, science return values and limitations.",
+      "local_archive_products": [
+        "catalogs/components.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_perseverance_rover_components",
+      "organization": "NASA Science",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/",
+      "notes": "Whole-rover mass, MMRTG mass and beginning-of-mission power, battery count/function.",
+      "local_archive_products": [
+        "catalogs/components.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "ula_atlas_v",
+      "organization": "United Launch Alliance",
+      "url": "https://www.ulalaunch.com/rockets/atlas-v",
+      "notes": "Atlas V 541 payload figures include LEO; not represented as Mars payload.",
+      "local_archive_products": [
+        "catalogs/launchers.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "spacex_falcon_heavy",
+      "organization": "SpaceX",
+      "url": "https://www.spacex.com/vehicles/falcon-heavy/",
+      "notes": "Published Falcon Heavy payload-to-Mars figure; C3 curve is not specified in the cited page.",
+      "local_archive_products": [
+        "catalogs/launchers.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "jpl_mars2020_launch",
+      "organization": "NASA Jet Propulsion Laboratory",
+      "url": "https://www.jpl.nasa.gov/news/press_kits/mars_2020/download/mars_2020_launch_press_kit.pdf",
+      "notes": "Actual Mars 2020 launch and C3 example.",
+      "local_archive_products": [
+        "catalogs/launchers.json",
+        "catalogs/orbits.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "jpl_mars2020_edl",
+      "organization": "NASA Jet Propulsion Laboratory",
+      "url": "https://www.jpl.nasa.gov/news/press_kits/mars_2020/landing/mission/",
+      "notes": "Entry, parachute, powered descent and TRN facts.",
+      "local_archive_products": [
+        "catalogs/edl.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_mars_relay_network",
+      "organization": "NASA Science",
+      "url": "https://science.nasa.gov/mars/mars-relay-network/",
+      "notes": "Current orbiter relay roles, pass counts, published data volumes and MAVEN end-of-mission status.",
+      "local_archive_products": [
+        "catalogs/relay_plans.json",
+        "catalogs/components.json"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_perseverance_3d",
+      "organization": "NASA Science / NASA-JPL",
+      "url": "https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/",
+      "notes": "Official downloadable GLB model.",
+      "local_archive_products": [
+        "models/Mars_2020_Perseverance_Rover.glb"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_design_develop_science_missions",
+      "organization": "NASA Ames Research Center / Small Spacecraft Systems Virtual Institute",
+      "url": "https://ntrs.nasa.gov/citations/20250002492",
+      "direct_download": "https://ntrs.nasa.gov/api/citations/20250002492/downloads/Design%20and%20Develop%20Science%20Mission_03262025.pdf",
+      "notes": "NASA systems-engineering webinar presentation; public PDF.",
+      "local_archive_products": [
+        "challenge/resources/Design_and_Develop_Science_Missions_NASA_2025.pdf"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_cubesat_101",
+      "organization": "NASA CubeSat Launch Initiative; produced under contract by Cal Poly",
+      "url": "https://www.nasa.gov/kennedy/launch-services-program/cubesat-launch-initiative/cubesat-launch-initiative-resources/",
+      "direct_download": "https://www3.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf",
+      "notes": "Public introductory mission lifecycle/launch guide, revision dated October 2017; supporting reading, not a current launch-requirements authority.",
+      "local_archive_products": [
+        "challenge/resources/NASA_CubeSat_101_2017.pdf"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "spaceapps_2026_space_mission_design_game",
+      "organization": "NASA Space Apps Challenge",
+      "url": "https://www.spaceappschallenge.org/2026/challenges/",
+      "notes": "User-attached text is a transcript of the challenge and its listed resource descriptions. The live official challenge page could not be archived during this pass (HTTP fetch errors); the transcript is not presented as a downloaded NASA file.",
+      "local_archive_products": [
+        "challenge/2026_space_mission_design_game_resources.txt",
+        "challenge/resources/README.md"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_mars_global_surveyor_3d",
+      "organization": "NASA Science / NASA-JPL / Eyes on the Solar System",
+      "url": "https://science.nasa.gov/3d-resources/mars-global-surveyor/",
+      "direct_download": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/mars-global-surveyor/Mars%20Global%20Surveyor.glb",
+      "notes": "Official GLB model; orbiter visual reference.",
+      "local_archive_products": [
+        "models/Mars_Global_Surveyor.glb"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_mro_3d",
+      "organization": "NASA Science / NASA-JPL",
+      "url": "https://science.nasa.gov/3d-resources/mars-reconnaissance-orbiter-mro-c/",
+      "direct_download": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/mars-reconnaissance-orbiter-%28mro%29-%28c%29/Mars%20Reconnaissance%20Orbiter%20%28MRO%29%20%28C%29.glb",
+      "notes": "Official GLB model of a Mars orbiter with relay relevance.",
+      "local_archive_products": [
+        "models/Mars_Reconnaissance_Orbiter.glb"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_insight_3d",
+      "organization": "NASA Science / NASA Visualization Technology Applications and Development",
+      "url": "https://science.nasa.gov/resource/insight-3d-model/",
+      "direct_download": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/i/InSight_deployed.glb",
+      "notes": "Official GLB model of a Mars lander; older mission used as a lander visual reference.",
+      "local_archive_products": [
+        "models/InSight_deployed.glb"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_cml_framework",
+      "organization": "NASA / Jet Propulsion Laboratory",
+      "url": "https://science.nasa.gov/wp-content/uploads/2023/11/03-ziemer-mission-development-101-cmls.pdf",
+      "notes": "NASA/JPL presentation on mission concept maturity levels; used as a process reference, not a data feed.",
+      "local_archive_products": [
+        "challenge/resources/NASA_Mission_Development_101_CMLs.pdf"
+      ],
+      "provenance_scope": "source/archive reference; local_archive_products are audit paths, not runtime dependencies"
+    },
+    {
+      "id": "nasa_mars_facts",
+      "organization": "NASA NSSDCA",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+    },
+    {
+      "id": "jpl_parameters",
+      "organization": "NASA/JPL SSD",
+      "url": "https://ssd.jpl.nasa.gov/astro_par.html"
+    },
+    {
+      "id": "jpl_planet_parameters",
+      "organization": "NASA/JPL SSD",
+      "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+    },
+    {
+      "id": "horizons_api",
+      "organization": "NASA/JPL SSD",
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html"
+    },
+    {
+      "id": "nasa_lsp_falcon",
+      "organization": "NASA KSC",
+      "url": "https://public.ksc.nasa.gov/lspeducation/spacex/"
+    },
+    {
+      "id": "nasa_archive_definitions",
+      "organization": "NASA Exoplanet Archive",
+      "url": "https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html"
+    }
+  ]
+}

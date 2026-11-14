@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.0",
+  "id": "white-cat-scientific-package-v1",
+  "date_utc": "2026-11-14",
+  "manifest_excludes_itself": true,
+  "raw_original_bytes": 660259210,
+  "release_bytes_excluding_manifest": 10205524,
+  "release_to_raw_ratio": 0.015456844592898597,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 131,
+      "sha256": "92870c4430c5893a0818f60074efc26c482cc279d8c7edef43560356123cc7f6"
+    },
+    {
+      "path": ".github/workflows/scientific-package.yml",
+      "bytes": 610,
+      "sha256": "171c1df96a6fc4e63959265ca681c37c3dfe757a998507d64ea12ef27d9fea74"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 260,
+      "sha256": "5d271be3b9f554cd62b86e8ce621229e6d49fbd665109f8624bc675667b688a1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2175,
+      "sha256": "901b45c72911a6eb8e755e3f69f58e58276a3dc6e16b9294f7e78cf05c0ab0cd"
+    },
+    {
+      "path": "assets/images/FLF_1000_0755716468_020ECM_N0474404FHAZ02418_01_295J.webp",
+      "bytes": 116122,
+      "sha256": "9e307a90cdfcad63bcff3405a7fc792ccbb5f53c24f8f403f51d7785975a7aa7"
+    },
+    {
+      "path": "assets/images/NRF_0800_0737945673_612ECM_N0391170NCAM02799_01_195J.webp",
+      "bytes": 111380,
+      "sha256": "af04250fa2651e295d64cee26e25050aebdfc796a0542008b2b53ee0672a45ef"
+    },
+    {
+      "path": "assets/images/PCW_2000_0844451597_000ECM_N09109707607424011703075J.webp",
+      "bytes": 26520,
+      "sha256": "f983f8e1e08c4c7304155f33a3f65f10a6da36f9db7ff85cf6d12eebdbffa753"
+    },
+    {
+      "path": "assets/images/SI1_1800_0826736547_707ECM_N0870000SRLC00636_0000LMJ.webp",
+      "bytes": 63252,
+      "sha256": "ba4e303e78e7bf1aacffb3cd3f6a7e5f3797b76420012e877a3227ebdf21989f"
+    },
+    {
+      "path": "assets/images/ZL0_0800_0737944022_785EBY_N0391170ZCAM08821_1100LMJ.webp",
+      "bytes": 99186,
+      "sha256": "173b4c89c297805daee64d09a7db94c46f2b207075af850f096326db4f601670"
+    },
+    {
+      "path": "assets/images/manifest.json",
+      "bytes": 4479,
+      "sha256": "8be87298ed28dedeed8ccd6c9c372959b7ae8e188728f6db2db8bfbae0bf2459"
+    },
+    {
+      "path": "assets/models/Mars_2020_Perseverance_Rover.glb",
+      "bytes": 4978600,
+      "sha256": "6ae0f1880b5a3e1644412baf0a0822e2497b84542962f6a3454be7167c107aa4"
+    },
+    {
+      "path": "assets/models/Mars_Reconnaissance_Orbiter.glb",
+      "bytes": 1584776,
+      "sha256": "732adb21f6cb87418d8f47c6e88f122685755361a4ba4b3adbcccdfe9cf65122"
+    },
+    {
+      "path": "assets/models/authoring_specs.json",
+      "bytes": 1491,
+      "sha256": "7a7b72360e1aa27b85d2efe4c2b42c8ac54f28ce434f7da5ae99cbee742ca5d9"
+    },
+    {
+      "path": "assets/models/manifest.json",
+      "bytes": 3315,
+      "sha256": "aa0217096ef0ebe8eaefff1afd42e53ccb8c9058e1fff733f4f8e9aae624b864"
+    },
+    {
+      "path": "assets/terrain/heightmap.png",
+      "bytes": 287305,
+      "sha256": "bebd23ab497340acef4743181ea181e3080047dccc0dc1b30bf15964fc9b3573"
+    },
+    {
+      "path": "assets/terrain/heightmap.u16",
+      "bytes": 524288,
+      "sha256": "d848d83f9b4d55e6e27fee78c1d7369c4d4f21348d6144e6955e7183978cc4b2"
+    },
+    {
+      "path": "assets/terrain/metadata.json",
+      "bytes": 3316,
+      "sha256": "aacb6fbac82743d505cb5b97f109a73ab73abba6b3399edb9e47572856807dca"
+    },
+    {
+      "path": "assets/terrain/ortho.webp",
+      "bytes": 378640,
+      "sha256": "3dd9ca29eece941dc95efbd65759d72aac16a39fbcdfb6d4dfdb91e5d7879b94"
+    },
+    {
+      "path": "assets/terrain/ortho_lod1.webp",
+      "bytes": 119048,
+      "sha256": "330c35f0dbf1cbdf9448fd3c077e755aca3152da211893851e5a4e0795a3a37e"
+    },
+    {
+      "path": "assets/terrain/slope.png",
+      "bytes": 116757,
+      "sha256": "e5e13cb755df8bc0cc22ac649bc5563d731cd10e0e04a4b3dde22d61fd8576c9"
+    },
+    {
+      "path": "assets/terrain/slope.u16",
+      "bytes": 524288,
+      "sha256": "a0d06883b1870b4b6bec796db93718c8eed545c07426c89356a14ea3eed2771f"
+    },
+    {
+      "path": "assets/terrain/traversability.png",
+      "bytes": 4906,
+      "sha256": "c84415f9da31cd11114de979733617d07792ecceab1a085219e2a1f6ff451d1e"
+    },
+    {
+      "path": "assets/terrain/traversability.u8",
+      "bytes": 262144,
+      "sha256": "c22dad8d599f6a3ba73352a736583971315a6be4af47eab866a5b884e592fcfa"
+    },
+    {
+      "path": "data/missions/components.json",
+      "bytes": 10515,
+      "sha256": "c8741df1df3d1a5a1ade3899a35e3ff0e9c5125c9d379cbbcd8140d2f37e7215"
+    },
+    {
+      "path": "data/missions/earth_mars_ephemeris.json",
+      "bytes": 272907,
+      "sha256": "348361ceb84f7a7b7c1f2bb612f89cbd9e26e2f6ce03eb09db43b0cbd8b700c8"
+    },
+    {
+      "path": "data/missions/edl.json",
+      "bytes": 2523,
+      "sha256": "9e14356685d27addb39ec93cb445ead2327957697b89dd6ea83d7ef892f8ad27"
+    },
+    {
+      "path": "data/missions/game_scenario.json",
+      "bytes": 1233,
+      "sha256": "84b70fe1c5c599f9b9c6211f0b64d562b05d8fe94a66289c3330ddf40e8e86ef"
+    },
+    {
+      "path": "data/missions/launchers.json",
+      "bytes": 2200,
+      "sha256": "466f7730deecae487a064936d6a29f6a5e1b92e7b200f417117af96ff9a8eefc"
+    },
+    {
+      "path": "data/missions/orbits.json",
+      "bytes": 2435,
+      "sha256": "d38e614d69d2677841ef54e342c1d71759387e6d89b1143f1d33cb07d4fb03be"
+    },
+    {
+      "path": "data/missions/relay_plans.json",
+      "bytes": 3008,
+      "sha256": "3c58fd6d1842328c400da73b7688d232727edfb382d3e91ca9ccf63e61808c87"
+    },
+    {
+      "path": "data/physics/formulas.json",
+      "bytes": 31526,
+      "sha256": "749f39fc54ea65a69a94293941082d792a992f2eec8c142adb15f30ab7e6067b"
+    },
+    {
+      "path": "data/physics/physical_constants.json",
+      "bytes": 4042,
+      "sha256": "ecb205258c0f6cad393293f18e49c092ec4a32bd9149f8c1e4d635ab5c988c06"
+    },
+    {
+      "path": "data/planets/atmospheres.json",
+      "bytes": 1505,
+      "sha256": "a948c17b7237eb3f378a4e5d3716947d4e66e7c5513be440e7adb281f2e97be2"
+    },
+    {
+      "path": "data/planets/example_systems.json",
+      "bytes": 15132,
+      "sha256": "5a86e96965e9f951be2f954950f239dfb53603b3cd30417373aac5eb066d7fad"
+    },
+    {
+      "path": "data/planets/generated_example.json",
+      "bytes": 3495,
+      "sha256": "e187e496e04abe2afeff88ebc2796774c323b471800721c9a2655a3cc0dc7067"
+    },
+    {
+      "path": "data/planets/generation_parameters.json",
+      "bytes": 2430,
+      "sha256": "e16a3110a134aa4f72c4dd2bf84a61bdd8274c29e76a05cf8b34ef8a16e45683"
+    },
+    {
+      "path": "data/planets/mass_radius_anchors.json",
+      "bytes": 12444,
+      "sha256": "2a53e08371f3a25fa1de6e44c00210847ef48a13fbf4e4b3df110cff5fdf1aeb"
+    },
+    {
+      "path": "data/planets/planet_types.json",
+      "bytes": 2463,
+      "sha256": "afe5b53e3fc1b553afaa07a968ee0706c8e5b0a75ec3da1dbc5cfef2a9caf497"
+    },
+    {
+      "path": "data/planets/stars.json",
+      "bytes": 10087,
+      "sha256": "aadfb2faa1adecfee7bd2c69f674e0685ac02cfddb36e8ad301a8d7146c7bdb9"
+    },
+    {
+      "path": "data/rover/routes.json",
+      "bytes": 103019,
+      "sha256": "3de79cfe801fb44a35e4aee3a0f538d0a77c4bb18347d56c97f6ec5f5a99aee6"
+    },
+    {
+      "path": "data/rover/rover_specs.json",
+      "bytes": 4079,
+      "sha256": "e8e64672d153f653fa2ab44d0b8b62c7344a8da403183188961bdc02d3022129"
+    },
+    {
+      "path": "data/rover/weather_samples.json",
+      "bytes": 12966,
+      "sha256": "9610a38a7fca73f24758d728ce449d60d76a1e40ba41ae5c2192f1490e889625"
+    },
+    {
+      "path": "data/sources.json",
+      "bytes": 16930,
+      "sha256": "29c5b21d4dd9af3246593e61cdcb6b088edc984b5c593b7edfe20fba70add8ab"
+    },
+    {
+      "path": "docs/DATA_REFERENCE.md",
+      "bytes": 13056,
+      "sha256": "2f4d9f9d8dd638af16d8093a3b8ba61c40c38789a6bc1357a66f5fd670baad5d"
+    },
+    {
+      "path": "docs/DATA_SELECTION.md",
+      "bytes": 7127,
+      "sha256": "e9682ac0108dadbf93382d2f95e36b2ae2767bfed45559993bc5abd1d5d83315"
+    },
+    {
+      "path": "docs/GENERATION.md",
+      "bytes": 7775,
+      "sha256": "79c54a6ea91e916bebcc801dac6a1ae537568cf51ec039c89d25141fda8ca92c"
+    },
+    {
+      "path": "docs/PHYSICS.md",
+      "bytes": 22159,
+      "sha256": "c67f0da33159d3424ca3692f1eb428e1766ec040f51f956051011addb171f15d"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 5727,
+      "sha256": "1e500206ca0f4adaf283fc10c9261a9267fff4be51b1e6349c93d1309f866bca"
+    },
+    {
+      "path": "docs/audit/geospatial.json",
+      "bytes": 2470,
+      "sha256": "ae14354b996ca987b236085a4c0afef4ff6bfbacc3608bd62cae6997814db3a7"
+    },
+    {
+      "path": "docs/audit/meda_products.json",
+      "bytes": 17234,
+      "sha256": "c7f55db99337781f2a4b2a1c6d1566428f8ca38128d96ef08d9f863c531c205c"
+    },
+    {
+      "path": "docs/audit/population_statistics.json",
+      "bytes": 3211,
+      "sha256": "d65869783c302c2c2b53b96bd2c4601d676952f548ee275f630badb913491b3f"
+    },
+    {
+      "path": "docs/audit/raw_inventory.json",
+      "bytes": 42228,
+      "sha256": "fbcbfa3c563653a529eac693406ad24572d89187ab2556649d6876075feab4ad"
+    },
+    {
+      "path": "docs/team/MISHA.md",
+      "bytes": 5204,
+      "sha256": "18350af14610bad221666bcddb8eb13b9abc2cd78f6eff6fda22ca454adf526d"
+    },
+    {
+      "path": "docs/team/PASHA.md",
+      "bytes": 4461,
+      "sha256": "a2436d9b751e6999b85aac40c72c6f6c664b24c081907843caec2fb95bd5bfd6"
+    },
+    {
+      "path": "docs/team/SASHA.md",
+      "bytes": 5101,
+      "sha256": "ad9a42cb1f2d1bd418d49b8e487a96777b1329f18045acbc4a53d136d6345cc3"
+    },
+    {
+      "path": "docs/team/VANIA.md",
+      "bytes": 3899,
+      "sha256": "2833c6333778eb049ee0addad1e2a324b2d2bec96b30c1058d41d62ae334f229"
+    },
+    {
+      "path": "docs/team/YURA.md",
+      "bytes": 5930,
+      "sha256": "dfb24bfa6ec40459dd9861b6d4b9310ef911597190faf80607a47b189789bada"
+    },
+    {
+      "path": "examples/integration.html",
+      "bytes": 3445,
+      "sha256": "ad543cd14e85ba2d2c93c61d1dfc74a72498a093853e8fb2107011192eec1fc1"
+    },
+    {
+      "path": "lib/generator.mjs",
+      "bytes": 4266,
+      "sha256": "45a770c8b5d15e9b22550ecdbe26bf59645652d284e4e15a5f1a54a930d4946e"
+    },
+    {
+      "path": "lib/load.mjs",
+      "bytes": 486,
+      "sha256": "9496d79338dfb999b4ceeb0463509b108d45d428c5e853a275c6722fac9cb8bb"
+    },
+    {
+      "path": "lib/science.mjs",
+      "bytes": 4569,
+      "sha256": "c8a67770fec0d22c2a0613f36435695c6f904cdfcf1c0156a44f8302cc3ec061"
+    },
+    {
+      "path": "lib/terrain.mjs",
+      "bytes": 3799,
+      "sha256": "579717d7b32e8457c026c529b75e7240bebef6689d61d08e219cfae621641fe5"
+    },
+    {
+      "path": "schemas/index.json",
+      "bytes": 1991,
+      "sha256": "d4e155c998e06bc3db055b8e840222da82307b69889bb825082d7e3bdb4490f0"
+    },
+    {
+      "path": "schemas/package.schema.json",
+      "bytes": 143671,
+      "sha256": "dc5df3097ae792ad7cfc5129fc7179029f0dd879b94cee3ca64531d7e3c9da50"
+    },
+    {
+      "path": "tests/runtime.test.mjs",
+      "bytes": 8684,
+      "sha256": "d6ee56eede2b55885d849494ccde0b9c20650485d4ea1479f3350974d3844382"
+    },
+    {
+      "path": "tools/authoring_specs.json",
+      "bytes": 1491,
+      "sha256": "7a7b72360e1aa27b85d2efe4c2b42c8ac54f28ce434f7da5ae99cbee742ca5d9"
+    },
+    {
+      "path": "tools/build_catalogs.py",
+      "bytes": 27702,
+      "sha256": "bcd91d655dd2b3231e9f623cf049d05c43a3313d5cdd2e0cb754ddd221ab3377"
+    },
+    {
+      "path": "tools/build_docs.py",
+      "bytes": 52042,
+      "sha256": "02c515397aee2429b51e1f11d391dbbb026eadeb6ed59e6010ae925571da4c29"
+    },
+    {
+      "path": "tools/create_example.mjs",
+      "bytes": 445,
+      "sha256": "af45539f7a1a31b01f20b66d65f638dabdd1cb5b36fb8f8dfc69fb2f7031d625"
+    },
+    {
+      "path": "tools/create_schemas.py",
+      "bytes": 3013,
+      "sha256": "80b1c8bcaae0a5e1003f545fb19144aefeeda4b520eba5a9178a1f9174f5c01b"
+    },
+    {
+      "path": "tools/fetch_ephemeris.py",
+      "bytes": 1240,
+      "sha256": "fc9d30b28a0a4e4d64cb0f162576af349f4a3b0859e89866f80a637e33915c39"
+    },
+    {
+      "path": "tools/finalize_manifest.py",
+      "bytes": 6707,
+      "sha256": "cb88b6785f6740cecbf2086b50dae59d23c1e22edb4d0481c0c434ae1ae43c60"
+    },
+    {
+      "path": "tools/package-lock.json",
+      "bytes": 26157,
+      "sha256": "93750e9e5abe5d3e6163cbf8145dd236b52cd3bc5bf7a699aea14e4a7dcf2300"
+    },
+    {
+      "path": "tools/package.json",
+      "bytes": 400,
+      "sha256": "407425d8e6500939959da53072ebec77bfc4be1a85261cdd8a4aa9d6048b5009"
+    },
+    {
+      "path": "tools/package_config.json",
+      "bytes": 1557,
+      "sha256": "461e8f4e65c33d7371ea6852b6ba72c9fc94d7a1f259d4f8399afd115c03fecb"
+    },
+    {
+      "path": "tools/prepare_data.py",
+      "bytes": 23170,
+      "sha256": "25cc65037031bed046671a71d86b9b23489394db408b51d7e242bf42d4e76359"
+    },
+    {
+      "path": "tools/prepare_models.mjs",
+      "bytes": 3646,
+      "sha256": "e4be79445c83776f7d78367e17742d2f284ca867c33c4f1b41772154aece507d"
+    },
+    {
+      "path": "tools/requirements-lock.txt",
+      "bytes": 337,
+      "sha256": "713a61af1c0085f11662641f30f7b13f93dfe8481b37ff5495474a95d8822d28"
+    },
+    {
+      "path": "tools/requirements.txt",
+      "bytes": 124,
+      "sha256": "c958bbfe926ff4f55aaf518b220a26dfb528e1cacb6e9f7dcb0c32e9cf8beaa4"
+    },
+    {
+      "path": "tools/science.py",
+      "bytes": 2512,
+      "sha256": "0ef1d7b669b4026c77efb3007b6db2d5a1e090062234a67135c0f663d55e1b99"
+    },
+    {
+      "path": "tools/validate_package.py",
+      "bytes": 10560,
+      "sha256": "cca5db7c0af2c7b6e44372c0dc3f0be2c4f72937c8c003f6ddbc03d49dbd9095"
+    }
+  ]
+}
