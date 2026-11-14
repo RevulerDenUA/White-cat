@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "source_ids": [
+    "nasa_exoplanet_archive",
+    "nasa_emac_exovista_dec21"
+  ],
+  "types": [
+    {
+      "id": "rocky_candidate",
+      "name_uk": "Кам’яниста кандидатна",
+      "radius_earth_range": [
+        0.3,
+        1.6
+      ],
+      "interval": "lower-inclusive upper-exclusive; last upper-inclusive",
+      "classification_status": "game_radius_class_not_unique_composition",
+      "mass_radius_rule": "select joint pair from mass_radius_anchors.json; never draw mass and radius independently",
+      "atmosphere_preset": "none_or_thin_co2",
+      "surface_landing_supported": true,
+      "visual_rule": "cratered basalt / iron oxides; procedural, not inferred from radius"
+    },
+    {
+      "id": "sub_neptune",
+      "name_uk": "Субнептун",
+      "radius_earth_range": [
+        1.6,
+        4
+      ],
+      "interval": "lower-inclusive upper-exclusive; last upper-inclusive",
+      "classification_status": "game_radius_class_not_unique_composition",
+      "mass_radius_rule": "select joint pair from mass_radius_anchors.json; never draw mass and radius independently",
+      "atmosphere_preset": "h2_he",
+      "surface_landing_supported": false,
+      "visual_rule": "hazy desaturated envelope; procedural"
+    },
+    {
+      "id": "ice_giant_candidate",
+      "name_uk": "Крижаний гігант кандидатний",
+      "radius_earth_range": [
+        4,
+        8
+      ],
+      "interval": "lower-inclusive upper-exclusive; last upper-inclusive",
+      "classification_status": "game_radius_class_not_unique_composition",
+      "mass_radius_rule": "select joint pair from mass_radius_anchors.json; never draw mass and radius independently",
+      "atmosphere_preset": "h2_he",
+      "surface_landing_supported": false,
+      "visual_rule": "cyan/blue bands are artistic, not measured composition"
+    },
+    {
+      "id": "gas_giant",
+      "name_uk": "Газовий гігант",
+      "radius_earth_range": [
+        8,
+        14
+      ],
+      "interval": "lower-inclusive upper-exclusive; last upper-inclusive",
+      "classification_status": "game_radius_class_not_unique_composition",
+      "mass_radius_rule": "select joint pair from mass_radius_anchors.json; never draw mass and radius independently",
+      "atmosphere_preset": "h2_he",
+      "surface_landing_supported": false,
+      "visual_rule": "bands and storms; optional rings are art"
+    }
+  ]
+}

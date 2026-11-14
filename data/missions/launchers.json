@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "retrieved_utc": "2026-11-14",
+  "warning": "LEO payload mass is not Mars payload capability. Only use payload_to_mars_kg where explicitly provided; neither source provides a complete C3 payload curve here.",
+  "launchers": [
+    {
+      "id": "atlas_v_541",
+      "name": "Atlas V 541",
+      "provider": "United Launch Alliance",
+      "configuration": "5 m fairing, 4 solid rocket boosters, single-engine Centaur",
+      "payload_to_leo_kg": null,
+      "payload_to_mars_kg": null,
+      "c3_performance_curve": null,
+      "flight_reference": {
+        "mission": "Mars 2020 Perseverance",
+        "launch_date": "2020-07-30",
+        "c3_km2_s2": 14.49,
+        "spacecraft_payload_mass_kg": null,
+        "status": "NASA/ULA launch press-kit nominal profile for the flown mission; not measured injection telemetry or a capability curve",
+        "mass_note": "Raw catalog 3893 kg is not substantiated for Mars 2020 in the cited press kit; withheld (likely mission conflation)"
+      },
+      "source": [
+        "https://www.ulalaunch.com/rockets/atlas-v",
+        "https://www.jpl.nasa.gov/news/press_kits/mars_2020/download/mars_2020_launch_press_kit.pdf"
+      ],
+      "confidence": "Nominal C3 verified in JPL/ULA press kit; launch mass and exact LEO capability withheld; no C3 payload curve",
+      "leo_note": "Earlier local catalog quoted 17410 kg; exact primary-source configuration curve not verified in this pass, withheld from operational capability checks"
+    },
+    {
+      "id": "falcon_heavy",
+      "name": "Falcon Heavy",
+      "provider": "SpaceX",
+      "payload_to_leo_kg": 63800,
+      "payload_to_mars_kg": 16800,
+      "c3_at_payload_to_mars_kg": null,
+      "c3_performance_curve": null,
+      "source": "https://www.spacex.com/vehicles/falcon-heavy/",
+      "confidence": "SpaceX-published payload figures; Mars figure has no C3 profile in the cited public summary; do not treat as a C3-specific fit",
+      "source_additional": "https://public.ksc.nasa.gov/lspeducation/spacex/"
+    }
+  ],
+  "package_note": "Snapshot reference with per-field units in names; null means unavailable, never zero. See docs/PHYSICS.md and source URLs."
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "coordinate_system": {
+    "units": "m",
+    "up": "+Y",
+    "east": "+X",
+    "south": "+Z",
+    "handedness": "right"
+  },
+  "rover_collider": {
+    "status": "game_assumption",
+    "type": "compound simple boxes and wheel cylinders",
+    "body_envelope_length_width_height_m": [
+      3,
+      2.7,
+      2.2
+    ],
+    "wheel_diameter_m": 0.525,
+    "note": "Envelope is reference dimensions; isolate mast and wheels, do not treat full box as actual chassis ground clearance."
+  },
+  "rocket": {
+    "id": "atlas_v_541",
+    "height_m": 60,
+    "core_diameter_m": null,
+    "fairing_nominal_diameter_m": 5,
+    "status": "NASA launch press-kit reference, approximate",
+    "source": "https://www.jpl.nasa.gov/news/press_kits/mars_2020/download/mars_2020_launch_press_kit.pdf#page=23",
+    "note": "Approximate total mission launch vehicle height. Fairing 5 m is nominal category. Detailed CAD / core diameter not verified."
+  },
+  "character": {
+    "height_m": 1.75,
+    "status": "game_assumption",
+    "note": "Scale reference only, no astronaut model or human Mars mission data in this archive."
+  },
+  "optimization": {
+    "rover_triangle_budget": 200000,
+    "orbiter_triangle_budget": 30000,
+    "lod_recommendation_ratios": [
+      1,
+      0.5,
+      0.2
+    ],
+    "texture_max_edge_px": 2048,
+    "material_target_count": 16,
+    "status": "game_budget; imported NASA rover exceeds material target, inspect performance before production"
+  }
+}

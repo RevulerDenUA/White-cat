@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "retrieved_utc": "2026-11-14",
+  "unit_system": {
+    "distance": "AU",
+    "velocity": "km/s",
+    "C3": "km^2/s^2",
+    "duration": "days"
+  },
+  "transfer_options": [
+    {
+      "id": "earth_mars_ideal_hohmann",
+      "origin": "Earth",
+      "destination": "Mars",
+      "model": "coplanar circular-orbit Hohmann transfer",
+      "earth_orbit_radius_au": 1.0,
+      "mars_orbit_radius_au": 1.523679,
+      "departure_excess_speed_km_s": 2.9446892563826297,
+      "departure_c3_km2_s2": 8.671194816655284,
+      "transfer_duration_days": 258.8657588951053,
+      "status": "calculated idealized reference",
+      "limitations": [
+        "Assumes circular coplanar planetary orbits; not a launch-window solution or vehicle performance curve."
+      ]
+    },
+    {
+      "id": "mars2020_actual_injection",
+      "origin": "Earth",
+      "destination": "Mars",
+      "model": "historical launch example with nominal press-kit injection parameters",
+      "launch_date": "2020-07-30",
+      "c3_km2_s2": 14.49,
+      "transit_duration_days": 203,
+      "spacecraft_mass_at_launch_kg": null,
+      "status": "Mars 2020 historical mission, nominal C3 in launch press kit; not measured injection telemetry",
+      "limitations": [
+        "Specific to Mars 2020 launch window and Atlas V 541; not a universal transfer."
+      ],
+      "mass_note": "3893 kg in local catalog was not verified for this mission; no substitute invented"
+    },
+    {
+      "id": "parking_orbit_leo",
+      "origin": "Earth",
+      "destination": "Earth departure",
+      "model": "user-selected parking orbit prior to injection",
+      "altitude_km": null,
+      "inclination_deg": null,
+      "status": "configurable; no single orbit assumed",
+      "limitations": [
+        "Launcher payload compatibility depends on orbit and injection C3; do not substitute LEO payload for Mars payload."
+      ]
+    }
+  ],
+  "selection_parameters": [
+    "launch window",
+    "departure C3",
+    "arrival V-infinity",
+    "flight duration",
+    "declination/asymptote constraints",
+    "injection mass",
+    "arrival/EDL profile"
+  ],
+  "sources": [
+    "https://www.jpl.nasa.gov/news/press_kits/mars_2020/download/mars_2020_launch_press_kit.pdf",
+    "https://ssd.jpl.nasa.gov/horizons/"
+  ],
+  "package_note": "Snapshot reference with per-field units in names; null means unavailable, never zero. See docs/PHYSICS.md and source URLs."
+}

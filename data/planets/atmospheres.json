@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "fraction_basis": "mole/volume, not mass",
+  "status": "illustrative_presets_not_exoplanet_measurements",
+  "source_ids": [
+    "nasa_mars_facts"
+  ],
+  "presets": [
+    {
+      "id": "none",
+      "surface_pressure_pa": 0,
+      "mole_fractions": {},
+      "molar_mass_kg_mol": null,
+      "status": "game_assumption"
+    },
+    {
+      "id": "thin_co2",
+      "surface_pressure_pa": 610,
+      "mole_fractions": {
+        "CO2": 0.951,
+        "N2": 0.0259,
+        "Ar": 0.0194,
+        "O2": 0.0016,
+        "CO": 0.0006,
+        "other": 0.0015
+      },
+      "molar_mass_kg_mol": 0.04334,
+      "status": "Mars_like_illustrative_composition; pressure rounded reference, not Jezero weather",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+    },
+    {
+      "id": "h2_he",
+      "reference_pressure_pa": 100000.0,
+      "surface_pressure_pa": null,
+      "mole_fractions": {
+        "H2": 0.86,
+        "He": 0.14
+      },
+      "molar_mass_kg_mol": 0.002294,
+      "status": "illustrative_H2_He_envelope",
+      "note": "1 bar is an arbitrary display level, no solid surface or measured abundance"
+    },
+    {
+      "id": "n2_co2",
+      "surface_pressure_pa": 100000.0,
+      "mole_fractions": {
+        "N2": 0.9,
+        "CO2": 0.1
+      },
+      "molar_mass_kg_mol": 0.029613,
+      "status": "game_assumption",
+      "note": "Optional authored rocky world; not assigned by random generator and not claimed habitable"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "seed": 2026,
+  "planet_count_range": [
+    3,
+    8
+  ],
+  "radius_earth_range": [
+    0.3,
+    14
+  ],
+  "mass_earth_range": [
+    0.01,
+    3000
+  ],
+  "density_kg_m3_range": [
+    100,
+    15000
+  ],
+  "stellar_mass_sun_range": [
+    0.5,
+    1.2
+  ],
+  "inner_orbit_au_range": [
+    0.15,
+    0.4
+  ],
+  "outer_orbit_au_max": 40,
+  "orbit_ratio_range": [
+    1.8,
+    2.6
+  ],
+  "eccentricity_max": 0.08,
+  "mutual_hill_clearance_min": 10,
+  "rotation_period_s_range": [
+    36000,
+    345600
+  ],
+  "rotation_breakup_safety_factor": 2,
+  "tide_lock_distance_au": 0.1,
+  "bond_albedo_range": [
+    0.1,
+    0.6
+  ],
+  "emissivity": 1,
+  "visual_orbit_scale": 20,
+  "visual_orbit_reference_au": 0.1,
+  "visual_radius_scale": 0.5,
+  "rocky_atmosphere_probability": 0.5,
+  "atmosphere_retention_escape_to_rms_min": 5,
+  "thin_co2_molar_mass_kg_mol": 0.04334,
+  "schema_version": "1.0",
+  "status": "game_model_informed_by_empirical_and_synthetic_data",
+  "rng": {
+    "algorithm": "xorshift32",
+    "seed_type": "uint32",
+    "zero_seed_maps_to": 1831565813,
+    "uniform": "next_uint32 / 4294967296; [0,1)",
+    "stream_version": 1
+  },
+  "class_weights": {
+    "rocky_candidate": 0.35,
+    "sub_neptune": 0.3,
+    "ice_giant_candidate": 0.2,
+    "gas_giant": 0.15
+  },
+  "weights_status": "balanced game assumptions, not unbiased observed occurrence",
+  "star_model": {
+    "status": "main_sequence_approximation",
+    "luminosity_exponent": 4,
+    "radius_exponent": 0.8,
+    "temperature_rule": "derive from L and R via Stefan-Boltzmann",
+    "multiplicity": "single star only"
+  },
+  "sampling": {
+    "radii_and_masses": "paired ExoVista anchors, no independent scatter",
+    "eccentricity": "uniform [0,e_max] (game choice)",
+    "orientation": "one isotropic common plane; node uniform 0..2pi; planets coplanar",
+    "phase": "mean anomaly uniform 0..2pi; solve elliptic Kepler equation",
+    "spin": "log-uniform bounded by breakup safety; cosmetic tide-lock switch is not a tidal evolution solver"
+  },
+  "rejection": {
+    "max_planet_attempts": 128,
+    "max_system_attempts": 16,
+    "fail": "throw explicit generation error; never silently remove planets"
+  },
+  "atmosphere_rules": "Atmosphere pressure/composition are illustrative presets, not inferred observations. Radius class cannot establish habitability or oxygen.",
+  "source_ids": [
+    "nasa_exoplanet_archive",
+    "nasa_emac_exovista_dec21"
+  ]
+}

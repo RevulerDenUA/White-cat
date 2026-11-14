@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "source_ids": [
+    "nasa_mars_raw_images"
+  ],
+  "images": [
+    {
+      "image_id": "ZL0_0800_0737944022_785EBY_N0391170ZCAM08821_1100LMJ",
+      "camera_id": "MCZ_LEFT",
+      "sol": 800,
+      "caption": "NASA's Mars Perseverance rover acquired this image using its Left Mastcam-Z camera. Mastcam-Z is a pair of cameras located high on the rover's mast.\n\nThis image was acquired on May 21, 2023 (Sol 800) at the local mean solar time of 08:11:04.",
+      "credit": "NASA/JPL-Caltech/ASU",
+      "source_page": "https://mars.nasa.gov/mars2020/multimedia/raw-images/ZL0_0800_0737944022_785EBY_N0391170ZCAM08821_1100LMJ",
+      "id": "ZL0_0800_0737944022_785EBY_N0391170ZCAM08821_1100LMJ",
+      "path": "assets/images/ZL0_0800_0737944022_785EBY_N0391170ZCAM08821_1100LMJ.webp",
+      "width": 1280,
+      "height": 932,
+      "processing": "resize and lossy WebP only; real Mars photograph, not a generated planet texture"
+    },
+    {
+      "image_id": "NRF_0800_0737945673_612ECM_N0391170NCAM02799_01_195J",
+      "camera_id": "NAVCAM_RIGHT",
+      "sol": 800,
+      "caption": "NASA's Mars Perseverance rover acquired this image using its onboard Right Navigation Camera (Navcam). The camera is located high on the rover's mast and aids in driving. \n\nThis image was acquired on May 21, 2023 (Sol 800) at the local mean solar time of 08:36:59.",
+      "credit": "NASA/JPL-Caltech",
+      "source_page": "https://mars.nasa.gov/mars2020/multimedia/raw-images/NRF_0800_0737945673_612ECM_N0391170NCAM02799_01_195J",
+      "id": "NRF_0800_0737945673_612ECM_N0391170NCAM02799_01_195J",
+      "path": "assets/images/NRF_0800_0737945673_612ECM_N0391170NCAM02799_01_195J.webp",
+      "width": 1280,
+      "height": 962,
+      "processing": "resize and lossy WebP only; real Mars photograph, not a generated planet texture"
+    },
+    {
+      "image_id": "FLF_1000_0755716468_020ECM_N0474404FHAZ02418_01_295J",
+      "camera_id": "FRONT_HAZCAM_LEFT_A",
+      "sol": 1000,
+      "caption": "NASA's Mars Perseverance rover acquired this image of the area in front of it using its onboard Front Left Hazard Avoidance Camera A. \n\nThis image was acquired on Dec. 13, 2023 (Sol 1000) at the local mean solar time of 12:54:40.",
+      "credit": "NASA/JPL-Caltech",
+      "source_page": "https://mars.nasa.gov/mars2020/multimedia/raw-images/FLF_1000_0755716468_020ECM_N0474404FHAZ02418_01_295J",
+      "id": "FLF_1000_0755716468_020ECM_N0474404FHAZ02418_01_295J",
+      "path": "assets/images/FLF_1000_0755716468_020ECM_N0474404FHAZ02418_01_295J.webp",
+      "width": 1280,
+      "height": 960,
+      "processing": "resize and lossy WebP only; real Mars photograph, not a generated planet texture"
+    },
+    {
+      "image_id": "SI1_1800_0826736547_707ECM_N0870000SRLC00636_0000LMJ",
+      "camera_id": "SHERLOC_WATSON",
+      "sol": 1800,
+      "caption": "NASA's Mars Perseverance rover acquired this image using its SHERLOC  WATSON camera, located on the turret at the end of the rover's robotic arm. \n\nThis image was acquired on March 14, 2026 (Sol 1800) at the local mean solar time of 13:02:00.",
+      "credit": "NASA/JPL-Caltech",
+      "source_page": "https://mars.nasa.gov/mars2020/multimedia/raw-images/SI1_1800_0826736547_707ECM_N0870000SRLC00636_0000LMJ",
+      "id": "SI1_1800_0826736547_707ECM_N0870000SRLC00636_0000LMJ",
+      "path": "assets/images/SI1_1800_0826736547_707ECM_N0870000SRLC00636_0000LMJ.webp",
+      "width": 480,
+      "height": 480,
+      "processing": "resize and lossy WebP only; real Mars photograph, not a generated planet texture"
+    },
+    {
+      "image_id": "PCW_2000_0844451597_000ECM_N09109707607424011703075J",
+      "camera_id": "PIXL_MCC",
+      "sol": 2000,
+      "caption": "NASA's Mars Perseverance rover acquired this image using its PIXL Micro Context Camera, located on the turret at the end of the rover's robotic arm. \n\nThis image was acquired on  Oct. 5, 2026 (Sol 2000) at the local mean solar time of 02:15:28.",
+      "credit": "NASA/JPL-Caltech",
+      "source_page": "https://mars.nasa.gov/mars2020/multimedia/raw-images/PCW_2000_0844451597_000ECM_N09109707607424011703075J",
+      "id": "PCW_2000_0844451597_000ECM_N09109707607424011703075J",
+      "path": "assets/images/PCW_2000_0844451597_000ECM_N09109707607424011703075J.webp",
+      "width": 752,
+      "height": 580,
+      "processing": "resize and lossy WebP only; real Mars photograph, not a generated planet texture"
+    }
+  ]
+}

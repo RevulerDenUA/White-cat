@@ -1,0 +1,461 @@
+{
+  "schema_version": "1.0",
+  "status": "target_catalog_subset_not_all_sky",
+  "source_ids": [
+    "nasa_emac_exovista_dec21"
+  ],
+  "frame": "source target RA/DEC J2000; no proper-motion propagation",
+  "notes": [
+    "64 nearby ExoVista target directions, not a complete bright-star sky. Planet systems are synthetic. Night Sky background must be marked procedural."
+  ],
+  "stars": [
+    {
+      "id": "exovista-target-2251",
+      "ra_deg": 101.287,
+      "dec_deg": -16.7161,
+      "v_mag": -1.44,
+      "spectral_type": "A0m..."
+    },
+    {
+      "id": "exovista-target-4650",
+      "ra_deg": 219.902,
+      "dec_deg": -60.834,
+      "v_mag": -0.01,
+      "spectral_type": "G2V"
+    },
+    {
+      "id": "exovista-target-5875",
+      "ra_deg": 279.235,
+      "dec_deg": 38.7837,
+      "v_mag": 0.03,
+      "spectral_type": "A0Vvar"
+    },
+    {
+      "id": "exovista-target-2523",
+      "ra_deg": 114.825,
+      "dec_deg": 5.22499,
+      "v_mag": 0.4,
+      "spectral_type": "F5IV-V"
+    },
+    {
+      "id": "exovista-target-6219",
+      "ra_deg": 297.696,
+      "dec_deg": 8.86832,
+      "v_mag": 0.76,
+      "spectral_type": "A7IV-V"
+    },
+    {
+      "id": "exovista-target-7205",
+      "ra_deg": 344.413,
+      "dec_deg": -29.6222,
+      "v_mag": 1.17,
+      "spectral_type": "A3V"
+    },
+    {
+      "id": "exovista-target-4649",
+      "ra_deg": 219.896,
+      "dec_deg": -60.8372,
+      "v_mag": 1.35,
+      "spectral_type": "K1V"
+    },
+    {
+      "id": "exovista-target-2496",
+      "ra_deg": 113.649,
+      "dec_deg": 31.8883,
+      "v_mag": 1.58,
+      "spectral_type": "A2Vm"
+    },
+    {
+      "id": "exovista-target-2054",
+      "ra_deg": 89.8822,
+      "dec_deg": 44.9474,
+      "v_mag": 1.9,
+      "spectral_type": "A2V"
+    },
+    {
+      "id": "exovista-target-2827",
+      "ra_deg": 131.176,
+      "dec_deg": -54.7088,
+      "v_mag": 1.93,
+      "spectral_type": "A1V"
+    },
+    {
+      "id": "exovista-target-3753",
+      "ra_deg": 177.265,
+      "dec_deg": 14.5721,
+      "v_mag": 2.14,
+      "spectral_type": "A3Vvar"
+    },
+    {
+      "id": "exovista-target-4947",
+      "ra_deg": 233.672,
+      "dec_deg": 26.7147,
+      "v_mag": 2.22,
+      "spectral_type": "A0V"
+    },
+    {
+      "id": "exovista-target-4267",
+      "ra_deg": 200.981,
+      "dec_deg": 54.9254,
+      "v_mag": 2.23,
+      "spectral_type": "A2V"
+    },
+    {
+      "id": "exovista-target-3493",
+      "ra_deg": 165.46,
+      "dec_deg": 56.3824,
+      "v_mag": 2.34,
+      "spectral_type": "A1V"
+    },
+    {
+      "id": "exovista-target-5460",
+      "ra_deg": 257.595,
+      "dec_deg": -15.7249,
+      "v_mag": 2.43,
+      "spectral_type": "A2.5Va"
+    },
+    {
+      "id": "exovista-target-6658",
+      "ra_deg": 319.645,
+      "dec_deg": 62.5856,
+      "v_mag": 2.45,
+      "spectral_type": "A7IV-V"
+    },
+    {
+      "id": "exovista-target-3562",
+      "ra_deg": 168.527,
+      "dec_deg": 20.5237,
+      "v_mag": 2.56,
+      "spectral_type": "A4V"
+    },
+    {
+      "id": "exovista-target-5989",
+      "ra_deg": 285.653,
+      "dec_deg": -29.8801,
+      "v_mag": 2.6,
+      "spectral_type": "A3IV"
+    },
+    {
+      "id": "exovista-target-665",
+      "ra_deg": 28.66,
+      "dec_deg": 20.808,
+      "v_mag": 2.64,
+      "spectral_type": "A5V..."
+    },
+    {
+      "id": "exovista-target-488",
+      "ra_deg": 21.454,
+      "dec_deg": 60.2353,
+      "v_mag": 2.66,
+      "spectral_type": "A5VvSB"
+    },
+    {
+      "id": "exovista-target-4436",
+      "ra_deg": 208.671,
+      "dec_deg": 18.3977,
+      "v_mag": 2.68,
+      "spectral_type": "G0IV"
+    },
+    {
+      "id": "exovista-target-4044",
+      "ra_deg": 190.415,
+      "dec_deg": -1.44938,
+      "v_mag": 2.74,
+      "spectral_type": "F0V+..."
+    },
+    {
+      "id": "exovista-target-4712",
+      "ra_deg": 222.72,
+      "dec_deg": -16.0418,
+      "v_mag": 2.75,
+      "spectral_type": "A3IV"
+    },
+    {
+      "id": "exovista-target-4250",
+      "ra_deg": 200.149,
+      "dec_deg": -36.7123,
+      "v_mag": 2.75,
+      "spectral_type": "A2V"
+    },
+    {
+      "id": "exovista-target-5304",
+      "ra_deg": 250.322,
+      "dec_deg": 31.6027,
+      "v_mag": 2.81,
+      "spectral_type": "F9IV"
+    },
+    {
+      "id": "exovista-target-161",
+      "ra_deg": 6.4378,
+      "dec_deg": -77.2542,
+      "v_mag": 2.82,
+      "spectral_type": "G2IV"
+    },
+    {
+      "id": "exovista-target-6805",
+      "ra_deg": 326.76,
+      "dec_deg": -16.1273,
+      "v_mag": 2.85,
+      "spectral_type": "A5mF2(IV)"
+    },
+    {
+      "id": "exovista-target-686",
+      "ra_deg": 29.6925,
+      "dec_deg": -61.5699,
+      "v_mag": 2.86,
+      "spectral_type": "F0V"
+    },
+    {
+      "id": "exovista-target-3972",
+      "ra_deg": 187.466,
+      "dec_deg": -16.5154,
+      "v_mag": 2.94,
+      "spectral_type": "B9.5V"
+    },
+    {
+      "id": "exovista-target-6002",
+      "ra_deg": 286.353,
+      "dec_deg": 13.8635,
+      "v_mag": 2.99,
+      "spectral_type": "A0Vn"
+    },
+    {
+      "id": "exovista-target-2897",
+      "ra_deg": 134.802,
+      "dec_deg": 48.0418,
+      "v_mag": 3.12,
+      "spectral_type": "A7IV"
+    },
+    {
+      "id": "exovista-target-5486",
+      "ra_deg": 258.758,
+      "dec_deg": 24.8392,
+      "v_mag": 3.12,
+      "spectral_type": "A3IVvSB"
+    },
+    {
+      "id": "exovista-target-3062",
+      "ra_deg": 143.214,
+      "dec_deg": 51.6773,
+      "v_mag": 3.17,
+      "spectral_type": "F6IV"
+    },
+    {
+      "id": "exovista-target-4664",
+      "ra_deg": 220.627,
+      "dec_deg": -64.9751,
+      "v_mag": 3.18,
+      "spectral_type": "F1Vp"
+    },
+    {
+      "id": "exovista-target-1714",
+      "ra_deg": 72.46,
+      "dec_deg": 6.96128,
+      "v_mag": 3.19,
+      "spectral_type": "F6V"
+    },
+    {
+      "id": "exovista-target-7435",
+      "ra_deg": 354.837,
+      "dec_deg": 77.6323,
+      "v_mag": 3.21,
+      "spectral_type": "K1IV"
+    },
+    {
+      "id": "exovista-target-2263",
+      "ra_deg": 102.048,
+      "dec_deg": -61.9414,
+      "v_mag": 3.24,
+      "spectral_type": "A7IV"
+    },
+    {
+      "id": "exovista-target-3887",
+      "ra_deg": 183.857,
+      "dec_deg": 57.0326,
+      "v_mag": 3.32,
+      "spectral_type": "A3Vvar"
+    },
+    {
+      "id": "exovista-target-5470",
+      "ra_deg": 258.038,
+      "dec_deg": -43.2392,
+      "v_mag": 3.32,
+      "spectral_type": "F3p"
+    },
+    {
+      "id": "exovista-target-2252",
+      "ra_deg": 101.322,
+      "dec_deg": 12.8956,
+      "v_mag": 3.35,
+      "spectral_type": "F5IV"
+    },
+    {
+      "id": "exovista-target-6101",
+      "ra_deg": 291.375,
+      "dec_deg": 3.11477,
+      "v_mag": 3.36,
+      "spectral_type": "F0IV"
+    },
+    {
+      "id": "exovista-target-4328",
+      "ra_deg": 203.673,
+      "dec_deg": -0.59582,
+      "v_mag": 3.38,
+      "spectral_type": "A3V"
+    },
+    {
+      "id": "exovista-target-6482",
+      "ra_deg": 311.322,
+      "dec_deg": 61.8388,
+      "v_mag": 3.41,
+      "spectral_type": "K0IV"
+    },
+    {
+      "id": "exovista-target-5650",
+      "ra_deg": 266.615,
+      "dec_deg": 27.7207,
+      "v_mag": 3.42,
+      "spectral_type": "G5IV"
+    },
+    {
+      "id": "exovista-target-656",
+      "ra_deg": 28.2705,
+      "dec_deg": 29.5788,
+      "v_mag": 3.42,
+      "spectral_type": "F6IV"
+    },
+    {
+      "id": "exovista-target-288",
+      "ra_deg": 12.2762,
+      "dec_deg": 57.8152,
+      "v_mag": 3.46,
+      "spectral_type": "G0VSB"
+    },
+    {
+      "id": "exovista-target-940",
+      "ra_deg": 40.8252,
+      "dec_deg": 3.23582,
+      "v_mag": 3.47,
+      "spectral_type": "A3V"
+    },
+    {
+      "id": "exovista-target-610",
+      "ra_deg": 26.017,
+      "dec_deg": -15.9375,
+      "v_mag": 3.49,
+      "spectral_type": "G8V"
+    },
+    {
+      "id": "exovista-target-2410",
+      "ra_deg": 110.031,
+      "dec_deg": 21.9823,
+      "v_mag": 3.5,
+      "spectral_type": "F0IV..."
+    },
+    {
+      "id": "exovista-target-6937",
+      "ra_deg": 332.55,
+      "dec_deg": 6.19787,
+      "v_mag": 3.52,
+      "spectral_type": "A2V"
+    },
+    {
+      "id": "exovista-target-1271",
+      "ra_deg": 55.8121,
+      "dec_deg": -9.7634,
+      "v_mag": 3.52,
+      "spectral_type": "K0IV"
+    },
+    {
+      "id": "exovista-target-2013",
+      "ra_deg": 86.7389,
+      "dec_deg": -14.8219,
+      "v_mag": 3.55,
+      "spectral_type": "A2Vann"
+    },
+    {
+      "id": "exovista-target-5804",
+      "ra_deg": 275.264,
+      "dec_deg": 72.7328,
+      "v_mag": 3.55,
+      "spectral_type": "F7Vvar"
+    },
+    {
+      "id": "exovista-target-6307",
+      "ra_deg": 302.182,
+      "dec_deg": -66.1821,
+      "v_mag": 3.55,
+      "spectral_type": "G5IV-Vvar"
+    },
+    {
+      "id": "exovista-target-2401",
+      "ra_deg": 109.523,
+      "dec_deg": 16.5404,
+      "v_mag": 3.58,
+      "spectral_type": "A3V..."
+    },
+    {
+      "id": "exovista-target-1999",
+      "ra_deg": 86.1158,
+      "dec_deg": -22.4484,
+      "v_mag": 3.59,
+      "spectral_type": "F7V"
+    },
+    {
+      "id": "exovista-target-3760",
+      "ra_deg": 177.674,
+      "dec_deg": 1.76472,
+      "v_mag": 3.59,
+      "spectral_type": "F8V"
+    },
+    {
+      "id": "exovista-target-3047",
+      "ra_deg": 142.675,
+      "dec_deg": -40.4668,
+      "v_mag": 3.6,
+      "spectral_type": "F2IV"
+    },
+    {
+      "id": "exovista-target-3055",
+      "ra_deg": 142.882,
+      "dec_deg": 63.0619,
+      "v_mag": 3.65,
+      "spectral_type": "F0IV"
+    },
+    {
+      "id": "exovista-target-4919",
+      "ra_deg": 231.957,
+      "dec_deg": 29.1057,
+      "v_mag": 3.66,
+      "spectral_type": "F0p"
+    },
+    {
+      "id": "exovista-target-673",
+      "ra_deg": 28.9895,
+      "dec_deg": -51.6089,
+      "v_mag": 3.69,
+      "spectral_type": "G5IV"
+    },
+    {
+      "id": "exovista-target-6237",
+      "ra_deg": 298.828,
+      "dec_deg": 6.40676,
+      "v_mag": 3.71,
+      "spectral_type": "G8IVvar"
+    },
+    {
+      "id": "exovista-target-5750",
+      "ra_deg": 271.837,
+      "dec_deg": 9.56385,
+      "v_mag": 3.71,
+      "spectral_type": "A4IVs"
+    },
+    {
+      "id": "exovista-target-2046",
+      "ra_deg": 89.1012,
+      "dec_deg": -14.1677,
+      "v_mag": 3.71,
+      "spectral_type": "F1V"
+    }
+  ]
+}

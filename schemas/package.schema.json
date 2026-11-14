@@ -1,0 +1,5267 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://white-cat.invalid/schemas/package.schema.json",
+  "title": "White Cat scientific package v1, concrete per-resource contracts",
+  "$defs": {
+    "data_sources_json": {
+      "type": "object",
+      "properties": {
+        "generated_utc": {
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source_policy": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "api_docs": {
+                "type": "string"
+              },
+              "api_url": {
+                "type": "string"
+              },
+              "archive_url": {
+                "type": "string"
+              },
+              "catalog_doi": {
+                "type": "string"
+              },
+              "column_definitions": {
+                "type": "string"
+              },
+              "direct_download": {
+                "type": "string"
+              },
+              "download_url": {
+                "type": "string"
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "local_archive_products": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "notes": {
+                "type": "string"
+              },
+              "organization": {
+                "type": "string"
+              },
+              "paper": {
+                "type": "string"
+              },
+              "provenance_scope": {
+                "type": "string"
+              },
+              "publication_doi": {
+                "type": "string"
+              },
+              "tap_query_url": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "organization",
+              "url"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "generated_utc",
+        "schema_version",
+        "source_policy",
+        "sources"
+      ],
+      "additionalProperties": false
+    },
+    "data_physics_formulas_json": {
+      "type": "object",
+      "properties": {
+        "constant_catalog": {
+          "type": "string"
+        },
+        "formulas": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "derivation": {
+                "type": "string"
+              },
+              "domain_and_limits_uk": {
+                "type": "string"
+              },
+              "example": {
+                "type": "object",
+                "properties": {
+                  "expected": {
+                    "type": "number"
+                  },
+                  "inputs": {
+                    "type": "object",
+                    "properties": {
+                      "A": {
+                        "type": "number"
+                      },
+                      "Cd": {
+                        "type": "number"
+                      },
+                      "Crr": {
+                        "type": "number"
+                      },
+                      "D": {
+                        "type": "number"
+                      },
+                      "F": {
+                        "type": "integer"
+                      },
+                      "Gr": {
+                        "type": "integer"
+                      },
+                      "Gt": {
+                        "type": "integer"
+                      },
+                      "H": {
+                        "type": "integer"
+                      },
+                      "Isp": {
+                        "type": "integer"
+                      },
+                      "L": {
+                        "type": "number"
+                      },
+                      "M": {
+                        "type": "number"
+                      },
+                      "Mstar": {
+                        "type": "number"
+                      },
+                      "P": {
+                        "type": "number"
+                      },
+                      "P_aux": {
+                        "type": "integer"
+                      },
+                      "P_gen": {
+                        "type": "integer"
+                      },
+                      "P_load": {
+                        "type": "integer"
+                      },
+                      "P_orb": {
+                        "type": "number"
+                      },
+                      "P_rot": {
+                        "type": "number"
+                      },
+                      "Pt": {
+                        "type": "integer"
+                      },
+                      "Q": {
+                        "type": "number"
+                      },
+                      "R": {
+                        "type": "number"
+                      },
+                      "R0": {
+                        "type": "number"
+                      },
+                      "S": {
+                        "type": "number"
+                      },
+                      "T": {
+                        "type": "integer"
+                      },
+                      "a": {
+                        "type": "number"
+                      },
+                      "a0": {
+                        "type": "number"
+                      },
+                      "area": {
+                        "type": "integer"
+                      },
+                      "d": {
+                        "type": "number"
+                      },
+                      "dust": {
+                        "type": "number"
+                      },
+                      "dz_dx": {
+                        "type": "number"
+                      },
+                      "dz_dy": {
+                        "type": "integer"
+                      },
+                      "epsilon": {
+                        "type": "integer"
+                      },
+                      "eta": {
+                        "type": "number"
+                      },
+                      "eta_c": {
+                        "type": "number"
+                      },
+                      "eta_d": {
+                        "type": "number"
+                      },
+                      "g": {
+                        "type": "number"
+                      },
+                      "g0": {
+                        "type": "number"
+                      },
+                      "m": {
+                        "type": "integer"
+                      },
+                      "m0": {
+                        "type": "integer"
+                      },
+                      "m1": {
+                        "type": "number"
+                      },
+                      "m2": {
+                        "type": "number"
+                      },
+                      "m_adapter": {
+                        "type": "integer"
+                      },
+                      "m_dry": {
+                        "type": "integer"
+                      },
+                      "m_mol": {
+                        "type": "number"
+                      },
+                      "m_payload": {
+                        "type": "integer"
+                      },
+                      "m_propellant": {
+                        "type": "integer"
+                      },
+                      "mf": {
+                        "type": "integer"
+                      },
+                      "mu": {
+                        "type": "number"
+                      },
+                      "p0": {
+                        "type": "integer"
+                      },
+                      "r": {
+                        "type": "number"
+                      },
+                      "r1": {
+                        "type": "number"
+                      },
+                      "r2": {
+                        "type": "number"
+                      },
+                      "rate": {
+                        "type": "number"
+                      },
+                      "rho": {
+                        "type": "number"
+                      },
+                      "s": {
+                        "type": "integer"
+                      },
+                      "scale": {
+                        "type": "number"
+                      },
+                      "t": {
+                        "type": "number"
+                      },
+                      "theta": {
+                        "type": "number"
+                      },
+                      "v": {
+                        "type": "integer"
+                      },
+                      "v0": {
+                        "type": "number"
+                      },
+                      "wavelength": {
+                        "type": "number"
+                      },
+                      "z": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [],
+                    "additionalProperties": false
+                  },
+                  "relative_tolerance": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "expected",
+                  "inputs",
+                  "relative_tolerance"
+                ],
+                "additionalProperties": false
+              },
+              "expression": {
+                "type": "string"
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "output_unit": {
+                "type": "string"
+              },
+              "purpose_uk": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              },
+              "variables": {
+                "type": "object",
+                "properties": {
+                  "A": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "Cd": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "Crr": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "D": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "F": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "Gr": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "Gt": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "H": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "Isp": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "L": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "M": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "Mstar": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "P": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "P_aux": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "P_gen": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "P_load": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "P_orb": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "P_rot": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "Pt": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "Q": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "R": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "R0": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "S": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "T": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "a": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "a0": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "area": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "d": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "dust": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "dz_dx": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "dz_dy": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "epsilon": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "eta": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "eta_c": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "eta_d": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "g": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "g0": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "m": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "m0": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "m1": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "m2": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "m_adapter": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "m_dry": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "m_mol": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "m_payload": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "m_propellant": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "mf": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "mu": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "p0": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "r": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "r1": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "r2": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "rate": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "rho": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "s": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "scale": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "t": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "theta": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "v": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "v0": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "wavelength": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "z": {
+                    "type": "object",
+                    "properties": {
+                      "meaning_uk": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "meaning_uk",
+                      "unit"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "derivation",
+              "domain_and_limits_uk",
+              "example",
+              "expression",
+              "id",
+              "output_unit",
+              "purpose_uk",
+              "source",
+              "variables"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "schema_version": {
+          "const": "1.0"
+        }
+      },
+      "required": [
+        "constant_catalog",
+        "formulas",
+        "schema_version"
+      ],
+      "additionalProperties": false
+    },
+    "data_physics_physical_constants_json": {
+      "type": "object",
+      "properties": {
+        "constants": {
+          "type": "object",
+          "properties": {
+            "G": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "R_gas": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "au": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "c": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "day": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "earth_mass": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "earth_mean_radius": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "g0": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "mars_game_gravity": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "mars_mean_radius": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "mars_mu": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "mars_projection_radius": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "mars_sidereal_day": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "mars_solar_day": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "mu_sun": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "sigma": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "sun_luminosity": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "sun_mass": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            "sun_radius": {
+              "type": "object",
+              "properties": {
+                "note": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "note",
+                "source",
+                "status",
+                "unit",
+                "value"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "G",
+            "R_gas",
+            "au",
+            "c",
+            "day",
+            "earth_mass",
+            "earth_mean_radius",
+            "g0",
+            "mars_game_gravity",
+            "mars_mean_radius",
+            "mars_mu",
+            "mars_projection_radius",
+            "mars_sidereal_day",
+            "mars_solar_day",
+            "mu_sun",
+            "sigma",
+            "sun_luminosity",
+            "sun_mass",
+            "sun_radius"
+          ],
+          "additionalProperties": false
+        },
+        "schema_version": {
+          "const": "1.0"
+        }
+      },
+      "required": [
+        "constants",
+        "schema_version"
+      ],
+      "additionalProperties": false
+    },
+    "data_planets_atmospheres_json": {
+      "type": "object",
+      "properties": {
+        "fraction_basis": {
+          "type": "string"
+        },
+        "presets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "molar_mass_kg_mol": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "mole_fractions": {
+                "type": "object",
+                "properties": {
+                  "Ar": {
+                    "type": "number"
+                  },
+                  "CO": {
+                    "type": "number"
+                  },
+                  "CO2": {
+                    "type": "number"
+                  },
+                  "H2": {
+                    "type": "number"
+                  },
+                  "He": {
+                    "type": "number"
+                  },
+                  "N2": {
+                    "type": "number"
+                  },
+                  "O2": {
+                    "type": "number"
+                  },
+                  "other": {
+                    "type": "number"
+                  }
+                },
+                "required": [],
+                "additionalProperties": false
+              },
+              "note": {
+                "type": "string"
+              },
+              "reference_pressure_pa": {
+                "type": "number"
+              },
+              "source": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "surface_pressure_pa": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "molar_mass_kg_mol",
+              "mole_fractions",
+              "status",
+              "surface_pressure_pa"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "fraction_basis",
+        "presets",
+        "schema_version",
+        "source_ids",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "data_planets_example_systems_json": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "type": "string"
+        },
+        "systems": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "planets": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "argument_periapsis_deg": {
+                      "type": "number"
+                    },
+                    "eccentricity": {
+                      "type": "number",
+                      "minimum": 0,
+                      "exclusiveMaximum": 1
+                    },
+                    "inclination_deg": {
+                      "type": "number"
+                    },
+                    "longitude_ascending_node_deg": {
+                      "type": "number"
+                    },
+                    "mass_earth": {
+                      "type": "number"
+                    },
+                    "mean_anomaly_deg": {
+                      "type": "number"
+                    },
+                    "planet_index": {
+                      "type": "integer"
+                    },
+                    "radius_earth": {
+                      "type": "number"
+                    },
+                    "semimajor_axis_au": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "argument_periapsis_deg",
+                    "eccentricity",
+                    "inclination_deg",
+                    "longitude_ascending_node_deg",
+                    "mass_earth",
+                    "mean_anomaly_deg",
+                    "planet_index",
+                    "radius_earth",
+                    "semimajor_axis_au"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "star": {
+                "type": "object",
+                "properties": {
+                  "dec_deg": {
+                    "type": "number"
+                  },
+                  "distance_pc": {
+                    "type": "number"
+                  },
+                  "effective_temperature_k": {
+                    "type": "number"
+                  },
+                  "hip": {
+                    "type": "integer"
+                  },
+                  "luminosity_sun": {
+                    "type": "number"
+                  },
+                  "mass_sun": {
+                    "type": "number"
+                  },
+                  "position_angle_deg": {
+                    "type": "number"
+                  },
+                  "ra_deg": {
+                    "type": "number"
+                  },
+                  "radius_sun": {
+                    "type": "number"
+                  },
+                  "spectral_type": {
+                    "type": "string"
+                  },
+                  "star_id": {
+                    "type": "integer"
+                  },
+                  "system_inclination_deg": {
+                    "type": "number"
+                  },
+                  "tyc": {
+                    "type": "null"
+                  }
+                },
+                "required": [
+                  "dec_deg",
+                  "distance_pc",
+                  "effective_temperature_k",
+                  "hip",
+                  "luminosity_sun",
+                  "mass_sun",
+                  "position_angle_deg",
+                  "ra_deg",
+                  "radius_sun",
+                  "spectral_type",
+                  "star_id",
+                  "system_inclination_deg",
+                  "tyc"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "planets",
+              "star"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "units": {
+          "type": "object",
+          "properties": {
+            "angles": {
+              "type": "string"
+            },
+            "mass_earth": {
+              "type": "string"
+            },
+            "radius_earth": {
+              "type": "string"
+            },
+            "semimajor_axis_au": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "angles",
+            "mass_earth",
+            "radius_earth",
+            "semimajor_axis_au"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "schema_version",
+        "source_ids",
+        "status",
+        "systems",
+        "units"
+      ],
+      "additionalProperties": false
+    },
+    "data_planets_generated_example_json": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model": {
+          "type": "string"
+        },
+        "planets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "anchor": {
+                "type": "object",
+                "properties": {
+                  "source_planet_index": {
+                    "type": "integer"
+                  },
+                  "source_star_id": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "source_planet_index",
+                  "source_star_id"
+                ],
+                "additionalProperties": false
+              },
+              "argument_periapsis_rad": {
+                "type": "number"
+              },
+              "ascending_node_rad": {
+                "type": "number"
+              },
+              "atmosphere_preset": {
+                "type": "string"
+              },
+              "bond_albedo": {
+                "type": "number"
+              },
+              "density_kg_m3": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "eccentricity": {
+                "type": "number",
+                "minimum": 0,
+                "exclusiveMaximum": 1
+              },
+              "equilibrium_temperature_K": {
+                "type": "number"
+              },
+              "gravity_m_s2": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "inclination_rad": {
+                "type": "number"
+              },
+              "mass_kg": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "mean_anomaly_rad": {
+                "type": "number"
+              },
+              "mutual_hill_clearance": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "orbital_period_s": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "radius_m": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "rotation_period_s": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "semimajor_axis_m": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "spin_sense": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "tidally_locked_by_game_rule": {
+                "type": "boolean"
+              },
+              "type": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "anchor",
+              "argument_periapsis_rad",
+              "ascending_node_rad",
+              "atmosphere_preset",
+              "bond_albedo",
+              "density_kg_m3",
+              "eccentricity",
+              "equilibrium_temperature_K",
+              "gravity_m_s2",
+              "id",
+              "inclination_rad",
+              "mass_kg",
+              "mean_anomaly_rad",
+              "mutual_hill_clearance",
+              "orbital_period_s",
+              "radius_m",
+              "rotation_period_s",
+              "semimajor_axis_m",
+              "spin_sense",
+              "status",
+              "tidally_locked_by_game_rule",
+              "type"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "seed": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4294967295
+        },
+        "star": {
+          "type": "object",
+          "properties": {
+            "effective_temperature_K": {
+              "type": "number"
+            },
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "luminosity_W": {
+              "type": "number"
+            },
+            "mass_kg": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "radius_m": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "status": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "effective_temperature_K",
+            "id",
+            "luminosity_W",
+            "mass_kg",
+            "radius_m",
+            "status"
+          ],
+          "additionalProperties": false
+        },
+        "stream_version": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "model",
+        "planets",
+        "schema_version",
+        "seed",
+        "star",
+        "stream_version"
+      ],
+      "additionalProperties": false
+    },
+    "data_planets_generation_parameters_json": {
+      "type": "object",
+      "properties": {
+        "atmosphere_retention_escape_to_rms_min": {
+          "type": "integer"
+        },
+        "atmosphere_rules": {
+          "type": "string"
+        },
+        "bond_albedo_range": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "class_weights": {
+          "type": "object",
+          "properties": {
+            "gas_giant": {
+              "type": "number"
+            },
+            "ice_giant_candidate": {
+              "type": "number"
+            },
+            "rocky_candidate": {
+              "type": "number"
+            },
+            "sub_neptune": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "gas_giant",
+            "ice_giant_candidate",
+            "rocky_candidate",
+            "sub_neptune"
+          ],
+          "additionalProperties": false
+        },
+        "density_kg_m3_range": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "eccentricity_max": {
+          "type": "number"
+        },
+        "emissivity": {
+          "type": "integer"
+        },
+        "inner_orbit_au_range": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "mass_earth_range": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "mutual_hill_clearance_min": {
+          "type": "integer"
+        },
+        "orbit_ratio_range": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "outer_orbit_au_max": {
+          "type": "integer"
+        },
+        "planet_count_range": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "radius_earth_range": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "rejection": {
+          "type": "object",
+          "properties": {
+            "fail": {
+              "type": "string"
+            },
+            "max_planet_attempts": {
+              "type": "integer"
+            },
+            "max_system_attempts": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "fail",
+            "max_planet_attempts",
+            "max_system_attempts"
+          ],
+          "additionalProperties": false
+        },
+        "rng": {
+          "type": "object",
+          "properties": {
+            "algorithm": {
+              "type": "string"
+            },
+            "seed_type": {
+              "type": "string"
+            },
+            "stream_version": {
+              "type": "integer"
+            },
+            "uniform": {
+              "type": "string"
+            },
+            "zero_seed_maps_to": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "algorithm",
+            "seed_type",
+            "stream_version",
+            "uniform",
+            "zero_seed_maps_to"
+          ],
+          "additionalProperties": false
+        },
+        "rocky_atmosphere_probability": {
+          "type": "number"
+        },
+        "rotation_breakup_safety_factor": {
+          "type": "integer"
+        },
+        "rotation_period_s_range": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "sampling": {
+          "type": "object",
+          "properties": {
+            "eccentricity": {
+              "type": "string"
+            },
+            "orientation": {
+              "type": "string"
+            },
+            "phase": {
+              "type": "string"
+            },
+            "radii_and_masses": {
+              "type": "string"
+            },
+            "spin": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "eccentricity",
+            "orientation",
+            "phase",
+            "radii_and_masses",
+            "spin"
+          ],
+          "additionalProperties": false
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "seed": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4294967295
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "star_model": {
+          "type": "object",
+          "properties": {
+            "luminosity_exponent": {
+              "type": "integer"
+            },
+            "multiplicity": {
+              "type": "string"
+            },
+            "radius_exponent": {
+              "type": "number"
+            },
+            "status": {
+              "type": "string"
+            },
+            "temperature_rule": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "luminosity_exponent",
+            "multiplicity",
+            "radius_exponent",
+            "status",
+            "temperature_rule"
+          ],
+          "additionalProperties": false
+        },
+        "status": {
+          "type": "string"
+        },
+        "stellar_mass_sun_range": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "thin_co2_molar_mass_kg_mol": {
+          "type": "number"
+        },
+        "tide_lock_distance_au": {
+          "type": "number"
+        },
+        "visual_orbit_reference_au": {
+          "type": "number"
+        },
+        "visual_orbit_scale": {
+          "type": "integer"
+        },
+        "visual_radius_scale": {
+          "type": "number"
+        },
+        "weights_status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "atmosphere_retention_escape_to_rms_min",
+        "atmosphere_rules",
+        "bond_albedo_range",
+        "class_weights",
+        "density_kg_m3_range",
+        "eccentricity_max",
+        "emissivity",
+        "inner_orbit_au_range",
+        "mass_earth_range",
+        "mutual_hill_clearance_min",
+        "orbit_ratio_range",
+        "outer_orbit_au_max",
+        "planet_count_range",
+        "radius_earth_range",
+        "rejection",
+        "rng",
+        "rocky_atmosphere_probability",
+        "rotation_breakup_safety_factor",
+        "rotation_period_s_range",
+        "sampling",
+        "schema_version",
+        "seed",
+        "source_ids",
+        "star_model",
+        "status",
+        "stellar_mass_sun_range",
+        "thin_co2_molar_mass_kg_mol",
+        "tide_lock_distance_au",
+        "visual_orbit_reference_au",
+        "visual_orbit_scale",
+        "visual_radius_scale",
+        "weights_status"
+      ],
+      "additionalProperties": false
+    },
+    "data_planets_mass_radius_anchors_json": {
+      "type": "object",
+      "properties": {
+        "anchors": {
+          "type": "object",
+          "properties": {
+            "gas_giant": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "density_kg_m3": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "mass_earth": {
+                    "type": "number"
+                  },
+                  "radius_earth": {
+                    "type": "number"
+                  },
+                  "source_planet_index": {
+                    "type": "integer"
+                  },
+                  "source_star_id": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "density_kg_m3",
+                  "mass_earth",
+                  "radius_earth",
+                  "source_planet_index",
+                  "source_star_id"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "ice_giant_candidate": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "density_kg_m3": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "mass_earth": {
+                    "type": "number"
+                  },
+                  "radius_earth": {
+                    "type": "number"
+                  },
+                  "source_planet_index": {
+                    "type": "integer"
+                  },
+                  "source_star_id": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "density_kg_m3",
+                  "mass_earth",
+                  "radius_earth",
+                  "source_planet_index",
+                  "source_star_id"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "rocky_candidate": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "density_kg_m3": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "mass_earth": {
+                    "type": "number"
+                  },
+                  "radius_earth": {
+                    "type": "number"
+                  },
+                  "source_planet_index": {
+                    "type": "integer"
+                  },
+                  "source_star_id": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "density_kg_m3",
+                  "mass_earth",
+                  "radius_earth",
+                  "source_planet_index",
+                  "source_star_id"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "sub_neptune": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "density_kg_m3": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "mass_earth": {
+                    "type": "number"
+                  },
+                  "radius_earth": {
+                    "type": "number"
+                  },
+                  "source_planet_index": {
+                    "type": "integer"
+                  },
+                  "source_star_id": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "density_kg_m3",
+                  "mass_earth",
+                  "radius_earth",
+                  "source_planet_index",
+                  "source_star_id"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "gas_giant",
+            "ice_giant_candidate",
+            "rocky_candidate",
+            "sub_neptune"
+          ],
+          "additionalProperties": false
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "anchors",
+        "schema_version",
+        "source_ids",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "data_planets_planet_types_json": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "types": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "atmosphere_preset": {
+                "type": "string"
+              },
+              "classification_status": {
+                "type": "string"
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "interval": {
+                "type": "string"
+              },
+              "mass_radius_rule": {
+                "type": "string"
+              },
+              "name_uk": {
+                "type": "string"
+              },
+              "radius_earth_range": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
+              },
+              "surface_landing_supported": {
+                "type": "boolean"
+              },
+              "visual_rule": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "atmosphere_preset",
+              "classification_status",
+              "id",
+              "interval",
+              "mass_radius_rule",
+              "name_uk",
+              "radius_earth_range",
+              "surface_landing_supported",
+              "visual_rule"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "schema_version",
+        "source_ids",
+        "types"
+      ],
+      "additionalProperties": false
+    },
+    "data_planets_stars_json": {
+      "type": "object",
+      "properties": {
+        "frame": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "stars": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dec_deg": {
+                "type": "number"
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "ra_deg": {
+                "type": "number"
+              },
+              "spectral_type": {
+                "type": "string"
+              },
+              "v_mag": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "dec_deg",
+              "id",
+              "ra_deg",
+              "spectral_type",
+              "v_mag"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "frame",
+        "notes",
+        "schema_version",
+        "source_ids",
+        "stars",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "data_missions_components_json": {
+      "type": "object",
+      "properties": {
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "capacity_ah_each": {
+                "type": "integer",
+                "exclusiveMinimum": 0
+              },
+              "capacity_wh": {
+                "type": "null"
+              },
+              "category": {
+                "type": "string"
+              },
+              "confidence": {
+                "type": "string"
+              },
+              "count": {
+                "type": "integer"
+              },
+              "data_basis": {
+                "type": "string"
+              },
+              "data_volume_kb_per_sounding": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                }
+              },
+              "data_volume_mb": {
+                "type": "integer"
+              },
+              "data_volume_mbit": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "limitations": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "mass_kg": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  }
+                ]
+              },
+              "mass_limit_kg": {
+                "type": "number"
+              },
+              "mass_limit_operator": {
+                "type": "string"
+              },
+              "mass_status": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "position_solution_accuracy_m": {
+                "type": "integer"
+              },
+              "power_limit_w": {
+                "type": "integer"
+              },
+              "power_range_w": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                }
+              },
+              "power_status": {
+                "type": "string"
+              },
+              "power_w": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "purpose": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              },
+              "source_additional": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "target_adjustment_m": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "category",
+              "confidence",
+              "id",
+              "limitations",
+              "mass_kg",
+              "name",
+              "power_w",
+              "purpose",
+              "source",
+              "status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "package_note": {
+          "type": "string"
+        },
+        "retrieved_utc": {
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "1.0"
+        }
+      },
+      "required": [
+        "components",
+        "notes",
+        "package_note",
+        "retrieved_utc",
+        "schema_version"
+      ],
+      "additionalProperties": false
+    },
+    "data_missions_earth_mars_ephemeris_json": {
+      "type": "object",
+      "properties": {
+        "earth_query_url": {
+          "type": "string"
+        },
+        "first_jd_tdb": {
+          "type": "number"
+        },
+        "frame": {
+          "type": "string"
+        },
+        "last_jd_tdb": {
+          "type": "number"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "samples": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "distance_m": {
+                "type": "number"
+              },
+              "earth_position_m": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "jd_tdb": {
+                "type": "number"
+              },
+              "mars_position_m": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "one_way_geometric_delay_s": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "distance_m",
+              "earth_position_m",
+              "jd_tdb",
+              "mars_position_m",
+              "one_way_geometric_delay_s"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "type": "string"
+        },
+        "step_s": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "earth_query_url",
+        "first_jd_tdb",
+        "frame",
+        "last_jd_tdb",
+        "limitations",
+        "samples",
+        "schema_version",
+        "source_ids",
+        "status",
+        "step_s"
+      ],
+      "additionalProperties": false
+    },
+    "data_missions_edl_json": {
+      "type": "object",
+      "properties": {
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "landing_ellipse_km": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "mass_note": {
+          "type": "string"
+        },
+        "package_note": {
+          "type": "string"
+        },
+        "phases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "altitude_at_start_m": {
+                "type": "integer"
+              },
+              "altitude_km": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "altitude_range_km": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
+              },
+              "architecture": {
+                "type": "string"
+              },
+              "engine_count": {
+                "type": "integer"
+              },
+              "parachute_diameter_m": {
+                "type": "number"
+              },
+              "phase": {
+                "type": "string"
+              },
+              "position_solution_accuracy_m": {
+                "type": "integer"
+              },
+              "source_status": {
+                "type": "string"
+              },
+              "target_change_max_m": {
+                "type": "integer"
+              },
+              "time_from_entry_s": {
+                "type": "integer"
+              },
+              "touchdown_vertical_velocity_m_s": {
+                "type": "number"
+              },
+              "velocity_basis": {
+                "type": "string"
+              },
+              "velocity_km_s": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "velocity_m_s": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "phase",
+              "source_status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "reference_mission": {
+          "type": "string"
+        },
+        "retrieved_utc": {
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source": {
+          "type": "string"
+        },
+        "source_additional": {
+          "type": "string"
+        },
+        "system_mass_kg": {
+          "type": "null"
+        },
+        "total_edl_duration_min": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "constraints",
+        "landing_ellipse_km",
+        "mass_note",
+        "package_note",
+        "phases",
+        "reference_mission",
+        "retrieved_utc",
+        "schema_version",
+        "source",
+        "source_additional",
+        "system_mass_kg",
+        "total_edl_duration_min"
+      ],
+      "additionalProperties": false
+    },
+    "data_missions_game_scenario_json": {
+      "type": "object",
+      "properties": {
+        "edl": {
+          "type": "object",
+          "properties": {
+            "mode": {
+              "type": "string"
+            },
+            "unsupported_payload_action": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "mode",
+            "unsupported_payload_action"
+          ],
+          "additionalProperties": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "launcher_compatibility": {
+          "type": "object",
+          "properties": {
+            "historical_atlas_reference_mass_kg": {
+              "type": "null"
+            },
+            "historical_c3_m2_s2": {
+              "type": "integer"
+            },
+            "mode": {
+              "type": "string"
+            },
+            "rule": {
+              "type": "string"
+            },
+            "unknown_curve_action": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "historical_atlas_reference_mass_kg",
+            "historical_c3_m2_s2",
+            "mode",
+            "rule",
+            "unknown_curve_action"
+          ],
+          "additionalProperties": false
+        },
+        "mass_budget": {
+          "type": "object",
+          "properties": {
+            "margin_fraction": {
+              "type": "number"
+            },
+            "rule": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "margin_fraction",
+            "rule"
+          ],
+          "additionalProperties": false
+        },
+        "minimum_reserve_fraction": {
+          "type": "number"
+        },
+        "mission_duration_sols": {
+          "type": "integer"
+        },
+        "power": {
+          "type": "object",
+          "properties": {
+            "dust_transmission": {
+              "type": "number"
+            },
+            "note": {
+              "type": "string"
+            },
+            "solar_array_area_m2": {
+              "type": "integer"
+            },
+            "solar_efficiency": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "dust_transmission",
+            "note",
+            "solar_array_area_m2",
+            "solar_efficiency"
+          ],
+          "additionalProperties": false
+        },
+        "reference_epoch": {
+          "type": "string"
+        },
+        "relay": {
+          "type": "object",
+          "properties": {
+            "contacts_per_sol": {
+              "type": "integer"
+            },
+            "data_per_contact_bit": {
+              "type": "integer"
+            },
+            "duration_s": {
+              "type": "integer"
+            },
+            "net_rate_bit_s": {
+              "type": "integer"
+            },
+            "orbiter_id": {
+              "type": "string"
+            },
+            "timing": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "contacts_per_sol",
+            "data_per_contact_bit",
+            "duration_s",
+            "net_rate_bit_s",
+            "orbiter_id",
+            "timing"
+          ],
+          "additionalProperties": false
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "starting_energy_fraction": {
+          "type": "number"
+        },
+        "status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "edl",
+        "id",
+        "launcher_compatibility",
+        "mass_budget",
+        "minimum_reserve_fraction",
+        "mission_duration_sols",
+        "power",
+        "reference_epoch",
+        "relay",
+        "schema_version",
+        "starting_energy_fraction",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "data_missions_launchers_json": {
+      "type": "object",
+      "properties": {
+        "launchers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "c3_at_payload_to_mars_kg": {
+                "type": "null"
+              },
+              "c3_performance_curve": {
+                "type": "null"
+              },
+              "confidence": {
+                "type": "string"
+              },
+              "configuration": {
+                "type": "string"
+              },
+              "flight_reference": {
+                "type": "object",
+                "properties": {
+                  "c3_km2_s2": {
+                    "type": "number"
+                  },
+                  "launch_date": {
+                    "type": "string"
+                  },
+                  "mass_note": {
+                    "type": "string"
+                  },
+                  "mission": {
+                    "type": "string"
+                  },
+                  "spacecraft_payload_mass_kg": {
+                    "type": "null"
+                  },
+                  "status": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "c3_km2_s2",
+                  "launch_date",
+                  "mass_note",
+                  "mission",
+                  "spacecraft_payload_mass_kg",
+                  "status"
+                ],
+                "additionalProperties": false
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "leo_note": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "payload_to_leo_kg": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "payload_to_mars_kg": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "provider": {
+                "type": "string"
+              },
+              "source": {
+                "anyOf": [
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "source_additional": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "c3_performance_curve",
+              "confidence",
+              "id",
+              "name",
+              "payload_to_leo_kg",
+              "payload_to_mars_kg",
+              "provider",
+              "source"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "package_note": {
+          "type": "string"
+        },
+        "retrieved_utc": {
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "warning": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "launchers",
+        "package_note",
+        "retrieved_utc",
+        "schema_version",
+        "warning"
+      ],
+      "additionalProperties": false
+    },
+    "data_missions_orbits_json": {
+      "type": "object",
+      "properties": {
+        "package_note": {
+          "type": "string"
+        },
+        "retrieved_utc": {
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "selection_parameters": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "transfer_options": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "altitude_km": {
+                "type": "null"
+              },
+              "c3_km2_s2": {
+                "type": "number"
+              },
+              "departure_c3_km2_s2": {
+                "type": "number"
+              },
+              "departure_excess_speed_km_s": {
+                "type": "number"
+              },
+              "destination": {
+                "type": "string"
+              },
+              "earth_orbit_radius_au": {
+                "type": "number"
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "inclination_deg": {
+                "type": "null"
+              },
+              "launch_date": {
+                "type": "string"
+              },
+              "limitations": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "mars_orbit_radius_au": {
+                "type": "number"
+              },
+              "mass_note": {
+                "type": "string"
+              },
+              "model": {
+                "type": "string"
+              },
+              "origin": {
+                "type": "string"
+              },
+              "spacecraft_mass_at_launch_kg": {
+                "type": "null"
+              },
+              "status": {
+                "type": "string"
+              },
+              "transfer_duration_days": {
+                "type": "number"
+              },
+              "transit_duration_days": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "destination",
+              "id",
+              "limitations",
+              "model",
+              "origin",
+              "status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "unit_system": {
+          "type": "object",
+          "properties": {
+            "C3": {
+              "type": "string"
+            },
+            "distance": {
+              "type": "string"
+            },
+            "duration": {
+              "type": "string"
+            },
+            "velocity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "C3",
+            "distance",
+            "duration",
+            "velocity"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "package_note",
+        "retrieved_utc",
+        "schema_version",
+        "selection_parameters",
+        "sources",
+        "transfer_options",
+        "unit_system"
+      ],
+      "additionalProperties": false
+    },
+    "data_missions_relay_plans_json": {
+      "type": "object",
+      "properties": {
+        "communication_architecture": {
+          "type": "string"
+        },
+        "current_network": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "data_note": {
+          "type": "string"
+        },
+        "game_rules_note": {
+          "type": "string"
+        },
+        "orbiters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "agency": {
+                "type": "string"
+              },
+              "altitude_km_range": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                }
+              },
+              "average_data_feb_may_2026_mbit_per_day": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "average_data_through_2025_mbit_per_day": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "name": {
+                "type": "string"
+              },
+              "passes_per_day_range": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                }
+              },
+              "passes_used_per_day_range": {
+                "anyOf": [
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "integer"
+                    }
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "role": {
+                "type": "string"
+              },
+              "status_note": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "agency",
+              "altitude_km_range",
+              "average_data_feb_may_2026_mbit_per_day",
+              "average_data_through_2025_mbit_per_day",
+              "id",
+              "name",
+              "passes_per_day_range",
+              "passes_used_per_day_range",
+              "role"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "package_note": {
+          "type": "string"
+        },
+        "retrieved_utc": {
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "communication_architecture",
+        "current_network",
+        "data_note",
+        "game_rules_note",
+        "orbiters",
+        "package_note",
+        "retrieved_utc",
+        "schema_version",
+        "source"
+      ],
+      "additionalProperties": false
+    },
+    "data_rover_routes_json": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sampling": {
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "type": "string"
+        },
+        "terrain_id": {
+          "type": "string"
+        },
+        "waypoints": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "cell_col_row": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "cell_status": {
+                "type": "integer"
+              },
+              "drive": {
+                "type": "integer"
+              },
+              "elevation_areoid_m": {
+                "type": "number"
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "latitude_planetocentric_deg": {
+                "type": "number"
+              },
+              "longitude_east_deg": {
+                "type": "number"
+              },
+              "pose": {
+                "type": "integer"
+              },
+              "sclk_s": {
+                "type": "number"
+              },
+              "site": {
+                "type": "integer"
+              },
+              "sol": {
+                "type": "integer"
+              },
+              "terrain_height_m": {
+                "type": "number"
+              },
+              "world_xyz_m": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              }
+            },
+            "required": [
+              "cell_col_row",
+              "cell_status",
+              "drive",
+              "elevation_areoid_m",
+              "id",
+              "latitude_planetocentric_deg",
+              "longitude_east_deg",
+              "pose",
+              "sclk_s",
+              "site",
+              "sol",
+              "terrain_height_m",
+              "world_xyz_m"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "id",
+        "sampling",
+        "schema_version",
+        "source_ids",
+        "status",
+        "terrain_id",
+        "waypoints"
+      ],
+      "additionalProperties": false
+    },
+    "data_rover_rover_specs_json": {
+      "type": "object",
+      "properties": {
+        "motion_model": {
+          "type": "string"
+        },
+        "profiles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "battery_capacity_wh": {
+                "type": "integer",
+                "exclusiveMinimum": 0
+              },
+              "battery_charge_efficiency": {
+                "type": "number"
+              },
+              "battery_discharge_efficiency": {
+                "type": "number"
+              },
+              "body_dimensions_m": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "buffer_mbit": {
+                "type": "integer"
+              },
+              "drive_aux_power_w": {
+                "type": "integer"
+              },
+              "drive_efficiency": {
+                "type": "number"
+              },
+              "generation_w": {
+                "type": "integer"
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "idle_power_w": {
+                "type": "integer"
+              },
+              "instrument_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "max_speed_m_s": {
+                "type": "number"
+              },
+              "max_traction_coefficient": {
+                "type": "number"
+              },
+              "note": {
+                "type": "string"
+              },
+              "operational_slope_limit_deg": {
+                "type": "integer"
+              },
+              "rolling_resistance": {
+                "type": "number"
+              },
+              "status": {
+                "type": "string"
+              },
+              "total_mass_kg": {
+                "type": "integer",
+                "exclusiveMinimum": 0
+              },
+              "wheel_diameter_m": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "battery_capacity_wh",
+              "battery_charge_efficiency",
+              "battery_discharge_efficiency",
+              "body_dimensions_m",
+              "buffer_mbit",
+              "drive_aux_power_w",
+              "drive_efficiency",
+              "generation_w",
+              "id",
+              "idle_power_w",
+              "instrument_ids",
+              "max_speed_m_s",
+              "max_traction_coefficient",
+              "note",
+              "operational_slope_limit_deg",
+              "rolling_resistance",
+              "status",
+              "total_mass_kg",
+              "wheel_diameter_m"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "reference": {
+          "type": "object",
+          "properties": {
+            "avoid_tilt_above_deg": {
+              "type": "integer"
+            },
+            "battery_capacity_ah_each": {
+              "type": "integer"
+            },
+            "battery_capacity_status": {
+              "type": "string"
+            },
+            "battery_capacity_wh": {
+              "type": "null"
+            },
+            "battery_count": {
+              "type": "integer"
+            },
+            "battery_mass_kg": {
+              "type": "number"
+            },
+            "battery_source": {
+              "type": "string"
+            },
+            "dimensions_length_width_height_m": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 3,
+              "maxItems": 3
+            },
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "max_flat_hard_ground_speed_m_s": {
+              "type": "number"
+            },
+            "mmrtg_initial_electric_w": {
+              "type": "integer"
+            },
+            "mmrtg_mass_kg": {
+              "type": "integer"
+            },
+            "peak_power_w_approx": {
+              "type": "integer"
+            },
+            "source": {
+              "type": "string"
+            },
+            "static_tip_resistance_deg": {
+              "type": "integer"
+            },
+            "status": {
+              "type": "string"
+            },
+            "total_mass_kg": {
+              "type": "integer",
+              "exclusiveMinimum": 0
+            },
+            "wheel_count": {
+              "type": "integer"
+            },
+            "wheel_diameter_m": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "avoid_tilt_above_deg",
+            "battery_capacity_ah_each",
+            "battery_capacity_status",
+            "battery_capacity_wh",
+            "battery_count",
+            "battery_mass_kg",
+            "battery_source",
+            "dimensions_length_width_height_m",
+            "id",
+            "max_flat_hard_ground_speed_m_s",
+            "mmrtg_initial_electric_w",
+            "mmrtg_mass_kg",
+            "peak_power_w_approx",
+            "source",
+            "static_tip_resistance_deg",
+            "status",
+            "total_mass_kg",
+            "wheel_count",
+            "wheel_diameter_m"
+          ],
+          "additionalProperties": false
+        },
+        "route_contract": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "nodata_action": {
+              "type": "string"
+            },
+            "on_caution": {
+              "type": "string"
+            },
+            "out_of_bounds_action": {
+              "type": "string"
+            },
+            "step_m_max": {
+              "type": "integer"
+            },
+            "terrain_id": {
+              "type": "string"
+            },
+            "waypoints": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "nodata_action",
+            "on_caution",
+            "out_of_bounds_action",
+            "step_m_max",
+            "terrain_id",
+            "waypoints"
+          ],
+          "additionalProperties": false
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "motion_model",
+        "profiles",
+        "reference",
+        "route_contract",
+        "schema_version",
+        "source_ids"
+      ],
+      "additionalProperties": false
+    },
+    "data_rover_weather_samples_json": {
+      "type": "object",
+      "properties": {
+        "filters": {
+          "type": "object",
+          "properties": {
+            "ATS": {
+              "type": "string"
+            },
+            "PS": {
+              "type": "string"
+            },
+            "RHS": {
+              "type": "string"
+            },
+            "WS": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ATS",
+            "PS",
+            "RHS",
+            "WS"
+          ],
+          "additionalProperties": false
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "samples": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "field": {
+                "type": "string"
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "max": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "min": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "n": {
+                "type": "integer"
+              },
+              "p05": {
+                "type": "number"
+              },
+              "p50": {
+                "type": "number"
+              },
+              "p95": {
+                "type": "number"
+              },
+              "rows_rejected": {
+                "type": "integer"
+              },
+              "rows_total": {
+                "type": "integer"
+              },
+              "rows_used": {
+                "type": "integer"
+              },
+              "sol": {
+                "type": "integer"
+              },
+              "unit": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "field",
+              "id",
+              "max",
+              "min",
+              "n",
+              "rows_rejected",
+              "rows_total",
+              "rows_used",
+              "sol",
+              "unit"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "filters",
+        "limitations",
+        "samples",
+        "schema_version",
+        "source_ids",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "assets_images_manifest_json": {
+      "type": "object",
+      "properties": {
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "camera_id": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "credit": {
+                "type": "string"
+              },
+              "height": {
+                "type": "integer",
+                "exclusiveMinimum": 0
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "image_id": {
+                "type": "string"
+              },
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "processing": {
+                "type": "string"
+              },
+              "sol": {
+                "type": "integer"
+              },
+              "source_page": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer",
+                "exclusiveMinimum": 0
+              }
+            },
+            "required": [
+              "camera_id",
+              "caption",
+              "credit",
+              "height",
+              "id",
+              "image_id",
+              "path",
+              "processing",
+              "sol",
+              "source_page",
+              "width"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "images",
+        "schema_version",
+        "source_ids"
+      ],
+      "additionalProperties": false
+    },
+    "assets_models_authoring_specs_json": {
+      "type": "object",
+      "properties": {
+        "character": {
+          "type": "object",
+          "properties": {
+            "height_m": {
+              "type": "number"
+            },
+            "note": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "height_m",
+            "note",
+            "status"
+          ],
+          "additionalProperties": false
+        },
+        "coordinate_system": {
+          "type": "object",
+          "properties": {
+            "east": {
+              "type": "string"
+            },
+            "handedness": {
+              "type": "string"
+            },
+            "south": {
+              "type": "string"
+            },
+            "units": {
+              "type": "string"
+            },
+            "up": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "east",
+            "handedness",
+            "south",
+            "units",
+            "up"
+          ],
+          "additionalProperties": false
+        },
+        "optimization": {
+          "type": "object",
+          "properties": {
+            "lod_recommendation_ratios": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "material_target_count": {
+              "type": "integer"
+            },
+            "orbiter_triangle_budget": {
+              "type": "integer"
+            },
+            "rover_triangle_budget": {
+              "type": "integer"
+            },
+            "status": {
+              "type": "string"
+            },
+            "texture_max_edge_px": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "lod_recommendation_ratios",
+            "material_target_count",
+            "orbiter_triangle_budget",
+            "rover_triangle_budget",
+            "status",
+            "texture_max_edge_px"
+          ],
+          "additionalProperties": false
+        },
+        "rocket": {
+          "type": "object",
+          "properties": {
+            "core_diameter_m": {
+              "type": "null"
+            },
+            "fairing_nominal_diameter_m": {
+              "type": "integer"
+            },
+            "height_m": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "note": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "core_diameter_m",
+            "fairing_nominal_diameter_m",
+            "height_m",
+            "id",
+            "note",
+            "source",
+            "status"
+          ],
+          "additionalProperties": false
+        },
+        "rover_collider": {
+          "type": "object",
+          "properties": {
+            "body_envelope_length_width_height_m": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "note": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "wheel_diameter_m": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "body_envelope_length_width_height_m",
+            "note",
+            "status",
+            "type",
+            "wheel_diameter_m"
+          ],
+          "additionalProperties": false
+        },
+        "schema_version": {
+          "const": "1.0"
+        }
+      },
+      "required": [
+        "character",
+        "coordinate_system",
+        "optimization",
+        "rocket",
+        "rover_collider",
+        "schema_version"
+      ],
+      "additionalProperties": false
+    },
+    "assets_models_manifest_json": {
+      "type": "object",
+      "properties": {
+        "models": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "bounds_native": {
+                "type": "object",
+                "properties": {
+                  "max": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    }
+                  },
+                  "min": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    }
+                  }
+                },
+                "required": [
+                  "max",
+                  "min"
+                ],
+                "additionalProperties": false
+              },
+              "bytes": {
+                "type": "integer"
+              },
+              "extensions_required": {
+                "type": "array",
+                "items": {}
+              },
+              "extents_native": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "original_bounds_native": {
+                "type": "object",
+                "properties": {
+                  "max": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    }
+                  },
+                  "min": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    }
+                  }
+                },
+                "required": [
+                  "max",
+                  "min"
+                ],
+                "additionalProperties": false
+              },
+              "original_triangles": {
+                "type": "integer"
+              },
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "placement": {
+                "type": "object",
+                "properties": {
+                  "orientation": {
+                    "type": "string"
+                  },
+                  "translation_y": {
+                    "type": "number"
+                  },
+                  "uniform_scale": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "orientation",
+                  "translation_y",
+                  "uniform_scale"
+                ],
+                "additionalProperties": false
+              },
+              "scale_for_rover_width_2_7_m": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "status": {
+                "type": "string"
+              },
+              "triangles": {
+                "type": "integer"
+              },
+              "vertices": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "bounds_native",
+              "bytes",
+              "extensions_required",
+              "extents_native",
+              "id",
+              "notes",
+              "original_bounds_native",
+              "original_triangles",
+              "path",
+              "placement",
+              "scale_for_rover_width_2_7_m",
+              "source_ids",
+              "status",
+              "triangles",
+              "vertices"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "schema_version": {
+          "const": "1.0"
+        }
+      },
+      "required": [
+        "models",
+        "schema_version"
+      ],
+      "additionalProperties": false
+    },
+    "assets_terrain_metadata_json": {
+      "type": "object",
+      "properties": {
+        "affine_corner": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "bounds_m": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "crs_proj": {
+          "type": "string"
+        },
+        "crs_wkt": {
+          "type": "string"
+        },
+        "geographic_input": {
+          "type": "string"
+        },
+        "height": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "height_encoding": {
+          "type": "object",
+          "properties": {
+            "decode": {
+              "type": "string"
+            },
+            "endian": {
+              "type": "string"
+            },
+            "max_quantization_error_m": {
+              "type": "number"
+            },
+            "nodata": {
+              "type": "integer"
+            },
+            "offset_m": {
+              "type": "integer"
+            },
+            "order": {
+              "type": "string"
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "scale_m": {
+              "type": "number"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "decode",
+            "endian",
+            "max_quantization_error_m",
+            "nodata",
+            "offset_m",
+            "order",
+            "path",
+            "scale_m",
+            "type"
+          ],
+          "additionalProperties": false
+        },
+        "height_m": {
+          "type": "object",
+          "properties": {
+            "n": {
+              "type": "integer"
+            },
+            "p05": {
+              "type": "number"
+            },
+            "p50": {
+              "type": "number"
+            },
+            "p95": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "n",
+            "p05",
+            "p50",
+            "p95"
+          ],
+          "additionalProperties": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "origin_elevation_areoid_m": {
+          "type": "number"
+        },
+        "origin_lon_lat_deg": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "origin_projected_m": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "slope_deg": {
+          "type": "object",
+          "properties": {
+            "n": {
+              "type": "integer"
+            },
+            "p05": {
+              "type": "number"
+            },
+            "p50": {
+              "type": "number"
+            },
+            "p95": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "n",
+            "p05",
+            "p50",
+            "p95"
+          ],
+          "additionalProperties": false
+        },
+        "slope_encoding": {
+          "type": "object",
+          "properties": {
+            "endian": {
+              "type": "string"
+            },
+            "method": {
+              "type": "string"
+            },
+            "nodata": {
+              "type": "integer"
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "scale_deg": {
+              "type": "number"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "endian",
+            "method",
+            "nodata",
+            "path",
+            "scale_deg",
+            "type"
+          ],
+          "additionalProperties": false
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "spacing_m": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "status": {
+          "type": "string"
+        },
+        "texture": {
+          "type": "object",
+          "properties": {
+            "height_px": {
+              "type": "integer"
+            },
+            "orientation": {
+              "type": "string"
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "pixel_size_m": {
+              "type": "number"
+            },
+            "processing": {
+              "type": "string"
+            },
+            "width_px": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "height_px",
+            "orientation",
+            "path",
+            "pixel_size_m",
+            "processing",
+            "width_px"
+          ],
+          "additionalProperties": false
+        },
+        "traversability": {
+          "type": "object",
+          "properties": {
+            "caution_max_slope_deg": {
+              "type": "integer"
+            },
+            "neighborhood_max": {
+              "type": "string"
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "safe_max_slope_deg": {
+              "type": "integer"
+            },
+            "status": {
+              "type": "string"
+            },
+            "values": {
+              "type": "object",
+              "properties": {
+                "0": {
+                  "type": "string"
+                },
+                "1": {
+                  "type": "string"
+                },
+                "2": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "0",
+                "1",
+                "2"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "caution_max_slope_deg",
+            "neighborhood_max",
+            "path",
+            "safe_max_slope_deg",
+            "status",
+            "values"
+          ],
+          "additionalProperties": false
+        },
+        "valid_cell_count": {
+          "type": "integer"
+        },
+        "vertical_datum": {
+          "type": "string"
+        },
+        "width": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "world_axes": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "string"
+            },
+            "y": {
+              "type": "string"
+            },
+            "z": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "z"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "affine_corner",
+        "bounds_m",
+        "crs_proj",
+        "crs_wkt",
+        "geographic_input",
+        "height",
+        "height_encoding",
+        "height_m",
+        "id",
+        "limitations",
+        "origin_elevation_areoid_m",
+        "origin_lon_lat_deg",
+        "origin_projected_m",
+        "schema_version",
+        "slope_deg",
+        "slope_encoding",
+        "source_ids",
+        "spacing_m",
+        "status",
+        "texture",
+        "traversability",
+        "valid_cell_count",
+        "vertical_datum",
+        "width",
+        "world_axes"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

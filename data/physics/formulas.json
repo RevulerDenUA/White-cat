@@ -1,0 +1,1008 @@
+{
+  "schema_version": "1.0",
+  "constant_catalog": "data/physics/physical_constants.json",
+  "formulas": [
+    {
+      "id": "gravity",
+      "expression": "g=G*M/R^2",
+      "purpose_uk": "Прискорення на сферичній поверхні",
+      "variables": {
+        "M": {
+          "unit": "kg",
+          "meaning_uk": "маса тіла"
+        },
+        "R": {
+          "unit": "m",
+          "meaning_uk": "радіус"
+        }
+      },
+      "output_unit": "m s^-2",
+      "example": {
+        "inputs": {
+          "M": 5.9722e+24,
+          "R": 6371008.4
+        },
+        "expected": 9.82027639780375,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Сферичне тіло; без обертання й гармонік поля.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "gravity"
+    },
+    {
+      "id": "density",
+      "expression": "rho=3*M/(4*pi*R^3)",
+      "purpose_uk": "Середня об’ємна густина",
+      "variables": {
+        "M": {
+          "unit": "kg",
+          "meaning_uk": "маса"
+        },
+        "R": {
+          "unit": "m",
+          "meaning_uk": "об’ємний радіус"
+        }
+      },
+      "output_unit": "kg m^-3",
+      "example": {
+        "inputs": {
+          "M": 5.9722e+24,
+          "R": 6371008.4
+        },
+        "expected": 5513.421567576098,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Не поверхнева густина; радіус газового гіганта залежить від рівня тиску.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "density"
+    },
+    {
+      "id": "mass_from_density",
+      "expression": "M=4*pi*rho*R^3/3",
+      "purpose_uk": "Узгодження маси з радіусом і густиною",
+      "variables": {
+        "rho": {
+          "unit": "kg m^-3",
+          "meaning_uk": "середня густина"
+        },
+        "R": {
+          "unit": "m",
+          "meaning_uk": "радіус"
+        }
+      },
+      "output_unit": "kg",
+      "example": {
+        "inputs": {
+          "rho": 5514,
+          "R": 6371008.4
+        },
+        "expected": 5.972826564480819e+24,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Густину не обирати незалежно від складу й стискання великих планет.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "mass_from_density"
+    },
+    {
+      "id": "period",
+      "expression": "P=2*pi*sqrt(a^3/mu)",
+      "purpose_uk": "Період еліптичної орбіти",
+      "variables": {
+        "a": {
+          "unit": "m",
+          "meaning_uk": "велика піввісь"
+        },
+        "mu": {
+          "unit": "m^3 s^-2",
+          "meaning_uk": "G*(M_star+M_planet)"
+        }
+      },
+      "output_unit": "s",
+      "example": {
+        "inputs": {
+          "a": 149597870700.0,
+          "mu": 1.3271244004127942e+20
+        },
+        "expected": 31558196.015473224,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Два тіла; a>0. Ігнорування маси планети допустиме при M_planet << M_star.",
+      "source": "https://ssd.jpl.nasa.gov/astro_par.html",
+      "derivation": "period"
+    },
+    {
+      "id": "vis_viva",
+      "expression": "v=sqrt(mu*(2/r-1/a))",
+      "purpose_uk": "Орбітальна швидкість у точці",
+      "variables": {
+        "mu": {
+          "unit": "m^3 s^-2",
+          "meaning_uk": "гравітаційний параметр"
+        },
+        "r": {
+          "unit": "m",
+          "meaning_uk": "миттєва відстань"
+        },
+        "a": {
+          "unit": "m",
+          "meaning_uk": "велика піввісь"
+        }
+      },
+      "output_unit": "m s^-1",
+      "example": {
+        "inputs": {
+          "mu": 1.3271244004127942e+20,
+          "r": 149597870700.0,
+          "a": 149597870700.0
+        },
+        "expected": 29784.69183430911,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Незбурена кеплерова орбіта; підкореневий вираз має бути невід’ємним.",
+      "source": "https://ssd.jpl.nasa.gov/astro_par.html",
+      "derivation": "vis_viva"
+    },
+    {
+      "id": "escape_speed",
+      "expression": "v_escape=sqrt(2*mu/R)",
+      "purpose_uk": "Швидкість втечі",
+      "variables": {
+        "mu": {
+          "unit": "m^3 s^-2",
+          "meaning_uk": "GM"
+        },
+        "R": {
+          "unit": "m",
+          "meaning_uk": "радіус"
+        }
+      },
+      "output_unit": "m s^-1",
+      "example": {
+        "inputs": {
+          "mu": 42828375662000.0,
+          "R": 3389920.0
+        },
+        "expected": 5026.735975104672,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Без атмосфери та обертання; не повний launch delta-v.",
+      "source": "https://ssd.jpl.nasa.gov/astro_par.html",
+      "derivation": "escape_speed"
+    },
+    {
+      "id": "rotation_speed",
+      "expression": "v_equator=2*pi*R/P",
+      "purpose_uk": "Екваторіальна швидкість обертання",
+      "variables": {
+        "R": {
+          "unit": "m",
+          "meaning_uk": "екваторіальний радіус"
+        },
+        "P": {
+          "unit": "s",
+          "meaning_uk": "модуль сидеричного періоду"
+        }
+      },
+      "output_unit": "m s^-1",
+      "example": {
+        "inputs": {
+          "R": 3396190,
+          "P": 88642.66320000001
+        },
+        "expected": 240.72935467027165,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Жорстке обертання, окремо зберігати напрямок і нахил осі.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "rotation_speed"
+    },
+    {
+      "id": "rotation_breakup",
+      "expression": "P_break=2*pi*sqrt(R^3/(G*M))",
+      "purpose_uk": "Нижня оцінка періоду гравітаційного утримання",
+      "variables": {
+        "M": {
+          "unit": "kg",
+          "meaning_uk": "маса"
+        },
+        "R": {
+          "unit": "m",
+          "meaning_uk": "радіус"
+        }
+      },
+      "output_unit": "s",
+      "example": {
+        "inputs": {
+          "M": 5.9722e+24,
+          "R": 6371008.4
+        },
+        "expected": 5060.834107128256,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Баланс GM/R^2=omega^2*R; без міцності. Генератор вимагає запас >=2.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "rotation_breakup"
+    },
+    {
+      "id": "solar_day",
+      "expression": "P_solar=1/abs(1/P_rot-1/P_orb)",
+      "purpose_uk": "Сонячна доба проти сидеричної",
+      "variables": {
+        "P_rot": {
+          "unit": "s",
+          "meaning_uk": "знаковий сидеричний період; retrograde<0"
+        },
+        "P_orb": {
+          "unit": "s",
+          "meaning_uk": "орбітальний період"
+        }
+      },
+      "output_unit": "s",
+      "example": {
+        "inputs": {
+          "P_rot": 88642.66320000001,
+          "P_orb": 59355072.0
+        },
+        "expected": 88775.24283786779,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Кругова орбіта, нульовий нахил у наближенні середньої доби; при синхронізації повернути null/locked, не Infinity.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "solar_day"
+    },
+    {
+      "id": "irradiance",
+      "expression": "S=L/(4*pi*r^2)",
+      "purpose_uk": "Потік випромінювання на відстані",
+      "variables": {
+        "L": {
+          "unit": "W",
+          "meaning_uk": "болометрична світність"
+        },
+        "r": {
+          "unit": "m",
+          "meaning_uk": "відстань до зорі"
+        }
+      },
+      "output_unit": "W m^-2",
+      "example": {
+        "inputs": {
+          "L": 3.828e+26,
+          "r": 149597870700.0
+        },
+        "expected": 1361.1664654085755,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Ізотропне випромінювання; без поглинання між зорею і планетою.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "irradiance"
+    },
+    {
+      "id": "equilibrium_temperature",
+      "expression": "T_eq=(S*(1-A)/(4*sigma*epsilon))^(1/4)",
+      "purpose_uk": "Радіаційна рівноважна температура",
+      "variables": {
+        "S": {
+          "unit": "W m^-2",
+          "meaning_uk": "потік"
+        },
+        "A": {
+          "unit": "1",
+          "meaning_uk": "Bond альбедо"
+        },
+        "epsilon": {
+          "unit": "1",
+          "meaning_uk": "теплова випромінювальна здатність"
+        }
+      },
+      "output_unit": "K",
+      "example": {
+        "inputs": {
+          "S": 1361.1664654085753,
+          "A": 0.3,
+          "epsilon": 1
+        },
+        "expected": 254.58592419270857,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Повне перерозподілення тепла, без парникового ефекту й внутрішнього тепла. Не температура поверхні й не geometric albedo.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "equilibrium_temperature"
+    },
+    {
+      "id": "stellar_luminosity",
+      "expression": "L=4*pi*R^2*sigma*T^4",
+      "purpose_uk": "Світність за ефективною температурою",
+      "variables": {
+        "R": {
+          "unit": "m",
+          "meaning_uk": "радіус зорі"
+        },
+        "T": {
+          "unit": "K",
+          "meaning_uk": "ефективна температура"
+        }
+      },
+      "output_unit": "W",
+      "example": {
+        "inputs": {
+          "R": 695700000,
+          "T": 5772
+        },
+        "expected": 3.8279909031525905e+26,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Болометричне наближення; не спектральна яскравість в окремому фільтрі.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "stellar_luminosity"
+    },
+    {
+      "id": "atmosphere_scale_height",
+      "expression": "H=R_gas*T/(m_mol*g)",
+      "purpose_uk": "Ізотермічна висота атмосфери",
+      "variables": {
+        "T": {
+          "unit": "K",
+          "meaning_uk": "температура газу"
+        },
+        "m_mol": {
+          "unit": "kg mol^-1",
+          "meaning_uk": "середня молярна маса"
+        },
+        "g": {
+          "unit": "m s^-2",
+          "meaning_uk": "прискорення"
+        }
+      },
+      "output_unit": "m",
+      "example": {
+        "inputs": {
+          "T": 210,
+          "m_mol": 0.04334,
+          "g": 3.71
+        },
+        "expected": 10859.020754917121,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Ідеальний газ, постійні T,g,склад; не профіль усієї атмосфери.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "atmosphere_scale_height"
+    },
+    {
+      "id": "barometric_pressure",
+      "expression": "p(z)=p0*exp(-z/H)",
+      "purpose_uk": "Тиск над опорним рівнем",
+      "variables": {
+        "p0": {
+          "unit": "Pa",
+          "meaning_uk": "опорний тиск"
+        },
+        "z": {
+          "unit": "m",
+          "meaning_uk": "висота над опорним рівнем"
+        },
+        "H": {
+          "unit": "m",
+          "meaning_uk": "масштаб висоти"
+        }
+      },
+      "output_unit": "Pa",
+      "example": {
+        "inputs": {
+          "p0": 610,
+          "z": 1000,
+          "H": 10800
+        },
+        "expected": 556.0545297740778,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Ізотермічна гідростатика; p0 не глобальний тиск Єзеро.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "barometric_pressure"
+    },
+    {
+      "id": "hohmann_time",
+      "expression": "t=pi*sqrt(((r1+r2)/2)^3/mu)",
+      "purpose_uk": "Час ідеального перельоту Земля–Марс",
+      "variables": {
+        "r1": {
+          "unit": "m",
+          "meaning_uk": "радіус внутрішньої орбіти"
+        },
+        "r2": {
+          "unit": "m",
+          "meaning_uk": "радіус зовнішньої орбіти"
+        },
+        "mu": {
+          "unit": "m^3 s^-2",
+          "meaning_uk": "GM центрального тіла"
+        }
+      },
+      "output_unit": "s",
+      "example": {
+        "inputs": {
+          "r1": 149597870700.0,
+          "r2": 227939134030.3053,
+          "mu": 1.3271244004127942e+20
+        },
+        "expected": 22366001.568537094,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Половина періоду еліпса; кругові компланарні орбіти, не розрахунок вікна запуску.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "hohmann_time"
+    },
+    {
+      "id": "departure_c3",
+      "expression": "C3=(sqrt(mu*(2/r1-2/(r1+r2)))-sqrt(mu/r1))^2",
+      "purpose_uk": "Характеристична енергія ідеального відльоту",
+      "variables": {
+        "r1": {
+          "unit": "m",
+          "meaning_uk": "початковий радіус"
+        },
+        "r2": {
+          "unit": "m",
+          "meaning_uk": "кінцевий радіус"
+        },
+        "mu": {
+          "unit": "m^3 s^-2",
+          "meaning_uk": "GM зорі"
+        }
+      },
+      "output_unit": "m^2 s^-2",
+      "example": {
+        "inputs": {
+          "r1": 149597870700.0,
+          "r2": 227939134030.3053,
+          "mu": 1.3271244004127942e+20
+        },
+        "expected": 8671194.816655284,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Різниця швидкостей на Hohmann орбіті; /1e6 дає km^2/s^2. Не крива вантажопідйомності.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "departure_c3"
+    },
+    {
+      "id": "rocket_delta_v",
+      "expression": "delta_v=Isp*g0*ln(m0/mf)",
+      "purpose_uk": "Рівняння Ціолковського",
+      "variables": {
+        "Isp": {
+          "unit": "s",
+          "meaning_uk": "питомий імпульс"
+        },
+        "g0": {
+          "unit": "m s^-2",
+          "meaning_uk": "стандартне прискорення"
+        },
+        "m0": {
+          "unit": "kg",
+          "meaning_uk": "початкова маса"
+        },
+        "mf": {
+          "unit": "kg",
+          "meaning_uk": "кінцева маса"
+        }
+      },
+      "output_unit": "m s^-1",
+      "example": {
+        "inputs": {
+          "Isp": 320,
+          "g0": 9.80665,
+          "m0": 2000,
+          "mf": 1000
+        },
+        "expected": 2175.18457543622,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Ідеальний імпульс; m0>=mf>0, без гравітаційних/аеродинамічних втрат.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "rocket_delta_v"
+    },
+    {
+      "id": "mission_mass",
+      "expression": "m_total=m_dry+m_payload+m_propellant+m_adapter",
+      "purpose_uk": "Масовий бюджет місії",
+      "variables": {
+        "m_dry": {
+          "unit": "kg",
+          "meaning_uk": "суха платформа без payload"
+        },
+        "m_payload": {
+          "unit": "kg",
+          "meaning_uk": "payload"
+        },
+        "m_propellant": {
+          "unit": "kg",
+          "meaning_uk": "паливо"
+        },
+        "m_adapter": {
+          "unit": "kg",
+          "meaning_uk": "адаптер"
+        }
+      },
+      "output_unit": "kg",
+      "example": {
+        "inputs": {
+          "m_dry": 1500,
+          "m_payload": 500,
+          "m_propellant": 700,
+          "m_adapter": 100
+        },
+        "expected": 2800,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Неперекривні складові. Perseverance 1025 kg уже містить прилади й MMRTG.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "mission_mass"
+    },
+    {
+      "id": "signal_delay",
+      "expression": "tau=d/c",
+      "purpose_uk": "Одностороння геометрична затримка",
+      "variables": {
+        "d": {
+          "unit": "m",
+          "meaning_uk": "відстань"
+        }
+      },
+      "output_unit": "s",
+      "example": {
+        "inputs": {
+          "d": 149597870700.0
+        },
+        "expected": 499.00478383615643,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Миттєва евклідова відстань; не retarded light-time чи двостороння відповідь.",
+      "source": "https://ssd.jpl.nasa.gov/astro_par.html",
+      "derivation": "signal_delay"
+    },
+    {
+      "id": "received_power",
+      "expression": "Pr=Pt*Gt*Gr*(lambda/(4*pi*d))^2",
+      "purpose_uk": "Ідеальний Friis link budget",
+      "variables": {
+        "Pt": {
+          "unit": "W",
+          "meaning_uk": "передана потужність"
+        },
+        "Gt": {
+          "unit": "1",
+          "meaning_uk": "лінійне підсилення передавача"
+        },
+        "Gr": {
+          "unit": "1",
+          "meaning_uk": "лінійне підсилення приймача"
+        },
+        "wavelength": {
+          "unit": "m",
+          "meaning_uk": "довжина хвилі"
+        },
+        "d": {
+          "unit": "m",
+          "meaning_uk": "дальність"
+        }
+      },
+      "output_unit": "W",
+      "example": {
+        "inputs": {
+          "Pt": 10,
+          "Gt": 100,
+          "Gr": 100,
+          "wavelength": 0.036,
+          "d": 149597870700.0
+        },
+        "expected": 3.667198762507116e-23,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Далеке поле, LOS, без втрат. Не визначає bitrate без шуму, модуляції та Eb/N0.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "received_power"
+    },
+    {
+      "id": "solar_power",
+      "expression": "P=S*area*eta*max(0,cos(theta))*dust",
+      "purpose_uk": "Енергія сонячної панелі",
+      "variables": {
+        "S": {
+          "unit": "W m^-2",
+          "meaning_uk": "потік"
+        },
+        "area": {
+          "unit": "m^2",
+          "meaning_uk": "площа"
+        },
+        "eta": {
+          "unit": "1",
+          "meaning_uk": "ККД"
+        },
+        "theta": {
+          "unit": "rad",
+          "meaning_uk": "кут до нормалі"
+        },
+        "dust": {
+          "unit": "1",
+          "meaning_uk": "частка після пилового ослаблення"
+        }
+      },
+      "output_unit": "W",
+      "example": {
+        "inputs": {
+          "S": 589,
+          "area": 2,
+          "eta": 0.25,
+          "theta": 0,
+          "dust": 0.7
+        },
+        "expected": 206.14999999999998,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Умовна панель для дизайну місії, Perseverance використовує MMRTG. Не додавати атмосферні втрати двічі.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "solar_power"
+    },
+    {
+      "id": "slope",
+      "expression": "theta=atan(sqrt((dz/dx)^2+(dz/dy)^2))",
+      "purpose_uk": "Похил DEM",
+      "variables": {
+        "dz_dx": {
+          "unit": "1",
+          "meaning_uk": "градієнт за східним напрямком"
+        },
+        "dz_dy": {
+          "unit": "1",
+          "meaning_uk": "градієнт за північним напрямком"
+        }
+      },
+      "output_unit": "rad",
+      "example": {
+        "inputs": {
+          "dz_dx": 0.1,
+          "dz_dy": 0
+        },
+        "expected": 0.09966865249116204,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Центральна різниця, однаковий горизонтальний/вертикальний метр, маскувати nodata.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "slope"
+    },
+    {
+      "id": "rover_force",
+      "expression": "F=m*a+m*g*(sin(theta)+Crr*cos(theta))",
+      "purpose_uk": "Тягове зусилля вздовж маршруту",
+      "variables": {
+        "m": {
+          "unit": "kg",
+          "meaning_uk": "повна маса"
+        },
+        "g": {
+          "unit": "m s^-2",
+          "meaning_uk": "гравітація"
+        },
+        "theta": {
+          "unit": "rad",
+          "meaning_uk": "поздовжній похил; підйом>0"
+        },
+        "Crr": {
+          "unit": "1",
+          "meaning_uk": "коефіцієнт кочення"
+        },
+        "a": {
+          "unit": "m s^-2",
+          "meaning_uk": "прискорення"
+        }
+      },
+      "output_unit": "N",
+      "example": {
+        "inputs": {
+          "m": 1025,
+          "g": 3.71,
+          "theta": 0.08726646259971647,
+          "Crr": 0.04,
+          "a": 0
+        },
+        "expected": 482.9626762603925,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Ігрова модель твердого покриття, без буксування й просідання; Crr потребує калібрування.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "rover_force"
+    },
+    {
+      "id": "rover_energy",
+      "expression": "E=max(0,F*s)/eta+P_aux*t",
+      "purpose_uk": "Енергія проїзду",
+      "variables": {
+        "F": {
+          "unit": "N",
+          "meaning_uk": "тягове зусилля"
+        },
+        "s": {
+          "unit": "m",
+          "meaning_uk": "довжина 3D шляху"
+        },
+        "eta": {
+          "unit": "1",
+          "meaning_uk": "ККД приводу"
+        },
+        "P_aux": {
+          "unit": "W",
+          "meaning_uk": "допоміжні системи під час руху"
+        },
+        "t": {
+          "unit": "s",
+          "meaning_uk": "тривалість"
+        }
+      },
+      "output_unit": "J",
+      "example": {
+        "inputs": {
+          "F": 500,
+          "s": 100,
+          "eta": 0.5,
+          "P_aux": 120,
+          "t": 3333.3333333333335
+        },
+        "expected": 500000.0,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Ділянки маршруту сумувати окремо; без рекуперації. J/3600=Wh; не чистий розряд батареї.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "rover_energy"
+    },
+    {
+      "id": "battery_delta",
+      "expression": "dE=eta_c*(P_gen-P_load)*t if surplus else (P_gen-P_load)*t/eta_d",
+      "purpose_uk": "Зміна запасу батареї",
+      "variables": {
+        "P_gen": {
+          "unit": "W",
+          "meaning_uk": "генерація"
+        },
+        "P_load": {
+          "unit": "W",
+          "meaning_uk": "усі навантаження"
+        },
+        "t": {
+          "unit": "s",
+          "meaning_uk": "крок"
+        },
+        "eta_c": {
+          "unit": "1",
+          "meaning_uk": "ККД заряду"
+        },
+        "eta_d": {
+          "unit": "1",
+          "meaning_uk": "ККД розряду"
+        }
+      },
+      "output_unit": "J",
+      "example": {
+        "inputs": {
+          "P_gen": 110,
+          "P_load": 160,
+          "t": 3600,
+          "eta_c": 0.95,
+          "eta_d": 0.95
+        },
+        "expected": -189473.68421052632,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Потім clamp E до [reserve,capacity], врахувати недообслуговане навантаження. Не продовжувати дію при порожній батареї.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "battery_delta"
+    },
+    {
+      "id": "data_balance",
+      "expression": "D_next=max(0,D+Q-rate*t)",
+      "purpose_uk": "Баланс даних за крок",
+      "variables": {
+        "D": {
+          "unit": "bit",
+          "meaning_uk": "буфер до кроку"
+        },
+        "Q": {
+          "unit": "bit",
+          "meaning_uk": "створені дані"
+        },
+        "rate": {
+          "unit": "bit s^-1",
+          "meaning_uk": "ефективний bitrate лише під час сеансу"
+        },
+        "t": {
+          "unit": "s",
+          "meaning_uk": "час сеансу"
+        }
+      },
+      "output_unit": "bit",
+      "example": {
+        "inputs": {
+          "D": 200000000.0,
+          "Q": 50000000.0,
+          "rate": 1000000.0,
+          "t": 120
+        },
+        "expected": 130000000.0,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Обмежити передавання доступним буфером; окремо показати overflow понад capacity. 1 MB=8 Mbit.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "data_balance"
+    },
+    {
+      "id": "drag",
+      "expression": "F_drag=0.5*rho*v^2*Cd*area",
+      "purpose_uk": "Опір у спрощеному EDL",
+      "variables": {
+        "rho": {
+          "unit": "kg m^-3",
+          "meaning_uk": "локальна густина газу"
+        },
+        "v": {
+          "unit": "m s^-1",
+          "meaning_uk": "швидкість відносно газу"
+        },
+        "Cd": {
+          "unit": "1",
+          "meaning_uk": "коефіцієнт опору"
+        },
+        "area": {
+          "unit": "m^2",
+          "meaning_uk": "лобова площа"
+        }
+      },
+      "output_unit": "N",
+      "example": {
+        "inputs": {
+          "rho": 0.02,
+          "v": 100,
+          "Cd": 1.5,
+          "area": 10
+        },
+        "expected": 1500.0,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Режимно-залежний Cd; без нагріву, Mach, підйому чи повної валідації посадки.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "drag"
+    },
+    {
+      "id": "hill_radius",
+      "expression": "R_H=((a1+a2)/2)*((m1+m2)/(3*Mstar))^(1/3)",
+      "purpose_uk": "Взаємний радіус Hill",
+      "variables": {
+        "a": {
+          "unit": "m",
+          "meaning_uk": "середня велика піввісь сусідів"
+        },
+        "m1": {
+          "unit": "kg",
+          "meaning_uk": "маса внутрішньої планети"
+        },
+        "m2": {
+          "unit": "kg",
+          "meaning_uk": "маса зовнішньої планети"
+        },
+        "Mstar": {
+          "unit": "kg",
+          "meaning_uk": "маса зорі"
+        }
+      },
+      "output_unit": "m",
+      "example": {
+        "inputs": {
+          "a": 164557657770.0,
+          "m1": 5.9722e+24,
+          "m2": 5.9722e+24,
+          "Mstar": 1.988409871316534e+30
+        },
+        "expected": 2074103805.9006913,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Перевіряти gap=outer_periapsis-inner_apoapsis >=10*R_H. Консервативна евристика, не доведення довготривалої стабільності.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "hill_radius"
+    },
+    {
+      "id": "visual_orbit",
+      "expression": "r_view=scale*ln(1+a/a0)",
+      "purpose_uk": "Стиснення орбіт для огляду",
+      "variables": {
+        "a": {
+          "unit": "m",
+          "meaning_uk": "фізична піввісь"
+        },
+        "scale": {
+          "unit": "view_unit",
+          "meaning_uk": "масштаб сцени"
+        },
+        "a0": {
+          "unit": "m",
+          "meaning_uk": "опорна відстань"
+        }
+      },
+      "output_unit": "view_unit",
+      "example": {
+        "inputs": {
+          "a": 149597870700.0,
+          "scale": 20,
+          "a0": 14959787070.0
+        },
+        "expected": 47.95790545596741,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Лише оглядова сцена. Рух і delta-v рахувати в SI, не на стиснених відстанях.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "visual_orbit"
+    },
+    {
+      "id": "visual_radius",
+      "expression": "R_view=scale*sqrt(R/R0)",
+      "purpose_uk": "Збільшення видимих планет",
+      "variables": {
+        "R": {
+          "unit": "m",
+          "meaning_uk": "реальний радіус"
+        },
+        "scale": {
+          "unit": "view_unit",
+          "meaning_uk": "видимий радіус опорного тіла"
+        },
+        "R0": {
+          "unit": "m",
+          "meaning_uk": "опорний радіус"
+        }
+      },
+      "output_unit": "view_unit",
+      "example": {
+        "inputs": {
+          "R": 6371008.4,
+          "scale": 0.5,
+          "R0": 6371008.4
+        },
+        "expected": 0.5,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Масштаб радіусів незалежний від орбіт; явно позначити в UI.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "visual_radius"
+    },
+    {
+      "id": "constant_acceleration",
+      "expression": "s=v0*t+0.5*a*t^2",
+      "purpose_uk": "Прямолінійний рух на одному кроці",
+      "variables": {
+        "v0": {
+          "unit": "m s^-1",
+          "meaning_uk": "початкова швидкість"
+        },
+        "a": {
+          "unit": "m s^-2",
+          "meaning_uk": "стале прискорення"
+        },
+        "t": {
+          "unit": "s",
+          "meaning_uk": "крок"
+        }
+      },
+      "output_unit": "m",
+      "example": {
+        "inputs": {
+          "v0": 0.02,
+          "a": 0.001,
+          "t": 1
+        },
+        "expected": 0.0205,
+        "relative_tolerance": 1e-10
+      },
+      "domain_and_limits_uk": "Стала a на кроці; обмежити v швидкістю профілю, повторно рахувати крок при досягненні межі.",
+      "source": "docs/PHYSICS.md",
+      "derivation": "constant_acceleration"
+    }
+  ]
+}

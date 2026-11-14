@@ -1,0 +1,4655 @@
+{
+  "schema_version": "1.0",
+  "id": "places-landing-region",
+  "source_ids": [
+    "nasa_pds_places",
+    "usgs_jezero_ctx"
+  ],
+  "status": "observed_waypoints_not_certified_drivable_route",
+  "terrain_id": "jezero_landing_10km",
+  "sampling": "last tactical rover pose per sol inside crop; chronological chord segments are not traverses",
+  "waypoints": [
+    {
+      "id": "places-tactical-sol-13",
+      "sol": 13,
+      "site": 3,
+      "drive": 28,
+      "pose": -1,
+      "sclk_s": 668099638.0,
+      "longitude_east_deg": 77.450885729,
+      "latitude_planetocentric_deg": 18.444627146,
+      "elevation_areoid_m": -2569.91,
+      "terrain_height_m": -2567.357,
+      "world_xyz_m": [
+        -1.408,
+        2.364,
+        -3.31
+      ],
+      "cell_col_row": [
+        256,
+        256
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-14",
+      "sol": 14,
+      "site": 3,
+      "drive": 110,
+      "pose": -1,
+      "sclk_s": 668187928.0,
+      "longitude_east_deg": 77.450946754,
+      "latitude_planetocentric_deg": 18.444543383,
+      "elevation_areoid_m": -2569.862,
+      "terrain_height_m": -2567.357,
+      "world_xyz_m": [
+        2.023,
+        2.364,
+        1.655
+      ],
+      "cell_col_row": [
+        256,
+        256
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-15",
+      "sol": 15,
+      "site": 3,
+      "drive": 386,
+      "pose": -1,
+      "sclk_s": 668279724.0,
+      "longitude_east_deg": 77.451034032,
+      "latitude_planetocentric_deg": 18.445135052,
+      "elevation_areoid_m": -2569.935,
+      "terrain_height_m": -2567.756,
+      "world_xyz_m": [
+        6.93,
+        1.965,
+        -33.416
+      ],
+      "cell_col_row": [
+        257,
+        254
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-16",
+      "sol": 16,
+      "site": 3,
+      "drive": 578,
+      "pose": -1,
+      "sclk_s": 668366947.0,
+      "longitude_east_deg": 77.451497262,
+      "latitude_planetocentric_deg": 18.445279903,
+      "elevation_areoid_m": -2569.287,
+      "terrain_height_m": -2568.928,
+      "world_xyz_m": [
+        32.974,
+        0.793,
+        -42.002
+      ],
+      "cell_col_row": [
+        258,
+        254
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-20",
+      "sol": 20,
+      "site": 3,
+      "drive": 770,
+      "pose": -1,
+      "sclk_s": 668726088.0,
+      "longitude_east_deg": 77.45185605,
+      "latitude_planetocentric_deg": 18.445148363,
+      "elevation_areoid_m": -2568.93,
+      "terrain_height_m": -2569.802,
+      "world_xyz_m": [
+        53.146,
+        -0.081,
+        -34.205
+      ],
+      "cell_col_row": [
+        259,
+        254
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-23",
+      "sol": 23,
+      "site": 3,
+      "drive": 792,
+      "pose": -1,
+      "sclk_s": 668987389.0,
+      "longitude_east_deg": 77.451777107,
+      "latitude_planetocentric_deg": 18.445202287,
+      "elevation_areoid_m": -2568.969,
+      "terrain_height_m": -2569.802,
+      "world_xyz_m": [
+        48.708,
+        -0.081,
+        -37.402
+      ],
+      "cell_col_row": [
+        259,
+        254
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-29",
+      "sol": 29,
+      "site": 3,
+      "drive": 828,
+      "pose": -1,
+      "sclk_s": 669525719.0,
+      "longitude_east_deg": 77.451821704,
+      "latitude_planetocentric_deg": 18.445164373,
+      "elevation_areoid_m": -2568.926,
+      "terrain_height_m": -2569.802,
+      "world_xyz_m": [
+        51.215,
+        -0.081,
+        -35.154
+      ],
+      "cell_col_row": [
+        259,
+        254
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-31",
+      "sol": 31,
+      "site": 3,
+      "drive": 1044,
+      "pose": -1,
+      "sclk_s": 669698335.0,
+      "longitude_east_deg": 77.451331813,
+      "latitude_planetocentric_deg": 18.445179996,
+      "elevation_areoid_m": -2569.602,
+      "terrain_height_m": -2567.756,
+      "world_xyz_m": [
+        23.672,
+        1.965,
+        -36.08
+      ],
+      "cell_col_row": [
+        257,
+        254
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-32",
+      "sol": 32,
+      "site": 3,
+      "drive": 1266,
+      "pose": -1,
+      "sclk_s": 669787029.0,
+      "longitude_east_deg": 77.451196645,
+      "latitude_planetocentric_deg": 18.444700006,
+      "elevation_areoid_m": -2569.808,
+      "terrain_height_m": -2567.993,
+      "world_xyz_m": [
+        16.073,
+        1.728,
+        -7.629
+      ],
+      "cell_col_row": [
+        257,
+        255
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-33",
+      "sol": 33,
+      "site": 3,
+      "drive": 1374,
+      "pose": -1,
+      "sclk_s": 669870396.0,
+      "longitude_east_deg": 77.451024464,
+      "latitude_planetocentric_deg": 18.444752179,
+      "elevation_areoid_m": -2569.992,
+      "terrain_height_m": -2567.993,
+      "world_xyz_m": [
+        6.392,
+        1.728,
+        -10.722
+      ],
+      "cell_col_row": [
+        257,
+        255
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-34",
+      "sol": 34,
+      "site": 3,
+      "drive": 1392,
+      "pose": -1,
+      "sclk_s": 669961048.0,
+      "longitude_east_deg": 77.451021544,
+      "latitude_planetocentric_deg": 18.444862727,
+      "elevation_areoid_m": -2569.994,
+      "terrain_height_m": -2567.993,
+      "world_xyz_m": [
+        6.228,
+        1.728,
+        -17.274
+      ],
+      "cell_col_row": [
+        257,
+        255
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-43",
+      "sol": 43,
+      "site": 3,
+      "drive": 1398,
+      "pose": -1,
+      "sclk_s": 670763984.0,
+      "longitude_east_deg": 77.451024606,
+      "latitude_planetocentric_deg": 18.444940332,
+      "elevation_areoid_m": -2570.02,
+      "terrain_height_m": -2567.993,
+      "world_xyz_m": [
+        6.4,
+        1.728,
+        -21.874
+      ],
+      "cell_col_row": [
+        257,
+        255
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-44",
+      "sol": 44,
+      "site": 3,
+      "drive": 1416,
+      "pose": -1,
+      "sclk_s": 670850180.0,
+      "longitude_east_deg": 77.451020473,
+      "latitude_planetocentric_deg": 18.444942967,
+      "elevation_areoid_m": -2570.025,
+      "terrain_height_m": -2567.993,
+      "world_xyz_m": [
+        6.168,
+        1.728,
+        -22.031
+      ],
+      "cell_col_row": [
+        257,
+        255
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-47",
+      "sol": 47,
+      "site": 3,
+      "drive": 1708,
+      "pose": -1,
+      "sclk_s": 671117968.0,
+      "longitude_east_deg": 77.451529539,
+      "latitude_planetocentric_deg": 18.444779013,
+      "elevation_areoid_m": -2569.539,
+      "terrain_height_m": -2568.957,
+      "world_xyz_m": [
+        34.789,
+        0.764,
+        -12.312
+      ],
+      "cell_col_row": [
+        258,
+        255
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-48",
+      "sol": 48,
+      "site": 3,
+      "drive": 1850,
+      "pose": -1,
+      "sclk_s": 671207098.0,
+      "longitude_east_deg": 77.45181893,
+      "latitude_planetocentric_deg": 18.444871247,
+      "elevation_areoid_m": -2569.04,
+      "terrain_height_m": -2569.709,
+      "world_xyz_m": [
+        51.059,
+        0.012,
+        -17.779
+      ],
+      "cell_col_row": [
+        259,
+        255
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-49",
+      "sol": 49,
+      "site": 3,
+      "drive": 1950,
+      "pose": -1,
+      "sclk_s": 671300257.0,
+      "longitude_east_deg": 77.452019258,
+      "latitude_planetocentric_deg": 18.444795784,
+      "elevation_areoid_m": -2568.98,
+      "terrain_height_m": -2569.709,
+      "world_xyz_m": [
+        62.322,
+        0.012,
+        -13.306
+      ],
+      "cell_col_row": [
+        259,
+        255
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-52",
+      "sol": 52,
+      "site": 3,
+      "drive": 2046,
+      "pose": -1,
+      "sclk_s": 671562055.0,
+      "longitude_east_deg": 77.452139814,
+      "latitude_planetocentric_deg": 18.44475241,
+      "elevation_areoid_m": -2569.05,
+      "terrain_height_m": -2570.121,
+      "world_xyz_m": [
+        69.1,
+        -0.4,
+        -10.735
+      ],
+      "cell_col_row": [
+        260,
+        255
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-65",
+      "sol": 65,
+      "site": 3,
+      "drive": 2150,
+      "pose": -1,
+      "sclk_s": 672719649.0,
+      "longitude_east_deg": 77.452225563,
+      "latitude_planetocentric_deg": 18.444666218,
+      "elevation_areoid_m": -2569.001,
+      "terrain_height_m": -2570.121,
+      "world_xyz_m": [
+        73.921,
+        -0.4,
+        -5.626
+      ],
+      "cell_col_row": [
+        260,
+        255
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-66",
+      "sol": 66,
+      "site": 3,
+      "drive": 2208,
+      "pose": -1,
+      "sclk_s": 672795748.0,
+      "longitude_east_deg": 77.452297616,
+      "latitude_planetocentric_deg": 18.444528622,
+      "elevation_areoid_m": -2569.315,
+      "terrain_height_m": -2569.647,
+      "world_xyz_m": [
+        77.972,
+        0.074,
+        2.53
+      ],
+      "cell_col_row": [
+        260,
+        256
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-72",
+      "sol": 72,
+      "site": 3,
+      "drive": 2346,
+      "pose": -1,
+      "sclk_s": 673342968.0,
+      "longitude_east_deg": 77.452517456,
+      "latitude_planetocentric_deg": 18.444277992,
+      "elevation_areoid_m": -2569.14,
+      "terrain_height_m": -2569.06,
+      "world_xyz_m": [
+        90.332,
+        0.661,
+        17.386
+      ],
+      "cell_col_row": [
+        261,
+        257
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-73",
+      "sol": 73,
+      "site": 3,
+      "drive": 2430,
+      "pose": -1,
+      "sclk_s": 673426863.0,
+      "longitude_east_deg": 77.452587346,
+      "latitude_planetocentric_deg": 18.44412598,
+      "elevation_areoid_m": -2568.814,
+      "terrain_height_m": -2569.06,
+      "world_xyz_m": [
+        94.261,
+        0.661,
+        26.396
+      ],
+      "cell_col_row": [
+        261,
+        257
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-86",
+      "sol": 86,
+      "site": 4,
+      "drive": 48,
+      "pose": -1,
+      "sclk_s": 674583376.0,
+      "longitude_east_deg": 77.452218982,
+      "latitude_planetocentric_deg": 18.444160201,
+      "elevation_areoid_m": -2569.2,
+      "terrain_height_m": -2568.992,
+      "world_xyz_m": [
+        73.551,
+        0.729,
+        24.368
+      ],
+      "cell_col_row": [
+        260,
+        257
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-91",
+      "sol": 91,
+      "site": 4,
+      "drive": 136,
+      "pose": -1,
+      "sclk_s": 675027354.0,
+      "longitude_east_deg": 77.452207047,
+      "latitude_planetocentric_deg": 18.443880166,
+      "elevation_areoid_m": -2569.23,
+      "terrain_height_m": -2568.541,
+      "world_xyz_m": [
+        72.88,
+        1.18,
+        40.967
+      ],
+      "cell_col_row": [
+        260,
+        258
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-99",
+      "sol": 99,
+      "site": 4,
+      "drive": 218,
+      "pose": -1,
+      "sclk_s": 675733622.0,
+      "longitude_east_deg": 77.452161549,
+      "latitude_planetocentric_deg": 18.443762713,
+      "elevation_areoid_m": -2569.197,
+      "terrain_height_m": -2568.541,
+      "world_xyz_m": [
+        70.322,
+        1.18,
+        47.929
+      ],
+      "cell_col_row": [
+        260,
+        258
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-102",
+      "sol": 102,
+      "site": 4,
+      "drive": 372,
+      "pose": -1,
+      "sclk_s": 675998039.0,
+      "longitude_east_deg": 77.451527374,
+      "latitude_planetocentric_deg": 18.443254722,
+      "elevation_areoid_m": -2568.954,
+      "terrain_height_m": -2567.526,
+      "world_xyz_m": [
+        34.667,
+        2.195,
+        78.04
+      ],
+      "cell_col_row": [
+        258,
+        260
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-103",
+      "sol": 103,
+      "site": 4,
+      "drive": 430,
+      "pose": -1,
+      "sclk_s": 676090864.0,
+      "longitude_east_deg": 77.451194377,
+      "latitude_planetocentric_deg": 18.442997564,
+      "elevation_areoid_m": -2568.86,
+      "terrain_height_m": -2567.105,
+      "world_xyz_m": [
+        15.945,
+        2.616,
+        93.283
+      ],
+      "cell_col_row": [
+        257,
+        260
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-104",
+      "sol": 104,
+      "site": 4,
+      "drive": 510,
+      "pose": -1,
+      "sclk_s": 676178066.0,
+      "longitude_east_deg": 77.450864403,
+      "latitude_planetocentric_deg": 18.442423153,
+      "elevation_areoid_m": -2568.932,
+      "terrain_height_m": -2566.73,
+      "world_xyz_m": [
+        -2.607,
+        2.991,
+        127.331
+      ],
+      "cell_col_row": [
+        256,
+        262
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-105",
+      "sol": 105,
+      "site": 4,
+      "drive": 592,
+      "pose": -1,
+      "sclk_s": 676266084.0,
+      "longitude_east_deg": 77.450696606,
+      "latitude_planetocentric_deg": 18.442007951,
+      "elevation_areoid_m": -2568.51,
+      "terrain_height_m": -2567.0,
+      "world_xyz_m": [
+        -12.041,
+        2.721,
+        151.942
+      ],
+      "cell_col_row": [
+        256,
+        263
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-107",
+      "sol": 107,
+      "site": 4,
+      "drive": 644,
+      "pose": -1,
+      "sclk_s": 676448269.0,
+      "longitude_east_deg": 77.450679869,
+      "latitude_planetocentric_deg": 18.441877578,
+      "elevation_areoid_m": -2568.522,
+      "terrain_height_m": -2567.551,
+      "world_xyz_m": [
+        -12.982,
+        2.17,
+        159.669
+      ],
+      "cell_col_row": [
+        256,
+        264
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-108",
+      "sol": 108,
+      "site": 4,
+      "drive": 738,
+      "pose": -1,
+      "sclk_s": 676529842.0,
+      "longitude_east_deg": 77.450317738,
+      "latitude_planetocentric_deg": 18.441778199,
+      "elevation_areoid_m": -2568.673,
+      "terrain_height_m": -2567.526,
+      "world_xyz_m": [
+        -33.342,
+        2.195,
+        165.56
+      ],
+      "cell_col_row": [
+        255,
+        264
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-109",
+      "sol": 109,
+      "site": 4,
+      "drive": 822,
+      "pose": -1,
+      "sclk_s": 676621783.0,
+      "longitude_east_deg": 77.449725296,
+      "latitude_planetocentric_deg": 18.441119889,
+      "elevation_areoid_m": -2568.707,
+      "terrain_height_m": -2568.263,
+      "world_xyz_m": [
+        -66.651,
+        1.458,
+        204.581
+      ],
+      "cell_col_row": [
+        253,
+        266
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-110",
+      "sol": 110,
+      "site": 4,
+      "drive": 922,
+      "pose": -1,
+      "sclk_s": 676710613.0,
+      "longitude_east_deg": 77.449643685,
+      "latitude_planetocentric_deg": 18.440199321,
+      "elevation_areoid_m": -2568.9,
+      "terrain_height_m": -2568.979,
+      "world_xyz_m": [
+        -71.239,
+        0.742,
+        259.148
+      ],
+      "cell_col_row": [
+        253,
+        269
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-113",
+      "sol": 113,
+      "site": 4,
+      "drive": 1062,
+      "pose": -1,
+      "sclk_s": 676977817.0,
+      "longitude_east_deg": 77.44953798,
+      "latitude_planetocentric_deg": 18.439610857,
+      "elevation_areoid_m": -2569.137,
+      "terrain_height_m": -2569.498,
+      "world_xyz_m": [
+        -77.182,
+        0.223,
+        294.029
+      ],
+      "cell_col_row": [
+        252,
+        270
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-116",
+      "sol": 116,
+      "site": 4,
+      "drive": 1250,
+      "pose": -1,
+      "sclk_s": 677242671.0,
+      "longitude_east_deg": 77.449402057,
+      "latitude_planetocentric_deg": 18.439069193,
+      "elevation_areoid_m": -2568.073,
+      "terrain_height_m": -2570.015,
+      "world_xyz_m": [
+        -84.824,
+        -0.294,
+        326.136
+      ],
+      "cell_col_row": [
+        252,
+        272
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-122",
+      "sol": 122,
+      "site": 4,
+      "drive": 1422,
+      "pose": -1,
+      "sclk_s": 677775343.0,
+      "longitude_east_deg": 77.449411409,
+      "latitude_planetocentric_deg": 18.439571309,
+      "elevation_areoid_m": -2568.959,
+      "terrain_height_m": -2569.498,
+      "world_xyz_m": [
+        -84.298,
+        0.223,
+        296.373
+      ],
+      "cell_col_row": [
+        252,
+        270
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-123",
+      "sol": 123,
+      "site": 4,
+      "drive": 1644,
+      "pose": -1,
+      "sclk_s": 677868716.0,
+      "longitude_east_deg": 77.449635059,
+      "latitude_planetocentric_deg": 18.438458898,
+      "elevation_areoid_m": -2568.479,
+      "terrain_height_m": -2569.715,
+      "world_xyz_m": [
+        -71.724,
+        0.006,
+        362.311
+      ],
+      "cell_col_row": [
+        253,
+        274
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-124",
+      "sol": 124,
+      "site": 4,
+      "drive": 1712,
+      "pose": -1,
+      "sclk_s": 677952623.0,
+      "longitude_east_deg": 77.449559922,
+      "latitude_planetocentric_deg": 18.438340598,
+      "elevation_areoid_m": -2568.213,
+      "terrain_height_m": -2569.661,
+      "world_xyz_m": [
+        -75.948,
+        0.06,
+        369.323
+      ],
+      "cell_col_row": [
+        252,
+        274
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-126",
+      "sol": 126,
+      "site": 4,
+      "drive": 1776,
+      "pose": -1,
+      "sclk_s": 678124632.0,
+      "longitude_east_deg": 77.449820393,
+      "latitude_planetocentric_deg": 18.438040912,
+      "elevation_areoid_m": -2568.582,
+      "terrain_height_m": -2569.568,
+      "world_xyz_m": [
+        -61.304,
+        0.153,
+        387.087
+      ],
+      "cell_col_row": [
+        253,
+        275
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-127",
+      "sol": 127,
+      "site": 4,
+      "drive": 1860,
+      "pose": -1,
+      "sclk_s": 678214339.0,
+      "longitude_east_deg": 77.449959092,
+      "latitude_planetocentric_deg": 18.43738112,
+      "elevation_areoid_m": -2569.112,
+      "terrain_height_m": -2570.023,
+      "world_xyz_m": [
+        -53.506,
+        -0.302,
+        426.196
+      ],
+      "cell_col_row": [
+        254,
+        277
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-128",
+      "sol": 128,
+      "site": 4,
+      "drive": 1878,
+      "pose": -1,
+      "sclk_s": 678311461.0,
+      "longitude_east_deg": 77.44996489,
+      "latitude_planetocentric_deg": 18.437428577,
+      "elevation_areoid_m": -2569.176,
+      "terrain_height_m": -2570.023,
+      "world_xyz_m": [
+        -53.18,
+        -0.302,
+        423.383
+      ],
+      "cell_col_row": [
+        254,
+        277
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-129",
+      "sol": 129,
+      "site": 4,
+      "drive": 2222,
+      "pose": -1,
+      "sclk_s": 678398835.0,
+      "longitude_east_deg": 77.450410725,
+      "latitude_planetocentric_deg": 18.437044501,
+      "elevation_areoid_m": -2569.245,
+      "terrain_height_m": -2570.331,
+      "world_xyz_m": [
+        -28.114,
+        -0.61,
+        446.149
+      ],
+      "cell_col_row": [
+        255,
+        278
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-131",
+      "sol": 131,
+      "site": 5,
+      "drive": 500,
+      "pose": -1,
+      "sclk_s": 678572815.0,
+      "longitude_east_deg": 77.452046987,
+      "latitude_planetocentric_deg": 18.434032254,
+      "elevation_areoid_m": -2573.354,
+      "terrain_height_m": -2573.077,
+      "world_xyz_m": [
+        63.881,
+        -3.356,
+        624.699
+      ],
+      "cell_col_row": [
+        259,
+        287
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-134",
+      "sol": 134,
+      "site": 5,
+      "drive": 894,
+      "pose": -1,
+      "sclk_s": 678838237.0,
+      "longitude_east_deg": 77.45229429,
+      "latitude_planetocentric_deg": 18.4324753,
+      "elevation_areoid_m": -2575.162,
+      "terrain_height_m": -2575.58,
+      "world_xyz_m": [
+        77.785,
+        -5.859,
+        716.987
+      ],
+      "cell_col_row": [
+        260,
+        292
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-135",
+      "sol": 135,
+      "site": 5,
+      "drive": 1388,
+      "pose": -1,
+      "sclk_s": 678928453.0,
+      "longitude_east_deg": 77.45214885,
+      "latitude_planetocentric_deg": 18.4311366,
+      "elevation_areoid_m": -2580.235,
+      "terrain_height_m": -2576.611,
+      "world_xyz_m": [
+        69.608,
+        -6.89,
+        796.338
+      ],
+      "cell_col_row": [
+        260,
+        295
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-136",
+      "sol": 136,
+      "site": 5,
+      "drive": 1572,
+      "pose": -1,
+      "sclk_s": 679017672.0,
+      "longitude_east_deg": 77.452044128,
+      "latitude_planetocentric_deg": 18.430564766,
+      "elevation_areoid_m": -2582.63,
+      "terrain_height_m": -2578.891,
+      "world_xyz_m": [
+        63.72,
+        -9.17,
+        830.233
+      ],
+      "cell_col_row": [
+        259,
+        297
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-137",
+      "sol": 137,
+      "site": 5,
+      "drive": 1812,
+      "pose": -1,
+      "sclk_s": 679102815.0,
+      "longitude_east_deg": 77.452150652,
+      "latitude_planetocentric_deg": 18.429978768,
+      "elevation_areoid_m": -2583.792,
+      "terrain_height_m": -2579.5,
+      "world_xyz_m": [
+        69.709,
+        -9.779,
+        864.968
+      ],
+      "cell_col_row": [
+        260,
+        299
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-153",
+      "sol": 153,
+      "site": 5,
+      "drive": 2296,
+      "pose": -1,
+      "sclk_s": 680527778.0,
+      "longitude_east_deg": 77.452028875,
+      "latitude_planetocentric_deg": 18.428372394,
+      "elevation_areoid_m": -2585.87,
+      "terrain_height_m": -2583.646,
+      "world_xyz_m": [
+        62.863,
+        -13.925,
+        960.185
+      ],
+      "cell_col_row": [
+        259,
+        304
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-155",
+      "sol": 155,
+      "site": 5,
+      "drive": 2512,
+      "pose": -1,
+      "sclk_s": 680708669.0,
+      "longitude_east_deg": 77.451576029,
+      "latitude_planetocentric_deg": 18.427777125,
+      "elevation_areoid_m": -2585.087,
+      "terrain_height_m": -2584.464,
+      "world_xyz_m": [
+        37.403,
+        -14.743,
+        995.469
+      ],
+      "cell_col_row": [
+        258,
+        305
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-168",
+      "sol": 168,
+      "site": 6,
+      "drive": 170,
+      "pose": -1,
+      "sclk_s": 681862945.0,
+      "longitude_east_deg": 77.451606631,
+      "latitude_planetocentric_deg": 18.42725346,
+      "elevation_areoid_m": -2582.788,
+      "terrain_height_m": -2582.336,
+      "world_xyz_m": [
+        39.123,
+        -12.615,
+        1026.51
+      ],
+      "cell_col_row": [
+        258,
+        307
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-169",
+      "sol": 169,
+      "site": 6,
+      "drive": 410,
+      "pose": -1,
+      "sclk_s": 681949042.0,
+      "longitude_east_deg": 77.450805744,
+      "latitude_planetocentric_deg": 18.427642175,
+      "elevation_areoid_m": -2585.46,
+      "terrain_height_m": -2584.101,
+      "world_xyz_m": [
+        -5.905,
+        -14.38,
+        1003.469
+      ],
+      "cell_col_row": [
+        256,
+        306
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-170",
+      "sol": 170,
+      "site": 6,
+      "drive": 892,
+      "pose": -1,
+      "sclk_s": 682034723.0,
+      "longitude_east_deg": 77.449201621,
+      "latitude_planetocentric_deg": 18.428440121,
+      "elevation_areoid_m": -2585.785,
+      "terrain_height_m": -2582.762,
+      "world_xyz_m": [
+        -96.093,
+        -13.041,
+        956.171
+      ],
+      "cell_col_row": [
+        251,
+        303
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-171",
+      "sol": 171,
+      "site": 6,
+      "drive": 1450,
+      "pose": -1,
+      "sclk_s": 682123183.0,
+      "longitude_east_deg": 77.447677259,
+      "latitude_planetocentric_deg": 18.429547574,
+      "elevation_areoid_m": -2583.672,
+      "terrain_height_m": -2580.77,
+      "world_xyz_m": [
+        -181.797,
+        -11.049,
+        890.527
+      ],
+      "cell_col_row": [
+        247,
+        300
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-173",
+      "sol": 173,
+      "site": 6,
+      "drive": 1648,
+      "pose": -1,
+      "sclk_s": 682305169.0,
+      "longitude_east_deg": 77.447046051,
+      "latitude_planetocentric_deg": 18.429611881,
+      "elevation_areoid_m": -2581.385,
+      "terrain_height_m": -2578.736,
+      "world_xyz_m": [
+        -217.285,
+        -9.015,
+        886.715
+      ],
+      "cell_col_row": [
+        245,
+        300
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-175",
+      "sol": 175,
+      "site": 6,
+      "drive": 1752,
+      "pose": -1,
+      "sclk_s": 682481754.0,
+      "longitude_east_deg": 77.446792966,
+      "latitude_planetocentric_deg": 18.429661502,
+      "elevation_areoid_m": -2579.604,
+      "terrain_height_m": -2578.736,
+      "world_xyz_m": [
+        -231.514,
+        -9.015,
+        883.774
+      ],
+      "cell_col_row": [
+        245,
+        300
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-177",
+      "sol": 177,
+      "site": 6,
+      "drive": 2250,
+      "pose": -1,
+      "sclk_s": 682663510.0,
+      "longitude_east_deg": 77.445454929,
+      "latitude_planetocentric_deg": 18.430513906,
+      "elevation_areoid_m": -2579.368,
+      "terrain_height_m": -2579.049,
+      "world_xyz_m": [
+        -306.742,
+        -9.328,
+        833.248
+      ],
+      "cell_col_row": [
+        241,
+        297
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-178",
+      "sol": 178,
+      "site": 6,
+      "drive": 2666,
+      "pose": -1,
+      "sclk_s": 682748743.0,
+      "longitude_east_deg": 77.444310728,
+      "latitude_planetocentric_deg": 18.430825557,
+      "elevation_areoid_m": -2574.369,
+      "terrain_height_m": -2578.89,
+      "world_xyz_m": [
+        -371.072,
+        -9.169,
+        814.775
+      ],
+      "cell_col_row": [
+        238,
+        296
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-199",
+      "sol": 199,
+      "site": 7,
+      "drive": 346,
+      "pose": -1,
+      "sclk_s": 684611291.0,
+      "longitude_east_deg": 77.443324079,
+      "latitude_planetocentric_deg": 18.431230199,
+      "elevation_areoid_m": -2574.186,
+      "terrain_height_m": -2578.633,
+      "world_xyz_m": [
+        -426.544,
+        -8.912,
+        790.79
+      ],
+      "cell_col_row": [
+        235,
+        295
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-200",
+      "sol": 200,
+      "site": 7,
+      "drive": 1172,
+      "pose": -1,
+      "sclk_s": 684699482.0,
+      "longitude_east_deg": 77.440686637,
+      "latitude_planetocentric_deg": 18.432547877,
+      "elevation_areoid_m": -2571.841,
+      "terrain_height_m": -2575.53,
+      "world_xyz_m": [
+        -574.828,
+        -5.809,
+        712.685
+      ],
+      "cell_col_row": [
+        228,
+        291
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-201",
+      "sol": 201,
+      "site": 7,
+      "drive": 1358,
+      "pose": -1,
+      "sclk_s": 684789699.0,
+      "longitude_east_deg": 77.441286982,
+      "latitude_planetocentric_deg": 18.43270199,
+      "elevation_areoid_m": -2574.247,
+      "terrain_height_m": -2575.746,
+      "world_xyz_m": [
+        -541.075,
+        -6.025,
+        703.55
+      ],
+      "cell_col_row": [
+        229,
+        291
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-202",
+      "sol": 202,
+      "site": 7,
+      "drive": 1556,
+      "pose": -1,
+      "sclk_s": 684875840.0,
+      "longitude_east_deg": 77.441760546,
+      "latitude_planetocentric_deg": 18.433273448,
+      "elevation_areoid_m": -2575.186,
+      "terrain_height_m": -2572.054,
+      "world_xyz_m": [
+        -514.45,
+        -2.333,
+        669.677
+      ],
+      "cell_col_row": [
+        231,
+        289
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-203",
+      "sol": 203,
+      "site": 7,
+      "drive": 1716,
+      "pose": -1,
+      "sclk_s": 684964463.0,
+      "longitude_east_deg": 77.442248055,
+      "latitude_planetocentric_deg": 18.433333816,
+      "elevation_areoid_m": -2574.432,
+      "terrain_height_m": -2570.661,
+      "world_xyz_m": [
+        -487.041,
+        -0.94,
+        666.098
+      ],
+      "cell_col_row": [
+        232,
+        289
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-204",
+      "sol": 204,
+      "site": 7,
+      "drive": 1836,
+      "pose": -1,
+      "sclk_s": 685058460.0,
+      "longitude_east_deg": 77.442410102,
+      "latitude_planetocentric_deg": 18.433398242,
+      "elevation_areoid_m": -2573.582,
+      "terrain_height_m": -2570.661,
+      "world_xyz_m": [
+        -477.93,
+        -0.94,
+        662.279
+      ],
+      "cell_col_row": [
+        232,
+        289
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-210",
+      "sol": 210,
+      "site": 7,
+      "drive": 2050,
+      "pose": -1,
+      "sclk_s": 685590618.0,
+      "longitude_east_deg": 77.442120952,
+      "latitude_planetocentric_deg": 18.4337851,
+      "elevation_areoid_m": -2573.32,
+      "terrain_height_m": -2568.976,
+      "world_xyz_m": [
+        -494.187,
+        0.745,
+        639.349
+      ],
+      "cell_col_row": [
+        232,
+        288
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-237",
+      "sol": 237,
+      "site": 7,
+      "drive": 2246,
+      "pose": -1,
+      "sclk_s": 687986611.0,
+      "longitude_east_deg": 77.442662996,
+      "latitude_planetocentric_deg": 18.433912131,
+      "elevation_areoid_m": -2571.05,
+      "terrain_height_m": -2566.393,
+      "world_xyz_m": [
+        -463.712,
+        3.328,
+        631.819
+      ],
+      "cell_col_row": [
+        233,
+        287
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-238",
+      "sol": 238,
+      "site": 7,
+      "drive": 2326,
+      "pose": -1,
+      "sclk_s": 688074230.0,
+      "longitude_east_deg": 77.442959964,
+      "latitude_planetocentric_deg": 18.433866125,
+      "elevation_areoid_m": -2568.982,
+      "terrain_height_m": -2565.816,
+      "world_xyz_m": [
+        -447.015,
+        3.905,
+        634.546
+      ],
+      "cell_col_row": [
+        234,
+        287
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-239",
+      "sol": 239,
+      "site": 7,
+      "drive": 2440,
+      "pose": -1,
+      "sclk_s": 688162709.0,
+      "longitude_east_deg": 77.44301185,
+      "latitude_planetocentric_deg": 18.433960875,
+      "elevation_areoid_m": -2569.154,
+      "terrain_height_m": -2565.816,
+      "world_xyz_m": [
+        -444.098,
+        3.905,
+        628.93
+      ],
+      "cell_col_row": [
+        234,
+        287
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-278",
+      "sol": 278,
+      "site": 8,
+      "drive": 64,
+      "pose": -1,
+      "sclk_s": 691616698.0,
+      "longitude_east_deg": 77.443058789,
+      "latitude_planetocentric_deg": 18.433925885,
+      "elevation_areoid_m": -2568.706,
+      "terrain_height_m": -2565.816,
+      "world_xyz_m": [
+        -441.459,
+        3.905,
+        631.004
+      ],
+      "cell_col_row": [
+        234,
+        287
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-280",
+      "sol": 280,
+      "site": 8,
+      "drive": 256,
+      "pose": -1,
+      "sclk_s": 691799043.0,
+      "longitude_east_deg": 77.442435175,
+      "latitude_planetocentric_deg": 18.433875003,
+      "elevation_areoid_m": -2572.03,
+      "terrain_height_m": -2567.362,
+      "world_xyz_m": [
+        -476.52,
+        2.359,
+        634.02
+      ],
+      "cell_col_row": [
+        232,
+        287
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-281",
+      "sol": 281,
+      "site": 8,
+      "drive": 410,
+      "pose": -1,
+      "sclk_s": 691887212.0,
+      "longitude_east_deg": 77.442024797,
+      "latitude_planetocentric_deg": 18.433441783,
+      "elevation_areoid_m": -2574.434,
+      "terrain_height_m": -2572.054,
+      "world_xyz_m": [
+        -499.593,
+        -2.333,
+        659.699
+      ],
+      "cell_col_row": [
+        231,
+        289
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-283",
+      "sol": 283,
+      "site": 8,
+      "drive": 458,
+      "pose": -1,
+      "sclk_s": 692064080.0,
+      "longitude_east_deg": 77.442081124,
+      "latitude_planetocentric_deg": 18.433461505,
+      "elevation_areoid_m": -2574.299,
+      "terrain_height_m": -2572.054,
+      "world_xyz_m": [
+        -496.426,
+        -2.333,
+        658.53
+      ],
+      "cell_col_row": [
+        231,
+        289
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-285",
+      "sol": 285,
+      "site": 8,
+      "drive": 734,
+      "pose": -1,
+      "sclk_s": 692244230.0,
+      "longitude_east_deg": 77.441448122,
+      "latitude_planetocentric_deg": 18.432770637,
+      "elevation_areoid_m": -2574.898,
+      "terrain_height_m": -2575.712,
+      "world_xyz_m": [
+        -532.015,
+        -5.991,
+        699.481
+      ],
+      "cell_col_row": [
+        230,
+        291
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-328",
+      "sol": 328,
+      "site": 9,
+      "drive": 82,
+      "pose": -1,
+      "sclk_s": 696067752.0,
+      "longitude_east_deg": 77.441410907,
+      "latitude_planetocentric_deg": 18.432602386,
+      "elevation_areoid_m": -2574.295,
+      "terrain_height_m": -2575.712,
+      "world_xyz_m": [
+        -534.108,
+        -5.991,
+        709.454
+      ],
+      "cell_col_row": [
+        230,
+        291
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-333",
+      "sol": 333,
+      "site": 9,
+      "drive": 178,
+      "pose": -1,
+      "sclk_s": 696508481.0,
+      "longitude_east_deg": 77.441347539,
+      "latitude_planetocentric_deg": 18.432605878,
+      "elevation_areoid_m": -2574.261,
+      "terrain_height_m": -2575.746,
+      "world_xyz_m": [
+        -537.67,
+        -6.025,
+        709.247
+      ],
+      "cell_col_row": [
+        229,
+        291
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-335",
+      "sol": 335,
+      "site": 9,
+      "drive": 276,
+      "pose": -1,
+      "sclk_s": 696686775.0,
+      "longitude_east_deg": 77.441314012,
+      "latitude_planetocentric_deg": 18.432609067,
+      "elevation_areoid_m": -2574.225,
+      "terrain_height_m": -2575.746,
+      "world_xyz_m": [
+        -539.555,
+        -6.025,
+        709.058
+      ],
+      "cell_col_row": [
+        229,
+        291
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-340",
+      "sol": 340,
+      "site": 9,
+      "drive": 1554,
+      "pose": -1,
+      "sclk_s": 697132241.0,
+      "longitude_east_deg": 77.443186537,
+      "latitude_planetocentric_deg": 18.430712845,
+      "elevation_areoid_m": -2574.644,
+      "terrain_height_m": -2576.753,
+      "world_xyz_m": [
+        -434.277,
+        -7.032,
+        821.456
+      ],
+      "cell_col_row": [
+        235,
+        297
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-341",
+      "sol": 341,
+      "site": 9,
+      "drive": 2818,
+      "pose": -1,
+      "sclk_s": 697222295.0,
+      "longitude_east_deg": 77.446748503,
+      "latitude_planetocentric_deg": 18.429770216,
+      "elevation_areoid_m": -2580.704,
+      "terrain_height_m": -2578.736,
+      "world_xyz_m": [
+        -234.014,
+        -9.015,
+        877.33
+      ],
+      "cell_col_row": [
+        245,
+        300
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-342",
+      "sol": 342,
+      "site": 9,
+      "drive": 2858,
+      "pose": -1,
+      "sclk_s": 697305316.0,
+      "longitude_east_deg": 77.446952686,
+      "latitude_planetocentric_deg": 18.429678288,
+      "elevation_areoid_m": -2581.134,
+      "terrain_height_m": -2578.736,
+      "world_xyz_m": [
+        -222.534,
+        -9.015,
+        882.779
+      ],
+      "cell_col_row": [
+        245,
+        300
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-343",
+      "sol": 343,
+      "site": 9,
+      "drive": 2982,
+      "pose": -1,
+      "sclk_s": 697394616.0,
+      "longitude_east_deg": 77.447039858,
+      "latitude_planetocentric_deg": 18.42945563,
+      "elevation_areoid_m": -2579.959,
+      "terrain_height_m": -2578.736,
+      "world_xyz_m": [
+        -217.633,
+        -9.015,
+        895.977
+      ],
+      "cell_col_row": [
+        245,
+        300
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-350",
+      "sol": 350,
+      "site": 9,
+      "drive": 3478,
+      "pose": -1,
+      "sclk_s": 698020007.0,
+      "longitude_east_deg": 77.448408455,
+      "latitude_planetocentric_deg": 18.428975324,
+      "elevation_areoid_m": -2584.674,
+      "terrain_height_m": -2581.42,
+      "world_xyz_m": [
+        -140.687,
+        -11.699,
+        924.447
+      ],
+      "cell_col_row": [
+        249,
+        302
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-351",
+      "sol": 351,
+      "site": 9,
+      "drive": 5156,
+      "pose": -1,
+      "sclk_s": 698109654.0,
+      "longitude_east_deg": 77.452362701,
+      "latitude_planetocentric_deg": 18.429208796,
+      "elevation_areoid_m": -2585.345,
+      "terrain_height_m": -2582.098,
+      "world_xyz_m": [
+        81.631,
+        -12.377,
+        910.608
+      ],
+      "cell_col_row": [
+        260,
+        301
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-352",
+      "sol": 352,
+      "site": 9,
+      "drive": 5676,
+      "pose": -1,
+      "sclk_s": 698190686.0,
+      "longitude_east_deg": 77.452307045,
+      "latitude_planetocentric_deg": 18.43021393,
+      "elevation_areoid_m": -2581.982,
+      "terrain_height_m": -2578.332,
+      "world_xyz_m": [
+        78.502,
+        -8.611,
+        851.029
+      ],
+      "cell_col_row": [
+        260,
+        298
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-353",
+      "sol": 353,
+      "site": 9,
+      "drive": 6884,
+      "pose": -1,
+      "sclk_s": 698285003.0,
+      "longitude_east_deg": 77.452112585,
+      "latitude_planetocentric_deg": 18.432852712,
+      "elevation_areoid_m": -2575.001,
+      "terrain_height_m": -2575.207,
+      "world_xyz_m": [
+        67.569,
+        -5.486,
+        694.616
+      ],
+      "cell_col_row": [
+        260,
+        290
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-354",
+      "sol": 354,
+      "site": 9,
+      "drive": 7894,
+      "pose": -1,
+      "sclk_s": 698370264.0,
+      "longitude_east_deg": 77.451775968,
+      "latitude_planetocentric_deg": 18.435926553,
+      "elevation_areoid_m": -2570.813,
+      "terrain_height_m": -2569.898,
+      "world_xyz_m": [
+        48.644,
+        -0.177,
+        512.415
+      ],
+      "cell_col_row": [
+        259,
+        281
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-355",
+      "sol": 355,
+      "site": 9,
+      "drive": 9314,
+      "pose": -1,
+      "sclk_s": 698465130.0,
+      "longitude_east_deg": 77.45146282,
+      "latitude_planetocentric_deg": 18.440088126,
+      "elevation_areoid_m": -2569.76,
+      "terrain_height_m": -2567.891,
+      "world_xyz_m": [
+        31.038,
+        1.83,
+        265.739
+      ],
+      "cell_col_row": [
+        258,
+        269
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-358",
+      "sol": 358,
+      "site": 9,
+      "drive": 9436,
+      "pose": -1,
+      "sclk_s": 698719687.0,
+      "longitude_east_deg": 77.451896332,
+      "latitude_planetocentric_deg": 18.440687657,
+      "elevation_areoid_m": -2569.719,
+      "terrain_height_m": -2567.801,
+      "world_xyz_m": [
+        55.411,
+        1.92,
+        230.202
+      ],
+      "cell_col_row": [
+        259,
+        267
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-360",
+      "sol": 360,
+      "site": 10,
+      "drive": 1114,
+      "pose": -1,
+      "sclk_s": 698905583.0,
+      "longitude_east_deg": 77.452170588,
+      "latitude_planetocentric_deg": 18.443856142,
+      "elevation_areoid_m": -2569.222,
+      "terrain_height_m": -2568.541,
+      "world_xyz_m": [
+        70.83,
+        1.18,
+        42.391
+      ],
+      "cell_col_row": [
+        260,
+        258
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-361",
+      "sol": 361,
+      "site": 10,
+      "drive": 1224,
+      "pose": -1,
+      "sclk_s": 698987710.0,
+      "longitude_east_deg": 77.452453561,
+      "latitude_planetocentric_deg": 18.443913081,
+      "elevation_areoid_m": -2568.743,
+      "terrain_height_m": -2568.561,
+      "world_xyz_m": [
+        86.74,
+        1.16,
+        39.016
+      ],
+      "cell_col_row": [
+        261,
+        258
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-362",
+      "sol": 362,
+      "site": 11,
+      "drive": 108,
+      "pose": -1,
+      "sclk_s": 699082013.0,
+      "longitude_east_deg": 77.45243445,
+      "latitude_planetocentric_deg": 18.443901625,
+      "elevation_areoid_m": -2568.722,
+      "terrain_height_m": -2568.561,
+      "world_xyz_m": [
+        85.665,
+        1.16,
+        39.695
+      ],
+      "cell_col_row": [
+        261,
+        258
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-379",
+      "sol": 379,
+      "site": 11,
+      "drive": 1110,
+      "pose": -1,
+      "sclk_s": 700590641.0,
+      "longitude_east_deg": 77.451473549,
+      "latitude_planetocentric_deg": 18.446227863,
+      "elevation_areoid_m": -2568.834,
+      "terrain_height_m": -2567.648,
+      "world_xyz_m": [
+        31.641,
+        2.073,
+        -98.192
+      ],
+      "cell_col_row": [
+        258,
+        251
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-380",
+      "sol": 380,
+      "site": 11,
+      "drive": 2472,
+      "pose": -1,
+      "sclk_s": 700683201.0,
+      "longitude_east_deg": 77.454325072,
+      "latitude_planetocentric_deg": 18.448994557,
+      "elevation_areoid_m": -2569.756,
+      "terrain_height_m": -2569.909,
+      "world_xyz_m": [
+        191.961,
+        -0.188,
+        -262.187
+      ],
+      "cell_col_row": [
+        266,
+        243
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-383",
+      "sol": 383,
+      "site": 13,
+      "drive": 1280,
+      "pose": -1,
+      "sclk_s": 700948638.0,
+      "longitude_east_deg": 77.461859398,
+      "latitude_planetocentric_deg": 18.453671342,
+      "elevation_areoid_m": -2570.644,
+      "terrain_height_m": -2567.75,
+      "world_xyz_m": [
+        615.561,
+        1.971,
+        -539.402
+      ],
+      "cell_col_row": [
+        287,
+        229
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-384",
+      "sol": 384,
+      "site": 13,
+      "drive": 2448,
+      "pose": -1,
+      "sclk_s": 701036521.0,
+      "longitude_east_deg": 77.462005243,
+      "latitude_planetocentric_deg": 18.457069841,
+      "elevation_areoid_m": -2568.77,
+      "terrain_height_m": -2566.275,
+      "world_xyz_m": [
+        623.761,
+        3.446,
+        -740.847
+      ],
+      "cell_col_row": [
+        287,
+        219
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-386",
+      "sol": 386,
+      "site": 14,
+      "drive": 1176,
+      "pose": -1,
+      "sclk_s": 701214981.0,
+      "longitude_east_deg": 77.463133112,
+      "latitude_planetocentric_deg": 18.460791395,
+      "elevation_areoid_m": -2567.888,
+      "terrain_height_m": -2567.794,
+      "world_xyz_m": [
+        687.172,
+        1.927,
+        -961.441
+      ],
+      "cell_col_row": [
+        291,
+        208
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-388",
+      "sol": 388,
+      "site": 15,
+      "drive": 1334,
+      "pose": -1,
+      "sclk_s": 701393731.0,
+      "longitude_east_deg": 77.458351403,
+      "latitude_planetocentric_deg": 18.467198159,
+      "elevation_areoid_m": -2564.694,
+      "terrain_height_m": -2559.909,
+      "world_xyz_m": [
+        418.332,
+        9.812,
+        -1341.2
+      ],
+      "cell_col_row": [
+        277,
+        189
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-395",
+      "sol": 395,
+      "site": 17,
+      "drive": 1064,
+      "pose": -1,
+      "sclk_s": 702011241.0,
+      "longitude_east_deg": 77.44869478,
+      "latitude_planetocentric_deg": 18.467844995,
+      "elevation_areoid_m": -2556.352,
+      "terrain_height_m": -2555.929,
+      "world_xyz_m": [
+        -124.589,
+        13.792,
+        -1379.541
+      ],
+      "cell_col_row": [
+        250,
+        187
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-397",
+      "sol": 397,
+      "site": 18,
+      "drive": 320,
+      "pose": -1,
+      "sclk_s": 702188228.0,
+      "longitude_east_deg": 77.445152253,
+      "latitude_planetocentric_deg": 18.466787293,
+      "elevation_areoid_m": -2557.784,
+      "terrain_height_m": -2553.22,
+      "world_xyz_m": [
+        -323.759,
+        16.501,
+        -1316.846
+      ],
+      "cell_col_row": [
+        240,
+        190
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-398",
+      "sol": 398,
+      "site": 18,
+      "drive": 1622,
+      "pose": -1,
+      "sclk_s": 702280589.0,
+      "longitude_east_deg": 77.442503572,
+      "latitude_planetocentric_deg": 18.465583929,
+      "elevation_areoid_m": -2558.496,
+      "terrain_height_m": -2557.562,
+      "world_xyz_m": [
+        -472.675,
+        12.159,
+        -1245.517
+      ],
+      "cell_col_row": [
+        233,
+        193
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-400",
+      "sol": 400,
+      "site": 19,
+      "drive": 1126,
+      "pose": -1,
+      "sclk_s": 702455736.0,
+      "longitude_east_deg": 77.436105497,
+      "latitude_planetocentric_deg": 18.46194359,
+      "elevation_areoid_m": -2555.174,
+      "terrain_height_m": -2556.569,
+      "world_xyz_m": [
+        -832.392,
+        13.152,
+        -1029.737
+      ],
+      "cell_col_row": [
+        215,
+        204
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-401",
+      "sol": 401,
+      "site": 19,
+      "drive": 2066,
+      "pose": -1,
+      "sclk_s": 702543406.0,
+      "longitude_east_deg": 77.432977706,
+      "latitude_planetocentric_deg": 18.461595988,
+      "elevation_areoid_m": -2551.927,
+      "terrain_height_m": -2552.65,
+      "world_xyz_m": [
+        -1008.244,
+        17.071,
+        -1009.133
+      ],
+      "cell_col_row": [
+        206,
+        205
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-404",
+      "sol": 404,
+      "site": 20,
+      "drive": 1422,
+      "pose": -1,
+      "sclk_s": 702813785.0,
+      "longitude_east_deg": 77.425756529,
+      "latitude_planetocentric_deg": 18.459318305,
+      "elevation_areoid_m": -2547.731,
+      "terrain_height_m": -2550.584,
+      "world_xyz_m": [
+        -1414.238,
+        19.137,
+        -874.124
+      ],
+      "cell_col_row": [
+        186,
+        212
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-407",
+      "sol": 407,
+      "site": 21,
+      "drive": 1126,
+      "pose": -1,
+      "sclk_s": 703076663.0,
+      "longitude_east_deg": 77.418583632,
+      "latitude_planetocentric_deg": 18.455395096,
+      "elevation_areoid_m": -2551.551,
+      "terrain_height_m": -2550.19,
+      "world_xyz_m": [
+        -1817.517,
+        19.531,
+        -641.577
+      ],
+      "cell_col_row": [
+        165,
+        224
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-408",
+      "sol": 408,
+      "site": 21,
+      "drive": 2560,
+      "pose": -1,
+      "sclk_s": 703168481.0,
+      "longitude_east_deg": 77.414135523,
+      "latitude_planetocentric_deg": 18.453832912,
+      "elevation_areoid_m": -2549.271,
+      "terrain_height_m": -2547.353,
+      "world_xyz_m": [
+        -2067.602,
+        22.368,
+        -548.979
+      ],
+      "cell_col_row": [
+        153,
+        228
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-409",
+      "sol": 409,
+      "site": 21,
+      "drive": 2746,
+      "pose": -1,
+      "sclk_s": 703248699.0,
+      "longitude_east_deg": 77.413527668,
+      "latitude_planetocentric_deg": 18.453860259,
+      "elevation_areoid_m": -2548.596,
+      "terrain_height_m": -2545.691,
+      "world_xyz_m": [
+        -2101.777,
+        24.03,
+        -550.6
+      ],
+      "cell_col_row": [
+        151,
+        228
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-413",
+      "sol": 413,
+      "site": 22,
+      "drive": 788,
+      "pose": -1,
+      "sclk_s": 703612179.0,
+      "longitude_east_deg": 77.408552293,
+      "latitude_planetocentric_deg": 18.45316104,
+      "elevation_areoid_m": -2545.27,
+      "terrain_height_m": -2546.717,
+      "world_xyz_m": [
+        -2381.506,
+        23.004,
+        -509.154
+      ],
+      "cell_col_row": [
+        137,
+        230
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-414",
+      "sol": 414,
+      "site": 22,
+      "drive": 822,
+      "pose": -1,
+      "sclk_s": 703692469.0,
+      "longitude_east_deg": 77.408467789,
+      "latitude_planetocentric_deg": 18.45303333,
+      "elevation_areoid_m": -2545.129,
+      "terrain_height_m": -2546.935,
+      "world_xyz_m": [
+        -2386.257,
+        22.786,
+        -501.584
+      ],
+      "cell_col_row": [
+        137,
+        231
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-415",
+      "sol": 415,
+      "site": 23,
+      "drive": 824,
+      "pose": -1,
+      "sclk_s": 703789926.0,
+      "longitude_east_deg": 77.405185997,
+      "latitude_planetocentric_deg": 18.449405154,
+      "elevation_areoid_m": -2540.278,
+      "terrain_height_m": -2538.67,
+      "world_xyz_m": [
+        -2570.768,
+        31.051,
+        -286.525
+      ],
+      "cell_col_row": [
+        128,
+        241
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-416",
+      "sol": 416,
+      "site": 23,
+      "drive": 1180,
+      "pose": -1,
+      "sclk_s": 703877329.0,
+      "longitude_east_deg": 77.404826581,
+      "latitude_planetocentric_deg": 18.448305984,
+      "elevation_areoid_m": -2534.681,
+      "terrain_height_m": -2532.352,
+      "world_xyz_m": [
+        -2590.975,
+        37.369,
+        -221.372
+      ],
+      "cell_col_row": [
+        127,
+        245
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-418",
+      "sol": 418,
+      "site": 23,
+      "drive": 2096,
+      "pose": -1,
+      "sclk_s": 704054781.0,
+      "longitude_east_deg": 77.402102798,
+      "latitude_planetocentric_deg": 18.448940167,
+      "elevation_areoid_m": -2523.862,
+      "terrain_height_m": -2523.766,
+      "world_xyz_m": [
+        -2744.114,
+        45.955,
+        -258.963
+      ],
+      "cell_col_row": [
+        119,
+        243
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-419",
+      "sol": 419,
+      "site": 23,
+      "drive": 2532,
+      "pose": -1,
+      "sclk_s": 704141873.0,
+      "longitude_east_deg": 77.401641794,
+      "latitude_planetocentric_deg": 18.448788146,
+      "elevation_areoid_m": -2520.911,
+      "terrain_height_m": -2522.598,
+      "world_xyz_m": [
+        -2770.032,
+        47.123,
+        -249.952
+      ],
+      "cell_col_row": [
+        118,
+        243
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-420",
+      "sol": 420,
+      "site": 23,
+      "drive": 2872,
+      "pose": -1,
+      "sclk_s": 704230199.0,
+      "longitude_east_deg": 77.401363179,
+      "latitude_planetocentric_deg": 18.449824979,
+      "elevation_areoid_m": -2523.072,
+      "terrain_height_m": -2526.915,
+      "world_xyz_m": [
+        -2785.697,
+        42.806,
+        -311.41
+      ],
+      "cell_col_row": [
+        117,
+        240
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-421",
+      "sol": 421,
+      "site": 23,
+      "drive": 3142,
+      "pose": -1,
+      "sclk_s": 704320704.0,
+      "longitude_east_deg": 77.401438951,
+      "latitude_planetocentric_deg": 18.450496041,
+      "elevation_areoid_m": -2526.4,
+      "terrain_height_m": -2527.182,
+      "world_xyz_m": [
+        -2781.437,
+        42.539,
+        -351.187
+      ],
+      "cell_col_row": [
+        117,
+        238
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-426",
+      "sol": 426,
+      "site": 24,
+      "drive": 902,
+      "pose": -1,
+      "sclk_s": 704763907.0,
+      "longitude_east_deg": 77.403437532,
+      "latitude_planetocentric_deg": 18.450176731,
+      "elevation_areoid_m": -2534.617,
+      "terrain_height_m": -2535.219,
+      "world_xyz_m": [
+        -2669.071,
+        34.502,
+        -332.26
+      ],
+      "cell_col_row": [
+        123,
+        239
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-427",
+      "sol": 427,
+      "site": 24,
+      "drive": 1328,
+      "pose": -1,
+      "sclk_s": 704851220.0,
+      "longitude_east_deg": 77.404498681,
+      "latitude_planetocentric_deg": 18.449998628,
+      "elevation_areoid_m": -2539.1,
+      "terrain_height_m": -2537.803,
+      "world_xyz_m": [
+        -2609.411,
+        31.918,
+        -321.703
+      ],
+      "cell_col_row": [
+        126,
+        240
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-428",
+      "sol": 428,
+      "site": 24,
+      "drive": 1970,
+      "pose": -1,
+      "sclk_s": 704940845.0,
+      "longitude_east_deg": 77.405294292,
+      "latitude_planetocentric_deg": 18.451530952,
+      "elevation_areoid_m": -2543.985,
+      "terrain_height_m": -2541.176,
+      "world_xyz_m": [
+        -2564.679,
+        28.545,
+        -412.531
+      ],
+      "cell_col_row": [
+        128,
+        235
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-430",
+      "sol": 430,
+      "site": 24,
+      "drive": 1992,
+      "pose": -1,
+      "sclk_s": 705115375.0,
+      "longitude_east_deg": 77.405294292,
+      "latitude_planetocentric_deg": 18.451532217,
+      "elevation_areoid_m": -2543.985,
+      "terrain_height_m": -2541.176,
+      "world_xyz_m": [
+        -2564.679,
+        28.545,
+        -412.606
+      ],
+      "cell_col_row": [
+        128,
+        235
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-432",
+      "sol": 432,
+      "site": 24,
+      "drive": 2770,
+      "pose": -1,
+      "sclk_s": 705296693.0,
+      "longitude_east_deg": 77.407538893,
+      "latitude_planetocentric_deg": 18.452874864,
+      "elevation_areoid_m": -2545.06,
+      "terrain_height_m": -2546.315,
+      "world_xyz_m": [
+        -2438.482,
+        23.406,
+        -492.191
+      ],
+      "cell_col_row": [
+        134,
+        231
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-433",
+      "sol": 433,
+      "site": 24,
+      "drive": 3170,
+      "pose": -1,
+      "sclk_s": 705384869.0,
+      "longitude_east_deg": 77.408420157,
+      "latitude_planetocentric_deg": 18.453647538,
+      "elevation_areoid_m": -2545.001,
+      "terrain_height_m": -2546.451,
+      "world_xyz_m": [
+        -2388.935,
+        23.27,
+        -537.991
+      ],
+      "cell_col_row": [
+        137,
+        229
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-434",
+      "sol": 434,
+      "site": 24,
+      "drive": 3290,
+      "pose": -1,
+      "sclk_s": 705473226.0,
+      "longitude_east_deg": 77.408511686,
+      "latitude_planetocentric_deg": 18.45410468,
+      "elevation_areoid_m": -2544.689,
+      "terrain_height_m": -2545.698,
+      "world_xyz_m": [
+        -2383.789,
+        24.023,
+        -565.088
+      ],
+      "cell_col_row": [
+        137,
+        227
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-436",
+      "sol": 436,
+      "site": 24,
+      "drive": 3900,
+      "pose": -1,
+      "sclk_s": 705652600.0,
+      "longitude_east_deg": 77.408464327,
+      "latitude_planetocentric_deg": 18.455980911,
+      "elevation_areoid_m": -2543.232,
+      "terrain_height_m": -2542.755,
+      "world_xyz_m": [
+        -2386.452,
+        26.966,
+        -676.301
+      ],
+      "cell_col_row": [
+        137,
+        222
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-437",
+      "sol": 437,
+      "site": 24,
+      "drive": 4232,
+      "pose": -1,
+      "sclk_s": 705741405.0,
+      "longitude_east_deg": 77.408745959,
+      "latitude_planetocentric_deg": 18.457101642,
+      "elevation_areoid_m": -2539.995,
+      "terrain_height_m": -2540.549,
+      "world_xyz_m": [
+        -2370.617,
+        29.172,
+        -742.732
+      ],
+      "cell_col_row": [
+        138,
+        219
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-439",
+      "sol": 439,
+      "site": 24,
+      "drive": 4358,
+      "pose": -1,
+      "sclk_s": 705917676.0,
+      "longitude_east_deg": 77.40888074,
+      "latitude_planetocentric_deg": 18.457389151,
+      "elevation_areoid_m": -2538.755,
+      "terrain_height_m": -2538.414,
+      "world_xyz_m": [
+        -2363.04,
+        31.307,
+        -759.774
+      ],
+      "cell_col_row": [
+        138,
+        218
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-441",
+      "sol": 441,
+      "site": 24,
+      "drive": 4516,
+      "pose": -1,
+      "sclk_s": 706095918.0,
+      "longitude_east_deg": 77.408664152,
+      "latitude_planetocentric_deg": 18.457664564,
+      "elevation_areoid_m": -2535.614,
+      "terrain_height_m": -2535.788,
+      "world_xyz_m": [
+        -2375.217,
+        33.933,
+        -776.099
+      ],
+      "cell_col_row": [
+        138,
+        217
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-443",
+      "sol": 443,
+      "site": 25,
+      "drive": 214,
+      "pose": -1,
+      "sclk_s": 706274142.0,
+      "longitude_east_deg": 77.407469563,
+      "latitude_planetocentric_deg": 18.457527169,
+      "elevation_areoid_m": -2535.996,
+      "terrain_height_m": -2532.989,
+      "world_xyz_m": [
+        -2442.38,
+        36.732,
+        -767.955
+      ],
+      "cell_col_row": [
+        134,
+        217
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-448",
+      "sol": 448,
+      "site": 25,
+      "drive": 446,
+      "pose": -1,
+      "sclk_s": 706718528.0,
+      "longitude_east_deg": 77.406338006,
+      "latitude_planetocentric_deg": 18.457445128,
+      "elevation_areoid_m": -2535.58,
+      "terrain_height_m": -2537.357,
+      "world_xyz_m": [
+        -2505.999,
+        32.364,
+        -763.092
+      ],
+      "cell_col_row": [
+        131,
+        218
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-455",
+      "sol": 455,
+      "site": 26,
+      "drive": 96,
+      "pose": -1,
+      "sclk_s": 707338497.0,
+      "longitude_east_deg": 77.406276986,
+      "latitude_planetocentric_deg": 18.45789036,
+      "elevation_areoid_m": -2530.027,
+      "terrain_height_m": -2529.842,
+      "world_xyz_m": [
+        -2509.43,
+        39.879,
+        -789.483
+      ],
+      "cell_col_row": [
+        131,
+        216
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-456",
+      "sol": 456,
+      "site": 26,
+      "drive": 218,
+      "pose": -1,
+      "sclk_s": 707429033.0,
+      "longitude_east_deg": 77.406497598,
+      "latitude_planetocentric_deg": 18.45801694,
+      "elevation_areoid_m": -2527.392,
+      "terrain_height_m": -2529.842,
+      "world_xyz_m": [
+        -2497.026,
+        39.879,
+        -796.986
+      ],
+      "cell_col_row": [
+        131,
+        216
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-460",
+      "sol": 460,
+      "site": 26,
+      "drive": 470,
+      "pose": -1,
+      "sclk_s": 707780327.0,
+      "longitude_east_deg": 77.406092584,
+      "latitude_planetocentric_deg": 18.458514336,
+      "elevation_areoid_m": -2524.211,
+      "terrain_height_m": -2520.483,
+      "world_xyz_m": [
+        -2519.797,
+        49.238,
+        -826.469
+      ],
+      "cell_col_row": [
+        130,
+        214
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-461",
+      "sol": 461,
+      "site": 26,
+      "drive": 630,
+      "pose": -1,
+      "sclk_s": 707868803.0,
+      "longitude_east_deg": 77.406144552,
+      "latitude_planetocentric_deg": 18.458691798,
+      "elevation_areoid_m": -2523.304,
+      "terrain_height_m": -2520.483,
+      "world_xyz_m": [
+        -2516.875,
+        49.238,
+        -836.988
+      ],
+      "cell_col_row": [
+        130,
+        214
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-464",
+      "sol": 464,
+      "site": 26,
+      "drive": 756,
+      "pose": -1,
+      "sclk_s": 708136758.0,
+      "longitude_east_deg": 77.406012788,
+      "latitude_planetocentric_deg": 18.458793561,
+      "elevation_areoid_m": -2522.083,
+      "terrain_height_m": -2520.483,
+      "world_xyz_m": [
+        -2524.284,
+        49.238,
+        -843.02
+      ],
+      "cell_col_row": [
+        130,
+        214
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-474",
+      "sol": 474,
+      "site": 26,
+      "drive": 850,
+      "pose": -1,
+      "sclk_s": 709023549.0,
+      "longitude_east_deg": 77.40609996,
+      "latitude_planetocentric_deg": 18.458855898,
+      "elevation_areoid_m": -2521.591,
+      "terrain_height_m": -2516.946,
+      "world_xyz_m": [
+        -2519.383,
+        52.775,
+        -846.715
+      ],
+      "cell_col_row": [
+        130,
+        213
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-477",
+      "sol": 477,
+      "site": 26,
+      "drive": 1004,
+      "pose": -1,
+      "sclk_s": 709292198.0,
+      "longitude_east_deg": 77.406167686,
+      "latitude_planetocentric_deg": 18.458895325,
+      "elevation_areoid_m": -2520.853,
+      "terrain_height_m": -2516.946,
+      "world_xyz_m": [
+        -2515.575,
+        52.775,
+        -849.052
+      ],
+      "cell_col_row": [
+        130,
+        213
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-501",
+      "sol": 501,
+      "site": 26,
+      "drive": 1154,
+      "pose": -1,
+      "sclk_s": 711420965.0,
+      "longitude_east_deg": 77.405951768,
+      "latitude_planetocentric_deg": 18.45869497,
+      "elevation_areoid_m": -2522.828,
+      "terrain_height_m": -2520.483,
+      "world_xyz_m": [
+        -2527.714,
+        49.238,
+        -837.176
+      ],
+      "cell_col_row": [
+        130,
+        214
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-502",
+      "sol": 502,
+      "site": 26,
+      "drive": 1222,
+      "pose": -1,
+      "sclk_s": 711504522.0,
+      "longitude_east_deg": 77.405924946,
+      "latitude_planetocentric_deg": 18.458647276,
+      "elevation_areoid_m": -2523.168,
+      "terrain_height_m": -2520.483,
+      "world_xyz_m": [
+        -2529.222,
+        49.238,
+        -834.349
+      ],
+      "cell_col_row": [
+        130,
+        214
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-535",
+      "sol": 535,
+      "site": 26,
+      "drive": 1652,
+      "pose": -1,
+      "sclk_s": 714440400.0,
+      "longitude_east_deg": 77.407327741,
+      "latitude_planetocentric_deg": 18.458350236,
+      "elevation_areoid_m": -2525.521,
+      "terrain_height_m": -2527.411,
+      "world_xyz_m": [
+        -2450.353,
+        42.31,
+        -816.742
+      ],
+      "cell_col_row": [
+        134,
+        215
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-536",
+      "sol": 536,
+      "site": 26,
+      "drive": 2018,
+      "pose": -1,
+      "sclk_s": 714530171.0,
+      "longitude_east_deg": 77.40857631,
+      "latitude_planetocentric_deg": 18.45821603,
+      "elevation_areoid_m": -2526.466,
+      "terrain_height_m": -2530.42,
+      "world_xyz_m": [
+        -2380.156,
+        39.301,
+        -808.787
+      ],
+      "cell_col_row": [
+        137,
+        215
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-537",
+      "sol": 537,
+      "site": 26,
+      "drive": 2142,
+      "pose": -1,
+      "sclk_s": 714613980.0,
+      "longitude_east_deg": 77.408848554,
+      "latitude_planetocentric_deg": 18.458210294,
+      "elevation_areoid_m": -2526.743,
+      "terrain_height_m": -2530.45,
+      "world_xyz_m": [
+        -2364.849,
+        39.271,
+        -808.447
+      ],
+      "cell_col_row": [
+        138,
+        215
+      ],
+      "cell_status": 2
+    },
+    {
+      "id": "places-tactical-sol-538",
+      "sol": 538,
+      "site": 26,
+      "drive": 2548,
+      "pose": -1,
+      "sclk_s": 714705959.0,
+      "longitude_east_deg": 77.408651412,
+      "latitude_planetocentric_deg": 18.456828136,
+      "elevation_areoid_m": -2540.949,
+      "terrain_height_m": -2539.891,
+      "world_xyz_m": [
+        -2375.933,
+        29.83,
+        -726.52
+      ],
+      "cell_col_row": [
+        137,
+        219
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-539",
+      "sol": 539,
+      "site": 26,
+      "drive": 3008,
+      "pose": -1,
+      "sclk_s": 714793949.0,
+      "longitude_east_deg": 77.40790911,
+      "latitude_planetocentric_deg": 18.455318774,
+      "elevation_areoid_m": -2543.647,
+      "terrain_height_m": -2543.751,
+      "world_xyz_m": [
+        -2417.667,
+        25.97,
+        -637.053
+      ],
+      "cell_col_row": [
+        135,
+        224
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-541",
+      "sol": 541,
+      "site": 26,
+      "drive": 3482,
+      "pose": -1,
+      "sclk_s": 714969551.0,
+      "longitude_east_deg": 77.406895906,
+      "latitude_planetocentric_deg": 18.45380683,
+      "elevation_areoid_m": -2543.398,
+      "terrain_height_m": -2545.16,
+      "world_xyz_m": [
+        -2474.632,
+        24.561,
+        -547.433
+      ],
+      "cell_col_row": [
+        133,
+        228
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-542",
+      "sol": 542,
+      "site": 26,
+      "drive": 4200,
+      "pose": -1,
+      "sclk_s": 715059661.0,
+      "longitude_east_deg": 77.405682206,
+      "latitude_planetocentric_deg": 18.451925319,
+      "elevation_areoid_m": -2544.453,
+      "terrain_height_m": -2542.399,
+      "world_xyz_m": [
+        -2542.87,
+        27.322,
+        -435.907
+      ],
+      "cell_col_row": [
+        129,
+        234
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-543",
+      "sol": 543,
+      "site": 26,
+      "drive": 5150,
+      "pose": -1,
+      "sclk_s": 715155956.0,
+      "longitude_east_deg": 77.404911071,
+      "latitude_planetocentric_deg": 18.450275323,
+      "elevation_areoid_m": -2541.164,
+      "terrain_height_m": -2539.633,
+      "world_xyz_m": [
+        -2586.225,
+        30.088,
+        -338.104
+      ],
+      "cell_col_row": [
+        127,
+        239
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-548",
+      "sol": 548,
+      "site": 26,
+      "drive": 5214,
+      "pose": -1,
+      "sclk_s": 715593579.0,
+      "longitude_east_deg": 77.404772937,
+      "latitude_planetocentric_deg": 18.450090539,
+      "elevation_areoid_m": -2540.098,
+      "terrain_height_m": -2539.633,
+      "world_xyz_m": [
+        -2593.991,
+        30.088,
+        -327.151
+      ],
+      "cell_col_row": [
+        127,
+        239
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-551",
+      "sol": 551,
+      "site": 26,
+      "drive": 5226,
+      "pose": -1,
+      "sclk_s": 715856649.0,
+      "longitude_east_deg": 77.404764891,
+      "latitude_planetocentric_deg": 18.45009086,
+      "elevation_areoid_m": -2540.002,
+      "terrain_height_m": -2539.633,
+      "world_xyz_m": [
+        -2594.444,
+        30.088,
+        -327.17
+      ],
+      "cell_col_row": [
+        127,
+        239
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-556",
+      "sol": 556,
+      "site": 27,
+      "drive": 230,
+      "pose": -1,
+      "sclk_s": 716309645.0,
+      "longitude_east_deg": 77.40149796,
+      "latitude_planetocentric_deg": 18.450754938,
+      "elevation_areoid_m": -2526.709,
+      "terrain_height_m": -2526.48,
+      "world_xyz_m": [
+        -2778.119,
+        43.241,
+        -366.533
+      ],
+      "cell_col_row": [
+        117,
+        237
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-592",
+      "sol": 592,
+      "site": 29,
+      "drive": 144,
+      "pose": -1,
+      "sclk_s": 719499084.0,
+      "longitude_east_deg": 77.401330657,
+      "latitude_planetocentric_deg": 18.451361115,
+      "elevation_areoid_m": -2525.381,
+      "terrain_height_m": -2525.69,
+      "world_xyz_m": [
+        -2787.525,
+        44.031,
+        -402.464
+      ],
+      "cell_col_row": [
+        117,
+        236
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-606",
+      "sol": 606,
+      "site": 30,
+      "drive": 1096,
+      "pose": -1,
+      "sclk_s": 720746184.0,
+      "longitude_east_deg": 77.399147004,
+      "latitude_planetocentric_deg": 18.453532042,
+      "elevation_areoid_m": -2517.544,
+      "terrain_height_m": -2517.546,
+      "world_xyz_m": [
+        -2910.296,
+        52.175,
+        -531.145
+      ],
+      "cell_col_row": [
+        111,
+        229
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-609",
+      "sol": 609,
+      "site": 30,
+      "drive": 1172,
+      "pose": -1,
+      "sclk_s": 721013668.0,
+      "longitude_east_deg": 77.399153709,
+      "latitude_planetocentric_deg": 18.453643995,
+      "elevation_areoid_m": -2517.295,
+      "terrain_height_m": -2517.546,
+      "world_xyz_m": [
+        -2909.919,
+        52.175,
+        -537.781
+      ],
+      "cell_col_row": [
+        111,
+        229
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-629",
+      "sol": 629,
+      "site": 30,
+      "drive": 2188,
+      "pose": -1,
+      "sclk_s": 722790569.0,
+      "longitude_east_deg": 77.40143694,
+      "latitude_planetocentric_deg": 18.45162509,
+      "elevation_areoid_m": -2523.833,
+      "terrain_height_m": -2524.902,
+      "world_xyz_m": [
+        -2781.55,
+        44.819,
+        -418.111
+      ],
+      "cell_col_row": [
+        117,
+        235
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-632",
+      "sol": 632,
+      "site": 30,
+      "drive": 2310,
+      "pose": -1,
+      "sclk_s": 723050465.0,
+      "longitude_east_deg": 77.401342434,
+      "latitude_planetocentric_deg": 18.451355784,
+      "elevation_areoid_m": -2525.477,
+      "terrain_height_m": -2525.69,
+      "world_xyz_m": [
+        -2786.863,
+        44.031,
+        -402.148
+      ],
+      "cell_col_row": [
+        117,
+        236
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-641",
+      "sol": 641,
+      "site": 31,
+      "drive": 500,
+      "pose": -1,
+      "sclk_s": 723855805.0,
+      "longitude_east_deg": 77.401830554,
+      "latitude_planetocentric_deg": 18.450037431,
+      "elevation_areoid_m": -2526.249,
+      "terrain_height_m": -2528.238,
+      "world_xyz_m": [
+        -2759.42,
+        41.483,
+        -324.003
+      ],
+      "cell_col_row": [
+        118,
+        239
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-645",
+      "sol": 645,
+      "site": 31,
+      "drive": 856,
+      "pose": -1,
+      "sclk_s": 724200449.0,
+      "longitude_east_deg": 77.402934954,
+      "latitude_planetocentric_deg": 18.45017609,
+      "elevation_areoid_m": -2532.087,
+      "terrain_height_m": -2531.919,
+      "world_xyz_m": [
+        -2697.328,
+        37.802,
+        -332.222
+      ],
+      "cell_col_row": [
+        121,
+        239
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-646",
+      "sol": 646,
+      "site": 31,
+      "drive": 1710,
+      "pose": -1,
+      "sclk_s": 724294453.0,
+      "longitude_east_deg": 77.404737733,
+      "latitude_planetocentric_deg": 18.450301405,
+      "elevation_areoid_m": -2540.685,
+      "terrain_height_m": -2538.637,
+      "world_xyz_m": [
+        -2595.971,
+        31.084,
+        -339.65
+      ],
+      "cell_col_row": [
+        126,
+        239
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-647",
+      "sol": 647,
+      "site": 31,
+      "drive": 2154,
+      "pose": -1,
+      "sclk_s": 724379771.0,
+      "longitude_east_deg": 77.405123636,
+      "latitude_planetocentric_deg": 18.451193185,
+      "elevation_areoid_m": -2543.431,
+      "terrain_height_m": -2541.533,
+      "world_xyz_m": [
+        -2574.274,
+        28.188,
+        -392.51
+      ],
+      "cell_col_row": [
+        128,
+        236
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-652",
+      "sol": 652,
+      "site": 32,
+      "drive": 148,
+      "pose": -1,
+      "sclk_s": 724827769.0,
+      "longitude_east_deg": 77.407756012,
+      "latitude_planetocentric_deg": 18.452626512,
+      "elevation_areoid_m": -2545.263,
+      "terrain_height_m": -2546.366,
+      "world_xyz_m": [
+        -2426.275,
+        23.355,
+        -477.47
+      ],
+      "cell_col_row": [
+        135,
+        232
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-654",
+      "sol": 654,
+      "site": 32,
+      "drive": 250,
+      "pose": -1,
+      "sclk_s": 725002977.0,
+      "longitude_east_deg": 77.407846919,
+      "latitude_planetocentric_deg": 18.452523399,
+      "elevation_areoid_m": -2545.479,
+      "terrain_height_m": -2546.366,
+      "world_xyz_m": [
+        -2421.164,
+        23.355,
+        -471.358
+      ],
+      "cell_col_row": [
+        135,
+        232
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-658",
+      "sol": 658,
+      "site": 32,
+      "drive": 378,
+      "pose": -1,
+      "sclk_s": 725355119.0,
+      "longitude_east_deg": 77.408055998,
+      "latitude_planetocentric_deg": 18.452670342,
+      "elevation_areoid_m": -2545.309,
+      "terrain_height_m": -2546.718,
+      "world_xyz_m": [
+        -2409.409,
+        23.003,
+        -480.068
+      ],
+      "cell_col_row": [
+        136,
+        232
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-663",
+      "sol": 663,
+      "site": 32,
+      "drive": 482,
+      "pose": -1,
+      "sclk_s": 725811157.0,
+      "longitude_east_deg": 77.408078231,
+      "latitude_planetocentric_deg": 18.452765694,
+      "elevation_areoid_m": -2545.18,
+      "terrain_height_m": -2546.639,
+      "world_xyz_m": [
+        -2408.159,
+        23.082,
+        -485.72
+      ],
+      "cell_col_row": [
+        136,
+        231
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-667",
+      "sol": 667,
+      "site": 32,
+      "drive": 580,
+      "pose": -1,
+      "sclk_s": 726157362.0,
+      "longitude_east_deg": 77.408199997,
+      "latitude_planetocentric_deg": 18.452723653,
+      "elevation_areoid_m": -2545.27,
+      "terrain_height_m": -2546.718,
+      "world_xyz_m": [
+        -2401.313,
+        23.003,
+        -483.228
+      ],
+      "cell_col_row": [
+        136,
+        232
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-670",
+      "sol": 670,
+      "site": 32,
+      "drive": 672,
+      "pose": -1,
+      "sclk_s": 726422925.0,
+      "longitude_east_deg": 77.40824352,
+      "latitude_planetocentric_deg": 18.452813219,
+      "elevation_areoid_m": -2545.101,
+      "terrain_height_m": -2546.639,
+      "world_xyz_m": [
+        -2398.866,
+        23.082,
+        -488.537
+      ],
+      "cell_col_row": [
+        136,
+        231
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-674",
+      "sol": 674,
+      "site": 32,
+      "drive": 774,
+      "pose": -1,
+      "sclk_s": 726777850.0,
+      "longitude_east_deg": 77.40833585,
+      "latitude_planetocentric_deg": 18.452727533,
+      "elevation_areoid_m": -2545.443,
+      "terrain_height_m": -2547.09,
+      "world_xyz_m": [
+        -2393.675,
+        22.631,
+        -483.458
+      ],
+      "cell_col_row": [
+        137,
+        232
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-678",
+      "sol": 678,
+      "site": 32,
+      "drive": 896,
+      "pose": -1,
+      "sclk_s": 727133195.0,
+      "longitude_east_deg": 77.408504696,
+      "latitude_planetocentric_deg": 18.453004869,
+      "elevation_areoid_m": -2545.093,
+      "terrain_height_m": -2546.935,
+      "world_xyz_m": [
+        -2384.182,
+        22.786,
+        -499.897
+      ],
+      "cell_col_row": [
+        137,
+        231
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-681",
+      "sol": 681,
+      "site": 32,
+      "drive": 1038,
+      "pose": -1,
+      "sclk_s": 727402668.0,
+      "longitude_east_deg": 77.408600636,
+      "latitude_planetocentric_deg": 18.453065536,
+      "elevation_areoid_m": -2545.282,
+      "terrain_height_m": -2546.935,
+      "world_xyz_m": [
+        -2378.788,
+        22.786,
+        -503.493
+      ],
+      "cell_col_row": [
+        137,
+        231
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-684",
+      "sol": 684,
+      "site": 32,
+      "drive": 1174,
+      "pose": -1,
+      "sclk_s": 727667277.0,
+      "longitude_east_deg": 77.408447904,
+      "latitude_planetocentric_deg": 18.453365107,
+      "elevation_areoid_m": -2545.203,
+      "terrain_height_m": -2546.717,
+      "world_xyz_m": [
+        -2387.375,
+        23.004,
+        -521.25
+      ],
+      "cell_col_row": [
+        137,
+        230
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-686",
+      "sol": 686,
+      "site": 32,
+      "drive": 1184,
+      "pose": -1,
+      "sclk_s": 727847258.0,
+      "longitude_east_deg": 77.408446677,
+      "latitude_planetocentric_deg": 18.453371788,
+      "elevation_areoid_m": -2545.203,
+      "terrain_height_m": -2546.717,
+      "world_xyz_m": [
+        -2387.444,
+        23.004,
+        -521.646
+      ],
+      "cell_col_row": [
+        137,
+        230
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-693",
+      "sol": 693,
+      "site": 32,
+      "drive": 1394,
+      "pose": -1,
+      "sclk_s": 728469173.0,
+      "longitude_east_deg": 77.408447833,
+      "latitude_planetocentric_deg": 18.454176279,
+      "elevation_areoid_m": -2544.493,
+      "terrain_height_m": -2545.698,
+      "world_xyz_m": [
+        -2387.379,
+        24.023,
+        -569.332
+      ],
+      "cell_col_row": [
+        137,
+        227
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-694",
+      "sol": 694,
+      "site": 32,
+      "drive": 2340,
+      "pose": -1,
+      "sclk_s": 728550739.0,
+      "longitude_east_deg": 77.408784181,
+      "latitude_planetocentric_deg": 18.457223769,
+      "elevation_areoid_m": -2539.437,
+      "terrain_height_m": -2538.414,
+      "world_xyz_m": [
+        -2368.469,
+        31.307,
+        -749.971
+      ],
+      "cell_col_row": [
+        138,
+        218
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-698",
+      "sol": 698,
+      "site": 33,
+      "drive": 262,
+      "pose": -1,
+      "sclk_s": 728915909.0,
+      "longitude_east_deg": 77.408643365,
+      "latitude_planetocentric_deg": 18.457964152,
+      "elevation_areoid_m": -2531.415,
+      "terrain_height_m": -2532.844,
+      "world_xyz_m": [
+        -2376.386,
+        36.877,
+        -793.857
+      ],
+      "cell_col_row": [
+        137,
+        216
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-700",
+      "sol": 700,
+      "site": 33,
+      "drive": 366,
+      "pose": -1,
+      "sclk_s": 729087736.0,
+      "longitude_east_deg": 77.408763394,
+      "latitude_planetocentric_deg": 18.458108531,
+      "elevation_areoid_m": -2528.164,
+      "terrain_height_m": -2532.978,
+      "world_xyz_m": [
+        -2369.637,
+        36.743,
+        -802.415
+      ],
+      "cell_col_row": [
+        138,
+        216
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-702",
+      "sol": 702,
+      "site": 33,
+      "drive": 402,
+      "pose": -1,
+      "sclk_s": 729265437.0,
+      "longitude_east_deg": 77.4086955,
+      "latitude_planetocentric_deg": 18.458214427,
+      "elevation_areoid_m": -2526.576,
+      "terrain_height_m": -2530.45,
+      "world_xyz_m": [
+        -2373.454,
+        39.271,
+        -808.692
+      ],
+      "cell_col_row": [
+        138,
+        215
+      ],
+      "cell_status": 2
+    },
+    {
+      "id": "places-tactical-sol-706",
+      "sol": 706,
+      "site": 33,
+      "drive": 430,
+      "pose": -1,
+      "sclk_s": 729620067.0,
+      "longitude_east_deg": 77.408694327,
+      "latitude_planetocentric_deg": 18.458218561,
+      "elevation_areoid_m": -2526.405,
+      "terrain_height_m": -2530.45,
+      "world_xyz_m": [
+        -2373.52,
+        39.271,
+        -808.937
+      ],
+      "cell_col_row": [
+        138,
+        215
+      ],
+      "cell_status": 2
+    },
+    {
+      "id": "places-tactical-sol-707",
+      "sol": 707,
+      "site": 33,
+      "drive": 612,
+      "pose": -1,
+      "sclk_s": 729711558.0,
+      "longitude_east_deg": 77.408456951,
+      "latitude_planetocentric_deg": 18.45864154,
+      "elevation_areoid_m": -2522.817,
+      "terrain_height_m": -2527.894,
+      "world_xyz_m": [
+        -2386.866,
+        41.827,
+        -834.009
+      ],
+      "cell_col_row": [
+        137,
+        214
+      ],
+      "cell_status": 2
+    },
+    {
+      "id": "places-tactical-sol-708",
+      "sol": 708,
+      "site": 33,
+      "drive": 1756,
+      "pose": -1,
+      "sclk_s": 729799762.0,
+      "longitude_east_deg": 77.405841798,
+      "latitude_planetocentric_deg": 18.460074563,
+      "elevation_areoid_m": -2509.566,
+      "terrain_height_m": -2509.845,
+      "world_xyz_m": [
+        -2533.897,
+        59.876,
+        -918.951
+      ],
+      "cell_col_row": [
+        130,
+        210
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-709",
+      "sol": 709,
+      "site": 33,
+      "drive": 2864,
+      "pose": -1,
+      "sclk_s": 729882951.0,
+      "longitude_east_deg": 77.402934283,
+      "latitude_planetocentric_deg": 18.461671046,
+      "elevation_areoid_m": -2496.77,
+      "terrain_height_m": -2495.532,
+      "world_xyz_m": [
+        -2697.365,
+        74.189,
+        -1013.582
+      ],
+      "cell_col_row": [
+        121,
+        205
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-713",
+      "sol": 713,
+      "site": 33,
+      "drive": 3878,
+      "pose": -1,
+      "sclk_s": 730238919.0,
+      "longitude_east_deg": 77.402097434,
+      "latitude_planetocentric_deg": 18.464040286,
+      "elevation_areoid_m": -2491.25,
+      "terrain_height_m": -2484.345,
+      "world_xyz_m": [
+        -2744.415,
+        85.376,
+        -1154.018
+      ],
+      "cell_col_row": [
+        119,
+        198
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-714",
+      "sol": 714,
+      "site": 33,
+      "drive": 4752,
+      "pose": -1,
+      "sclk_s": 730330876.0,
+      "longitude_east_deg": 77.400637642,
+      "latitude_planetocentric_deg": 18.465519382,
+      "elevation_areoid_m": -2490.443,
+      "terrain_height_m": -2487.206,
+      "world_xyz_m": [
+        -2826.489,
+        82.515,
+        -1241.691
+      ],
+      "cell_col_row": [
+        115,
+        194
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-716",
+      "sol": 716,
+      "site": 34,
+      "drive": 952,
+      "pose": -1,
+      "sclk_s": 730507491.0,
+      "longitude_east_deg": 77.399062514,
+      "latitude_planetocentric_deg": 18.471476629,
+      "elevation_areoid_m": -2483.15,
+      "terrain_height_m": -2482.188,
+      "world_xyz_m": [
+        -2915.046,
+        87.533,
+        -1594.805
+      ],
+      "cell_col_row": [
+        111,
+        176
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-717",
+      "sol": 717,
+      "site": 34,
+      "drive": 2098,
+      "pose": -1,
+      "sclk_s": 730602079.0,
+      "longitude_east_deg": 77.397434413,
+      "latitude_planetocentric_deg": 18.474368538,
+      "elevation_areoid_m": -2478.151,
+      "terrain_height_m": -2471.026,
+      "world_xyz_m": [
+        -3006.583,
+        98.695,
+        -1766.222
+      ],
+      "cell_col_row": [
+        106,
+        167
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-718",
+      "sol": 718,
+      "site": 34,
+      "drive": 3196,
+      "pose": -1,
+      "sclk_s": 730690289.0,
+      "longitude_east_deg": 77.394097745,
+      "latitude_planetocentric_deg": 18.475370854,
+      "elevation_areoid_m": -2474.94,
+      "terrain_height_m": -2470.962,
+      "world_xyz_m": [
+        -3194.179,
+        98.759,
+        -1825.634
+      ],
+      "cell_col_row": [
+        97,
+        164
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-719",
+      "sol": 719,
+      "site": 34,
+      "drive": 4394,
+      "pose": -1,
+      "sclk_s": 730777100.0,
+      "longitude_east_deg": 77.390367463,
+      "latitude_planetocentric_deg": 18.47563606,
+      "elevation_areoid_m": -2462.921,
+      "terrain_height_m": -2461.249,
+      "world_xyz_m": [
+        -3403.905,
+        108.472,
+        -1841.354
+      ],
+      "cell_col_row": [
+        86,
+        164
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-721",
+      "sol": 721,
+      "site": 34,
+      "drive": 5120,
+      "pose": -1,
+      "sclk_s": 730949912.0,
+      "longitude_east_deg": 77.389816269,
+      "latitude_planetocentric_deg": 18.474442313,
+      "elevation_areoid_m": -2459.035,
+      "terrain_height_m": -2456.915,
+      "world_xyz_m": [
+        -3434.895,
+        112.806,
+        -1770.595
+      ],
+      "cell_col_row": [
+        85,
+        167
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-731",
+      "sol": 731,
+      "site": 36,
+      "drive": 1610,
+      "pose": -1,
+      "sclk_s": 731845226.0,
+      "longitude_east_deg": 77.386751175,
+      "latitude_planetocentric_deg": 18.472928631,
+      "elevation_areoid_m": -2455.247,
+      "terrain_height_m": -2448.906,
+      "world_xyz_m": [
+        -3607.223,
+        120.815,
+        -1680.872
+      ],
+      "cell_col_row": [
+        76,
+        172
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-732",
+      "sol": 732,
+      "site": 36,
+      "drive": 3294,
+      "pose": -1,
+      "sclk_s": 731933705.0,
+      "longitude_east_deg": 77.384291589,
+      "latitude_planetocentric_deg": 18.470368079,
+      "elevation_areoid_m": -2449.143,
+      "terrain_height_m": -2449.354,
+      "world_xyz_m": [
+        -3745.507,
+        120.367,
+        -1529.096
+      ],
+      "cell_col_row": [
+        69,
+        179
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-736",
+      "sol": 736,
+      "site": 36,
+      "drive": 3368,
+      "pose": -1,
+      "sclk_s": 732285749.0,
+      "longitude_east_deg": 77.38407433,
+      "latitude_planetocentric_deg": 18.470195712,
+      "elevation_areoid_m": -2449.051,
+      "terrain_height_m": -2448.951,
+      "world_xyz_m": [
+        -3757.722,
+        120.77,
+        -1518.879
+      ],
+      "cell_col_row": [
+        68,
+        180
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-753",
+      "sol": 753,
+      "site": 37,
+      "drive": 1798,
+      "pose": -1,
+      "sclk_s": 733794183.0,
+      "longitude_east_deg": 77.379312068,
+      "latitude_planetocentric_deg": 18.470388424,
+      "elevation_areoid_m": -2442.577,
+      "terrain_height_m": -2442.433,
+      "world_xyz_m": [
+        -4025.469,
+        127.288,
+        -1530.302
+      ],
+      "cell_col_row": [
+        55,
+        179
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-755",
+      "sol": 755,
+      "site": 37,
+      "drive": 2562,
+      "pose": -1,
+      "sclk_s": 733965616.0,
+      "longitude_east_deg": 77.37737149,
+      "latitude_planetocentric_deg": 18.471346253,
+      "elevation_areoid_m": -2436.925,
+      "terrain_height_m": -2435.863,
+      "world_xyz_m": [
+        -4134.573,
+        133.858,
+        -1587.077
+      ],
+      "cell_col_row": [
+        50,
+        176
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-759",
+      "sol": 759,
+      "site": 37,
+      "drive": 3758,
+      "pose": -1,
+      "sclk_s": 734321235.0,
+      "longitude_east_deg": 77.379888743,
+      "latitude_planetocentric_deg": 18.473682292,
+      "elevation_areoid_m": -2441.546,
+      "terrain_height_m": -2438.531,
+      "world_xyz_m": [
+        -3993.047,
+        131.19,
+        -1725.545
+      ],
+      "cell_col_row": [
+        57,
+        169
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-762",
+      "sol": 762,
+      "site": 37,
+      "drive": 4972,
+      "pose": -1,
+      "sclk_s": 734595322.0,
+      "longitude_east_deg": 77.377049625,
+      "latitude_planetocentric_deg": 18.473930965,
+      "elevation_areoid_m": -2433.389,
+      "terrain_height_m": -2429.29,
+      "world_xyz_m": [
+        -4152.669,
+        140.431,
+        -1740.285
+      ],
+      "cell_col_row": [
+        49,
+        169
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-764",
+      "sol": 764,
+      "site": 38,
+      "drive": 944,
+      "pose": -1,
+      "sclk_s": 734769728.0,
+      "longitude_east_deg": 77.371323109,
+      "latitude_planetocentric_deg": 18.477012971,
+      "elevation_areoid_m": -2420.707,
+      "terrain_height_m": -2420.725,
+      "world_xyz_m": [
+        -4474.629,
+        148.996,
+        -1922.97
+      ],
+      "cell_col_row": [
+        33,
+        160
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-765",
+      "sol": 765,
+      "site": 38,
+      "drive": 1808,
+      "pose": -1,
+      "sclk_s": 734858145.0,
+      "longitude_east_deg": 77.369507253,
+      "latitude_planetocentric_deg": 18.479061484,
+      "elevation_areoid_m": -2420.489,
+      "terrain_height_m": -2421.827,
+      "world_xyz_m": [
+        -4576.722,
+        147.894,
+        -2044.395
+      ],
+      "cell_col_row": [
+        27,
+        153
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-766",
+      "sol": 766,
+      "site": 38,
+      "drive": 2208,
+      "pose": -1,
+      "sclk_s": 734945869.0,
+      "longitude_east_deg": 77.369269542,
+      "latitude_planetocentric_deg": 18.47989302,
+      "elevation_areoid_m": -2419.894,
+      "terrain_height_m": -2421.409,
+      "world_xyz_m": [
+        -4590.086,
+        148.312,
+        -2093.684
+      ],
+      "cell_col_row": [
+        27,
+        151
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-770",
+      "sol": 770,
+      "site": 39,
+      "drive": 650,
+      "pose": -1,
+      "sclk_s": 735300980.0,
+      "longitude_east_deg": 77.369008362,
+      "latitude_planetocentric_deg": 18.482929459,
+      "elevation_areoid_m": -2423.832,
+      "terrain_height_m": -2425.453,
+      "world_xyz_m": [
+        -4604.771,
+        144.268,
+        -2273.668
+      ],
+      "cell_col_row": [
+        26,
+        142
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-775",
+      "sol": 775,
+      "site": 39,
+      "drive": 690,
+      "pose": -1,
+      "sclk_s": 735747325.0,
+      "longitude_east_deg": 77.369003668,
+      "latitude_planetocentric_deg": 18.482912284,
+      "elevation_areoid_m": -2423.847,
+      "terrain_height_m": -2425.453,
+      "world_xyz_m": [
+        -4605.034,
+        144.268,
+        -2272.65
+      ],
+      "cell_col_row": [
+        26,
+        142
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-784",
+      "sol": 784,
+      "site": 39,
+      "drive": 926,
+      "pose": -1,
+      "sclk_s": 736545046.0,
+      "longitude_east_deg": 77.368631512,
+      "latitude_planetocentric_deg": 18.48272659,
+      "elevation_areoid_m": -2421.569,
+      "terrain_height_m": -2425.255,
+      "world_xyz_m": [
+        -4625.958,
+        144.466,
+        -2261.643
+      ],
+      "cell_col_row": [
+        25,
+        143
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-793",
+      "sol": 793,
+      "site": 39,
+      "drive": 1036,
+      "pose": -1,
+      "sclk_s": 737338737.0,
+      "longitude_east_deg": 77.368679792,
+      "latitude_planetocentric_deg": 18.482559959,
+      "elevation_areoid_m": -2421.662,
+      "terrain_height_m": -2425.255,
+      "world_xyz_m": [
+        -4623.244,
+        144.466,
+        -2251.766
+      ],
+      "cell_col_row": [
+        25,
+        143
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-795",
+      "sol": 795,
+      "site": 39,
+      "drive": 1112,
+      "pose": -1,
+      "sclk_s": 737521390.0,
+      "longitude_east_deg": 77.368644923,
+      "latitude_planetocentric_deg": 18.482641359,
+      "elevation_areoid_m": -2421.205,
+      "terrain_height_m": -2425.255,
+      "world_xyz_m": [
+        -4625.204,
+        144.466,
+        -2256.591
+      ],
+      "cell_col_row": [
+        25,
+        143
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-797",
+      "sol": 797,
+      "site": 39,
+      "drive": 1170,
+      "pose": -1,
+      "sclk_s": 737695716.0,
+      "longitude_east_deg": 77.368615754,
+      "latitude_planetocentric_deg": 18.482665838,
+      "elevation_areoid_m": -2421.072,
+      "terrain_height_m": -2425.255,
+      "world_xyz_m": [
+        -4626.844,
+        144.466,
+        -2258.042
+      ],
+      "cell_col_row": [
+        25,
+        143
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-816",
+      "sol": 816,
+      "site": 39,
+      "drive": 1418,
+      "pose": -1,
+      "sclk_s": 739386219.0,
+      "longitude_east_deg": 77.368548363,
+      "latitude_planetocentric_deg": 18.483441397,
+      "elevation_areoid_m": -2422.192,
+      "terrain_height_m": -2422.583,
+      "world_xyz_m": [
+        -4630.633,
+        147.138,
+        -2304.013
+      ],
+      "cell_col_row": [
+        25,
+        140
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-818",
+      "sol": 818,
+      "site": 39,
+      "drive": 1550,
+      "pose": -1,
+      "sclk_s": 739565502.0,
+      "longitude_east_deg": 77.368210405,
+      "latitude_planetocentric_deg": 18.483155221,
+      "elevation_areoid_m": -2421.206,
+      "terrain_height_m": -2423.773,
+      "world_xyz_m": [
+        -4649.634,
+        145.948,
+        -2287.05
+      ],
+      "cell_col_row": [
+        24,
+        141
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-821",
+      "sol": 821,
+      "site": 40,
+      "drive": 132,
+      "pose": -1,
+      "sclk_s": 739828588.0,
+      "longitude_east_deg": 77.368194312,
+      "latitude_planetocentric_deg": 18.482987966,
+      "elevation_areoid_m": -2420.789,
+      "terrain_height_m": -2424.63,
+      "world_xyz_m": [
+        -4650.539,
+        145.091,
+        -2277.136
+      ],
+      "cell_col_row": [
+        24,
+        142
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-836",
+      "sol": 836,
+      "site": 40,
+      "drive": 992,
+      "pose": -1,
+      "sclk_s": 741158577.0,
+      "longitude_east_deg": 77.366696969,
+      "latitude_planetocentric_deg": 18.482509077,
+      "elevation_areoid_m": -2416.349,
+      "terrain_height_m": -2420.94,
+      "world_xyz_m": [
+        -4734.723,
+        148.781,
+        -2248.75
+      ],
+      "cell_col_row": [
+        20,
+        143
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-838",
+      "sol": 838,
+      "site": 40,
+      "drive": 1608,
+      "pose": -1,
+      "sclk_s": 741338364.0,
+      "longitude_east_deg": 77.365809828,
+      "latitude_planetocentric_deg": 18.48126767,
+      "elevation_areoid_m": -2415.559,
+      "terrain_height_m": -2418.871,
+      "world_xyz_m": [
+        -4784.601,
+        150.85,
+        -2175.166
+      ],
+      "cell_col_row": [
+        17,
+        147
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-843",
+      "sol": 843,
+      "site": 40,
+      "drive": 1706,
+      "pose": -1,
+      "sclk_s": 741779007.0,
+      "longitude_east_deg": 77.365726009,
+      "latitude_planetocentric_deg": 18.481429206,
+      "elevation_areoid_m": -2415.463,
+      "terrain_height_m": -2418.551,
+      "world_xyz_m": [
+        -4789.313,
+        151.17,
+        -2184.741
+      ],
+      "cell_col_row": [
+        17,
+        146
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-848",
+      "sol": 848,
+      "site": 41,
+      "drive": 188,
+      "pose": -1,
+      "sclk_s": 742228546.0,
+      "longitude_east_deg": 77.365845367,
+      "latitude_planetocentric_deg": 18.481415221,
+      "elevation_areoid_m": -2415.194,
+      "terrain_height_m": -2418.551,
+      "world_xyz_m": [
+        -4782.602,
+        151.17,
+        -2183.912
+      ],
+      "cell_col_row": [
+        17,
+        146
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-854",
+      "sol": 854,
+      "site": 41,
+      "drive": 562,
+      "pose": -1,
+      "sclk_s": 742758582.0,
+      "longitude_east_deg": 77.364942133,
+      "latitude_planetocentric_deg": 18.481149374,
+      "elevation_areoid_m": -2415.905,
+      "terrain_height_m": -2419.581,
+      "world_xyz_m": [
+        -4833.385,
+        150.14,
+        -2168.154
+      ],
+      "cell_col_row": [
+        15,
+        147
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-856",
+      "sol": 856,
+      "site": 41,
+      "drive": 672,
+      "pose": -1,
+      "sclk_s": 742934346.0,
+      "longitude_east_deg": 77.364781201,
+      "latitude_planetocentric_deg": 18.481134123,
+      "elevation_areoid_m": -2415.894,
+      "terrain_height_m": -2419.644,
+      "world_xyz_m": [
+        -4842.433,
+        150.077,
+        -2167.25
+      ],
+      "cell_col_row": [
+        14,
+        147
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-866",
+      "sol": 866,
+      "site": 42,
+      "drive": 776,
+      "pose": -1,
+      "sclk_s": 743825021.0,
+      "longitude_east_deg": 77.362992838,
+      "latitude_planetocentric_deg": 18.481027905,
+      "elevation_areoid_m": -2415.349,
+      "terrain_height_m": -2414.996,
+      "world_xyz_m": [
+        -4942.979,
+        154.725,
+        -2160.954
+      ],
+      "cell_col_row": [
+        9,
+        148
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-868",
+      "sol": 868,
+      "site": 42,
+      "drive": 1460,
+      "pose": -1,
+      "sclk_s": 743998923.0,
+      "longitude_east_deg": 77.361561209,
+      "latitude_planetocentric_deg": 18.481135388,
+      "elevation_areoid_m": -2416.879,
+      "terrain_height_m": -2416.317,
+      "world_xyz_m": [
+        -5023.469,
+        153.404,
+        -2167.325
+      ],
+      "cell_col_row": [
+        5,
+        147
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-870",
+      "sol": 870,
+      "site": 42,
+      "drive": 2266,
+      "pose": -1,
+      "sclk_s": 744180909.0,
+      "longitude_east_deg": 77.360571474,
+      "latitude_planetocentric_deg": 18.482561224,
+      "elevation_areoid_m": -2418.535,
+      "terrain_height_m": -2415.973,
+      "world_xyz_m": [
+        -5079.115,
+        153.748,
+        -2251.841
+      ],
+      "cell_col_row": [
+        2,
+        143
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-871",
+      "sol": 871,
+      "site": 42,
+      "drive": 2700,
+      "pose": -1,
+      "sclk_s": 744268321.0,
+      "longitude_east_deg": 77.360509112,
+      "latitude_planetocentric_deg": 18.483746671,
+      "elevation_areoid_m": -2417.804,
+      "terrain_height_m": -2415.882,
+      "world_xyz_m": [
+        -5082.621,
+        153.839,
+        -2322.108
+      ],
+      "cell_col_row": [
+        2,
+        140
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-884",
+      "sol": 884,
+      "site": 43,
+      "drive": 554,
+      "pose": -1,
+      "sclk_s": 745422854.0,
+      "longitude_east_deg": 77.360195965,
+      "latitude_planetocentric_deg": 18.48309226,
+      "elevation_areoid_m": -2417.449,
+      "terrain_height_m": -2415.977,
+      "world_xyz_m": [
+        -5100.227,
+        153.744,
+        -2283.318
+      ],
+      "cell_col_row": [
+        1,
+        142
+      ],
+      "cell_status": 1
+    },
+    {
+      "id": "places-tactical-sol-885",
+      "sol": 885,
+      "site": 43,
+      "drive": 1270,
+      "pose": -1,
+      "sclk_s": 745510770.0,
+      "longitude_east_deg": 77.360100746,
+      "latitude_planetocentric_deg": 18.480807221,
+      "elevation_areoid_m": -2420.577,
+      "terrain_height_m": -2418.549,
+      "world_xyz_m": [
+        -5105.58,
+        151.172,
+        -2147.873
+      ],
+      "cell_col_row": [
+        1,
+        148
+      ],
+      "cell_status": 1
+    }
+  ]
+}

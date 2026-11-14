@@ -1,0 +1,16 @@
+.local/
+__pycache__/
+*.pyc
+node_modules/
+# Originals stay in the local scientific archive.
+/data/README.md
+/data/mars/
+/data/ephemeris/
+/data/images/
+/data/rover_images/
+/data/models/
+/data/weather/
+/data/solar_systems/
+/data/challenge/
+/data/catalogs/
+.venv/

@@ -1,0 +1,1046 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    {
+      "path": "data/README.md",
+      "bytes": 11613,
+      "sha256": "9cc2bc6ca8f1fb8d08ebe9ad6e0450ff5b20ff29072c4d8992307f11785a2b3c"
+    },
+    {
+      "path": "data/catalogs/components.json",
+      "bytes": 9441,
+      "sha256": "85abcfa9e07b2ebb2378de41a1c29026becb17f98ddc3be5d1032bf879ee21fa"
+    },
+    {
+      "path": "data/catalogs/edl.json",
+      "bytes": 2264,
+      "sha256": "9318191399e57e669f8ff377d2e4f364ceb3f72d757067f142fa48b56fcbbd6c"
+    },
+    {
+      "path": "data/catalogs/launchers.json",
+      "bytes": 1609,
+      "sha256": "150d1bb2eda0b6a39682428de8194d4d17548d9f13890a1a72f6072c5901604b"
+    },
+    {
+      "path": "data/catalogs/mars_mission_reference.json",
+      "bytes": 3432,
+      "sha256": "6de37ef0fb7c6223d3ffa87dc3448200e4dec1cc5ebffb8185165dcdb8fd0571"
+    },
+    {
+      "path": "data/catalogs/orbits.json",
+      "bytes": 2043,
+      "sha256": "324f5a8bea60259326ab829616e9dfa5e3e81c4bb6aa5df20c12153eef10c67f"
+    },
+    {
+      "path": "data/catalogs/relay_plans.json",
+      "bytes": 2864,
+      "sha256": "a90a1a1c2d3a420f5d1e16c399ca80f1b04988f351ebc8e70967bbf8d4aeb21c"
+    },
+    {
+      "path": "data/challenge/2026_space_mission_design_game_resources.txt",
+      "bytes": 8251,
+      "sha256": "774f4e1146af28629bd433903c37f3fe35aacec344d7dada06048174cb6c0441"
+    },
+    {
+      "path": "data/challenge/resources/Design_and_Develop_Science_Missions_NASA_2025.pdf",
+      "bytes": 3912778,
+      "sha256": "1b615217530c5281b4580f38b5afedad7679fea3dc76f15e8009cb145b4a0788"
+    },
+    {
+      "path": "data/challenge/resources/NASA_CubeSat_101_2017.pdf",
+      "bytes": 4445718,
+      "sha256": "57d2783457cb94b69136476ca341ddf4c7dc23bf61682606e37a048e9e5ae592"
+    },
+    {
+      "path": "data/challenge/resources/NASA_Mission_Development_101_CMLs.pdf",
+      "bytes": 7835358,
+      "sha256": "72c1d1817e1d879c942be3cf5c91c48c213b239480a26818ec9612d759b147b8"
+    },
+    {
+      "path": "data/challenge/resources/README.md",
+      "bytes": 1878,
+      "sha256": "a6eb374b7a6999c2be95c0b871b418569f99fa676ca4a74c6f1472bd70e8eed8"
+    },
+    {
+      "path": "data/ephemeris/mars_heliocentric_vectors_2026-11-14_to_2028-11-15.json",
+      "bytes": 150204,
+      "sha256": "951dec1dc1edb3edc0dc21d56f569bdca4a1e114f0d0ef07238d98001b830d1b"
+    },
+    {
+      "path": "data/images/nasa-library/perseverance_jezero_search.json",
+      "bytes": 77819,
+      "sha256": "8a1fd74221ddd606dc0eb16d22ce97b5c71cd67533e7241db14744d47fdf0594"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24096.jpg",
+      "bytes": 64769,
+      "sha256": "18858aeaaf3a03b13e5fdccb991aabf70a8b1600c9dfe0d5da779138387cb7fd"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24309.jpg",
+      "bytes": 26305,
+      "sha256": "bd14d26d9c9e5d42e41555f349b9de7e34faa385a62f662724fd3bf78fb43877"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24320.jpg",
+      "bytes": 22456,
+      "sha256": "ac81e54c10690db939558e36e09e1b47208f51f10b73a8190d58c3cd8f624a9c"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24331.jpg",
+      "bytes": 49614,
+      "sha256": "bdb0d4ae979471c6f18dd48a6fe947fb7614c37606fb3227c0c903509aa0b45a"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24350.jpg",
+      "bytes": 58599,
+      "sha256": "c25c393dd0ee75b4d7d68b5d86caa6b4eeb7a2e077eda75613d8431576887f43"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24482.jpg",
+      "bytes": 45385,
+      "sha256": "04322ff5e4dee853f1691edc40ab956d0c4f1ba70049c8b516c8314c350a651c"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24485.jpg",
+      "bytes": 49040,
+      "sha256": "a9ff4c5d5b9fba0627733f8f4f171321e58e1b9261d005d3957d3b4835037635"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24744.jpg",
+      "bytes": 27686,
+      "sha256": "34b9768f0c8e47a18da5894830822e74355e7ec95f45ffebfe1e18ca9f10540b"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24745.jpg",
+      "bytes": 17392,
+      "sha256": "8032a14720cb7607c42e0dcfeca737e3ad4805dc0d70b9a3232df8275670348b"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24814.jpg",
+      "bytes": 21004,
+      "sha256": "5e15fcf0a632f79fb34be8b27a591f0450a6dc0f73fff9ed6747696850fb5203"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24924.jpg",
+      "bytes": 42490,
+      "sha256": "76b6408213cb0a1326de0e059c3f670dd2cadb371cc763556854353048ecab60"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24926.jpg",
+      "bytes": 29141,
+      "sha256": "ec38f475cde365a3afd947906e1bdaa47b7d4fe9c98462179c6b2f00a2956458"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA24927.jpg",
+      "bytes": 61077,
+      "sha256": "e154564a397c61ab5cb8b9cc3904f90baa46dd6724e804a9a4d4364b2edf1859"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA25027.jpg",
+      "bytes": 78625,
+      "sha256": "dda2cd17fee2a00835035ace97f0b851f471c6b97fbab7ec90a639d242bd9a48"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA25243.jpg",
+      "bytes": 33619,
+      "sha256": "ca2fab2f49acf583ad4760f4be4d71b110f7f567ee303a2cd8bd8dfe00c0cea3"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA25290.jpg",
+      "bytes": 116699,
+      "sha256": "3160e0fe412c27fb4c4f4f03d554b5a7d857b75488ad6e7c956f90d627776497"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA25684.jpg",
+      "bytes": 41636,
+      "sha256": "8b6fc13bf62190a08086ed437bdacae2787dd08331bc289b6aeff72c7b4e0bce"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA25963.jpg",
+      "bytes": 58083,
+      "sha256": "d47ee738a873364f466fc446d881691c6d07fd5ae6d15915ad70e66872314e6f"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA26376.jpg",
+      "bytes": 43968,
+      "sha256": "4b1782324721e2ba409ac7bf105a039adc2287788ae8dbbb28a80e2dd67706f8"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA26377.jpg",
+      "bytes": 34063,
+      "sha256": "3239ba08040fc5babe3de93a22a9b77fbe82481875a38da70d33130c548f4d2e"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA26378.jpg",
+      "bytes": 7451,
+      "sha256": "dfe3be566a97181d75dd28c9ffbaf5e15aab6736c218f967081afa40697d04ac"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA26402.jpg",
+      "bytes": 61952,
+      "sha256": "6939e100899014446ca7af60cc16eb04f0eb34f0c2ecb070768a16fd2325e7e5"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA26479.jpg",
+      "bytes": 32413,
+      "sha256": "57683a4d530c2fab72af936fc6b31c1302f9759fee66c4d1858f6733223392e8"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA26572.jpg",
+      "bytes": 36176,
+      "sha256": "79686a1b3dcf98d31718a5732b92a4dca1a893baf90932369ac1a4ec44cac458"
+    },
+    {
+      "path": "data/images/nasa-library/previews/PIA26575.jpg",
+      "bytes": 53338,
+      "sha256": "db3720dffb8e1e0a6d40446284124f4d9001ba1ec12ec4c50e22abe07e3512e3"
+    },
+    {
+      "path": "data/mars/jezero/M20_JezeroCrater_CTXDEM_20m.tif",
+      "bytes": 90345300,
+      "sha256": "ba7f706ea1b5d63a562f28a7dcf7a7f3c79bce7f048e6974b57e8a33c30d1ba2"
+    },
+    {
+      "path": "data/mars/jezero/M20_JezeroCrater_CTXDEM_20m.xml",
+      "bytes": 8786,
+      "sha256": "ddf03b3de30ffee3d04baea2c8ebdf4558b5490a84989440c7447658c2f62732"
+    },
+    {
+      "path": "data/mars/jezero/M20_JezeroCrater_CTXortho_mosaic_5m.tif",
+      "bytes": 359599280,
+      "sha256": "cd9f4b2154fdd43e8c17abfbae63210b72507db2209d1d7db63f6f855b18d2df"
+    },
+    {
+      "path": "data/mars/jezero/M20_JezeroCrater_CTXortho_mosaic_5m.xml",
+      "bytes": 8805,
+      "sha256": "617b3d0a0608bbba6016907ca30040e0c1fa6bca89e3c27912cf0ef4c39c6a32"
+    },
+    {
+      "path": "data/mars/jezero/browse_M20_JezeroCrater_CTXDEM_mosaic_5m.jpg",
+      "bytes": 178918,
+      "sha256": "c360ec5420a09602d80e782641c719c7380caa7c3ae5968380a1ea9b2b7fc6f9"
+    },
+    {
+      "path": "data/mars/places/Mars2020_Rover_PLACES_PDS_SIS.pdf",
+      "bytes": 1700553,
+      "sha256": "ca3eb9d2a0d992cedf96860f30537ac508e15fb0e2417fb74c5b80cb31418d1a"
+    },
+    {
+      "path": "data/mars/places/best_interp.csv",
+      "bytes": 8684070,
+      "sha256": "58fbc62f2676195a00b40b2da53a797a70284a8d2344b288c999d325b7ccb4cc"
+    },
+    {
+      "path": "data/mars/places/best_interp.csv.xml",
+      "bytes": 15890,
+      "sha256": "03a382042c73d7a7eaced1c32f64108ed42c07f2139bbcc815cb4ab882eac70b"
+    },
+    {
+      "path": "data/mars/places/best_tactical.csv",
+      "bytes": 171404,
+      "sha256": "9da19e4f70287fe0d33ba716ff2169c10447c30c7a048583f730e4155226cde9"
+    },
+    {
+      "path": "data/mars/places/best_tactical.csv.xml",
+      "bytes": 15898,
+      "sha256": "777074bc03a3f06be8241b85cd4448cbdac5bff4dfecc443de6757152d22ac79"
+    },
+    {
+      "path": "data/mars/places/release_notes.txt",
+      "bytes": 15756,
+      "sha256": "71705ca3a8c8045cfb025a0fa023600f11147d67c30955d4e698d6ac559f5eaa"
+    },
+    {
+      "path": "data/models/InSight_deployed.glb",
+      "bytes": 22357936,
+      "sha256": "1e944bedb23af07962ba9f2b88d195b561665f255573b29ba7d028293a179387"
+    },
+    {
+      "path": "data/models/Mars_2020_Perseverance_Rover.glb",
+      "bytes": 4987176,
+      "sha256": "10db7c03a5e63a5a3b3e7baa6243aa4918ba045fa8ff0a731d0217491adc727f"
+    },
+    {
+      "path": "data/models/Mars_Global_Surveyor.glb",
+      "bytes": 1921268,
+      "sha256": "8812c97f2c147e409e883d5196377d596df84de87c08c1453e9e3cfaf082052f"
+    },
+    {
+      "path": "data/models/Mars_Reconnaissance_Orbiter.glb",
+      "bytes": 1219800,
+      "sha256": "0f92872363ebe1984738caa4a5739863b125a1bc890b3c77bff23d8daa406747"
+    },
+    {
+      "path": "data/rover_images/FLB_0001_0667035480_071ECM_N0010052AUT_04096_00_2I3J01.png",
+      "bytes": 1052521,
+      "sha256": "0599c482c569b49edab2a0a806113690a7d905afc84f42e3da5b71d3fb5067c2"
+    },
+    {
+      "path": "data/rover_images/FLF_1000_0755716468_020ECM_N0474404FHAZ02418_01_295J.png",
+      "bytes": 1933159,
+      "sha256": "21167d0b4fbb491923520efd8e3027203f545bfbd22d7f214b5e3d1733bcce8c"
+    },
+    {
+      "path": "data/rover_images/FRB_0001_0667035480_071ECM_N0010052AUT_04096_00_2I3J01.png",
+      "bytes": 1049842,
+      "sha256": "b6e6d59bf27547a9223f1aa618afce8cf6762a34236119c211e0ae75816e0f74"
+    },
+    {
+      "path": "data/rover_images/FRF_1000_0755716468_020ECM_N0474404FHAZ02418_01_295J.png",
+      "bytes": 1872502,
+      "sha256": "e5987dbdd7dcf9efcb80b4bd3aa20827aff83dcaa69838518b04a9154b7d0e7c"
+    },
+    {
+      "path": "data/rover_images/LRE_0001_0667036326_588ECM_N0010052SCAM15103_0000LUJ.png",
+      "bytes": 1263233,
+      "sha256": "eb00645089f49ac7ae196725dfc6a23588a5b56d6ebd393b72c46140a412fdf4"
+    },
+    {
+      "path": "data/rover_images/LRE_0800_0737955693_303ECM_N0391170SCAM01800_0010I6J.png",
+      "bytes": 2483073,
+      "sha256": "4ed7ccbadbca0db1ba84e2888a7b2c69ea3323aa81c1018291a8eaffda6c85e3"
+    },
+    {
+      "path": "data/rover_images/LRE_1000_0755699148_284ECM_N0474374SCAM02000_0010I6J.png",
+      "bytes": 2299767,
+      "sha256": "a465963b1717c6191f94847b3c09032c3cc20e11d7f32fb78bd476e2b569e2b2"
+    },
+    {
+      "path": "data/rover_images/NLB_0001_0667035586_056ECM_N0010052AUT_04096_00_2I3J01.png",
+      "bytes": 1361854,
+      "sha256": "942f4a610dadbde3f38b2513a031d169fcf03b7364ef849fb71aee8e9de5cfe1"
+    },
+    {
+      "path": "data/rover_images/NLF_0100_0675828717_276ECM_N0040218NCAM00503_01_295J.png",
+      "bytes": 336365,
+      "sha256": "0ebbb84288188028bdc9f5001b92fb1fe458410d99109856d3ed7630fd8cade9"
+    },
+    {
+      "path": "data/rover_images/NRB_0001_0667035586_056ECM_N0010052AUT_04096_00_2I3J01.png",
+      "bytes": 1296434,
+      "sha256": "3d6c0e4223ff14f99e08e10a87a319bf25cd16ad7cf267b6b2b41574149bbb34"
+    },
+    {
+      "path": "data/rover_images/NRF_0800_0737945673_612ECM_N0391170NCAM02799_01_195J.png",
+      "bytes": 2277739,
+      "sha256": "f3a3f281f3a32163fb7a52e79f53c5311c1de6c47306f3f3adbb043b9b2e5868"
+    },
+    {
+      "path": "data/rover_images/PCW_2000_0844451597_000ECM_N09109707607424011703075J.png",
+      "bytes": 395375,
+      "sha256": "fb1561f43f524f59b5dbc0dc9eaf8c1ff4ab27f0a031ffb58ca218d6a3a73c99"
+    },
+    {
+      "path": "data/rover_images/SI1_1500_0800108664_851ECM_N0730000SRLC07061_0000LMJ.png",
+      "bytes": 246625,
+      "sha256": "ee037ebb65477c6f5924ea861f64c653ec06edf7b5541a118446b6a4c4aee5b3"
+    },
+    {
+      "path": "data/rover_images/SI1_1500_0800108674_394ECM_N0730000SRLC07061_0000LMJ.png",
+      "bytes": 1991547,
+      "sha256": "63c06bc89a9322460011a0c3e7ccbf5364a0e135f733782b4b48bc252b92e0f6"
+    },
+    {
+      "path": "data/rover_images/SI1_1800_0826736547_707ECM_N0870000SRLC00636_0000LMJ.png",
+      "bytes": 344682,
+      "sha256": "2ac9f5744f46d7989f1a497dce9ddfcb87a70025baa2fcdda5f697d25e22f801"
+    },
+    {
+      "path": "data/rover_images/WSM_0001_0667044731_000ECM_N0010052MEDA00200_0000LUJ.png",
+      "bytes": 782727,
+      "sha256": "b9886cdb1da28e987bdd57286f4aed262bf7153aba0fbfab325abcda91e94ca2"
+    },
+    {
+      "path": "data/rover_images/WSM_0100_0675791183_000ECM_N0040218MEDA03245_0000LUJ.png",
+      "bytes": 584151,
+      "sha256": "76e3d7cee4862089b633eb478fa4ca767dce28388ea976c01c41fd73a26c96d8"
+    },
+    {
+      "path": "data/rover_images/ZL0_0800_0737944022_785EBY_N0391170ZCAM08821_1100LMJ.png",
+      "bytes": 4137764,
+      "sha256": "2faf6fcafcbdd85b5cc9080d8f25300c873e5f1afd017927cb83799ea9ad8658"
+    },
+    {
+      "path": "data/rover_images/ZL0_1000_0755710960_331EBY_N0474374ZCAM09012_1100LMJ.png",
+      "bytes": 5168184,
+      "sha256": "d0daa4eae048922970aa3bae427f8902c51984822b244db717f5eda3d466c62e"
+    },
+    {
+      "path": "data/rover_images/ZL6_0100_0675828555_098ECM_N0040218ZCAM01000_026080J.png",
+      "bytes": 228889,
+      "sha256": "c71ae9c0c9a4ba20b8cc6e46b128a898e7cdd9b398d59f88d4d039caec73cfe6"
+    },
+    {
+      "path": "data/rover_images/ZLF_0001_0667035659_000FDR_N0010052AUT_04096_0260LMJ.png",
+      "bytes": 3275574,
+      "sha256": "da1eba121f5dc261b1f1ccc968ca2cd87b75cb6231c479b3bdd6aee41c2d8f65"
+    },
+    {
+      "path": "data/rover_images/ZR0_0800_0737944022_785EBY_N0391170ZCAM08821_1100LMJ.png",
+      "bytes": 3998114,
+      "sha256": "1a1b455e5228f86cbc20d3bd7f88e0f4301dfdc618f694395e866365dae3aed6"
+    },
+    {
+      "path": "data/rover_images/ZR0_1000_0755710960_331EBY_N0474374ZCAM09012_1100LMJ.png",
+      "bytes": 5187365,
+      "sha256": "35bb26c169cb0274240d813cac60e0f28a4b13c569191b2e3c03281be8efcd71"
+    },
+    {
+      "path": "data/rover_images/ZR2_0100_0675828555_098ECM_N0040218ZCAM01000_026080J.png",
+      "bytes": 135454,
+      "sha256": "36f3d44360112d8d3dc43fdb33781af2ccc70eff9581fa2363c573a2c1c4f29b"
+    },
+    {
+      "path": "data/rover_images/ZRF_0001_0667035659_000FDR_N0010052AUT_04096_0260LMJ.png",
+      "bytes": 3439160,
+      "sha256": "842aa83b0952fd50c85fd10c83be9dd566a6b9bb9f343a0da9a8719c440984f0"
+    },
+    {
+      "path": "data/rover_images/images_manifest.json",
+      "bytes": 119551,
+      "sha256": "a2d7d159d5c8ac59957f41d3077b2bc45322c65140761bf0c4b81f7e5ee16920"
+    },
+    {
+      "path": "data/solar_systems/exovista_DEC21_universe1/metadata.json",
+      "bytes": 1142,
+      "sha256": "0107c9ae29677b882778170144e56a13cbb4f23dad6d7d02f360da0e9b4fbdf1"
+    },
+    {
+      "path": "data/solar_systems/exovista_DEC21_universe1/systems.json",
+      "bytes": 19259922,
+      "sha256": "7dab138b487ab120772fee8efc113e9853530bdf9c4b48bb2b826099b0bbffa7"
+    },
+    {
+      "path": "data/solar_systems/exovista_DEC21_universe1/target_database.csv",
+      "bytes": 6897173,
+      "sha256": "6c6bc609445789776d43227049d2727e7f7448c4f4b227a265335a9c8ae84e88"
+    },
+    {
+      "path": "data/solar_systems/formation_priors.json",
+      "bytes": 5078,
+      "sha256": "b8bdb6236e7ecdc6495ea8478094afe9383f5a93f4a5813efd6d83205f161261"
+    },
+    {
+      "path": "data/solar_systems/nasa_exoplanet_archive_metadata.json",
+      "bytes": 1098,
+      "sha256": "eaa13a389f5defd3fd8f715535806afd1aecbadfb0007c903184c7d0d501ce4e"
+    },
+    {
+      "path": "data/solar_systems/nasa_exoplanet_archive_pscomppars.csv",
+      "bytes": 1145142,
+      "sha256": "46c8900960789ba7ca07e3f96169dc24df7ebfd973c733f57265c8cf5f0ef1b0"
+    },
+    {
+      "path": "data/solar_systems/nasa_exoplanet_archive_pscomppars.json",
+      "bytes": 2365168,
+      "sha256": "c9a11927238afda72dffc4184c3960666bfa412e16e8b2fd482831fc6ad7199b"
+    },
+    {
+      "path": "data/solar_systems/soda_orion_disks.json",
+      "bytes": 211631,
+      "sha256": "4e5683b7ab343034bbf2f00a4b64317a177e4c58e13189b72a076456256f855c"
+    },
+    {
+      "path": "data/solar_systems/soda_orion_disks_vizier.tsv",
+      "bytes": 66529,
+      "sha256": "0f443fdce19d2db18c50023198486cf7fb1f6f19a33a3eccc64ea740f665dbf4"
+    },
+    {
+      "path": "data/sources.json",
+      "bytes": 12487,
+      "sha256": "63d40fea2d7c9d4cf8a95be71024fa9e65c260ce4c71677c946ffa1b7a8e4cc4"
+    },
+    {
+      "path": "data/weather/MEDA_EDR_SIS.pdf",
+      "bytes": 1688796,
+      "sha256": "363e7a2d2377afbc9c63e8fee6c76cdc59eb5333c7f1db3099847efc03c6b006"
+    },
+    {
+      "path": "data/weather/MEDA_RDR_SIS.pdf",
+      "bytes": 1733894,
+      "sha256": "5d1e4d71c33c4fc3888fab21324878e5d192a2058279ea3d034a6b48763d66fb"
+    },
+    {
+      "path": "data/weather/MEDA_readme.txt",
+      "bytes": 6621,
+      "sha256": "c32e17b081984383dde8ed132f877397e664d40762457588bcc11310053a0d80"
+    },
+    {
+      "path": "data/weather/mars_weather.json",
+      "bytes": 142293,
+      "sha256": "b6777566653fa9defd72121d8aa3860231991c70a657af8d7a029d3caab466b9"
+    },
+    {
+      "path": "data/weather/raw/sol_0001/WE__0001___________CAL_ATS_________________P01.CSV.gz",
+      "bytes": 36751,
+      "sha256": "3653601a44f97b6798b38dc718b2c32582aa1020d6ddf241ae574356cc2d6e28"
+    },
+    {
+      "path": "data/weather/raw/sol_0001/WE__0001___________CAL_ATS_________________P01.xml",
+      "bytes": 9801,
+      "sha256": "81e6a9fce207a72eb962349c958210f2a359e8fdff42066e3e0d1e227da93ed1"
+    },
+    {
+      "path": "data/weather/raw/sol_0001/WE__0001___________CAL_PS__________________P02.CSV.gz",
+      "bytes": 32738,
+      "sha256": "8367a6a1f6a1b9f7e70e48e099ea2c88098670b7cb3e3bdecf1baa21c3119ba3"
+    },
+    {
+      "path": "data/weather/raw/sol_0001/WE__0001___________CAL_PS__________________P02.xml",
+      "bytes": 12587,
+      "sha256": "6e12cb4681bcb20a75675efea8c50ecc81d925e8c997e2f3fe57ab05f028f17e"
+    },
+    {
+      "path": "data/weather/raw/sol_0001/WE__0001___________CAL_RDS_________________P01.CSV.gz",
+      "bytes": 125232,
+      "sha256": "5272d78047c03cbfdfbadc5edd6c3d88616a71d84b53ebb8c45e3ef040ff53fd"
+    },
+    {
+      "path": "data/weather/raw/sol_0001/WE__0001___________CAL_RDS_________________P01.xml",
+      "bytes": 19104,
+      "sha256": "96ac0f7e822c6d923c0229cd3609806c707cc48239279a0fc726d54d908eaafd"
+    },
+    {
+      "path": "data/weather/raw/sol_0001/WE__0001___________CAL_RHS_________________P02.CSV.gz",
+      "bytes": 21384,
+      "sha256": "b5276ac0a55b3983b7237a917016ce9e46bb90dafebe559e12ccc9ffbb10ab78"
+    },
+    {
+      "path": "data/weather/raw/sol_0001/WE__0001___________CAL_RHS_________________P02.xml",
+      "bytes": 11992,
+      "sha256": "c1aa9499b6c03709a40f49b9ca701c169eece5cd070c5b5aad6a2460f1bfb7b5"
+    },
+    {
+      "path": "data/weather/raw/sol_0001/WE__0001___________CAL_TIRS________________P04.CSV.gz",
+      "bytes": 2752,
+      "sha256": "0b7a8c9da241d0d101bba43bd8c0551bd1f28e7a4b22557c7385153605dbcdca"
+    },
+    {
+      "path": "data/weather/raw/sol_0001/WE__0001___________CAL_TIRS________________P04.xml",
+      "bytes": 15519,
+      "sha256": "e6f77c7fbc8283f04d4fc0e335d8a98700a23145b94afb93d17ded27ae02c341"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_ATS_________________P01.CSV.gz",
+      "bytes": 891729,
+      "sha256": "c31aa02b06d67e1b9d412ff666ca2970705fbaca4f95c3023076fbf7aa0dab8e"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_ATS_________________P01.xml",
+      "bytes": 9808,
+      "sha256": "7580df082b54b75b26f8ff7a07e017816db7a21e96a179937f3a9bf447420a79"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_PS__________________P02.CSV.gz",
+      "bytes": 372451,
+      "sha256": "8329fcb1b054bfc11d4fa26867cbda85cc5a8b02904cf43ca851d6337875dc4b"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_PS__________________P02.xml",
+      "bytes": 12592,
+      "sha256": "79480f8b6393613cc19f47a7de2d83cf06c9a5d9c2150e94383aa356b1e6b9f3"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_RDS_________________P01.CSV.gz",
+      "bytes": 1718071,
+      "sha256": "559ea94c5fd9781bceab5047df03b42b13f93ad16a72bdecbf91d2aafde384e9"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_RDS_________________P01.xml",
+      "bytes": 19110,
+      "sha256": "4f22faa9ec1fc401d513475b09deed7ea127303061460b562a266e74e650c4a8"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_RHS_________________P02.CSV.gz",
+      "bytes": 368047,
+      "sha256": "46c712bed87d329643998548dd0b069a82b1f683fd280b23fdb8285670d3d18c"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_RHS_________________P02.xml",
+      "bytes": 11997,
+      "sha256": "c2aba8334a56a292e02827c9f3c4044f7d270d8eecd067620c17473517e8e787"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_TIRS________________P04.CSV.gz",
+      "bytes": 489721,
+      "sha256": "ce108d38679f659d13373f546af2bbdb00e17b08aeafa87aedcd81930ef8f107"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_TIRS________________P04.xml",
+      "bytes": 15531,
+      "sha256": "afb059c0194102e7abee2f4531ff67d411138370a8f41c92ec9be29b8bee7445"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_WS__________________P03.CSV.gz",
+      "bytes": 253986,
+      "sha256": "83eb652bdd417e720b29f6d41e0c337be7d413c886bdb0dd29a64aee12040094"
+    },
+    {
+      "path": "data/weather/raw/sol_0040/WE__0040___________CAL_WS__________________P03.xml",
+      "bytes": 13174,
+      "sha256": "72e73447853d831dde83f204a8f745135a8c4175fd04c7aa026ad45511c2c4bf"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_ATS_________________P01.CSV.gz",
+      "bytes": 1748619,
+      "sha256": "a3aaa096e0a32084bf83938e95389ef5eaa1d902656e8c0eab8a42729a539cfb"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_ATS_________________P01.xml",
+      "bytes": 9808,
+      "sha256": "bc2e51388b8d83066d95376408000b5a2cbbbcf143391fca0da5bea50c89366d"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_PS__________________P02.CSV.gz",
+      "bytes": 703562,
+      "sha256": "24d163ba3e424b11810b39e49da40faedf23b7145858af0badc4ab2fef04f214"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_PS__________________P02.xml",
+      "bytes": 12592,
+      "sha256": "83c7c1c031bbc43220f7442a9970e3fba451484fe854dc0a5a4a62faee874ec4"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_RDS_________________P01.CSV.gz",
+      "bytes": 3270676,
+      "sha256": "372e2e5eff932f2b36dc27751e842f615f190977d9e9788413160651fee85bac"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_RDS_________________P01.xml",
+      "bytes": 19111,
+      "sha256": "ea1f5ce6918e29e78de0011f988a1129330290363572675f17493536e272683a"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_RHS_________________P02.CSV.gz",
+      "bytes": 609948,
+      "sha256": "fafb49eda156204876d3df462961ce686c7c52e38be1c29e25b5797d4da4bcc7"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_RHS_________________P02.xml",
+      "bytes": 11997,
+      "sha256": "116691906171bd2a8137b48b484a97bd189cd51d0f274e54db01d8d1de18353b"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_TIRS________________P04.CSV.gz",
+      "bytes": 965137,
+      "sha256": "52d13b291034f884d86de94cf30f6190f286832fccddef05f19f379829def8b4"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_TIRS________________P04.xml",
+      "bytes": 15531,
+      "sha256": "f66078e748a7a6f9bf6d31dbd3915931034e43a46aa1051ca281601f497b3afe"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_WS__________________P03.CSV.gz",
+      "bytes": 669937,
+      "sha256": "1c8911e50e4af49cc5f2f5956807b99f194e0c317e495cf8cdeeb520f5857440"
+    },
+    {
+      "path": "data/weather/raw/sol_0080/WE__0080___________CAL_WS__________________P03.xml",
+      "bytes": 13175,
+      "sha256": "3d0d978f0248b2d29dcac8c4d63ac73851dda9b64c754da5634594f52f22161e"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_ATS_________________P02.CSV.gz",
+      "bytes": 1761865,
+      "sha256": "841d1f1fe6f5e53c4fedd407691dc6c5beb5f121bbad48a867859af5e7080450"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_ATS_________________P02.xml",
+      "bytes": 10059,
+      "sha256": "8b88fea0cd0f3404873d4013e1e935496194ae417874481ca43944e98b9e2ae2"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_PS__________________P01.CSV.gz",
+      "bytes": 707314,
+      "sha256": "ab420135efe12bc917ec81846faefd9a8fc16516444a8133d8182c24d882dffb"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_PS__________________P01.xml",
+      "bytes": 12357,
+      "sha256": "2d1203c31feb2c3169da7618ba0341b579cd2ea73008d2fd91b83b2f187a6247"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_RDS_________________P01.CSV.gz",
+      "bytes": 3300122,
+      "sha256": "c6f4ce157117ca3c472de800cc06f6e6956c78a694956d45d1f60f95d5a5bb81"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_RDS_________________P01.xml",
+      "bytes": 19111,
+      "sha256": "aeffc96a478425c0b9c97fc0600a8c9e61ed276c39237a573114a86a404d0886"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_RHS_________________P02.CSV.gz",
+      "bytes": 605412,
+      "sha256": "758de6338ee0da2f7e84bc0513735e4329ec28677be79898ede23825a142f84c"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_RHS_________________P02.xml",
+      "bytes": 11997,
+      "sha256": "1e8b29a575ff42ca026353b307cce1da72207a504bc1678995701725980de9c2"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_TIRS________________P03.CSV.gz",
+      "bytes": 980356,
+      "sha256": "c121c8a5d38b8190ee9553ffa0be44d65152ccf3114eeb221d548f403ca32e75"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_TIRS________________P03.xml",
+      "bytes": 15203,
+      "sha256": "7a807c64601bfbc292567b9db032819fa7991ec7bb1a2be40da6e8bee188b1bd"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_WS__________________P03.CSV.gz",
+      "bytes": 1001665,
+      "sha256": "9760b35ceda50ccd3381c9b92008d078bcf23f4190d3c56001b4ca00b47059b1"
+    },
+    {
+      "path": "data/weather/raw/sol_0120/WE__0120___________CAL_WS__________________P03.xml",
+      "bytes": 13177,
+      "sha256": "70e930577330aafb3d816bc435a385f116fe217c13d91f46432c98f6d39f8af1"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_ATS_________________P02.CSV.gz",
+      "bytes": 924596,
+      "sha256": "7bee726d52473acbeab59aa73f8a2c65710f6c2d0a34c34ec5d2788fe859c01a"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_ATS_________________P02.xml",
+      "bytes": 10055,
+      "sha256": "d1837aee4dbcdaf76bb118dc62e3ea108276e43ccec73cb89119fe722ac8d928"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_PS__________________P01.CSV.gz",
+      "bytes": 703849,
+      "sha256": "6dddbf2afc585b2bd1c6c1cf31c32ded3a7a4451f30fd23311c58d62a94b1ed1"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_PS__________________P01.xml",
+      "bytes": 12357,
+      "sha256": "da6edc549de0532fa26e4d1dc6f3dfa41095e5302219644fed659d8e605c13e8"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_RDS_________________P01.CSV.gz",
+      "bytes": 3266526,
+      "sha256": "d283d9b70cd1cb57b3fc3b5fef0a7f7c34bc338608225277fe978d29e9652aef"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_RDS_________________P01.xml",
+      "bytes": 19111,
+      "sha256": "cc27cf7b1e27f15e9099e4d3c6bd266a93c8825dfb25741aa6acbb90a8a5d8ff"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_RHS_________________P02.CSV.gz",
+      "bytes": 595410,
+      "sha256": "b36e26c9866be84e35a2221d018c3348e881f8dc1b4c850a5c41368190e2bd8e"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_RHS_________________P02.xml",
+      "bytes": 11997,
+      "sha256": "538af7b1763d14aec492dbd4d081b45fc73682b6c2fb5a335c5ae6f4c1c12df2"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_TIRS________________P03.CSV.gz",
+      "bytes": 963992,
+      "sha256": "3f9170fa600921c8d3235d8c2c01707def3fb3c0691a81d2dd5c978860e8f454"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_TIRS________________P03.xml",
+      "bytes": 15203,
+      "sha256": "72d8d0430fab8dbf19eca3a3ce59de2d0afd1db8e10fbb79d66a42e430807804"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_WS__________________P03.CSV.gz",
+      "bytes": 583674,
+      "sha256": "2b60348ae8466bb59729c4b43b9f26c4158b322382815eeb9a181c0342fe9005"
+    },
+    {
+      "path": "data/weather/raw/sol_0160/WE__0160___________CAL_WS__________________P03.xml",
+      "bytes": 13175,
+      "sha256": "9145b57153cf13f9bb35fe5daf8ed9a35183c2b9fea56c9f1b511220e979a258"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_ATS_________________P02.CSV.gz",
+      "bytes": 947031,
+      "sha256": "c1ab7f4279b3d5e448f9301569786337423be28a7cb9fa6bdc415ca8e54432b7"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_ATS_________________P02.xml",
+      "bytes": 10055,
+      "sha256": "7821e79e7bf8b80621c9f3c95232707c44d187af58357fb236a0abe5fb513a6f"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_PS__________________P02.CSV.gz",
+      "bytes": 714128,
+      "sha256": "3310e9c2825f5af7bc259395a026502dfaa4e5bb89ffd05b2f28a8b95c764f3e"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_PS__________________P02.xml",
+      "bytes": 12603,
+      "sha256": "71fe0246dd5ebb94b46db098e5354ba181e60556cdaa0c2538e696bd0578240a"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_RDS_________________P03.CSV.gz",
+      "bytes": 3312299,
+      "sha256": "dc0a999c0176689ba2c9012d2c3097ef3cf5c1d0e1a79e3fed85ad78ea52ca71"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_RDS_________________P03.xml",
+      "bytes": 19646,
+      "sha256": "2798361651c22016a1f0ee7f69cd75c2a09d783390eabadaedf47a8f12ede20b"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_RHS_________________P02.CSV.gz",
+      "bytes": 487107,
+      "sha256": "c937af1d7c9acba68ce5896ca1a2bf3cf6cb19c93883568a07a5a0f5ba8a5cbc"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_RHS_________________P02.xml",
+      "bytes": 11997,
+      "sha256": "5c20795ebdb006dfa751dca825f3fcdbb24f80ce91cf4c25e0b462582d6c120d"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_TIRS________________P03.CSV.gz",
+      "bytes": 998959,
+      "sha256": "102d87ec1392d32c71753fbe14f175d40af72fe133613178affcbb1a9e49b729"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_TIRS________________P03.xml",
+      "bytes": 15203,
+      "sha256": "dbc0c2f2deb05c814898d0b753a7d8a5b086d40b0a37682a2f9d6b1d961ac868"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_WS__________________P03.CSV.gz",
+      "bytes": 601738,
+      "sha256": "208ff2ac63631e7b79a7c126f538f86c19025dc4f5b312f7d2fc161f2f7b414f"
+    },
+    {
+      "path": "data/weather/raw/sol_0200/WE__0200___________CAL_WS__________________P03.xml",
+      "bytes": 13121,
+      "sha256": "270586586d472e483b86720ac4c925c7b4c1f1854db3cfb7525ac77004acf319"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_ATS_________________P01.CSV.gz",
+      "bytes": 917144,
+      "sha256": "88e5e562bece1874097145fa2adae9b3b416960a5631cc1300244f1828efea03"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_ATS_________________P01.xml",
+      "bytes": 9808,
+      "sha256": "4063f9da5aa7165fe3ff374fb43b871174b990cd02718201191a2a417b2b3aca"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_PS__________________P02.CSV.gz",
+      "bytes": 699355,
+      "sha256": "6249436417d4cc3437c3630467f394dc0d0ba22941a4692c4b5101f9f3e3ef60"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_PS__________________P02.xml",
+      "bytes": 12605,
+      "sha256": "56b845ac19428d43e040b782ab2e0033da4352ddcd105fd68f31db4d4fad6b49"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_RDS_________________P01.CSV.gz",
+      "bytes": 3270440,
+      "sha256": "f4316d608792550ead190437ccdf3e6455230c4beb9bfc069354b5428b96c7df"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_RDS_________________P01.xml",
+      "bytes": 19113,
+      "sha256": "28e77fdbc2f899de45e1e13c8a59db53222f87aaae43b2991dcb61edb963eec3"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_RHS_________________P02.CSV.gz",
+      "bytes": 631541,
+      "sha256": "9d51f26bc06180b8257328d336bcf10cde3d82928163c248ca591039bf336d6a"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_RHS_________________P02.xml",
+      "bytes": 11999,
+      "sha256": "477a1089eabb04ab8f6cca44e5867bfa1404543fddcbe1dc7d966105d5f49717"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_TIRS________________P03.CSV.gz",
+      "bytes": 963593,
+      "sha256": "b661f865f3c92c3230507ca9ee9105009e873865a65829662a2de88b9e5d9b95"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_TIRS________________P03.xml",
+      "bytes": 15205,
+      "sha256": "c3fd9adaf524703d0306a8af53ee8e0789a5f02c34aac8b9474a1023a9d61b2e"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_WS__________________P02.CSV.gz",
+      "bytes": 406876,
+      "sha256": "77c187c774b712d16cd39a2b4b73f3438b75bc024b492d9d2d5a03c2a21820d3"
+    },
+    {
+      "path": "data/weather/raw/sol_0240/WE__0240___________CAL_WS__________________P02.xml",
+      "bytes": 12861,
+      "sha256": "26e9e83fa39c33107cb8d3e458e6e9a964ac6d425b388c10eb90380af2b1049a"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_ATS_________________P02.CSV.gz",
+      "bytes": 956712,
+      "sha256": "f515c993195ba9213a8a80f2394ff918b361d41832c13bee09159dc90cac8ae8"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_ATS_________________P02.xml",
+      "bytes": 10057,
+      "sha256": "7b01edb891e25718904850111d17d85a0436e364a8ac98b53523c937fea6930f"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_PS__________________P02.CSV.gz",
+      "bytes": 715593,
+      "sha256": "d7eae0192359bd5b2354166341e83888b03e34f45b293b3fa0caed3481a4005f"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_PS__________________P02.xml",
+      "bytes": 12605,
+      "sha256": "d7f73003e9a5f3cf1e68add0e46f809bc44a7564e3090a1508e58fb30b6b7622"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_RDS_________________P03.CSV.gz",
+      "bytes": 3313089,
+      "sha256": "6426927f6dbce0a767c44c9ade62b3a6ccc22880d14228b413e3cf1e39ecac08"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_RDS_________________P03.xml",
+      "bytes": 19648,
+      "sha256": "6a613ed02752a7f65790688daba1d30e7e9a38fa32e28f10d001afaa0dab76be"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_RHS_________________P02.CSV.gz",
+      "bytes": 659864,
+      "sha256": "444fa8349529840ad1d09529201df1d9d2cf7836a5ce4355b4accc2f158c6b33"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_RHS_________________P02.xml",
+      "bytes": 11999,
+      "sha256": "7c165176c1f19ac486a6d942c8f63a13aea8c69a8f07e707e1ea7365bc321ead"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_TIRS________________P03.CSV.gz",
+      "bytes": 989346,
+      "sha256": "63b812ed9141329ef5c85910e4bf21867ff21c05a980d9ca1b307d4aa5de2305"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_TIRS________________P03.xml",
+      "bytes": 15205,
+      "sha256": "a25bb7eb6a9892f1576dff3cc37dde7b2618aef21d0653349db3a365cc1d4adf"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_WS__________________P03.CSV.gz",
+      "bytes": 536928,
+      "sha256": "d9433851d95209ad9e64560928981290ba55a1ca67b0a624499c3dd2a512d779"
+    },
+    {
+      "path": "data/weather/raw/sol_0280/WE__0280___________CAL_WS__________________P03.xml",
+      "bytes": 13123,
+      "sha256": "2b329c13b199b316f78c6a5d86ff7e282e1250a7fad9009de43222a5801aa398"
+    },
+    {
+      "path": "data/weather/raw/sol_0320/WE__0320___________CAL_ATS_________________P01.CSV.gz",
+      "bytes": 1493228,
+      "sha256": "f39b4b01255cdf731b3feda21529f769ce6063398c37b7cc7e81b515bf972b5b"
+    },
+    {
+      "path": "data/weather/raw/sol_0320/WE__0320___________CAL_ATS_________________P01.xml",
+      "bytes": 9808,
+      "sha256": "d8dd4e7e003301d009c2a1d34717345b95d13342eca80ae06ae05fbe15f13d04"
+    },
+    {
+      "path": "data/weather/raw/sol_0320/WE__0320___________CAL_PS__________________P02.CSV.gz",
+      "bytes": 1134937,
+      "sha256": "555b4a68d88283e9f0038f6a567a372eb108ec5f283f2d97d570b33e04369092"
+    },
+    {
+      "path": "data/weather/raw/sol_0320/WE__0320___________CAL_PS__________________P02.xml",
+      "bytes": 12605,
+      "sha256": "5c6ef945e91e00a13d0555b21a8e02b52f297b3f67d3cbcaaf92f0390951fa5a"
+    },
+    {
+      "path": "data/weather/raw/sol_0320/WE__0320___________CAL_RDS_________________P01.CSV.gz",
+      "bytes": 5202853,
+      "sha256": "02236917f23f120816d9c634ecb9938df1dc58c73777c50d460209fa1a54f198"
+    },
+    {
+      "path": "data/weather/raw/sol_0320/WE__0320___________CAL_RDS_________________P01.xml",
+      "bytes": 19113,
+      "sha256": "d38b29310e3c9eddbe8a215b1261b4a17149abd4a80b5f1ac6c25a362f7f1b09"
+    },
+    {
+      "path": "data/weather/raw/sol_0320/WE__0320___________CAL_RHS_________________P01.CSV.gz",
+      "bytes": 1066022,
+      "sha256": "438e39a938587b7c8cd31e522b43aa67d1e4a48ea4f3f7c81ceae5ec5e2cd267"
+    },
+    {
+      "path": "data/weather/raw/sol_0320/WE__0320___________CAL_RHS_________________P01.xml",
+      "bytes": 11766,
+      "sha256": "1c977548ba4512dbb1d70af553860aa07bfc003d865c608c292ce3e1f8677bb8"
+    },
+    {
+      "path": "data/weather/raw/sol_0320/WE__0320___________CAL_TIRS________________P02.CSV.gz",
+      "bytes": 1533967,
+      "sha256": "63ee417ef7f34950e96941b397f977893a26cb5e0097d592ce8548a17139ef11"
+    },
+    {
+      "path": "data/weather/raw/sol_0320/WE__0320___________CAL_TIRS________________P02.xml",
+      "bytes": 14922,
+      "sha256": "cdddca714a3873e0109c78604a099e5494353b38bc250e42434674b75c350a34"
+    },
+    {
+      "path": "data/weather/raw/sol_0334/WE__0334___________CAL_ATS_________________P01.CSV.gz",
+      "bytes": 1512563,
+      "sha256": "67e6d3af2231fd04d9ab5f27e759113276c2d1b346ce4122f29bcad852d332d9"
+    },
+    {
+      "path": "data/weather/raw/sol_0334/WE__0334___________CAL_ATS_________________P01.xml",
+      "bytes": 9808,
+      "sha256": "e0208fc2cb3f46b779cd2d8b15665ce29b801787032a947f9f3421f1078a2d40"
+    },
+    {
+      "path": "data/weather/raw/sol_0334/WE__0334___________CAL_PS__________________P02.CSV.gz",
+      "bytes": 1159569,
+      "sha256": "1adb08cea1afb8259816f8c42a24284855e493ba114ef64b75e453145722dabb"
+    },
+    {
+      "path": "data/weather/raw/sol_0334/WE__0334___________CAL_PS__________________P02.xml",
+      "bytes": 12605,
+      "sha256": "f5281fe67a0e82fd6b709c65ee7d4287c00c020340fd5e915a0e1104b53a4baf"
+    },
+    {
+      "path": "data/weather/raw/sol_0334/WE__0334___________CAL_RDS_________________P01.CSV.gz",
+      "bytes": 5388552,
+      "sha256": "e6a51f2312154f005803720695df8487520531213da6c3fa1a19d3965936e932"
+    },
+    {
+      "path": "data/weather/raw/sol_0334/WE__0334___________CAL_RDS_________________P01.xml",
+      "bytes": 19113,
+      "sha256": "9d1486ad14929cb2a8155eadebb6638bb5de7e074cb1954c6a50f2634445dc85"
+    },
+    {
+      "path": "data/weather/raw/sol_0334/WE__0334___________CAL_RHS_________________P01.CSV.gz",
+      "bytes": 1077905,
+      "sha256": "f1c6c4481cdcfafd6041a0342d9d15258f1e588d95c7bbca5801f5634ae1096c"
+    },
+    {
+      "path": "data/weather/raw/sol_0334/WE__0334___________CAL_RHS_________________P01.xml",
+      "bytes": 11766,
+      "sha256": "5ee54156302230a8cd791b591203977d72d4d33378101ab8ff17be46cf5545e0"
+    },
+    {
+      "path": "data/weather/raw/sol_0334/WE__0334___________CAL_TIRS________________P02.CSV.gz",
+      "bytes": 1504119,
+      "sha256": "dc6aa3f4d62fb1cedc197965c0b8209ed42cff4a187160dcbb0f4ff1357fd2b4"
+    },
+    {
+      "path": "data/weather/raw/sol_0334/WE__0334___________CAL_TIRS________________P02.xml",
+      "bytes": 14922,
+      "sha256": "b22e75c4c44f2f6ab86bd52929cfc276331a567e869d5725cdb7c90b7993fc17"
+    }
+  ],
+  "total_bytes": 660259210
+}

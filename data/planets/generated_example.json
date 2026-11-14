@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "id": "generated-2026",
+  "seed": 2026,
+  "stream_version": 1,
+  "model": "statistically plausible educational architecture, not formation simulation or certified stable system",
+  "star": {
+    "id": "generated-star",
+    "status": "model",
+    "mass_kg": 1.6668628518924625e+30,
+    "radius_m": 604139413.0243524,
+    "luminosity_W": 1.8903741014777122e+26,
+    "effective_temperature_K": 5192.337992482309
+  },
+  "planets": [
+    {
+      "id": "generated-planet-1",
+      "status": "synthetic_game_model",
+      "type": "ice_giant_candidate",
+      "mass_kg": 1.252012008e+26,
+      "radius_m": 30905188.357644,
+      "density_kg_m3": 1012.5715021231208,
+      "gravity_m_s2": 8.748859218973392,
+      "semimajor_axis_m": 50302110281.475975,
+      "eccentricity": 0.03191489979624748,
+      "inclination_rad": 1.6980148497145526,
+      "ascending_node_rad": 5.862154445485647,
+      "argument_periapsis_rad": 2.3596733313286133,
+      "mean_anomaly_rad": 4.9574836479842395,
+      "orbital_period_s": 6720321.812585673,
+      "rotation_period_s": 39197.08366752578,
+      "spin_sense": "prograde_relative_to_orbit",
+      "tidally_locked_by_game_rule": false,
+      "bond_albedo": 0.33393468605354426,
+      "equilibrium_temperature_K": 363.4985172423735,
+      "atmosphere_preset": "h2_he",
+      "mutual_hill_clearance": null,
+      "anchor": {
+        "source_star_id": 6393,
+        "source_planet_index": 2
+      }
+    },
+    {
+      "id": "generated-planet-2",
+      "status": "synthetic_game_model",
+      "type": "ice_giant_candidate",
+      "mass_kg": 1.1512251608e+26,
+      "radius_m": 29414627.232380003,
+      "density_kg_m3": 1079.8952142411445,
+      "gravity_m_s2": 8.880538439952872,
+      "semimajor_axis_m": 121480072264.66748,
+      "eccentricity": 0.051244535073637965,
+      "inclination_rad": 1.6980148497145526,
+      "ascending_node_rad": 5.862154445485647,
+      "argument_periapsis_rad": 5.753178106778005,
+      "mean_anomaly_rad": 0.41321388767416606,
+      "orbital_period_s": 25221426.030377768,
+      "rotation_period_s": 188763.3853321912,
+      "spin_sense": "prograde_relative_to_orbit",
+      "tidally_locked_by_game_rule": false,
+      "bond_albedo": 0.16435108743607998,
+      "equilibrium_temperature_K": 247.5540204586284,
+      "atmosphere_preset": "h2_he",
+      "mutual_hill_clearance": 20.285641075488897,
+      "anchor": {
+        "source_star_id": 1840,
+        "source_planet_index": 9
+      }
+    },
+    {
+      "id": "generated-planet-3",
+      "status": "synthetic_game_model",
+      "type": "sub_neptune",
+      "mass_kg": 1.9044987468e+25,
+      "radius_m": 10193677.150084,
+      "density_kg_m3": 4292.392801728174,
+      "gravity_m_s2": 12.232765924327907,
+      "semimajor_axis_m": 287001316588.53375,
+      "eccentricity": 0.06751349942758679,
+      "inclination_rad": 1.6980148497145526,
+      "ascending_node_rad": 5.862154445485647,
+      "argument_periapsis_rad": 4.277109140066454,
+      "mean_anomaly_rad": 2.6244807044757597,
+      "orbital_period_s": 91590498.98733503,
+      "rotation_period_s": 116210.37762954304,
+      "spin_sense": "prograde_relative_to_orbit",
+      "tidally_locked_by_game_rule": false,
+      "bond_albedo": 0.41318914250005034,
+      "equilibrium_temperature_K": 147.4345037666168,
+      "atmosphere_preset": "h2_he",
+      "mutual_hill_clearance": 22.883766656158205,
+      "anchor": {
+        "source_star_id": 4655,
+        "source_planet_index": 0
+      }
+    }
+  ]
+}

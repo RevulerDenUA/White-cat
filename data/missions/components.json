@@ -1,0 +1,249 @@
+{
+  "schema_version": "1.0",
+  "retrieved_utc": "2026-11-14",
+  "notes": [
+    "Unknown or unreported engineering values are null. Do not convert average science data return into instrument storage capacity.",
+    "Published piece masses are summed only where NASA lists subassemblies separately; summed values are labeled derived.",
+    "Game balance values must be stored separately and marked as game assumptions."
+  ],
+  "components": [
+    {
+      "id": "perseverance_rover",
+      "name": "Perseverance rover (complete vehicle)",
+      "category": "rover",
+      "purpose": "Carry instruments, mobility, sampling system and compute/power subsystems across Mars surface.",
+      "mass_kg": 1025,
+      "mass_status": "NASA-published total rover mass; not a bare chassis mass",
+      "power_w": null,
+      "data_volume_mbit": null,
+      "limitations": [
+        "Full rover system mass; do not use as chassis-only mass."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/",
+      "confidence": "published",
+      "status": "published_or_described_reference"
+    },
+    {
+      "id": "perseverance_chassis",
+      "name": "Perseverance chassis/frame",
+      "category": "rover_platform",
+      "purpose": "Structural chassis, equipment deck and belly pan.",
+      "mass_kg": null,
+      "power_w": null,
+      "data_volume_mbit": null,
+      "limitations": [
+        "NASA page describes structure but does not give a separate frame mass."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/",
+      "confidence": "not_separately_reported",
+      "status": "unavailable"
+    },
+    {
+      "id": "mastcam_z",
+      "name": "Mastcam-Z",
+      "category": "instrument_camera",
+      "purpose": "Zoom stereo imaging, panoramas, color imagery and video.",
+      "mass_kg": 4.0,
+      "power_w": 17.4,
+      "data_volume_mbit": 148,
+      "data_basis": "average returned per sol",
+      "limitations": [
+        "Data return is an average operational return, not a fixed file-size limit."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+      "confidence": "published",
+      "status": "published_or_described_reference"
+    },
+    {
+      "id": "supercam",
+      "name": "SuperCam",
+      "category": "instrument_spectrometer",
+      "purpose": "Remote imaging, laser-induced spectroscopy and chemical/mineral analysis of rocks and soils.",
+      "mass_kg": 10.6,
+      "mass_status": "sum of 5.6 kg mast head + 4.8 kg body spectrometers + 0.2 kg calibration assembly",
+      "power_w": 17.9,
+      "data_volume_mbit": 15.5,
+      "data_basis": "per experiment; NASA also reports about 4.2 Mbit/day",
+      "limitations": [
+        "Reported component masses are summed from NASA-listed subassemblies."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+      "confidence": "published_subassemblies_and_derived_sum",
+      "status": "published_or_described_reference"
+    },
+    {
+      "id": "pixl",
+      "name": "PIXL",
+      "category": "instrument_xray",
+      "purpose": "Close-range X-ray elemental chemistry and microscopic texture imaging.",
+      "mass_kg": 6.915,
+      "mass_status": "sum of 4.3 kg sensor head + 2.6 kg body electronics + 0.015 kg calibration target",
+      "power_w": 25,
+      "data_volume_mbit": 16,
+      "data_basis": "per experiment; NASA also reports about 2 MB/day",
+      "limitations": [
+        "Requires robotic-arm placement close to the rock."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+      "confidence": "published_subassemblies_and_derived_sum",
+      "status": "published_or_described_reference"
+    },
+    {
+      "id": "sherloc_watson",
+      "name": "SHERLOC + WATSON",
+      "category": "instrument_spectrometer_camera",
+      "purpose": "UV Raman/fluorescence and organic/mineral mapping; WATSON close-up color context imaging.",
+      "mass_kg": 4.72,
+      "mass_status": "sum of turret assembly 3.11 kg + body 1.61 kg",
+      "power_w": 48.8,
+      "data_volume_mbit": 79.7,
+      "data_basis": "raw data return per analysis",
+      "limitations": [
+        "Arm-mounted; combined power is sum of the turret and body published figures."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+      "confidence": "published_subassemblies_and_derived_sum",
+      "status": "published_or_described_reference"
+    },
+    {
+      "id": "rimfax",
+      "name": "RIMFAX",
+      "category": "instrument_ground_penetrating_radar",
+      "purpose": "Subsurface radar profiling along rover traverse.",
+      "mass_kg": null,
+      "mass_limit_kg": 3.0,
+      "mass_limit_operator": "<",
+      "power_w": null,
+      "power_range_w": [
+        5,
+        10
+      ],
+      "data_volume_mbit": null,
+      "data_volume_kb_per_sounding": [
+        5,
+        10
+      ],
+      "limitations": [
+        "Penetration exceeds 10 m depending on material; measurement interval about 10 cm along track."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+      "confidence": "published",
+      "status": "published_or_described_reference"
+    },
+    {
+      "id": "meda",
+      "name": "MEDA",
+      "category": "instrument_environmental",
+      "purpose": "Measure wind, air temperature, humidity, pressure, radiation and atmospheric dust.",
+      "mass_kg": 5.5,
+      "power_w": null,
+      "power_limit_w": 17,
+      "data_volume_mbit": null,
+      "data_volume_mb": 11,
+      "data_basis": "NASA page does not specify interval for the 11 MB figure",
+      "limitations": [
+        "Power varies with scheduled measurements."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+      "confidence": "published",
+      "status": "published_or_described_reference"
+    },
+    {
+      "id": "mmrtg",
+      "name": "Multi-Mission Radioisotope Thermoelectric Generator",
+      "category": "power_source",
+      "purpose": "Provide steady electrical power and thermal energy.",
+      "mass_kg": 45,
+      "power_w": 110,
+      "power_status": "about 110 W electrical at launch, declining a few percent per year",
+      "data_volume_mbit": null,
+      "limitations": [
+        "Power value is beginning-of-mission output, not current output. Two rechargeable Li-ion batteries support peak loads."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/",
+      "confidence": "published",
+      "status": "published_or_described_reference"
+    },
+    {
+      "id": "rover_batteries",
+      "name": "Perseverance rechargeable battery pair",
+      "category": "energy_storage",
+      "purpose": "Buffer activity peaks that exceed the MMRTG steady output.",
+      "mass_kg": 26.5,
+      "power_w": null,
+      "capacity_wh": null,
+      "count": 2,
+      "limitations": [
+        "Battery-pair mass 26.5 kg and ~43 Ah each verified in press kit p.38. Usable Wh not specified; capacity_wh stays null."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/",
+      "confidence": "published pair mass and count; approximate per-battery Ah; usable Wh unknown",
+      "capacity_ah_each": 43,
+      "source_additional": "https://www.jpl.nasa.gov/news/press_kits/mars_2020/download/mars_2020_launch_press_kit.pdf#page=38",
+      "status": "published_or_described_reference"
+    },
+    {
+      "id": "solar_array_generic",
+      "name": "Solar array (generic mission option)",
+      "category": "power_source",
+      "purpose": "Photovoltaic electrical generation for a mission design option.",
+      "mass_kg": null,
+      "power_w": null,
+      "data_volume_mbit": null,
+      "limitations": [
+        "Not used by Perseverance; configure from a separately sourced spacecraft design rather than treating as Mars 2020 hardware."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/spacecraft/",
+      "confidence": "not_quantified_for_this_reference",
+      "status": "unavailable"
+    },
+    {
+      "id": "rover_heaters",
+      "name": "Rover thermal control/heaters",
+      "category": "thermal_control",
+      "purpose": "Keep rover systems in operating temperature ranges; MMRTG waste heat contributes thermal energy.",
+      "mass_kg": null,
+      "power_w": null,
+      "data_volume_mbit": null,
+      "limitations": [
+        "Separate heater mass/power is not provided on the cited NASA component page."
+      ],
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/",
+      "confidence": "function_known_values_unknown",
+      "status": "published_or_described_reference"
+    },
+    {
+      "id": "mars_relay_communications",
+      "name": "UHF rover-to-orbiter and orbiter-to-Earth relay",
+      "category": "communications",
+      "purpose": "Send rover science and engineering data through Mars orbiters to Earth/DSN.",
+      "mass_kg": null,
+      "power_w": null,
+      "data_volume_mbit": null,
+      "limitations": [
+        "Perseverance antenna subsystem mass and power are not quantified in the cited sources; relay-network throughput is in relay_plans.json."
+      ],
+      "source": "https://science.nasa.gov/mars/mars-relay-network/",
+      "confidence": "architecture_known_values_unknown",
+      "status": "published_or_described_reference"
+    },
+    {
+      "id": "terrain_relative_navigation",
+      "name": "Terrain-Relative Navigation (TRN) / Lander Vision System",
+      "category": "landing_navigation",
+      "purpose": "Match descent images to onboard terrain maps and select a reachable safe touchdown target.",
+      "mass_kg": null,
+      "power_w": null,
+      "data_volume_mbit": null,
+      "target_adjustment_m": 600,
+      "position_solution_accuracy_m": 40,
+      "limitations": [
+        "The 600 m value is maximum change to touchdown target, not guaranteed landing error."
+      ],
+      "source": "https://www.jpl.nasa.gov/news/press_kits/mars_2020/landing/mission/",
+      "confidence": "capability_published_mass_power_unknown",
+      "status": "published_or_described_reference"
+    }
+  ],
+  "package_note": "Snapshot reference with per-field units in names; null means unavailable, never zero. See docs/PHYSICS.md and source URLs."
+}

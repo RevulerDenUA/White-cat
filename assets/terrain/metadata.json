@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "id": "jezero_landing_10km",
+  "source_ids": [
+    "usgs_jezero_ctx",
+    "nasa_pds_places"
+  ],
+  "status": "derived_observation_with_game_slope_rules",
+  "width": 512,
+  "height": 512,
+  "spacing_m": 20,
+  "crs_wkt": "PROJCS[\"Jezero_Crater_Projection\",GEOGCS[\"GCS_Mars_2000_Sphere\",DATUM[\"Mars_2000_(Sphere)\",SPHEROID[\"Mars_2000_Sphere\",3396190,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",18.4663],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+  "crs_proj": "+proj=eqc +lat_ts=18.4663 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=3396190 +units=m +no_defs=True",
+  "geographic_input": "planetocentric latitude degrees north; longitude degrees east; spherical radius 3396190 m",
+  "affine_corner": [
+    20.0,
+    0.0,
+    4349359.999999998,
+    0.0,
+    -20.0,
+    1098420.0000000028
+  ],
+  "bounds_m": [
+    4349359.999999998,
+    1088180.0000000028,
+    4359599.999999998,
+    1098420.0000000028
+  ],
+  "origin_projected_m": [
+    4354495.493921849,
+    1093296.384576731
+  ],
+  "origin_elevation_areoid_m": -2569.721,
+  "origin_lon_lat_deg": [
+    77.450910771,
+    18.444571297
+  ],
+  "world_axes": {
+    "x": "east",
+    "y": "up",
+    "z": "south"
+  },
+  "vertical_datum": "MOLA areoid; no conversion to ellipsoid height",
+  "height_encoding": {
+    "path": "assets/terrain/heightmap.u16",
+    "type": "uint16",
+    "endian": "little",
+    "order": "row-major north-to-south",
+    "nodata": 0,
+    "offset_m": -2652,
+    "scale_m": 0.02,
+    "decode": "offset_m + (sample-1)*scale_m",
+    "max_quantization_error_m": 0.01
+  },
+  "slope_encoding": {
+    "path": "assets/terrain/slope.u16",
+    "type": "uint16",
+    "endian": "little",
+    "scale_deg": 0.01,
+    "nodata": 65535,
+    "method": "central differences on original DEM with one-cell halo; 20 m projected spacing"
+  },
+  "traversability": {
+    "path": "assets/terrain/traversability.u8",
+    "values": {
+      "0": "blocked/unknown/edge",
+      "1": "passable by slope proxy",
+      "2": "caution"
+    },
+    "neighborhood_max": "3x3",
+    "safe_max_slope_deg": 15,
+    "caution_max_slope_deg": 25,
+    "status": "game_assumption; not certified rover safety"
+  },
+  "texture": {
+    "path": "assets/terrain/ortho.webp",
+    "width_px": 2048,
+    "height_px": 2048,
+    "pixel_size_m": 5.0,
+    "orientation": "top=north; left=west",
+    "processing": "bilinear warp to DEM crop bounds; grayscale original, no invented color"
+  },
+  "limitations": [
+    "20 m DEM and 5 m ortho cannot resolve wheel-scale rocks or sand sinkage.",
+    "Projected spacing is approximately ground meters near the standard parallel.",
+    "PLACES and CTX elevations need not coincide; place rover on terrain height for collision, preserve measured elevation for display."
+  ],
+  "valid_cell_count": 262144,
+  "slope_deg": {
+    "n": 262144,
+    "p05": 0.5487682910656565,
+    "p50": 2.2192834981415084,
+    "p95": 8.685451135649162
+  },
+  "height_m": {
+    "n": 262144,
+    "p05": -2634.1390869140623,
+    "p50": -2562.376953125,
+    "p95": -2431.482946777344
+  }
+}

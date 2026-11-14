@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0",
+  "status": "synthetic",
+  "source_ids": [
+    "nasa_emac_exovista_dec21"
+  ],
+  "units": {
+    "mass_earth": "M_earth",
+    "radius_earth": "R_earth",
+    "semimajor_axis_au": "au",
+    "angles": "deg"
+  },
+  "systems": [
+    {
+      "id": "exovista-5",
+      "star": {
+        "star_id": 5,
+        "hip": 57,
+        "tyc": null,
+        "ra_deg": 0.167999,
+        "dec_deg": -69.676,
+        "spectral_type": "K2V",
+        "luminosity_sun": 0.435147,
+        "effective_temperature_k": 5127.14,
+        "distance_pc": 29.3383,
+        "mass_sun": 0.81489,
+        "radius_sun": 0.792461,
+        "system_inclination_deg": 118.146,
+        "position_angle_deg": 150.128
+      },
+      "planets": [
+        {
+          "planet_index": 0,
+          "mass_earth": 0.437291,
+          "radius_earth": 0.800268,
+          "semimajor_axis_au": 0.25905,
+          "eccentricity": 0.0,
+          "inclination_deg": 1.55656,
+          "longitude_ascending_node_deg": 309.874,
+          "argument_periapsis_deg": 293.855,
+          "mean_anomaly_deg": 180.598
+        },
+        {
+          "planet_index": 1,
+          "mass_earth": 1.94633,
+          "radius_earth": 1.21381,
+          "semimajor_axis_au": 1.82985,
+          "eccentricity": 0.0,
+          "inclination_deg": 1.73989,
+          "longitude_ascending_node_deg": 200.49,
+          "argument_periapsis_deg": 270.064,
+          "mean_anomaly_deg": 179.818
+        },
+        {
+          "planet_index": 2,
+          "mass_earth": 2.03426,
+          "radius_earth": 1.22887,
+          "semimajor_axis_au": 2.67275,
+          "eccentricity": 0.0,
+          "inclination_deg": 4.80355,
+          "longitude_ascending_node_deg": 18.7182,
+          "argument_periapsis_deg": 328.679,
+          "mean_anomaly_deg": 168.835
+        },
+        {
+          "planet_index": 3,
+          "mass_earth": 5.89728,
+          "radius_earth": 2.29821,
+          "semimajor_axis_au": 4.08423,
+          "eccentricity": 0.0,
+          "inclination_deg": 0.514724,
+          "longitude_ascending_node_deg": 291.714,
+          "argument_periapsis_deg": 77.0312,
+          "mean_anomaly_deg": 258.258
+        },
+        {
+          "planet_index": 4,
+          "mass_earth": 0.0964901,
+          "radius_earth": 0.524966,
+          "semimajor_axis_au": 4.88794,
+          "eccentricity": 0.0,
+          "inclination_deg": 2.63352,
+          "longitude_ascending_node_deg": 154.846,
+          "argument_periapsis_deg": 108.584,
+          "mean_anomaly_deg": 26.72
+        },
+        {
+          "planet_index": 5,
+          "mass_earth": 0.173002,
+          "radius_earth": 0.617841,
+          "semimajor_axis_au": 5.76432,
+          "eccentricity": 0.0,
+          "inclination_deg": 1.40742,
+          "longitude_ascending_node_deg": 326.988,
+          "argument_periapsis_deg": 329.702,
+          "mean_anomaly_deg": 272.815
+        },
+        {
+          "planet_index": 6,
+          "mass_earth": 0.176413,
+          "radius_earth": 0.621216,
+          "semimajor_axis_au": 8.10896,
+          "eccentricity": 0.0,
+          "inclination_deg": 4.30209,
+          "longitude_ascending_node_deg": 302.104,
+          "argument_periapsis_deg": 41.0544,
+          "mean_anomaly_deg": 329.695
+        },
+        {
+          "planet_index": 7,
+          "mass_earth": 13.2257,
+          "radius_earth": 3.6982,
+          "semimajor_axis_au": 10.425,
+          "eccentricity": 0.0,
+          "inclination_deg": 1.20753,
+          "longitude_ascending_node_deg": 303.781,
+          "argument_periapsis_deg": 227.314,
+          "mean_anomaly_deg": 229.258
+        },
+        {
+          "planet_index": 8,
+          "mass_earth": 0.534886,
+          "radius_earth": 0.846536,
+          "semimajor_axis_au": 12.9105,
+          "eccentricity": 0.0,
+          "inclination_deg": 4.55894,
+          "longitude_ascending_node_deg": 282.378,
+          "argument_periapsis_deg": 153.778,
+          "mean_anomaly_deg": 205.149
+        },
+        {
+          "planet_index": 9,
+          "mass_earth": 59.9087,
+          "radius_earth": 9.00361,
+          "semimajor_axis_au": 16.9307,
+          "eccentricity": 0.0,
+          "inclination_deg": 2.4384,
+          "longitude_ascending_node_deg": 3.05254,
+          "argument_periapsis_deg": 355.315,
+          "mean_anomaly_deg": 112.426
+        }
+      ]
+    },
+    {
+      "id": "exovista-17",
+      "star": {
+        "star_id": 17,
+        "hip": 169,
+        "tyc": null,
+        "ra_deg": 0.536383,
+        "dec_deg": -68.2808,
+        "spectral_type": "M0V",
+        "luminosity_sun": 0.105742,
+        "effective_temperature_k": 3953.67,
+        "distance_pc": 15.1957,
+        "mass_sun": 0.57539,
+        "radius_sun": 0.714466,
+        "system_inclination_deg": -88.3055,
+        "position_angle_deg": 358.987
+      },
+      "planets": [
+        {
+          "planet_index": 0,
+          "mass_earth": 0.113329,
+          "radius_earth": 0.549062,
+          "semimajor_axis_au": 0.0380297,
+          "eccentricity": 0.0,
+          "inclination_deg": 1.57884,
+          "longitude_ascending_node_deg": 321.58,
+          "argument_periapsis_deg": 12.3298,
+          "mean_anomaly_deg": 215.326
+        },
+        {
+          "planet_index": 1,
+          "mass_earth": 2.89356,
+          "radius_earth": 1.51098,
+          "semimajor_axis_au": 0.0642256,
+          "eccentricity": 0.0,
+          "inclination_deg": 3.35712,
+          "longitude_ascending_node_deg": 222.848,
+          "argument_periapsis_deg": 359.403,
+          "mean_anomaly_deg": 133.748
+        },
+        {
+          "planet_index": 2,
+          "mass_earth": 1.72304,
+          "radius_earth": 1.17324,
+          "semimajor_axis_au": 0.130392,
+          "eccentricity": 0.0,
+          "inclination_deg": 4.24023,
+          "longitude_ascending_node_deg": 179.512,
+          "argument_periapsis_deg": 233.641,
+          "mean_anomaly_deg": 56.3113
+        },
+        {
+          "planet_index": 3,
+          "mass_earth": 0.865918,
+          "radius_earth": 0.968315,
+          "semimajor_axis_au": 0.230897,
+          "eccentricity": 0.0,
+          "inclination_deg": 4.0393,
+          "longitude_ascending_node_deg": 255.632,
+          "argument_periapsis_deg": 160.023,
+          "mean_anomaly_deg": 317.3
+        },
+        {
+          "planet_index": 4,
+          "mass_earth": 8.07323,
+          "radius_earth": 2.7652,
+          "semimajor_axis_au": 0.62801,
+          "eccentricity": 0.0,
+          "inclination_deg": 4.17045,
+          "longitude_ascending_node_deg": 110.12,
+          "argument_periapsis_deg": 39.1136,
+          "mean_anomaly_deg": 254.137
+        },
+        {
+          "planet_index": 5,
+          "mass_earth": 5.63316,
+          "radius_earth": 2.23701,
+          "semimajor_axis_au": 1.41619,
+          "eccentricity": 0.0,
+          "inclination_deg": 0.387397,
+          "longitude_ascending_node_deg": 335.371,
+          "argument_periapsis_deg": 61.4222,
+          "mean_anomaly_deg": 108.252
+        },
+        {
+          "planet_index": 6,
+          "mass_earth": 3.55759,
+          "radius_earth": 1.7065,
+          "semimajor_axis_au": 1.85999,
+          "eccentricity": 0.0,
+          "inclination_deg": 2.87296,
+          "longitude_ascending_node_deg": 2.30018,
+          "argument_periapsis_deg": 135.399,
+          "mean_anomaly_deg": 199.58
+        },
+        {
+          "planet_index": 7,
+          "mass_earth": 20.8863,
+          "radius_earth": 4.84031,
+          "semimajor_axis_au": 2.58506,
+          "eccentricity": 0.0,
+          "inclination_deg": 2.97983,
+          "longitude_ascending_node_deg": 90.111,
+          "argument_periapsis_deg": 129.464,
+          "mean_anomaly_deg": 102.1
+        },
+        {
+          "planet_index": 8,
+          "mass_earth": 0.120793,
+          "radius_earth": 0.558921,
+          "semimajor_axis_au": 3.52225,
+          "eccentricity": 0.0,
+          "inclination_deg": 0.598584,
+          "longitude_ascending_node_deg": 164.954,
+          "argument_periapsis_deg": 137.278,
+          "mean_anomaly_deg": 186.55
+        },
+        {
+          "planet_index": 9,
+          "mass_earth": 0.334453,
+          "radius_earth": 0.742591,
+          "semimajor_axis_au": 3.79986,
+          "eccentricity": 0.0,
+          "inclination_deg": 1.99971,
+          "longitude_ascending_node_deg": 66.2822,
+          "argument_periapsis_deg": 105.73,
+          "mean_anomaly_deg": 222.063
+        },
+        {
+          "planet_index": 10,
+          "mass_earth": 0.385729,
+          "radius_earth": 0.77274,
+          "semimajor_axis_au": 4.30963,
+          "eccentricity": 0.0,
+          "inclination_deg": 2.53158,
+          "longitude_ascending_node_deg": 299.826,
+          "argument_periapsis_deg": 128.788,
+          "mean_anomaly_deg": 261.852
+        },
+        {
+          "planet_index": 11,
+          "mass_earth": 26.5294,
+          "radius_earth": 5.5725,
+          "semimajor_axis_au": 5.74678,
+          "eccentricity": 0.0,
+          "inclination_deg": 0.613062,
+          "longitude_ascending_node_deg": 137.947,
+          "argument_periapsis_deg": 352.581,
+          "mean_anomaly_deg": 294.872
+        },
+        {
+          "planet_index": 12,
+          "mass_earth": 3.42561,
+          "radius_earth": 1.66892,
+          "semimajor_axis_au": 7.23383,
+          "eccentricity": 0.0,
+          "inclination_deg": 3.75147,
+          "longitude_ascending_node_deg": 159.25,
+          "argument_periapsis_deg": 286.387,
+          "mean_anomaly_deg": 6.37303
+        },
+        {
+          "planet_index": 13,
+          "mass_earth": 17.4292,
+          "radius_earth": 4.35099,
+          "semimajor_axis_au": 8.96261,
+          "eccentricity": 0.0,
+          "inclination_deg": 3.29092,
+          "longitude_ascending_node_deg": 113.14,
+          "argument_periapsis_deg": 317.338,
+          "mean_anomaly_deg": 175.591
+        }
+      ]
+    },
+    {
+      "id": "exovista-18",
+      "star": {
+        "star_id": 18,
+        "hip": 171,
+        "tyc": null,
+        "ra_deg": 0.542313,
+        "dec_deg": 27.0823,
+        "spectral_type": "G3V",
+        "luminosity_sun": 0.640254,
+        "effective_temperature_k": 5623.42,
+        "distance_pc": 12.1699,
+        "mass_sun": 0.974987,
+        "radius_sun": 0.817522,
+        "system_inclination_deg": 112.919,
+        "position_angle_deg": 259.317
+      },
+      "planets": [
+        {
+          "planet_index": 0,
+          "mass_earth": 0.368389,
+          "radius_earth": 0.762887,
+          "semimajor_axis_au": 0.318315,
+          "eccentricity": 0.0,
+          "inclination_deg": 3.56082,
+          "longitude_ascending_node_deg": 303.741,
+          "argument_periapsis_deg": 87.9817,
+          "mean_anomaly_deg": 161.988
+        },
+        {
+          "planet_index": 1,
+          "mass_earth": 0.304786,
+          "radius_earth": 0.723594,
+          "semimajor_axis_au": 0.361309,
+          "eccentricity": 0.0,
+          "inclination_deg": 3.64268,
+          "longitude_ascending_node_deg": 261.341,
+          "argument_periapsis_deg": 117.422,
+          "mean_anomaly_deg": 35.8213
+        },
+        {
+          "planet_index": 2,
+          "mass_earth": 0.537849,
+          "radius_earth": 0.847842,
+          "semimajor_axis_au": 1.5161,
+          "eccentricity": 0.0,
+          "inclination_deg": 0.404723,
+          "longitude_ascending_node_deg": 210.271,
+          "argument_periapsis_deg": 130.882,
+          "mean_anomaly_deg": 110.115
+        },
+        {
+          "planet_index": 3,
+          "mass_earth": 0.492953,
+          "radius_earth": 0.827472,
+          "semimajor_axis_au": 2.06767,
+          "eccentricity": 0.0,
+          "inclination_deg": 3.85379,
+          "longitude_ascending_node_deg": 56.2604,
+          "argument_periapsis_deg": 117.666,
+          "mean_anomaly_deg": 293.231
+        },
+        {
+          "planet_index": 4,
+          "mass_earth": 30.7399,
+          "radius_earth": 6.07759,
+          "semimajor_axis_au": 3.6888,
+          "eccentricity": 0.0,
+          "inclination_deg": 0.762029,
+          "longitude_ascending_node_deg": 67.2822,
+          "argument_periapsis_deg": 262.515,
+          "mean_anomaly_deg": 194.478
+        },
+        {
+          "planet_index": 5,
+          "mass_earth": 0.957454,
+          "radius_earth": 0.995847,
+          "semimajor_axis_au": 4.48941,
+          "eccentricity": 0.0,
+          "inclination_deg": 3.80808,
+          "longitude_ascending_node_deg": 330.931,
+          "argument_periapsis_deg": 47.6223,
+          "mean_anomaly_deg": 157.042
+        },
+        {
+          "planet_index": 6,
+          "mass_earth": 1.63153,
+          "radius_earth": 1.15551,
+          "semimajor_axis_au": 5.1087,
+          "eccentricity": 0.0,
+          "inclination_deg": 3.33475,
+          "longitude_ascending_node_deg": 267.357,
+          "argument_periapsis_deg": 38.6285,
+          "mean_anomaly_deg": 137.255
+        },
+        {
+          "planet_index": 7,
+          "mass_earth": 4.75502,
+          "radius_earth": 2.0245,
+          "semimajor_axis_au": 5.72914,
+          "eccentricity": 0.0,
+          "inclination_deg": 3.35248,
+          "longitude_ascending_node_deg": 189.065,
+          "argument_periapsis_deg": 353.443,
+          "mean_anomaly_deg": 128.1
+        },
+        {
+          "planet_index": 8,
+          "mass_earth": 41.1234,
+          "radius_earth": 7.21396,
+          "semimajor_axis_au": 7.85469,
+          "eccentricity": 0.0,
+          "inclination_deg": 0.493743,
+          "longitude_ascending_node_deg": 209.074,
+          "argument_periapsis_deg": 37.6735,
+          "mean_anomaly_deg": 10.4479
+        },
+        {
+          "planet_index": 9,
+          "mass_earth": 3.25697,
+          "radius_earth": 1.62003,
+          "semimajor_axis_au": 11.6062,
+          "eccentricity": 0.0,
+          "inclination_deg": 2.08433,
+          "longitude_ascending_node_deg": 260.997,
+          "argument_periapsis_deg": 245.847,
+          "mean_anomaly_deg": 342.66
+        },
+        {
+          "planet_index": 10,
+          "mass_earth": 0.313706,
+          "radius_earth": 0.729442,
+          "semimajor_axis_au": 15.0039,
+          "eccentricity": 0.0,
+          "inclination_deg": 3.50058,
+          "longitude_ascending_node_deg": 209.668,
+          "argument_periapsis_deg": 16.6859,
+          "mean_anomaly_deg": 278.845
+        },
+        {
+          "planet_index": 11,
+          "mass_earth": 2.42577,
+          "radius_earth": 1.36192,
+          "semimajor_axis_au": 16.817,
+          "eccentricity": 0.0,
+          "inclination_deg": 2.78954,
+          "longitude_ascending_node_deg": 289.934,
+          "argument_periapsis_deg": 70.5021,
+          "mean_anomaly_deg": 299.316
+        },
+        {
+          "planet_index": 12,
+          "mass_earth": 0.154219,
+          "radius_earth": 0.598344,
+          "semimajor_axis_au": 21.6049,
+          "eccentricity": 0.0,
+          "inclination_deg": 0.202996,
+          "longitude_ascending_node_deg": 86.7017,
+          "argument_periapsis_deg": 32.1325,
+          "mean_anomaly_deg": 170.077
+        }
+      ]
+    }
+  ]
+}
