@@ -1,0 +1,127 @@
+{
+  "name": "White Cat Aquatic Rover",
+  "units": "m",
+  "dimensions_width_length_height_m": [
+    2.419217,
+    2.32,
+    1.432
+  ],
+  "blender_axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "gltf_axes": {
+    "up": "+Y",
+    "forward": "+Z"
+  },
+  "origin": "skid contact plane, lateral and longitudinal centre",
+  "reference": {
+    "name": "Blue Robotics BlueROV2",
+    "url": "https://bluerobotics.com/store/rov/bluerov2/",
+    "image": "https://images.marinetechnologynews.com/images/maritime/bluerov2-photo-62260.png",
+    "use": "construction reference only; no copied meshes or images in export"
+  },
+  "original_file_sha256": {
+    "mars rover.blend": "19320d386ecb5e2386a7431cc4212e2debcd747d1359bd094f9e80ba1c9a2411",
+    "космічна станція.blend": "a6006d153722c1431d04de648be4da0698cdfaaa8613bacfef2179dae9f39b29"
+  },
+  "lods": [
+    {
+      "level": 0,
+      "file": "Aquatic_Rover.glb",
+      "triangles": 4460,
+      "bytes": 234196,
+      "meshes": 1,
+      "materials": 1,
+      "textures": [
+        {
+          "name": "aquatic_basecolor",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 4120
+        },
+        {
+          "name": "aquatic_orm",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 1574
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "file": "Aquatic_Rover_LOD1.glb",
+      "triangles": 3196,
+      "bytes": 162352,
+      "meshes": 1,
+      "materials": 1,
+      "textures": [
+        {
+          "name": "aquatic_basecolor",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 4120
+        },
+        {
+          "name": "aquatic_orm",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 1574
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "file": "Aquatic_Rover_LOD2.glb",
+      "triangles": 1660,
+      "bytes": 86380,
+      "meshes": 1,
+      "materials": 1,
+      "textures": [
+        {
+          "name": "aquatic_basecolor",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 4120
+        },
+        {
+          "name": "aquatic_orm",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 1574
+        }
+      ]
+    }
+  ],
+  "optimization": {
+    "initial_lod0_triangles": 7324,
+    "final_lod0_triangles": 4460,
+    "reduction_percent": 39.1,
+    "heavy_modifiers": 0,
+    "alpha": false,
+    "backface_culling": true,
+    "textures_per_lod": 2,
+    "texture_resolution": [
+      512,
+      512
+    ],
+    "nominal_base_draw_calls_per_lod": 1
+  },
+  "runtime": {
+    "type": "static mesh",
+    "animation": "none in GLB; editable rotor pivots in blend",
+    "physics": "engine setup required",
+    "fps_tested": false,
+    "lod_switching": "engine setup required",
+    "suggested_lod_threshold_pixels": [
+      300,
+      110
+    ]
+  }
+}

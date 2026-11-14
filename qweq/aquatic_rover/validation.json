@@ -1,0 +1,352 @@
+{
+  "validated_by": "Blender 3.6.23 GLB export and fresh-scene reimport",
+  "topology_note": "Editable individual parts are closed manifold shells. GLB contains independent overlapping mechanical components; global-weld contact statistics are diagnostic, not a fused printable solid.",
+  "lods": [
+    {
+      "lod": 0,
+      "file": "Aquatic_Rover.glb",
+      "bytes": 234196,
+      "sha256": "598542c3167db64a068f053acdf5df73846e8d5607ef485089d411f897b63a7d",
+      "source_parts": {
+        "triangles": 4460,
+        "mesh_objects": 130,
+        "materials": 1,
+        "bounds_m": [
+          [
+            -1.2096087,
+            1.2096087
+          ],
+          [
+            -1.16,
+            1.16
+          ],
+          [
+            0.0,
+            1.4319999
+          ]
+        ],
+        "dimensions_m": [
+          2.419217,
+          2.32,
+          1.432
+        ],
+        "non_finite_coordinates": 0,
+        "degenerate_triangles": 0,
+        "non_manifold_edges_after_global_weld": 0,
+        "mirror_max_error_m": 1.7881393432617188e-07
+      },
+      "source_assembled": {
+        "triangles": 4460,
+        "mesh_objects": 1,
+        "materials": 1,
+        "bounds_m": [
+          [
+            -1.2096088,
+            1.2096087
+          ],
+          [
+            -1.1600001,
+            1.16
+          ],
+          [
+            -1e-07,
+            1.432
+          ]
+        ],
+        "dimensions_m": [
+          2.419217,
+          2.32,
+          1.432
+        ],
+        "non_finite_coordinates": 0,
+        "degenerate_triangles": 0,
+        "non_manifold_edges_after_global_weld": 0,
+        "mirror_max_error_m": 2.6656007889869215e-07
+      },
+      "round_trip": {
+        "triangles": 4460,
+        "mesh_objects": 1,
+        "materials": 1,
+        "bounds_m": [
+          [
+            -1.2096088,
+            1.2096087
+          ],
+          [
+            -1.1600001,
+            1.16
+          ],
+          [
+            -1e-07,
+            1.432
+          ]
+        ],
+        "dimensions_m": [
+          2.419217,
+          2.32,
+          1.432
+        ],
+        "non_finite_coordinates": 0,
+        "degenerate_triangles": 0,
+        "non_manifold_edges_after_global_weld": 0,
+        "mirror_max_error_m": 2.6656007889869215e-07,
+        "max_triangle_centroid_error_m": 3.6256091107134125e-07
+      },
+      "textures": [
+        {
+          "name": "aquatic_basecolor",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 4120
+        },
+        {
+          "name": "aquatic_orm",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 1574
+        }
+      ],
+      "primitives": 1,
+      "embedded_texture_pixels_match_source": true,
+      "backface_culling": true
+    },
+    {
+      "lod": 1,
+      "file": "Aquatic_Rover_LOD1.glb",
+      "bytes": 162352,
+      "sha256": "67021288e6646a4581df06bc103f7edaed9c9860a9f74381ab660d6bb8ceabf8",
+      "source_parts": {
+        "triangles": 3196,
+        "mesh_objects": 128,
+        "materials": 1,
+        "bounds_m": [
+          [
+            -1.2096087,
+            1.2096087
+          ],
+          [
+            -1.16,
+            1.16
+          ],
+          [
+            0.0,
+            1.4319999
+          ]
+        ],
+        "dimensions_m": [
+          2.419217,
+          2.32,
+          1.432
+        ],
+        "non_finite_coordinates": 0,
+        "degenerate_triangles": 0,
+        "non_manifold_edges_after_global_weld": 0,
+        "mirror_max_error_m": 1.7881393432617188e-07
+      },
+      "source_assembled": {
+        "triangles": 3196,
+        "mesh_objects": 1,
+        "materials": 1,
+        "bounds_m": [
+          [
+            -1.2096088,
+            1.2096087
+          ],
+          [
+            -1.1600001,
+            1.16
+          ],
+          [
+            -1e-07,
+            1.432
+          ]
+        ],
+        "dimensions_m": [
+          2.419217,
+          2.32,
+          1.432
+        ],
+        "non_finite_coordinates": 0,
+        "degenerate_triangles": 0,
+        "non_manifold_edges_after_global_weld": 20,
+        "mirror_max_error_m": 2.6656007889869215e-07
+      },
+      "round_trip": {
+        "triangles": 3196,
+        "mesh_objects": 1,
+        "materials": 1,
+        "bounds_m": [
+          [
+            -1.2096088,
+            1.2096087
+          ],
+          [
+            -1.1600001,
+            1.16
+          ],
+          [
+            -1e-07,
+            1.432
+          ]
+        ],
+        "dimensions_m": [
+          2.419217,
+          2.32,
+          1.432
+        ],
+        "non_finite_coordinates": 0,
+        "degenerate_triangles": 0,
+        "non_manifold_edges_after_global_weld": 20,
+        "mirror_max_error_m": 2.6656007889869215e-07,
+        "max_triangle_centroid_error_m": 2.731428025981586e-07
+      },
+      "textures": [
+        {
+          "name": "aquatic_basecolor",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 4120
+        },
+        {
+          "name": "aquatic_orm",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 1574
+        }
+      ],
+      "primitives": 1,
+      "embedded_texture_pixels_match_source": true,
+      "backface_culling": true
+    },
+    {
+      "lod": 2,
+      "file": "Aquatic_Rover_LOD2.glb",
+      "bytes": 86380,
+      "sha256": "267ff7720d4a6a2792afa61a2e78acdd10f28cb41de89a4316c26f470feef1dd",
+      "source_parts": {
+        "triangles": 1660,
+        "mesh_objects": 80,
+        "materials": 1,
+        "bounds_m": [
+          [
+            -1.218094,
+            1.218094
+          ],
+          [
+            -1.16,
+            1.16
+          ],
+          [
+            0.0,
+            1.36
+          ]
+        ],
+        "dimensions_m": [
+          2.436188,
+          2.32,
+          1.36
+        ],
+        "non_finite_coordinates": 0,
+        "degenerate_triangles": 0,
+        "non_manifold_edges_after_global_weld": 0,
+        "mirror_max_error_m": 2.0647654253025394e-07
+      },
+      "source_assembled": {
+        "triangles": 1660,
+        "mesh_objects": 1,
+        "materials": 1,
+        "bounds_m": [
+          [
+            -1.2180941,
+            1.218094
+          ],
+          [
+            -1.1600001,
+            1.16
+          ],
+          [
+            -1e-07,
+            1.3600001
+          ]
+        ],
+        "dimensions_m": [
+          2.436188,
+          2.32,
+          1.36
+        ],
+        "non_finite_coordinates": 0,
+        "degenerate_triangles": 0,
+        "non_manifold_edges_after_global_weld": 16,
+        "mirror_max_error_m": 2.980232238769531e-07
+      },
+      "round_trip": {
+        "triangles": 1660,
+        "mesh_objects": 1,
+        "materials": 1,
+        "bounds_m": [
+          [
+            -1.2180941,
+            1.218094
+          ],
+          [
+            -1.1600001,
+            1.16
+          ],
+          [
+            -1e-07,
+            1.3600001
+          ]
+        ],
+        "dimensions_m": [
+          2.436188,
+          2.32,
+          1.36
+        ],
+        "non_finite_coordinates": 0,
+        "degenerate_triangles": 0,
+        "non_manifold_edges_after_global_weld": 16,
+        "mirror_max_error_m": 2.980232238769531e-07,
+        "max_triangle_centroid_error_m": 2.4646109864079335e-07
+      },
+      "textures": [
+        {
+          "name": "aquatic_basecolor",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 4120
+        },
+        {
+          "name": "aquatic_orm",
+          "mime": "image/png",
+          "width": 512,
+          "height": 512,
+          "bytes": 1574
+        }
+      ],
+      "primitives": 1,
+      "embedded_texture_pixels_match_source": true,
+      "backface_culling": true
+    }
+  ],
+  "visual_review": {
+    "views": [
+      "hero",
+      "rear",
+      "underside",
+      "front",
+      "top",
+      "mounts",
+      "LOD1",
+      "LOD2",
+      "GLB_roundtrip"
+    ],
+    "standalone_glb_render_uses_imported_material": true,
+    "original_files_unchanged": true,
+    "engine_performance_tested": false
+  }
+}
