@@ -1,0 +1,75 @@
+{
+  "version": "space-station-no-lower-thrusters",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 41,
+      "sha256": "58d566fbc535e63c3f0c28acb21fd79f31a63ccb2f05c0f2569f4d453552f90d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3358,
+      "sha256": "f636cf2dd6e774a8ac5c7c0c196bbce1e17ce40491a545af9a1afd1b115d269a"
+    },
+    {
+      "path": "Space_Station.glb",
+      "bytes": 478448,
+      "sha256": "9b5ba94abd8eacac736233fe2ab9d0e18d54eb1d91840d68629bdd08e8e78502"
+    },
+    {
+      "path": "Space_Station_LOD1.glb",
+      "bytes": 289760,
+      "sha256": "8c22da49c4a83e502a9568e16b6c00198e6312e6f8e73d91fd69389b0f3a8f80"
+    },
+    {
+      "path": "Space_Station_LOD2.glb",
+      "bytes": 105864,
+      "sha256": "b6594253d75c804fa3ff63d2d672b94c1aafe2d2e589b9d286175861de3aaf7e"
+    },
+    {
+      "path": "asset_info.json",
+      "bytes": 2437,
+      "sha256": "8955ed5c4150c449b7e90c9769e41c132b43be3a8c423a9d92f6978de93408ee"
+    },
+    {
+      "path": "final_export_audit.json",
+      "bytes": 1005,
+      "sha256": "42e32343b444d34b8f98478551e8deb14dfa2b79e37dacf3fb494567811e7ac6"
+    },
+    {
+      "path": "previews/connections.png",
+      "bytes": 2676203,
+      "sha256": "b6e61b6a32ffaca8f5baa12dad3f86a9282f54ae6a1929d36f337dc7780c78d3"
+    },
+    {
+      "path": "previews/preview.png",
+      "bytes": 2962511,
+      "sha256": "8c24999e4c46bc1e5eb9e8be15dc4efcc92d3dc9d0e45491ab7632a6e2e018aa"
+    },
+    {
+      "path": "previews/rear_alignment.png",
+      "bytes": 2557308,
+      "sha256": "abba5ed14f542d1075b7e35ac46f97458413685ea433b4d8884e71bf37fbbfa1"
+    },
+    {
+      "path": "previews/underside_alignment.png",
+      "bytes": 2632072,
+      "sha256": "92531de3ba19d231c1fcee8a13aeaa295d57e4ba2590e06d5358b81bb5e4953c"
+    },
+    {
+      "path": "station_atlas.png",
+      "bytes": 27085,
+      "sha256": "c96788bc54e570213b4008a611f1c634d6ed938e55ced9d29ed6ae5c19361478"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 938,
+      "sha256": "7a3e2d861b63df8879745e8fec43b4077e9fce2983d9f86435a2c48fa50f2457"
+    },
+    {
+      "path": "космічна станція.blend",
+      "bytes": 324614,
+      "sha256": "3985a5bcf278cb8ea85ea3cb03baa847783dbfca27f2ae26ef23059e12cfb804"
+    }
+  ]
+}

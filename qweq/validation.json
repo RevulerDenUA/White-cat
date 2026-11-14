@@ -1,0 +1,47 @@
+[
+  {
+    "lod": 0,
+    "roundtrip_triangles": 6686,
+    "meshes": 2,
+    "materials": 1,
+    "nonfinite_coordinates_or_uvs": 0,
+    "degenerate_triangles": 0,
+    "bounds_blender_xyz_m": [
+      12.76,
+      3.07,
+      12.76
+    ],
+    "service_craft_mirror_error_m": 1.1920928955078125e-07,
+    "status": "pass"
+  },
+  {
+    "lod": 1,
+    "roundtrip_triangles": 4100,
+    "meshes": 2,
+    "materials": 1,
+    "nonfinite_coordinates_or_uvs": 0,
+    "degenerate_triangles": 0,
+    "bounds_blender_xyz_m": [
+      12.45,
+      2.56,
+      12.45
+    ],
+    "service_craft_mirror_error_m": 1.1920928955078125e-07,
+    "status": "pass"
+  },
+  {
+    "lod": 2,
+    "roundtrip_triangles": 1232,
+    "meshes": 2,
+    "materials": 1,
+    "nonfinite_coordinates_or_uvs": 0,
+    "degenerate_triangles": 0,
+    "bounds_blender_xyz_m": [
+      12.45,
+      2.56,
+      12.45
+    ],
+    "service_craft_mirror_error_m": 0.0,
+    "status": "pass"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "name": "White Cat / Endurance-inspired Space Station",
+  "units": "metres",
+  "reference": "космічна станція.png",
+  "palette": "Inherited from mars rover.blend: Ceramic white, Graphite, Gunmetal, Amber, Solar blue.",
+  "source_hardware": [
+    "foil_silver2 high-gain dish from assets/models/Mars_Reconnaissance_Orbiter.glb"
+  ],
+  "lods": [
+    {
+      "lod": 0,
+      "file": "Space_Station.glb",
+      "triangles": 6686,
+      "vertices_blender": 3752,
+      "mesh_objects": 2,
+      "materials": 1,
+      "texture_count": 1,
+      "texture_resolution": [
+        1024,
+        1024
+      ],
+      "bytes": 478448
+    },
+    {
+      "lod": 1,
+      "file": "Space_Station_LOD1.glb",
+      "triangles": 4100,
+      "vertices_blender": 2328,
+      "mesh_objects": 2,
+      "materials": 1,
+      "texture_count": 1,
+      "texture_resolution": [
+        1024,
+        1024
+      ],
+      "bytes": 289760
+    },
+    {
+      "lod": 2,
+      "file": "Space_Station_LOD2.glb",
+      "triangles": 1232,
+      "vertices_blender": 724,
+      "mesh_objects": 2,
+      "materials": 1,
+      "texture_count": 1,
+      "texture_resolution": [
+        1024,
+        1024
+      ],
+      "bytes": 105864
+    }
+  ],
+  "glTF_up": "+Y",
+  "blender_up": "+Z",
+  "rotation_axis_blender": "+Y",
+  "rotation_axis_glTF": "-Z",
+  "runtime_notes": [
+    "Load one LOD at a time. Two mesh objects, one material, two nominal draws before shadows/passes.",
+    "No Draco, WebP or external texture decoder required; PNG atlas embedded in each GLB.",
+    "Origin at rotation centre. Approximate decorative scale, not spacecraft engineering data.",
+    "Suggested LOD selection by projected diameter: LOD0 > 350 px, LOD1 100–350 px, LOD2 < 100 px. Tune on target device."
+  ],
+  "credits": [
+    "Station geometry and atlas created for White Cat from supplied photograph.",
+    "Adapted dish: NASA Mars Reconnaissance Orbiter 3D model; preserve nasa_mro_3d credit in data/sources.json.",
+    "Photograph supplied by user, retained as reference only; not embedded in game assets."
+  ],
+  "package_notes": [
+    "The Blender file and GLB exports embed the atlas; external texture relinking is not required.",
+    "Current revision: no upper comms head, no small optical camera, no SERVICE / 04 label, no four lower thrusters; service craft aligned symmetrically.",
+    "The original reference photograph is not distributed in this folder."
+  ]
+}
