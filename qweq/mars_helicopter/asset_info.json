@@ -1,0 +1,56 @@
+{
+  "name": "White Cat — Mars Helicopter",
+  "units": "metres",
+  "source_reference": "User attached coaxial Mars helicopter image; geometry newly authored through Blender MCP",
+  "palette_source": "mars rover.blend, read directly via Blender MCP",
+  "style_comparisons": [
+    "mars rover.blend",
+    "космічна станція.blend",
+    "assets/models/aquatic_rover/Aquatic_Rover.blend"
+  ],
+  "dimensions_m": [
+    1.3200000524520874,
+    1.2869278192520142,
+    1.1050000190734863
+  ],
+  "triangle_counts": [
+    1062,
+    846,
+    402
+  ],
+  "materials_per_lod": 1,
+  "meshes_per_lod": 3,
+  "textures": [
+    {
+      "name": "helicopter_basecolor.png",
+      "resolution": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "helicopter_orm.png",
+      "resolution": [
+        512,
+        512
+      ]
+    }
+  ],
+  "rotor_axis": {
+    "blend": "+Z",
+    "gltf": "+Y"
+  },
+  "source_files_preserved": true,
+  "optimization": {
+    "initial_triangles": 1764,
+    "final_triangles": 1062,
+    "reduction_percent": 39.8
+  },
+  "scripts": [
+    "tools/generate_helicopter_atlas.py",
+    "tools/build_mars_helicopter.py",
+    "tools/finalize_mars_helicopter.py",
+    "tools/preview_mars_helicopter.py",
+    "tools/verify_helicopter_exports.py"
+  ]
+}

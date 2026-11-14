@@ -1,0 +1,429 @@
+{
+  "tool": "Blender 3.6.23 through Blender MCP",
+  "lods": [
+    {
+      "lod": 0,
+      "file": "Mars_Helicopter.glb",
+      "bytes": 70192,
+      "source": {
+        "triangles": 1062,
+        "mesh_objects": 37,
+        "materials": 1,
+        "dimensions_m": [
+          1.3200000524520874,
+          1.2869278192520142,
+          1.1050000190734863
+        ],
+        "bounds_m": [
+          [
+            -0.6600000262260437,
+            0.6600000262260437
+          ],
+          [
+            -0.6434639096260071,
+            0.6434639096260071
+          ],
+          [
+            0.0,
+            1.1050000190734863
+          ]
+        ],
+        "degenerate_triangles": 0,
+        "nonfinite_coordinates": 0,
+        "loose_vertices": 0,
+        "boundary_edges_after_weld": 258
+      },
+      "roundtrip": {
+        "triangles": 1062,
+        "mesh_objects": 3,
+        "materials": 1,
+        "dimensions_m": [
+          1.3200000524520874,
+          1.2869278192520142,
+          1.1050000190734863
+        ],
+        "bounds_m": [
+          [
+            -0.6600000262260437,
+            0.6600000262260437
+          ],
+          [
+            -0.6434639096260071,
+            0.6434639096260071
+          ],
+          [
+            0.0,
+            1.1050000190734863
+          ]
+        ],
+        "degenerate_triangles": 0,
+        "nonfinite_coordinates": 0,
+        "loose_vertices": 0,
+        "boundary_edges_after_weld": 258,
+        "triangle_centroid_max_error_m": 6.1014070240617e-08
+      },
+      "embedded_images": [
+        {
+          "name": "helicopter_basecolor",
+          "size": [
+            512,
+            512
+          ],
+          "bytes": 4691
+        },
+        {
+          "name": "helicopter_orm",
+          "size": [
+            512,
+            512
+          ],
+          "bytes": 1854
+        }
+      ],
+      "primitives": 3,
+      "sha256": "9b0d9d7f2560034f8167ab87c1437b259ad25f2b1e0a4978124fe1f9e279ab25",
+      "independent_glb_index_triangles": 1062,
+      "embedded_texture_pixels_match_source": true,
+      "pbr_channel_bindings_verified": true,
+      "backface_culling": true
+    },
+    {
+      "lod": 1,
+      "file": "Mars_Helicopter_LOD1.glb",
+      "bytes": 58140,
+      "source": {
+        "triangles": 846,
+        "mesh_objects": 37,
+        "materials": 1,
+        "dimensions_m": [
+          1.3200000524520874,
+          1.2869278192520142,
+          1.1050000190734863
+        ],
+        "bounds_m": [
+          [
+            -0.6600000262260437,
+            0.6600000262260437
+          ],
+          [
+            -0.6434639096260071,
+            0.6434639096260071
+          ],
+          [
+            0.0,
+            1.1050000190734863
+          ]
+        ],
+        "degenerate_triangles": 0,
+        "nonfinite_coordinates": 0,
+        "loose_vertices": 0,
+        "boundary_edges_after_weld": 218
+      },
+      "roundtrip": {
+        "triangles": 846,
+        "mesh_objects": 3,
+        "materials": 1,
+        "dimensions_m": [
+          1.3200000524520874,
+          1.2869278192520142,
+          1.1050000190734863
+        ],
+        "bounds_m": [
+          [
+            -0.6600000262260437,
+            0.6600000262260437
+          ],
+          [
+            -0.6434639096260071,
+            0.6434639096260071
+          ],
+          [
+            0.0,
+            1.1050000190734863
+          ]
+        ],
+        "degenerate_triangles": 0,
+        "nonfinite_coordinates": 0,
+        "loose_vertices": 0,
+        "boundary_edges_after_weld": 218,
+        "triangle_centroid_max_error_m": 6.1014070240617e-08
+      },
+      "embedded_images": [
+        {
+          "name": "helicopter_basecolor",
+          "size": [
+            512,
+            512
+          ],
+          "bytes": 4691
+        },
+        {
+          "name": "helicopter_orm",
+          "size": [
+            512,
+            512
+          ],
+          "bytes": 1854
+        }
+      ],
+      "primitives": 3,
+      "sha256": "03dc48571b3371f46db4713f5d36719f339693efc958bfe5b34934803a950f3f",
+      "independent_glb_index_triangles": 846,
+      "embedded_texture_pixels_match_source": true,
+      "pbr_channel_bindings_verified": true,
+      "backface_culling": true
+    },
+    {
+      "lod": 2,
+      "file": "Mars_Helicopter_LOD2.glb",
+      "bytes": 33200,
+      "source": {
+        "triangles": 402,
+        "mesh_objects": 25,
+        "materials": 1,
+        "dimensions_m": [
+          1.3200000524520874,
+          1.2869278192520142,
+          1.1050000190734863
+        ],
+        "bounds_m": [
+          [
+            -0.6600000262260437,
+            0.6600000262260437
+          ],
+          [
+            -0.6434639096260071,
+            0.6434639096260071
+          ],
+          [
+            0.0,
+            1.1050000190734863
+          ]
+        ],
+        "degenerate_triangles": 0,
+        "nonfinite_coordinates": 0,
+        "loose_vertices": 0,
+        "boundary_edges_after_weld": 98
+      },
+      "roundtrip": {
+        "triangles": 402,
+        "mesh_objects": 3,
+        "materials": 1,
+        "dimensions_m": [
+          1.3200000524520874,
+          1.2869278192520142,
+          1.1050000190734863
+        ],
+        "bounds_m": [
+          [
+            -0.6600000262260437,
+            0.6600000262260437
+          ],
+          [
+            -0.6434639096260071,
+            0.6434639096260071
+          ],
+          [
+            0.0,
+            1.1050000190734863
+          ]
+        ],
+        "degenerate_triangles": 0,
+        "nonfinite_coordinates": 0,
+        "loose_vertices": 0,
+        "boundary_edges_after_weld": 98,
+        "triangle_centroid_max_error_m": 4.214684778958144e-08
+      },
+      "embedded_images": [
+        {
+          "name": "helicopter_basecolor",
+          "size": [
+            512,
+            512
+          ],
+          "bytes": 4691
+        },
+        {
+          "name": "helicopter_orm",
+          "size": [
+            512,
+            512
+          ],
+          "bytes": 1854
+        }
+      ],
+      "primitives": 3,
+      "sha256": "3d3da25bd438ae7ea1bf31afab03e207808411ad209ce777dc10bbf4718abcf1",
+      "independent_glb_index_triangles": 402,
+      "embedded_texture_pixels_match_source": true,
+      "pbr_channel_bindings_verified": true,
+      "backface_culling": true
+    }
+  ],
+  "construction": [
+    {
+      "feet_ground_z_m": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "strut_lower_z_m": [
+        0.019692374393343925,
+        0.019692301750183105,
+        0.019692374393343925,
+        0.019692301750183105
+      ],
+      "rotors": {
+        "Rotor_Lower_LOD0": {
+          "pivot_m": [
+            0.0,
+            0.0,
+            0.6200000047683716
+          ],
+          "local_axis": "+Z",
+          "half_turn_symmetry_error_m": 0.0,
+          "blade_z_band_m": [
+            0.6173833608627319,
+            0.6226166486740112
+          ],
+          "minimum_fixed_sweep_clearance_m": 0.11738336086273193,
+          "closest_fixed_part": "Mast load spreader"
+        },
+        "Rotor_Upper_LOD0": {
+          "pivot_m": [
+            0.0,
+            0.0,
+            0.7900000214576721
+          ],
+          "local_axis": "+Z",
+          "half_turn_symmetry_error_m": 0.0,
+          "blade_z_band_m": [
+            0.7873833179473877,
+            0.7926166653633118
+          ],
+          "minimum_fixed_sweep_clearance_m": 0.07538330554962158,
+          "closest_fixed_part": "Panel support saddle"
+        }
+      },
+      "blade_plane_clearance_m": 0.16476666927337646
+    },
+    {
+      "feet_ground_z_m": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "strut_lower_z_m": [
+        0.019692374393343925,
+        0.019692301750183105,
+        0.019692374393343925,
+        0.019692301750183105
+      ],
+      "rotors": {
+        "Rotor_Lower_LOD1": {
+          "pivot_m": [
+            0.0,
+            0.0,
+            0.6200000047683716
+          ],
+          "local_axis": "+Z",
+          "half_turn_symmetry_error_m": 0.0,
+          "blade_z_band_m": [
+            0.6173833608627319,
+            0.6226166486740112
+          ],
+          "minimum_fixed_sweep_clearance_m": 0.11738336086273193,
+          "closest_fixed_part": "Mast load spreader.001"
+        },
+        "Rotor_Upper_LOD1": {
+          "pivot_m": [
+            0.0,
+            0.0,
+            0.7900000214576721
+          ],
+          "local_axis": "+Z",
+          "half_turn_symmetry_error_m": 0.0,
+          "blade_z_band_m": [
+            0.7873833179473877,
+            0.7926166653633118
+          ],
+          "minimum_fixed_sweep_clearance_m": 0.07538330554962158,
+          "closest_fixed_part": "Panel support saddle.001"
+        }
+      },
+      "blade_plane_clearance_m": 0.16476666927337646
+    },
+    {
+      "feet_ground_z_m": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "strut_lower_z_m": [
+        0.004225061275064945,
+        0.004225075710564852,
+        0.004225061275064945,
+        0.004225075710564852
+      ],
+      "rotors": {
+        "Rotor_Lower_LOD2": {
+          "pivot_m": [
+            0.0,
+            0.0,
+            0.6200000047683716
+          ],
+          "local_axis": "+Z",
+          "half_turn_symmetry_error_m": 0.0,
+          "blade_z_band_m": [
+            0.6179333329200745,
+            0.6220666766166687
+          ],
+          "minimum_fixed_sweep_clearance_m": 0.11793333292007446,
+          "closest_fixed_part": "Mast load spreader.002"
+        },
+        "Rotor_Upper_LOD2": {
+          "pivot_m": [
+            0.0,
+            0.0,
+            0.7900000214576721
+          ],
+          "local_axis": "+Z",
+          "half_turn_symmetry_error_m": 0.0,
+          "blade_z_band_m": [
+            0.787933349609375,
+            0.7920666933059692
+          ],
+          "minimum_fixed_sweep_clearance_m": 0.07593327760696411,
+          "closest_fixed_part": "Panel support saddle.002"
+        }
+      },
+      "blade_plane_clearance_m": 0.1658666729927063
+    }
+  ],
+  "boundary_note": "Hidden ends inside sockets are deliberately open after surface removal; separate mechanical shells are not a fused print solid.",
+  "source_integrity": {
+    "mars rover.blend": true,
+    "космічна станція.blend": true,
+    "assets/models/aquatic_rover/Aquatic_Rover.blend": true
+  },
+  "original_source_files_unchanged": true,
+  "render_roundtrip_mean_absolute_error_rgb_8bit": 0.0003213675213675214,
+  "previews_complete": true,
+  "preview_files": [
+    "GLB_roundtrip.png",
+    "LOD1.png",
+    "LOD2.png",
+    "LOD_comparison.jpg",
+    "front.png",
+    "hero.png",
+    "mounts.png",
+    "overview.jpg",
+    "rotors.png",
+    "side.png",
+    "top.png",
+    "underside.png"
+  ]
+}
