@@ -1,0 +1,54 @@
+{
+  "source": "mars rover.blend; exact shader linear values in source_palette.json",
+  "srgb_8bit": {
+    "Ceramic white": [
+      214,
+      219,
+      217
+    ],
+    "Graphite": [
+      50,
+      60,
+      65
+    ],
+    "Gunmetal": [
+      120,
+      135,
+      139
+    ],
+    "Amber": [
+      201,
+      144,
+      57
+    ],
+    "Solar blue": [
+      35,
+      60,
+      99
+    ],
+    "Dark optics": [
+      17,
+      29,
+      39
+    ]
+  },
+  "tiles": [
+    "Ceramic white",
+    "Graphite",
+    "Gunmetal",
+    "Amber",
+    "Solar blue",
+    "Dark optics",
+    "Ceramic white",
+    "Graphite",
+    "Ceramic white",
+    "Ceramic white",
+    "Graphite",
+    "Ceramic white",
+    "Gunmetal",
+    "Ceramic white",
+    "Graphite",
+    "Ceramic white"
+  ],
+  "size": 1024
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "file": "Hubble_Telescope.glb",
+    "triangles": 1564,
+    "primitives": 3,
+    "materials": 1,
+    "images_embedded": 2,
+    "basecolor_pixels_exact": true,
+    "roughness_metallic_channels_exact": true,
+    "glTF_forward": [
+      0,
+      0,
+      1
+    ],
+    "glTF_up": [
+      0,
+      1,
+      0
+    ],
+    "view_translation": [
+      0,
+      0,
+      2.7799999713897705
+    ],
+    "camera_quaternion_xyzw": [
+      0,
+      1,
+      0,
+      4.142058451192835e-15
+    ],
+    "root_identity": true,
+    "external_resources": false,
+    "bytes": 103368,
+    "sha256": "454758412f945746ad06eb3d89f979464b6b805d9ea0799489c401aafebbdf49"
+  },
+  {
+    "file": "Hubble_Telescope_LOD1.glb",
+    "triangles": 702,
+    "primitives": 3,
+    "materials": 1,
+    "images_embedded": 2,
+    "basecolor_pixels_exact": true,
+    "roughness_metallic_channels_exact": true,
+    "glTF_forward": [
+      0,
+      0,
+      1
+    ],
+    "glTF_up": [
+      0,
+      1,
+      0
+    ],
+    "view_translation": [
+      0,
+      0,
+      2.7799999713897705
+    ],
+    "camera_quaternion_xyzw": [
+      0,
+      1,
+      0,
+      4.142058451192835e-15
+    ],
+    "root_identity": true,
+    "external_resources": false,
+    "bytes": 57032,
+    "sha256": "29950cb82976797048f9b034ad937603df558cd696dc21d9a16552b0b7195d8a"
+  },
+  {
+    "file": "Hubble_Telescope_LOD2.glb",
+    "triangles": 304,
+    "primitives": 3,
+    "materials": 1,
+    "images_embedded": 2,
+    "basecolor_pixels_exact": true,
+    "roughness_metallic_channels_exact": true,
+    "glTF_forward": [
+      0,
+      0,
+      1
+    ],
+    "glTF_up": [
+      0,
+      1,
+      0
+    ],
+    "view_translation": [
+      0,
+      0,
+      2.7799999713897705
+    ],
+    "camera_quaternion_xyzw": [
+      0,
+      1,
+      0,
+      4.142058451192835e-15
+    ],
+    "root_identity": true,
+    "external_resources": false,
+    "bytes": 34552,
+    "sha256": "ccb165fb5a6a022fb6d58e486056ca14393dd9d017de05b8636f29039fd0b5c3"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "former_gap_m": 0.07,
+  "previous_LOD0_bore_misses": 648,
+  "rays_per_lod": 8712,
+  "method": "Continuous shared-vertex sleeve, shoulder and cap. Front-facing ray intersections required before cap plane.",
+  "roundtrip_lods": [
+    {
+      "lod": 0,
+      "triangles": 1564,
+      "bore_test_rays": 8712,
+      "bore_uncovered_rays": 0,
+      "bore_backfacing_hits": 0,
+      "camera_geometry_hits": 0
+    },
+    {
+      "lod": 1,
+      "triangles": 702,
+      "bore_test_rays": 8712,
+      "bore_uncovered_rays": 0,
+      "bore_backfacing_hits": 0,
+      "camera_geometry_hits": 0
+    },
+    {
+      "lod": 2,
+      "triangles": 304,
+      "bore_test_rays": 8712,
+      "bore_uncovered_rays": 0,
+      "bore_backfacing_hits": 0,
+      "camera_geometry_hits": 0
+    }
+  ]
+}

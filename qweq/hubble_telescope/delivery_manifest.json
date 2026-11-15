@@ -1,0 +1,35 @@
+{
+  "files": {
+    "Hubble_Telescope.blend": {
+      "bytes": 379144,
+      "sha256": "722198562456fd5c7facbf720fb2a9a8403a74a36720a5bfb6d22513cea0a279"
+    },
+    "Hubble_Telescope.glb": {
+      "bytes": 103368,
+      "sha256": "454758412f945746ad06eb3d89f979464b6b805d9ea0799489c401aafebbdf49"
+    },
+    "Hubble_Telescope_LOD1.glb": {
+      "bytes": 57032,
+      "sha256": "29950cb82976797048f9b034ad937603df558cd696dc21d9a16552b0b7195d8a"
+    },
+    "Hubble_Telescope_LOD2.glb": {
+      "bytes": 34552,
+      "sha256": "ccb165fb5a6a022fb6d58e486056ca14393dd9d017de05b8636f29039fd0b5c3"
+    },
+    "README.md": {
+      "bytes": 18618,
+      "sha256": "bfd1e058222bd797ac5078e1ebe05b9892461781bed54c4899493078f4429d86"
+    }
+  },
+  "unchanged_sources": {
+    "data/models/telescopes/NASA_Telescopes_Comparison.blend": true,
+    "data/models/telescopes/Hubble Space Telescope (A).glb": true,
+    "mars rover.blend": true,
+    "assets/models/mars_helicopter/Mars_Helicopter.blend": true
+  },
+  "station_revision_verified": true,
+  "previews_complete": true,
+  "bore_fix_verified": true,
+  "bore_test_rays_per_lod": 8712,
+  "bore_uncovered_rays_all_lods": 0
+}

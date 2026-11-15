@@ -1,0 +1,38 @@
+[
+  {
+    "lod": 0,
+    "triangles": 1564,
+    "by_mesh": {
+      "Telescope_Body": 1424,
+      "Solar_Panel_L": 70,
+      "Solar_Panel_R": 70
+    },
+    "meshes": 3,
+    "material_count": 1,
+    "view_node": "Telescope_View"
+  },
+  {
+    "lod": 1,
+    "triangles": 702,
+    "by_mesh": {
+      "Telescope_Body_LOD1": 562,
+      "Solar_Panel_L_LOD1": 70,
+      "Solar_Panel_R_LOD1": 70
+    },
+    "meshes": 3,
+    "material_count": 1,
+    "view_node": "Telescope_View_LOD1"
+  },
+  {
+    "lod": 2,
+    "triangles": 304,
+    "by_mesh": {
+      "Telescope_Body_LOD2": 248,
+      "Solar_Panel_L_LOD2": 28,
+      "Solar_Panel_R_LOD2": 28
+    },
+    "meshes": 3,
+    "material_count": 1,
+    "view_node": "Telescope_View_LOD2"
+  }
+]

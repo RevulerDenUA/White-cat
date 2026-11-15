@@ -1,0 +1,14 @@
+{
+  "name": "Hubble Space Telescope (A)",
+  "file": "Hubble Space Telescope (A).glb",
+  "bytes": 1694988,
+  "sha256": "e5ba4de15c7d359ac8fa1ab7e286aff42dec09c0fadae3db99252587f39fa384",
+  "source_page": "https://science.nasa.gov/3d-resources/hubble-space-telescope-a/",
+  "download_url": "https://raw.githubusercontent.com/nasa/NASA-3D-Resources/master/3D%20Models/Hubble%20Space%20Telescope%20(A)/Hubble%20Space%20Telescope%20(A).glb",
+  "credit": "DigitalSpace Corporation",
+  "gltf_extensions_required": [
+    "KHR_draco_mesh_compression"
+  ],
+  "external_resources": [],
+  "adaptation_status": "Complete free-flying observatory reference; no station mount supplied."
+}

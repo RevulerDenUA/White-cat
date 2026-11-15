@@ -9,45 +9,30 @@
   "lods": [
     {
       "lod": 0,
-      "file": "Space_Station.glb",
-      "triangles": 6686,
-      "vertices_blender": 3752,
+      "file": "assets/models/Space_Station.glb",
+      "triangles": 6558,
       "mesh_objects": 2,
       "materials": 1,
-      "texture_count": 1,
-      "texture_resolution": [
-        1024,
-        1024
-      ],
-      "bytes": 478448
+      "bytes": 470300,
+      "roundtrip_pass": true
     },
     {
       "lod": 1,
-      "file": "Space_Station_LOD1.glb",
+      "file": "assets/models/Space_Station_LOD1.glb",
       "triangles": 4100,
-      "vertices_blender": 2328,
       "mesh_objects": 2,
       "materials": 1,
-      "texture_count": 1,
-      "texture_resolution": [
-        1024,
-        1024
-      ],
-      "bytes": 289760
+      "bytes": 290296,
+      "roundtrip_pass": true
     },
     {
       "lod": 2,
-      "file": "Space_Station_LOD2.glb",
+      "file": "assets/models/Space_Station_LOD2.glb",
       "triangles": 1232,
-      "vertices_blender": 724,
       "mesh_objects": 2,
       "materials": 1,
-      "texture_count": 1,
-      "texture_resolution": [
-        1024,
-        1024
-      ],
-      "bytes": 105864
+      "bytes": 106400,
+      "roundtrip_pass": true
     }
   ],
   "glTF_up": "+Y",
@@ -65,9 +50,5 @@
     "Adapted dish: NASA Mars Reconnaissance Orbiter 3D model; preserve nasa_mro_3d credit in data/sources.json.",
     "Photograph supplied by user, retained as reference only; not embedded in game assets."
   ],
-  "package_notes": [
-    "The Blender file and GLB exports embed the atlas; external texture relinking is not required.",
-    "Current revision: no upper comms head, no small optical camera, no SERVICE / 04 label, no four lower thrusters; service craft aligned symmetrically.",
-    "The original reference photograph is not distributed in this folder."
-  ]
+  "revision_2026_11_15": "Remove auxiliary solar-looking panels on central station craft (image 1)."
 }

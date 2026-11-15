@@ -1,0 +1,297 @@
+{
+  "blender_version": "3.6.23",
+  "source_files_unchanged": {
+    "data/models/telescopes/NASA_Telescopes_Comparison.blend": true,
+    "data/models/telescopes/Hubble Space Telescope (A).glb": true,
+    "mars rover.blend": true,
+    "assets/models/mars_helicopter/Mars_Helicopter.blend": true
+  },
+  "authorized_station_revision": {
+    "request": "Remove auxiliary solar-looking panels on central station craft (image 1).",
+    "backup": "assets/revisions/hubble_cleanup_2026-11-15",
+    "removed": [
+      {
+        "part": "central auxiliary panel",
+        "center_Blender_m": [
+          -1.550000011920929,
+          0.0800000000745058,
+          -0.3400000333786011
+        ],
+        "vertices": 24
+      },
+      {
+        "part": "panel hinge",
+        "center_Blender_m": [
+          -1.4350000023841858,
+          0.06999999494291842,
+          -0.3400000035762787
+        ],
+        "vertices": 12
+      },
+      {
+        "part": "central auxiliary panel",
+        "center_Blender_m": [
+          1.5499998927116394,
+          0.0800000000745058,
+          -0.3400000035762787
+        ],
+        "vertices": 24
+      },
+      {
+        "part": "panel hinge",
+        "center_Blender_m": [
+          1.4349998831748962,
+          0.06999999494291842,
+          -0.3400000184774399
+        ],
+        "vertices": 12
+      }
+    ],
+    "triangles_removed": 128,
+    "exports": [
+      {
+        "lod": 0,
+        "file": "assets/models/Space_Station.glb",
+        "triangles": 6558,
+        "mesh_objects": 2,
+        "materials": 1,
+        "bytes": 470300,
+        "roundtrip_pass": true
+      },
+      {
+        "lod": 1,
+        "file": "assets/models/Space_Station_LOD1.glb",
+        "triangles": 4100,
+        "mesh_objects": 2,
+        "materials": 1,
+        "bytes": 290296,
+        "roundtrip_pass": true
+      },
+      {
+        "lod": 2,
+        "file": "assets/models/Space_Station_LOD2.glb",
+        "triangles": 1232,
+        "mesh_objects": 2,
+        "materials": 1,
+        "bytes": 106400,
+        "roundtrip_pass": true
+      }
+    ],
+    "station_after_sha256": "b331a05af5429668d1cbbc5caae8583b2b1e30ce69aec02bbc0d21acfc6c3fd5"
+  },
+  "roundtrip": [
+    {
+      "bore_test_rays": 8712,
+      "bore_uncovered_rays": 0,
+      "bore_backfacing_hits": 0,
+      "triangles": 1564,
+      "mesh_count": 3,
+      "material_count": 1,
+      "degenerate_triangles": 0,
+      "loose_vertices": 0,
+      "finite_positions": true,
+      "bounds_Blender_m": {
+        "min": [
+          -3.3000001907348633,
+          -2.6700000762939453,
+          -0.9864367842674255
+        ],
+        "max": [
+          3.3000001907348633,
+          2.4049999713897705,
+          0.9864367842674255
+        ],
+        "size": [
+          6.600000381469727,
+          5.075000047683716,
+          1.972873568534851
+        ]
+      },
+      "scales": {
+        "Solar_Panel_L.001": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Solar_Panel_R.001": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Telescope_Body.001": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "view_position_Blender_m": [
+        0.0,
+        -2.7799999713897705,
+        0.0
+      ],
+      "camera_forward_Blender": [
+        -8.28411690238567e-15,
+        -0.9999999403953552,
+        8.578323685747183e-30
+      ],
+      "camera_up_Blender": [
+        -8.470329472543003e-22,
+        0.0,
+        0.9999999403953552
+      ],
+      "camera_test_rays": 627,
+      "camera_geometry_hits": 0,
+      "clear_camera": true,
+      "view_identity_rotation": true,
+      "materials": [
+        "White Cat | Hubble | atlas PBR.001"
+      ],
+      "lod": 0,
+      "file": "Hubble_Telescope.glb",
+      "bytes": 103368,
+      "root_identity": true
+    },
+    {
+      "bore_test_rays": 8712,
+      "bore_uncovered_rays": 0,
+      "bore_backfacing_hits": 0,
+      "triangles": 702,
+      "mesh_count": 3,
+      "material_count": 1,
+      "degenerate_triangles": 0,
+      "loose_vertices": 0,
+      "finite_positions": true,
+      "bounds_Blender_m": {
+        "min": [
+          -3.3000001907348633,
+          -2.666505813598633,
+          -0.9700000286102295
+        ],
+        "max": [
+          3.3000001907348633,
+          2.4049999713897705,
+          0.9700000286102295
+        ],
+        "size": [
+          6.600000381469727,
+          5.071505784988403,
+          1.940000057220459
+        ]
+      },
+      "scales": {
+        "Solar_Panel_L.001": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Solar_Panel_R.001": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Telescope_Body.001": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "view_position_Blender_m": [
+        0.0,
+        -2.7799999713897705,
+        0.0
+      ],
+      "camera_forward_Blender": [
+        -8.28411690238567e-15,
+        -0.9999999403953552,
+        8.578323685747183e-30
+      ],
+      "camera_up_Blender": [
+        -8.470329472543003e-22,
+        0.0,
+        0.9999999403953552
+      ],
+      "camera_test_rays": 627,
+      "camera_geometry_hits": 0,
+      "clear_camera": true,
+      "view_identity_rotation": true,
+      "materials": [
+        "White Cat | Hubble | atlas PBR.002"
+      ],
+      "lod": 1,
+      "file": "Hubble_Telescope_LOD1.glb",
+      "bytes": 57032,
+      "root_identity": true
+    },
+    {
+      "bore_test_rays": 8712,
+      "bore_uncovered_rays": 0,
+      "bore_backfacing_hits": 0,
+      "triangles": 304,
+      "mesh_count": 3,
+      "material_count": 1,
+      "degenerate_triangles": 0,
+      "loose_vertices": 0,
+      "finite_positions": true,
+      "bounds_Blender_m": {
+        "min": [
+          -3.3000001907348633,
+          -2.6700000762939453,
+          -0.9700000286102295
+        ],
+        "max": [
+          3.3000001907348633,
+          2.4049999713897705,
+          0.9700000286102295
+        ],
+        "size": [
+          6.600000381469727,
+          5.075000047683716,
+          1.940000057220459
+        ]
+      },
+      "scales": {
+        "Solar_Panel_L.001": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Solar_Panel_R.001": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Telescope_Body.001": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "view_position_Blender_m": [
+        0.0,
+        -2.7799999713897705,
+        0.0
+      ],
+      "camera_forward_Blender": [
+        -8.28411690238567e-15,
+        -0.9999999403953552,
+        8.578323685747183e-30
+      ],
+      "camera_up_Blender": [
+        -8.470329472543003e-22,
+        0.0,
+        0.9999999403953552
+      ],
+      "camera_test_rays": 627,
+      "camera_geometry_hits": 0,
+      "clear_camera": true,
+      "view_identity_rotation": true,
+      "materials": [
+        "White Cat | Hubble | atlas PBR.003"
+      ],
+      "lod": 2,
+      "file": "Hubble_Telescope_LOD2.glb",
+      "bytes": 34552,
+      "root_identity": true
+    }
+  ]
+}

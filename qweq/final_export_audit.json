@@ -1,35 +1,35 @@
 [
   {
+    "lod": 0,
     "file": "Space_Station.glb",
-    "sha256": "9b5ba94abd8eacac736233fe2ab9d0e18d54eb1d91840d68629bdd08e8e78502",
-    "triangles": 6686,
-    "invalid_normals": 0,
-    "lower_thrusters_removed": true,
-    "service_craft_mirror_error_m": 1.1920928955078125e-07,
-    "material_count": 1,
-    "mesh_count": 2,
-    "status": "pass"
+    "roundtrip_triangles": 6558,
+    "meshes": 2,
+    "materials": 1,
+    "central_auxiliary_panels_removed": true,
+    "sha256": "98ccbca7a6a55e04bc39c61b0375114b7bf042b61134ce9941ba774cde005033",
+    "status": "pass",
+    "details": "Roundtrip Blender import passed; see panel_removal_revision.json."
   },
   {
+    "lod": 1,
     "file": "Space_Station_LOD1.glb",
-    "sha256": "8c22da49c4a83e502a9568e16b6c00198e6312e6f8e73d91fd69389b0f3a8f80",
-    "triangles": 4100,
-    "invalid_normals": 0,
-    "lower_thrusters_removed": true,
-    "service_craft_mirror_error_m": 1.1920928955078125e-07,
-    "material_count": 1,
-    "mesh_count": 2,
-    "status": "pass"
+    "roundtrip_triangles": 4100,
+    "meshes": 2,
+    "materials": 1,
+    "central_auxiliary_panels_removed": true,
+    "sha256": "0e6dd69146a82dc423fc3910cb7874a2e98738e5d5a78414053e8f2beb3d022d",
+    "status": "pass",
+    "details": "Roundtrip Blender import passed; see panel_removal_revision.json."
   },
   {
+    "lod": 2,
     "file": "Space_Station_LOD2.glb",
-    "sha256": "b6594253d75c804fa3ff63d2d672b94c1aafe2d2e589b9d286175861de3aaf7e",
-    "triangles": 1232,
-    "invalid_normals": 0,
-    "lower_thrusters_removed": true,
-    "service_craft_mirror_error_m": 0.0,
-    "material_count": 1,
-    "mesh_count": 2,
-    "status": "pass"
+    "roundtrip_triangles": 1232,
+    "meshes": 2,
+    "materials": 1,
+    "central_auxiliary_panels_removed": true,
+    "sha256": "2c2438b25bb2b2050c1ac59398a0d932538e749fab5bb31c8b49cbf8e6163f72",
+    "status": "pass",
+    "details": "Roundtrip Blender import passed; see panel_removal_revision.json."
   }
 ]

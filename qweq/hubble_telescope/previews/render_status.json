@@ -1,0 +1,17 @@
+{
+  "index": 11,
+  "completed": [
+    "hero",
+    "front",
+    "side",
+    "rear",
+    "underside",
+    "aperture",
+    "LOD1",
+    "LOD2",
+    "GLB_roundtrip",
+    "station_comparison",
+    "Telescope_View"
+  ],
+  "done": true
+}

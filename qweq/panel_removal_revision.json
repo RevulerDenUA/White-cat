@@ -1,0 +1,73 @@
+{
+  "request": "Remove auxiliary solar-looking panels on central station craft (image 1).",
+  "backup": "assets/revisions/hubble_cleanup_2026-11-15",
+  "removed": [
+    {
+      "part": "central auxiliary panel",
+      "center_Blender_m": [
+        -1.550000011920929,
+        0.0800000000745058,
+        -0.3400000333786011
+      ],
+      "vertices": 24
+    },
+    {
+      "part": "panel hinge",
+      "center_Blender_m": [
+        -1.4350000023841858,
+        0.06999999494291842,
+        -0.3400000035762787
+      ],
+      "vertices": 12
+    },
+    {
+      "part": "central auxiliary panel",
+      "center_Blender_m": [
+        1.5499998927116394,
+        0.0800000000745058,
+        -0.3400000035762787
+      ],
+      "vertices": 24
+    },
+    {
+      "part": "panel hinge",
+      "center_Blender_m": [
+        1.4349998831748962,
+        0.06999999494291842,
+        -0.3400000184774399
+      ],
+      "vertices": 12
+    }
+  ],
+  "triangles_removed": 128,
+  "exports": [
+    {
+      "lod": 0,
+      "file": "assets/models/Space_Station.glb",
+      "triangles": 6558,
+      "mesh_objects": 2,
+      "materials": 1,
+      "bytes": 470300,
+      "roundtrip_pass": true
+    },
+    {
+      "lod": 1,
+      "file": "assets/models/Space_Station_LOD1.glb",
+      "triangles": 4100,
+      "mesh_objects": 2,
+      "materials": 1,
+      "bytes": 290296,
+      "roundtrip_pass": true
+    },
+    {
+      "lod": 2,
+      "file": "assets/models/Space_Station_LOD2.glb",
+      "triangles": 1232,
+      "mesh_objects": 2,
+      "materials": 1,
+      "bytes": 106400,
+      "roundtrip_pass": true
+    }
+  ],
+  "station_after_sha256": "b331a05af5429668d1cbbc5caae8583b2b1e30ce69aec02bbc0d21acfc6c3fd5"
+}
